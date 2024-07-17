@@ -1,0 +1,417 @@
+{
+  "version": "1.2.0",
+  "favorites": [
+    {
+      "name": "Wallet",
+      "version": "1.0.1",
+      "hash": "335d3df52df4852c962277ca563e4a7cb67f450a31f9b3fe80543f262bf3f71c",
+      "pubKey": "927c8f340255d5a2d7b839ce4859f7dc33c64e5967fe40dde023c0751a53dff3925eec1eaaeb60f83c203c85e9c5b223",
+      "sign": "a72c0b66b936b36525fdc1f07c94266a8280abd6acb04d1d87477d8ea790c98593084649f5be7fb7653c8ffcc34dd3e5067b2ffac7feaa85e5e574c972b7363dc0ac7df937c82cdce2ccae7cf6c2df265a3e8c9188cda23d872da08a0e2fa5a4",
+      "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/wallet.png",
+      "id": "meta.wallet",
+      "urlZip": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/meta_wallet/meta_wallet_20230206_1833.zip?inline=false",
+      "orientation": "portrait",
+      "author": "n/a",
+      "full_screen": true,
+      "status_bar": "hide",
+      "type": 1,
+      "page": 0,
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "urlWeb": "http://61.28.238.209:9090"
+    },
+    {
+      "name": "Settings",
+      "version": "1.0.0",
+      "hash": "335d3df52df4852c962277ca563e4a7cb67f450a31f9b3fe80543f262bf3f71c",
+      "pubKey": "927c8f340255d5a2d7b839ce4859f7dc33c64e5967fe40dde023c0751a53dff3925eec1eaaeb60f83c203c85e9c5b223",
+      "sign": "a72c0b66b936b36525fdc1f07c94266a8280abd6acb04d1d87477d8ea790c98593084649f5be7fb7653c8ffcc34dd3e5067b2ffac7feaa85e5e574c972b7363dc0ac7df937c82cdce2ccae7cf6c2df265a3e8c9188cda23d872da08a0e2fa5a4",
+      "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/iconSetting.jpg",
+      "id": "setting",
+      "urlWeb": "http://61.28.238.209:9095/",
+      "type": 1,
+      "page": 0,
+      "position": {
+        "x": 1,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "Mining",
+      "version": "1.0.1",
+      "hash": "335d3df52df4852c962277ca563e4a7cb67f450a31f9b3fe80543f262bf3f71c",
+      "pubKey": "927c8f340255d5a2d7b839ce4859f7dc33c64e5967fe40dde023c0751a53dff3925eec1eaaeb60f83c203c85e9c5b223",
+      "sign": "a72c0b66b936b36525fdc1f07c94266a8280abd6acb04d1d87477d8ea790c98593084649f5be7fb7653c8ffcc34dd3e5067b2ffac7feaa85e5e574c972b7363dc0ac7df937c82cdce2ccae7cf6c2df265a3e8c9188cda23d872da08a0e2fa5a4",
+      "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/mining.jpg",
+      "id": "meta.mining",
+      "orientation": "portrait",
+      "author": "n/a",
+      "full_screen": true,
+      "status_bar": "hide",
+      "type": 1,
+      "page": 0,
+      "position": {
+        "x": 2,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "urlWeb": "http://61.28.238.209:8085"
+    },
+    {
+      "name": "Web3 Space",
+      "version": "0.0.11",
+      "hash": "335d3df52df4852c962277ca563e4a7cb67f450a31f9b3fe80543f262bf3f71c",
+      "pubKey": "927c8f340255d5a2d7b839ce4859f7dc33c64e5967fe40dde023c0751a53dff3925eec1eaaeb60f83c203c85e9c5b223",
+      "sign": "a72c0b66b936b36525fdc1f07c94266a8280abd6acb04d1d87477d8ea790c98593084649f5be7fb7653c8ffcc34dd3e5067b2ffac7feaa85e5e574c972b7363dc0ac7df937c82cdce2ccae7cf6c2df265a3e8c9188cda23d872da08a0e2fa5a4",
+      "logo": "https://metanode.co/images/browser.png",
+      "urlLauchScreen": "",
+      "urlLoadingScreen": "",
+      "urlZip": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/meta_browser/browser_1.0.1.zip?inline=false",
+      "id": "com.web3space.metaword",
+      "orientation": "portrait",
+      "author": "n/a",
+      "full_screen": true,
+      "status_bar": "hide",
+      "type": 4,
+      "page": 0,
+      "position": {
+        "x": 3,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    }
+  ],
+  "apps": [
+    {
+      "name": "Youtube",
+      "version": "0.0.2",
+      "urlWeb": "https://www.youtube.com",
+      "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/youtube.jpg",
+      "id": "youtube.app",
+      "orientation": "portrait",
+      "author": "n/a",
+      "isLocal": false,
+      "full_screen": false,
+      "status_bar": "hide",
+      "type": 1,
+      "urlScript": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/script/main_v2.js",
+      "page": 0,
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "Music",
+      "version": "0.0.1",
+      "logo": "https://gitlab.com/tranhuy.beearning/upload-d-apps/-/raw/main/metanode_d_apps/public/music-min.jpg",
+      "hash": "335d3df52df4852c962277ca563e4a7cb67f450a31f9b3fe80543f262bf3f71c",
+      "pubKey": "927c8f340255d5a2d7b839ce4859f7dc33c64e5967fe40dde023c0751a53dff3925eec1eaaeb60f83c203c85e9c5b223",
+      "sign": "a72c0b66b936b36525fdc1f07c94266a8280abd6acb04d1d87477d8ea790c98593084649f5be7fb7653c8ffcc34dd3e5067b2ffac7feaa85e5e574c972b7363dc0ac7df937c82cdce2ccae7cf6c2df265a3e8c9188cda23d872da08a0e2fa5a4",
+      "id": "music.app",
+      "orientation": "portrait",
+      "author": "n/a",
+      "isLocal": false,
+      "full_screen": false,
+      "status_bar": "hide",
+      "type": 1,
+      "urlWeb": "https://music.metanode.co/",
+      "page": 0,
+      "position": {
+        "x": 1,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "App Store",
+      "version": "1.0.0",
+      "hash": "335d3df52df4852c962277ca563e4a7cb67f450a31f9b3fe80543f262bf3f71c",
+      "pubKey": "927c8f340255d5a2d7b839ce4859f7dc33c64e5967fe40dde023c0751a53dff3925eec1eaaeb60f83c203c85e9c5b223",
+      "sign": "a72c0b66b936b36525fdc1f07c94266a8280abd6acb04d1d87477d8ea790c98593084649f5be7fb7653c8ffcc34dd3e5067b2ffac7feaa85e5e574c972b7363dc0ac7df937c82cdce2ccae7cf6c2df265a3e8c9188cda23d872da08a0e2fa5a4",
+      "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/dapp_store.png",
+      "id": "meta.appstore",
+      "orientation": "portrait",
+      "author": "n/a",
+      "full_screen": true,
+      "status_bar": "hide",
+      "type": 1,
+      "page": 0,
+      "position": {
+        "x": 2,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "urlWeb": "http://61.28.238.209:9092"
+    },
+    {
+      "name": "Meta Contact",
+      "version": "1.0.0",
+      "hash": "335d3df52df4852c962277ca563e4a7cb67f450a31f9b3fe80543f262bf3f71c",
+      "pubKey": "927c8f340255d5a2d7b839ce4859f7dc33c64e5967fe40dde023c0751a53dff3925eec1eaaeb60f83c203c85e9c5b223",
+      "sign": "a72c0b66b936b36525fdc1f07c94266a8280abd6acb04d1d87477d8ea790c98593084649f5be7fb7653c8ffcc34dd3e5067b2ffac7feaa85e5e574c972b7363dc0ac7df937c82cdce2ccae7cf6c2df265a3e8c9188cda23d872da08a0e2fa5a4",
+      "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/meta_contact.png",
+      "id": "meta.prod.contact",
+      "orientation": "portrait",
+      "author": "n/a",
+      "full_screen": true,
+      "status_bar": "hide",
+      "type": 1,
+      "page": 0,
+      "position": {
+        "x": 3,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "urlWeb": "http://61.28.238.209:9096/meta_contact/"
+    },
+    {
+      "name": "Google",
+      "version": "0.0.1",
+      "urlWeb": "https://www.google.com",
+      "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/google.png",
+      "id": "google.web",
+      "orientation": "portrait",
+      "author": "n/a",
+      "isLocal": false,
+      "full_screen": true,
+      "status_bar": "hide",
+      "type": 4,
+      "page": 0,
+      "position": {
+        "x": 0,
+        "y": 1,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "Instagram",
+      "version": "0.0.1",
+      "urlWeb": "https://www.instagram.com",
+      "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/instagram.jpg",
+      "id": "instagram.web",
+      "orientation": "portrait",
+      "author": "n/a",
+      "isLocal": false,
+      "full_screen": true,
+      "status_bar": "hide",
+      "type": 4,
+      "page": 0,
+      "position": {
+        "x": 3,
+        "y": 3,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "Facebook",
+      "version": "0.0.1",
+      "urlWeb": "https://www.facebook.com",
+      "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/facebook.jpg",
+      "id": "facebook.web",
+      "orientation": "portrait",
+      "author": "n/a",
+      "isLocal": false,
+      "full_screen": true,
+      "status_bar": "hide",
+      "type": 4,
+      "page": 0,
+      "position": {
+        "x": 3,
+        "y": 2,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "Wikipedia",
+      "version": "0.0.1",
+      "urlWeb": "https://www.wikipedia.org",
+      "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/wikipedia.jpg",
+      "id": "com.wikipedia.org.name",
+      "orientation": "portrait",
+      "author": "n/a",
+      "isLocal": false,
+      "full_screen": true,
+      "status_bar": "hide",
+      "type": 4,
+      "page": 0,
+      "position": {
+        "x": 0,
+        "y": 3,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "Yahoo",
+      "version": "0.0.1",
+      "urlWeb": "https://www.yahoo.com",
+      "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/yahoo.png",
+      "id": "yahoo.web",
+      "orientation": "portrait",
+      "author": "n/a",
+      "isLocal": false,
+      "full_screen": true,
+      "status_bar": "hide",
+      "type": 4,
+      "page": 0,
+      "position": {
+        "x": 2,
+        "y": 3,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "Yandex",
+      "version": "0.0.1",
+      "urlWeb": "https://www.yandex.ru",
+      "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/yandex.png",
+      "id": "com.yandex.ru.name",
+      "orientation": "portrait",
+      "author": "n/a",
+      "isLocal": false,
+      "full_screen": true,
+      "status_bar": "hide",
+      "type": 4,
+      "page": 0,
+      "position": {
+        "x": 3,
+        "y": 1,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "Whatsapp",
+      "version": "0.0.1",
+      "urlWeb": "https://www.whatsapp.com",
+      "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/whatsapp.png",
+      "id": "whatsapp.web",
+      "orientation": "portrait",
+      "author": "n/a",
+      "isLocal": false,
+      "full_screen": true,
+      "status_bar": "hide",
+      "type": 4,
+      "page": 0,
+      "position": {
+        "x": 1,
+        "y": 3,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "Clock",
+      "version": "0.0.1",
+      "logo": "https://gitlab.com/tranhuy.beearning/upload-d-apps/-/raw/main/metanode_d_apps/public/Clock.jpg",
+      "hash": "335d3df52df4852c962277ca563e4a7cb67f450a31f9b3fe80543f262bf3f71c",
+      "pubKey": "927c8f340255d5a2d7b839ce4859f7dc33c64e5967fe40dde023c0751a53dff3925eec1eaaeb60f83c203c85e9c5b223",
+      "sign": "a72c0b66b936b36525fdc1f07c94266a8280abd6acb04d1d87477d8ea790c98593084649f5be7fb7653c8ffcc34dd3e5067b2ffac7feaa85e5e574c972b7363dc0ac7df937c82cdce2ccae7cf6c2df265a3e8c9188cda23d872da08a0e2fa5a4",
+      "id": "clock.app",
+      "orientation": "portrait",
+      "author": "n/a",
+      "isLocal": false,
+      "full_screen": true,
+      "status_bar": "hide",
+      "type": 3,
+      "urlWeb": "http://61.28.238.209:9096/clock/",
+      "page": 0,
+      "position": {
+        "x": 1,
+        "y": 1,
+        "width": 2,
+        "height": 2
+      }
+    },
+    {
+      "name": "Youtube short",
+      "hash": "335d3df52df4852c962277ca563e4a7cb67f450a31f9b3fe80543f262bf3f71c",
+      "pubKey": "927c8f340255d5a2d7b839ce4859f7dc33c64e5967fe40dde023c0751a53dff3925eec1eaaeb60f83c203c85e9c5b223",
+      "sign": "a72c0b66b936b36525fdc1f07c94266a8280abd6acb04d1d87477d8ea790c98593084649f5be7fb7653c8ffcc34dd3e5067b2ffac7feaa85e5e574c972b7363dc0ac7df937c82cdce2ccae7cf6c2df265a3e8c9188cda23d872da08a0e2fa5a4",
+      "version": "0.0.1",
+      "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/tiktok.jpg",
+      "id": "youtube_short.app",
+      "orientation": "portrait",
+      "author": "n/a",
+      "isLocal": false,
+      "full_screen": true,
+      "status_bar": "hide",
+      "type": 3,
+      "urlScript": "",
+      "page": 2,
+      "urlWeb": "https://m.youtube.com/shorts/",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 4,
+        "height": 5
+      }
+    },
+    {
+      "name": "Telegram",
+      "version": "0.0.1",
+      "logo": "https://gitlab.com/tranhuy.beearning/upload-d-apps/-/raw/main/metanode_d_apps/public/telegram.png",
+      "hash": "335d3df52df4852c962277ca563e4a7cb67f450a31f9b3fe80543f262bf3f71c",
+      "pubKey": "927c8f340255d5a2d7b839ce4859f7dc33c64e5967fe40dde023c0751a53dff3925eec1eaaeb60f83c203c85e9c5b223",
+      "sign": "a72c0b66b936b36525fdc1f07c94266a8280abd6acb04d1d87477d8ea790c98593084649f5be7fb7653c8ffcc34dd3e5067b2ffac7feaa85e5e574c972b7363dc0ac7df937c82cdce2ccae7cf6c2df265a3e8c9188cda23d872da08a0e2fa5a4",
+      "id": "chat.app",
+      "orientation": "portrait",
+      "author": "n/a",
+      "isLocal": false,
+      "full_screen": true,
+      "status_bar": "hide",
+      "type": 3,
+      "urlWeb": "https://web.telegram.org/z/",
+      "urlScript": "https://gitlab.com/tranhuy.beearning/upload-d-apps/-/raw/main/metanode_d_apps/scripts/telegram/script.js",
+      "page": 3,
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 4,
+        "height": 5
+      }
+    },
+    {
+      "name": "Me lab",
+      "hash": "335d3df52df4852c962277ca563e4a7cb67f450a31f9b3fe80543f262bf3f71c",
+      "pubKey": "927c8f340255d5a2d7b839ce4859f7dc33c64e5967fe40dde023c0751a53dff3925eec1eaaeb60f83c203c85e9c5b223",
+      "sign": "a72c0b66b936b36525fdc1f07c94266a8280abd6acb04d1d87477d8ea790c98593084649f5be7fb7653c8ffcc34dd3e5067b2ffac7feaa85e5e574c972b7363dc0ac7df937c82cdce2ccae7cf6c2df265a3e8c9188cda23d872da08a0e2fa5a4",
+      "version": "0.0.1",
+      "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/meta_chat.jpeg",
+      "id": "melab.m.pro",
+      "orientation": "portrait",
+      "author": "n/a",
+      "isLocal": false,
+      "full_screen": true,
+      "status_bar": "hide",
+      "type": 1,
+      "urlScript": "",
+      "page": 0,
+      "urlWeb": "https://melab.m.pro/#/",
+      "position": {
+        "x": 0,
+        "y": 4,
+        "width": 1,
+        "height": 1
+      }
+    }
+  ]
+}

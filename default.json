@@ -1,0 +1,22 @@
+{
+  "version": "3.0.0",
+  "favorites": [
+    {
+      "name": "Settings",
+      "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/iconSetting.jpg",
+      "urlZip": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/zip/settings.zip",
+      "urlPack": "https://json.m.pro/meta.setting.app.json",
+      "fullScreen": true,
+      "bundleId": "meta.setting.app",
+      "statusBar": "hide",
+      "type": 1,
+      "page": 0,
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    }
+  ]
+}
