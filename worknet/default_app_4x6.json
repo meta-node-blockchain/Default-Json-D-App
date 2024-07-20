@@ -1,5 +1,5 @@
 {
-  "version": "1.0.9",
+  "version": "1.0.10",
   "favorites": [
     {
       "name": "Settings",
@@ -126,7 +126,7 @@
       "page": 0,
       "position": {
         "x": 0,
-        "y": 4,
+        "y": 5,
         "width": 1,
         "height": 1
       }
@@ -144,7 +144,7 @@
       "page": 0,
       "position": {
         "x": 1,
-        "y": 4,
+        "y": 5,
         "width": 1,
         "height": 1
       }
@@ -165,7 +165,7 @@
       "page": 0,
       "position": {
         "x": 2,
-        "y": 4,
+        "y": 5,
         "width": 1,
         "height": 1
       }
@@ -188,7 +188,7 @@
       "page": 0,
       "position": {
         "x": 3,
-        "y": 4,
+        "y": 5,
         "width": 1,
         "height": 1
       }
@@ -209,7 +209,7 @@
       "page": 0,
       "position": {
         "x": 1,
-        "y": 5,
+        "y": 4,
         "width": 1,
         "height": 1
       }
@@ -230,7 +230,7 @@
       "page": 0,
       "position": {
         "x": 2,
-        "y": 5,
+        "y": 4,
         "width": 1,
         "height": 1
       }
