@@ -1,5 +1,5 @@
 {
-  "version": "1.0.7",
+  "version": "1.0.8",
   "favorites": [
     {
       "name": "Settings",
@@ -40,7 +40,7 @@
         "width": 1,
         "height": 1
       },
-      "url": "https://t-wallet.m.pro/"
+      "url": "https://w-wallet.m.pro/"
     },
     {
       "name": "Mining",
@@ -62,7 +62,7 @@
         "width": 1,
         "height": 1
       },
-      "url": "http://61.28.238.209:9096/new_command/mining/index.html"
+      "url": "https://w-mining.m.pro"
     },
     {
       "name": "PO5",
@@ -70,7 +70,7 @@
       "pubKey": "927c8f340255d5a2d7b839ce4859f7dc33c64e5967fe40dde023c0751a53dff3925eec1eaaeb60f83c203c85e9c5b223",
       "sign": "a72c0b66b936b36525fdc1f07c94266a8280abd6acb04d1d87477d8ea790c98593084649f5be7fb7653c8ffcc34dd3e5067b2ffac7feaa85e5e574c972b7363dc0ac7df937c82cdce2ccae7cf6c2df265a3e8c9188cda23d872da08a0e2fa5a4",
       "version": "1.0.0",
-      "logo": "http://61.28.238.209:9096/dev_po5/index.html",
+      "logo": "https://img.m.pro/logo-po5.png",
       "id": "po5.m.pro",
       "orientation": "portrait",
       "author": "n/a",
@@ -80,7 +80,7 @@
       "type": 1,
       "urlScript": "",
       "page": 0,
-      "url": "http://61.28.238.209:9096/dev_po5/index.html",
+      "url": "https://w-po5.m.pro",
       "position": {
         "x": 3,
         "y": 0,
