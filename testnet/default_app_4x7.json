@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "favorites": [
     {
       "name": "Settings",
@@ -62,7 +62,7 @@
         "width": 1,
         "height": 1
       },
-      "url": "http://61.28.238.209:9096/new_command/mining/index.html"
+      "url": "https://t-mining.m.pro"
     },
     {
       "name": "PO5",
@@ -80,7 +80,7 @@
       "type": 1,
       "urlScript": "",
       "page": 0,
-      "url": "http://61.28.238.209:9096/dev_po5/index.html",
+      "url": "https://t-po5.m.pro",
       "position": {
         "x": 3,
         "y": 0,
