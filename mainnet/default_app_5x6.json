@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "favorites": [
     {
       "name": "Settings",
@@ -150,7 +150,7 @@
       "page": 0,
       "position": {
         "x": 0,
-        "y": 5,
+        "y": 3,
         "width": 1,
         "height": 1
       }
@@ -168,7 +168,7 @@
       "page": 0,
       "position": {
         "x": 1,
-        "y": 5,
+        "y": 3,
         "width": 1,
         "height": 1
       }
@@ -191,7 +191,7 @@
       "page": 0,
       "position": {
         "x": 2,
-        "y": 5,
+        "y": 3,
         "width": 1,
         "height": 1
       }
@@ -212,7 +212,7 @@
       "page": 0,
       "position": {
         "x": 3,
-        "y": 5,
+        "y": 3,
         "width": 1,
         "height": 1
       }
