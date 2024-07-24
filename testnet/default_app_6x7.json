@@ -1,5 +1,5 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.2",
   "favorites": [
     {
       "name": "Settings",
@@ -468,6 +468,48 @@
       "position": {
         "x": 3,
         "y": 4,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "Onboarding",
+      "version": "0.0.1",
+      "url": "https://onboarding.m.pro",
+      "logo": "https://img.m.pro/po5.png",
+      "id": "onboarding.m.pro",
+      "orientation": "portrait",
+      "author": "n/a",
+      "isLocal": false,
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "type": 1,
+      "urlScript": "",
+      "page": 3,
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "Storage",
+      "version": "0.0.1",
+      "url": "https://storage.m.pro",
+      "logo": "https://img.m.pro/po5.png",
+      "id": "storage.m.pro",
+      "orientation": "portrait",
+      "author": "n/a",
+      "isLocal": false,
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "type": 1,
+      "urlScript": "",
+      "page": 3,
+      "position": {
+        "x": 1,
+        "y": 0,
         "width": 1,
         "height": 1
       }
