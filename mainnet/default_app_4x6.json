@@ -1,5 +1,5 @@
 {
-  "version": "1.0.2",
+  "version": "1.0.3",
   "favorites": [
     {
       "name": "Settings",
@@ -126,7 +126,7 @@
       "page": 0,
       "position": {
         "x": 0,
-        "y": 4,
+        "y": 5,
         "width": 1,
         "height": 1
       }
@@ -144,7 +144,7 @@
       "page": 0,
       "position": {
         "x": 1,
-        "y": 4,
+        "y": 5,
         "width": 1,
         "height": 1
       }
@@ -167,28 +167,7 @@
       "page": 0,
       "position": {
         "x": 2,
-        "y": 4,
-        "width": 1,
-        "height": 1
-      }
-    },
-    {
-      "name": "News",
-      "version": "0.0.1",
-      "url": "https://news.google.com/home?ceid=VN:vi&hl=vi&gl=VN",
-      "logo": "https://img.m.pro/news.png",
-      "id": "news2.m.pro",
-      "orientation": "portrait",
-      "author": "n/a",
-      "isLocal": false,
-      "isFullScreen": false,
-      "statusBar": "hide",
-      "type": 4,
-      "urlScript": "https://img.m.pro/s/news.js",
-      "page": 0,
-      "position": {
-        "x": 3,
-        "y": 4,
+        "y": 5,
         "width": 1,
         "height": 1
       }
@@ -208,7 +187,7 @@
       "urlScript": "https://img.m.pro/s/telegram.js",
       "page": 0,
       "position": {
-        "x": 0,
+        "x": 3,
         "y": 5,
         "width": 1,
         "height": 1
@@ -318,6 +297,27 @@
       "position": {
         "x": 2,
         "y": 5,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "News",
+      "version": "0.0.1",
+      "url": "https://news.google.com/home?ceid=VN:vi&hl=vi&gl=VN",
+      "logo": "https://img.m.pro/news.png",
+      "id": "news2.m.pro",
+      "orientation": "portrait",
+      "author": "n/a",
+      "isLocal": false,
+      "isFullScreen": false,
+      "statusBar": "hide",
+      "type": 4,
+      "urlScript": "https://img.m.pro/s/news.js",
+      "page": 1,
+      "position": {
+        "x": 3,
+        "y": 4,
         "width": 1,
         "height": 1
       }
