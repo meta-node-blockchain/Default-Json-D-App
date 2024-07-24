@@ -1,5 +1,5 @@
 {
-  "version": "1.0.3",
+  "version": "1.0.0",
   "favorites": [
     {
       "name": "Settings",
@@ -9,7 +9,7 @@
       "sign": "a72c0b66b936b36525fdc1f07c94266a8280abd6acb04d1d87477d8ea790c98593084649f5be7fb7653c8ffcc34dd3e5067b2ffac7feaa85e5e574c972b7363dc0ac7df937c82cdce2ccae7cf6c2df265a3e8c9188cda23d872da08a0e2fa5a4",
       "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/iconSetting.jpg",
       "id": "setting",
-      "url": "https://t-setting.m.pro/index.html",
+      "url": "https://m-setting.m.pro",
       "type": 1,
       "page": 0,
       "position": {
@@ -40,7 +40,7 @@
         "width": 1,
         "height": 1
       },
-      "url": "https://t-wallet.m.pro/"
+      "url": "https://m-wallet.m.pro/"
     },
     {
       "name": "Mining",
@@ -62,7 +62,7 @@
         "width": 1,
         "height": 1
       },
-      "url": "http://61.28.238.209:9096/new_command/mining/index.html"
+      "url": "https://m-mining.m.pro"
     },
     {
       "name": "PO5",
@@ -80,9 +80,33 @@
       "type": 1,
       "urlScript": "",
       "page": 0,
-      "url": "http://61.28.238.209:9096/dev_po5/index.html",
+      "url": "https://m-po5.m.pro",
       "position": {
         "x": 3,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "Web3 Space",
+      "version": "0.0.11",
+      "hash": "335d3df52df4852c962277ca563e4a7cb67f450a31f9b3fe80543f262bf3f71c",
+      "pubKey": "927c8f340255d5a2d7b839ce4859f7dc33c64e5967fe40dde023c0751a53dff3925eec1eaaeb60f83c203c85e9c5b223",
+      "sign": "a72c0b66b936b36525fdc1f07c94266a8280abd6acb04d1d87477d8ea790c98593084649f5be7fb7653c8ffcc34dd3e5067b2ffac7feaa85e5e574c972b7363dc0ac7df937c82cdce2ccae7cf6c2df265a3e8c9188cda23d872da08a0e2fa5a4",
+      "logo": "https://metanode.co/images/browser.png",
+      "urlLauchScreen": "",
+      "urlLoadingScreen": "",
+      "urlZip": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/meta_browser/browser_1.0.1.zip?inline=false",
+      "id": "com.web3space.metaword",
+      "orientation": "portrait",
+      "author": "n/a",
+      "full_screen": false,
+      "status_bar": "show",
+      "type": 4,
+      "page": 0,
+      "position": {
+        "x": 4,
         "y": 0,
         "width": 1,
         "height": 1
@@ -126,7 +150,7 @@
       "page": 0,
       "position": {
         "x": 0,
-        "y": 4,
+        "y": 5,
         "width": 1,
         "height": 1
       }
@@ -144,28 +168,7 @@
       "page": 0,
       "position": {
         "x": 1,
-        "y": 4,
-        "width": 1,
-        "height": 1
-      }
-    },
-    {
-      "name": "POS",
-      "version": "1.0.0",
-      "url": "http://61.28.238.209:9096/test_poss/",
-      "logo": "https://img.m.pro/logo-pos.png",
-      "id": "pos.m.pro",
-      "orientation": "portrait",
-      "author": "n/a",
-      "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "type": 1,
-      "urlScript": "",
-      "page": 0,
-      "position": {
-        "x": 2,
-        "y": 4,
+        "y": 5,
         "width": 1,
         "height": 1
       }
@@ -187,52 +190,7 @@
       "url": "https://music.metanode.co/",
       "page": 0,
       "position": {
-        "x": 3,
-        "y": 4,
-        "width": 1,
-        "height": 1
-      }
-    },
-    {
-      "name": "Metalink",
-      "hash": "335d3df52df4852c962277ca563e4a7cb67f450a31f9b3fe80543f262bf3f71c",
-      "pubKey": "927c8f340255d5a2d7b839ce4859f7dc33c64e5967fe40dde023c0751a53dff3925eec1eaaeb60f83c203c85e9c5b223",
-      "sign": "a72c0b66b936b36525fdc1f07c94266a8280abd6acb04d1d87477d8ea790c98593084649f5be7fb7653c8ffcc34dd3e5067b2ffac7feaa85e5e574c972b7363dc0ac7df937c82cdce2ccae7cf6c2df265a3e8c9188cda23d872da08a0e2fa5a4",
-      "version": "0.0.1",
-      "logo": "https://img.m.pro/metaid.png",
-      "id": "metaid.m.pro",
-      "orientation": "portrait",
-      "author": "n/a",
-      "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "type": 1,
-      "urlScript": "",
-      "page": 0,
-      "url": "https://t-metaid.m.pro/",
-      "position": {
-        "x": 0,
-        "y": 5,
-        "width": 1,
-        "height": 1
-      }
-    },
-    {
-      "name": "News",
-      "version": "0.0.1",
-      "url": "https://news.google.com/home?ceid=VN:vi&hl=vi&gl=VN",
-      "logo": "https://img.m.pro/news.png",
-      "id": "news2.m.pro",
-      "orientation": "portrait",
-      "author": "n/a",
-      "isLocal": false,
-      "isFullScreen": false,
-      "statusBar": "hide",
-      "type": 4,
-      "urlScript": "https://img.m.pro/s/news.js",
-      "page": 0,
-      "position": {
-        "x": 1,
+        "x": 2,
         "y": 5,
         "width": 1,
         "height": 1
@@ -253,7 +211,7 @@
       "urlScript": "https://img.m.pro/s/telegram.js",
       "page": 0,
       "position": {
-        "x": 2,
+        "x": 3,
         "y": 5,
         "width": 1,
         "height": 1
@@ -300,8 +258,8 @@
       "position": {
         "x": 0,
         "y": 2,
-        "width": 3,
-        "height": 3
+        "width": 4,
+        "height": 2
       }
     },
     {
@@ -319,8 +277,8 @@
       "urlScript": "",
       "page": 1,
       "position": {
-        "x": 3,
-        "y": 2,
+        "x": 4,
+        "y": 0,
         "width": 1,
         "height": 1
       }
@@ -340,8 +298,8 @@
       "urlScript": "https://img.m.pro/s/news.js",
       "page": 1,
       "position": {
-        "x": 3,
-        "y": 3,
+        "x": 4,
+        "y": 1,
         "width": 1,
         "height": 1
       }
@@ -361,8 +319,29 @@
       "urlScript": "",
       "page": 1,
       "position": {
-        "x": 3,
-        "y": 4,
+        "x": 4,
+        "y": 2,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "News",
+      "version": "0.0.1",
+      "url": "https://news.google.com/home?ceid=VN:vi&hl=vi&gl=VN",
+      "logo": "https://img.m.pro/news.png",
+      "id": "news2.m.pro",
+      "orientation": "portrait",
+      "author": "n/a",
+      "isLocal": false,
+      "isFullScreen": false,
+      "statusBar": "hide",
+      "type": 4,
+      "urlScript": "https://img.m.pro/s/news.js",
+      "page": 1,
+      "position": {
+        "x": 4,
+        "y": 3,
         "width": 1,
         "height": 1
       }
@@ -424,8 +403,8 @@
       "urlScript": "",
       "page": 2,
       "position": {
-        "x": 0,
-        "y": 4,
+        "x": 4,
+        "y": 0,
         "width": 1,
         "height": 1
       }
@@ -445,8 +424,8 @@
       "urlScript": "",
       "page": 2,
       "position": {
-        "x": 1,
-        "y": 4,
+        "x": 4,
+        "y": 1,
         "width": 1,
         "height": 1
       }
@@ -466,8 +445,8 @@
       "urlScript": "",
       "page": 2,
       "position": {
-        "x": 2,
-        "y": 4,
+        "x": 4,
+        "y": 2,
         "width": 1,
         "height": 1
       }
