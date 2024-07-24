@@ -1,5 +1,5 @@
 {
-  "version": "10.0.0",
+  "version": "1.0.0",
   "favorites": [
     {
       "name": "Settings",
@@ -149,8 +149,8 @@
       "type": 1,
       "page": 0,
       "position": {
-        "x": 0,
-        "y": 3,
+        "x": 4,
+        "y": 0,
         "width": 1,
         "height": 1
       }
@@ -167,8 +167,8 @@
       "type": 1,
       "page": 0,
       "position": {
-        "x": 1,
-        "y": 3,
+        "x": 4,
+        "y": 1,
         "width": 1,
         "height": 1
       }
@@ -190,8 +190,8 @@
       "url": "https://music.metanode.co/",
       "page": 0,
       "position": {
-        "x": 2,
-        "y": 3,
+        "x": 0,
+        "y": 2,
         "width": 1,
         "height": 1
       }
@@ -211,8 +211,8 @@
       "urlScript": "https://img.m.pro/s/telegram.js",
       "page": 0,
       "position": {
-        "x": 3,
-        "y": 3,
+        "x": 1,
+        "y": 2,
         "width": 1,
         "height": 1
       }
