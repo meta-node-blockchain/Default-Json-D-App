@@ -1,5 +1,5 @@
 {
-  "version": "1.0.12",
+  "version": "1.0.0",
   "favorites": [
     {
       "name": "Settings",
@@ -205,7 +205,7 @@
       "isFullScreen": false,
       "statusBar": "hide",
       "type": 4,
-      "urlScript": "https://img.m.pro/s/news.js",
+      "urlScript": "",
       "page": 0,
       "position": {
         "x": 0,
@@ -271,7 +271,7 @@
       "isFullScreen": false,
       "statusBar": "hide",
       "type": 3,
-      "urlScript": "https://img.m.pro/s/news.js",
+      "urlScript": "",
       "page": 1,
       "position": {
         "x": 0,
@@ -313,7 +313,7 @@
       "isFullScreen": false,
       "statusBar": "hide",
       "type": 1,
-      "urlScript": "https://img.m.pro/s/news.js",
+      "urlScript": "",
       "page": 1,
       "position": {
         "x": 3,

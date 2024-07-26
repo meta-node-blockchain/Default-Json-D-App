@@ -229,7 +229,7 @@
       "isFullScreen": false,
       "statusBar": "hide",
       "type": 4,
-      "urlScript": "https://img.m.pro/s/news.js",
+      "urlScript": "",
       "page": 0,
       "position": {
         "x": 1,
@@ -295,7 +295,7 @@
       "isFullScreen": false,
       "statusBar": "hide",
       "type": 3,
-      "urlScript": "https://img.m.pro/s/news.js",
+      "urlScript": "",
       "page": 1,
       "position": {
         "x": 0,
@@ -337,7 +337,7 @@
       "isFullScreen": false,
       "statusBar": "hide",
       "type": 1,
-      "urlScript": "https://img.m.pro/s/news.js",
+      "urlScript": "",
       "page": 1,
       "position": {
         "x": 3,
