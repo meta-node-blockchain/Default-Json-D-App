@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "favorites": [
     {
       "name": "Settings",
@@ -113,11 +113,11 @@
       }
     },
     {
-      "name": "D-App Store",
-      "version": "1.0.0",
-      "url": "http://61.28.238.209:9096/test_sellbook/index.html",
-      "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/dapp_store.png",
-      "id": "bookstore.m.pro",
+      "name": "Messenger",
+      "version": "0.0.1",
+      "url": "https://www.messenger.com/",
+      "logo": "https://img.m.pro/messenger.png",
+      "id": "messenger.m.pro",
       "orientation": "portrait",
       "author": "n/a",
       "isLocal": false,
