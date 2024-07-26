@@ -1,5 +1,5 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.2",
   "favorites": [
     {
       "name": "Settings",
@@ -295,7 +295,7 @@
       "isFullScreen": false,
       "statusBar": "hide",
       "type": 3,
-      "urlScript": "https://img.m.pro/s/news.js",
+      "urlScript": "",
       "page": 1,
       "position": {
         "x": 0,
