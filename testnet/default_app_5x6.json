@@ -229,7 +229,7 @@
       "isFullScreen": false,
       "statusBar": "hide",
       "type": 4,
-      "urlScript": "",
+      "urlScript": "https://json.m.pro/script/news.js",
       "page": 0,
       "position": {
         "x": 1,
