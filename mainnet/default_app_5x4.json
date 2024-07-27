@@ -115,6 +115,27 @@
   ],
   "apps": [
     {
+      "name": "Map",
+      "version": "0.0.1",
+      "url": "https://www.google.com/maps/",
+      "logo": "",
+      "id": "map.m.pro.frame",
+      "orientation": "portrait",
+      "author": "n/a",
+      "isLocal": false,
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "type": 3,
+      "urlScript": "https://img.m.pro/s/map.js",
+      "page": 0,
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 2,
+        "height": 2
+      }
+    },
+    {
       "name": "Weather",
       "version": "0.0.1",
       "url": "https://img.m.pro/widgets/weather",
@@ -129,48 +150,10 @@
       "urlScript": "",
       "page": 0,
       "position": {
-        "x": 0,
+        "x": 2,
         "y": 0,
-        "width": 4,
+        "width": 2,
         "height": 2
-      }
-    },
-    {
-      "name": "Messenger",
-      "version": "0.0.1",
-      "url": "https://www.messenger.com/",
-      "logo": "https://img.m.pro/messenger.png",
-      "id": "messenger.m.pro",
-      "orientation": "portrait",
-      "author": "n/a",
-      "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "type": 1,
-      "page": 0,
-      "position": {
-        "x": 0,
-        "y": 3,
-        "width": 1,
-        "height": 1
-      }
-    },
-    {
-      "name": "Estimate",
-      "version": "1.0.0",
-      "hash": "335d3df52df4852c962277ca563e4a7cb67f450a31f9b3fe80543f262bf3f71c",
-      "pubKey": "927c8f340255d5a2d7b839ce4859f7dc33c64e5967fe40dde023c0751a53dff3925eec1eaaeb60f83c203c85e9c5b223",
-      "sign": "a72c0b66b936b36525fdc1f07c94266a8280abd6acb04d1d87477d8ea790c98593084649f5be7fb7653c8ffcc34dd3e5067b2ffac7feaa85e5e574c972b7363dc0ac7df937c82cdce2ccae7cf6c2df265a3e8c9188cda23d872da08a0e2fa5a4",
-      "logo": "https://img.m.pro/estimate.png",
-      "id": "t.estimate.m.pro",
-      "url": "https://estimate.m.pro",
-      "type": 1,
-      "page": 0,
-      "position": {
-        "x": 1,
-        "y": 3,
-        "width": 1,
-        "height": 1
       }
     },
     {
@@ -190,8 +173,8 @@
       "url": "https://music.metanode.co/",
       "page": 0,
       "position": {
-        "x": 2,
-        "y": 3,
+        "x": 4,
+        "y": 0,
         "width": 1,
         "height": 1
       }
@@ -211,7 +194,109 @@
       "urlScript": "https://img.m.pro/s/telegram.js",
       "page": 0,
       "position": {
+        "x": 4,
+        "y": 1,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "Map",
+      "version": "0.0.1",
+      "url": "https://www.google.com/maps/",
+      "logo": "https://img.m.pro/map.png",
+      "id": "map.m.pro",
+      "orientation": "portrait",
+      "author": "n/a",
+      "isLocal": false,
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "type": 1,
+      "urlScript": "",
+      "page": 0,
+      "position": {
+        "x": 0,
+        "y": 3,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "Recording",
+      "version": "0.0.1",
+      "url": "https://img.m.pro/widgets/record/index.html",
+      "logo": "https://img.m.pro/record.png",
+      "id": "record.m.pro.frame",
+      "orientation": "portrait",
+      "author": "n/a",
+      "isLocal": false,
+      "isFullScreen": false,
+      "statusBar": "hide",
+      "type": 1,
+      "urlScript": "",
+      "page": 0,
+      "position": {
+        "x": 1,
+        "y": 3,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "Weather",
+      "version": "0.0.1",
+      "url": "https://img.m.pro/widgets/weather",
+      "logo": "https://img.m.pro/weather.png",
+      "id": "weather.m.pro",
+      "orientation": "portrait",
+      "author": "n/a",
+      "isLocal": false,
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "type": 1,
+      "urlScript": "",
+      "page": 0,
+      "position": {
+        "x": 2,
+        "y": 3,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "Reminders",
+      "version": "0.0.1",
+      "url": "https://img.m.pro/widgets/task",
+      "logo": "https://img.m.pro/tasks.png",
+      "id": "tasks.m.pro",
+      "orientation": "portrait",
+      "author": "n/a",
+      "isLocal": false,
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "type": 1,
+      "urlScript": "",
+      "page": 0,
+      "position": {
         "x": 3,
+        "y": 3,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "Estimate",
+      "version": "1.0.0",
+      "hash": "335d3df52df4852c962277ca563e4a7cb67f450a31f9b3fe80543f262bf3f71c",
+      "pubKey": "927c8f340255d5a2d7b839ce4859f7dc33c64e5967fe40dde023c0751a53dff3925eec1eaaeb60f83c203c85e9c5b223",
+      "sign": "a72c0b66b936b36525fdc1f07c94266a8280abd6acb04d1d87477d8ea790c98593084649f5be7fb7653c8ffcc34dd3e5067b2ffac7feaa85e5e574c972b7363dc0ac7df937c82cdce2ccae7cf6c2df265a3e8c9188cda23d872da08a0e2fa5a4",
+      "logo": "https://img.m.pro/estimate.png",
+      "id": "t.estimate.m.pro",
+      "url": "https://estimate.m.pro",
+      "type": 1,
+      "page": 0,
+      "position": {
+        "x": 4,
         "y": 3,
         "width": 1,
         "height": 1
@@ -237,218 +322,29 @@
       "position": {
         "x": 0,
         "y": 0,
-        "width": 4,
+        "width": 2,
         "height": 2
       }
     },
     {
-      "name": "News",
-      "version": "0.0.1",
-      "url": "https://img.m.pro/widgets/news/index.html",
-      "logo": "https://img.m.pro/news3x3.png",
-      "id": "news2.m.pro.frame",
-      "orientation": "portrait",
-      "author": "n/a",
-      "isLocal": false,
-      "isFullScreen": false,
-      "statusBar": "hide",
-      "type": 3,
-      "urlScript": "https://json.m.pro/script/news.js",
-      "page": 1,
-      "position": {
-        "x": 0,
-        "y": 2,
-        "width": 4,
-        "height": 2
-      }
-    },
-    {
-      "name": "Map",
-      "version": "0.0.1",
-      "url": "https://www.google.com/maps/",
-      "logo": "https://img.m.pro/map.png",
-      "id": "map.m.pro",
-      "orientation": "portrait",
-      "author": "n/a",
-      "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "type": 1,
-      "urlScript": "",
-      "page": 1,
-      "position": {
-        "x": 4,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      }
-    },
-    {
-      "name": "Recording",
-      "version": "0.0.1",
-      "url": "https://img.m.pro/widgets/record/index.html",
-      "logo": "https://img.m.pro/record.png",
-      "id": "record.m.pro.frame",
-      "orientation": "portrait",
-      "author": "n/a",
-      "isLocal": false,
-      "isFullScreen": false,
-      "statusBar": "hide",
-      "type": 1,
-      "urlScript": "",
-      "page": 1,
-      "position": {
-        "x": 4,
-        "y": 1,
-        "width": 1,
-        "height": 1
-      }
-    },
-    {
-      "name": "Weather",
-      "version": "0.0.1",
-      "url": "https://img.m.pro/widgets/weather",
-      "logo": "https://img.m.pro/weather.png",
-      "id": "weather.m.pro",
-      "orientation": "portrait",
-      "author": "n/a",
-      "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "type": 1,
-      "urlScript": "",
-      "page": 1,
-      "position": {
-        "x": 4,
-        "y": 2,
-        "width": 1,
-        "height": 1
-      }
-    },
-    {
-      "name": "News",
-      "version": "0.0.1",
-      "url": "https://news.google.com/home?ceid=VN:vi&hl=vi&gl=VN",
-      "logo": "https://img.m.pro/news.png",
-      "id": "news2.m.pro",
-      "orientation": "portrait",
-      "author": "n/a",
-      "isLocal": false,
-      "isFullScreen": false,
-      "statusBar": "hide",
-      "type": 4,
-      "urlScript": "",
-      "page": 1,
-      "position": {
-        "x": 4,
-        "y": 3,
-        "width": 1,
-        "height": 1
-      }
-    },
-    {
-      "name": "Telegram",
-      "version": "0.0.1",
-      "url": "https://web.telegram.org/k/",
-      "logo": "https://img.m.pro/telegram4x3.png",
-      "id": "telegram.m.pro.frame",
-      "orientation": "portrait",
-      "author": "n/a",
-      "isLocal": false,
-      "isFullScreen": false,
-      "statusBar": "hide",
-      "type": 3,
-      "urlScript": "https://img.m.pro/s/telegram.js",
-      "page": 2,
-      "position": {
-        "x": 0,
-        "y": 0,
-        "width": 4,
-        "height": 2
-      }
-    },
-    {
-      "name": "Contact",
-      "version": "0.0.1",
-      "url": "https://img.m.pro/widgets/contact/index.html#/",
-      "logo": "https://img.m.pro/contact2x3.png",
-      "id": "contact.m.pro.frame",
-      "orientation": "portrait",
-      "author": "n/a",
-      "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "type": 3,
-      "urlScript": "",
-      "page": 2,
-      "position": {
-        "x": 0,
-        "y": 2,
-        "width": 4,
-        "height": 2
-      }
-    },
-    {
-      "name": "Calculator",
-      "version": "0.0.1",
-      "url": "https://calculator.apps.chrome/",
-      "logo": "https://img.m.pro/calculator.png",
-      "id": "calculator2.m.pro",
-      "orientation": "portrait",
-      "author": "n/a",
-      "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "type": 4,
-      "urlScript": "",
-      "page": 2,
-      "position": {
-        "x": 4,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      }
-    },
-    {
-      "name": "Calendar",
-      "version": "0.0.1",
-      "url": "https://calendar.google.com/calendar/u/0/r?pli=1",
-      "logo": "https://img.m.pro/calendar.png",
-      "id": "calendar1.m.pro",
-      "orientation": "portrait",
-      "author": "n/a",
-      "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "type": 4,
-      "urlScript": "",
-      "page": 2,
-      "position": {
-        "x": 4,
-        "y": 1,
-        "width": 1,
-        "height": 1
-      }
-    },
-    {
-      "name": "Reminders",
+      "name": "Notes",
       "version": "0.0.1",
       "url": "https://img.m.pro/widgets/task",
-      "logo": "https://img.m.pro/tasks.png",
-      "id": "tasks.m.pro",
+      "logo": "",
+      "id": "notes.m.pro",
       "orientation": "portrait",
       "author": "n/a",
       "isLocal": false,
       "isFullScreen": true,
       "statusBar": "hide",
-      "type": 1,
+      "type": 3,
       "urlScript": "",
-      "page": 2,
+      "page": 1,
       "position": {
-        "x": 4,
-        "y": 2,
-        "width": 1,
-        "height": 1
+        "x": 2,
+        "y": 0,
+        "width": 2,
+        "height": 2
       }
     }
   ]
