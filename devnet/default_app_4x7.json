@@ -1,9 +1,9 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "favorites": [
     {
       "name": "Settings",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "hash": "335d3df52df4852c962277ca563e4a7cb67f450a31f9b3fe80543f262bf3f71c",
       "pubKey": "927c8f340255d5a2d7b839ce4859f7dc33c64e5967fe40dde023c0751a53dff3925eec1eaaeb60f83c203c85e9c5b223",
       "sign": "a72c0b66b936b36525fdc1f07c94266a8280abd6acb04d1d87477d8ea790c98593084649f5be7fb7653c8ffcc34dd3e5067b2ffac7feaa85e5e574c972b7363dc0ac7df937c82cdce2ccae7cf6c2df265a3e8c9188cda23d872da08a0e2fa5a4",
@@ -69,7 +69,7 @@
       "hash": "335d3df52df4852c962277ca563e4a7cb67f450a31f9b3fe80543f262bf3f71c",
       "pubKey": "927c8f340255d5a2d7b839ce4859f7dc33c64e5967fe40dde023c0751a53dff3925eec1eaaeb60f83c203c85e9c5b223",
       "sign": "a72c0b66b936b36525fdc1f07c94266a8280abd6acb04d1d87477d8ea790c98593084649f5be7fb7653c8ffcc34dd3e5067b2ffac7feaa85e5e574c972b7363dc0ac7df937c82cdce2ccae7cf6c2df265a3e8c9188cda23d872da08a0e2fa5a4",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "logo": "https://img.m.pro/po5.png",
       "id": "po5.m.pro",
       "orientation": "portrait",
@@ -113,7 +113,7 @@
     },
     {
       "name": "D-App Store",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "url": "http://61.28.238.209:9096/test_sellbook/index.html",
       "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/dapp_store.png",
       "id": "bookstore.m.pro",
@@ -133,7 +133,7 @@
     },
     {
       "name": "Estimate",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "hash": "335d3df52df4852c962277ca563e4a7cb67f450a31f9b3fe80543f262bf3f71c",
       "pubKey": "927c8f340255d5a2d7b839ce4859f7dc33c64e5967fe40dde023c0751a53dff3925eec1eaaeb60f83c203c85e9c5b223",
       "sign": "a72c0b66b936b36525fdc1f07c94266a8280abd6acb04d1d87477d8ea790c98593084649f5be7fb7653c8ffcc34dd3e5067b2ffac7feaa85e5e574c972b7363dc0ac7df937c82cdce2ccae7cf6c2df265a3e8c9188cda23d872da08a0e2fa5a4",
@@ -151,7 +151,7 @@
     },
     {
       "name": "POS",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "url": "http://61.28.238.209:9096/test_poss/",
       "logo": "https://img.m.pro/logo-pos.png",
       "id": "pos.m.pro",
@@ -454,7 +454,7 @@
     {
       "name": "Reminders",
       "version": "0.0.1",
-      "url": "https://img.m.pro/widgets/Task",
+      "url": "https://img.m.pro/widgets/notes",
       "logo": "https://img.m.pro/tasks.png",
       "id": "tasks.m.pro",
       "orientation": "portrait",
@@ -474,7 +474,7 @@
     },
     {
       "name": "Attendance tracking",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "hash": "335d3df52df4852c962277ca563e4a7cb67f450a31f9b3fe80543f262bf3f71c",
       "pubKey": "927c8f340255d5a2d7b839ce4859f7dc33c64e5967fe40dde023c0751a53dff3925eec1eaaeb60f83c203c85e9c5b223",
       "sign": "a72c0b66b936b36525fdc1f07c94266a8280abd6acb04d1d87477d8ea790c98593084649f5be7fb7653c8ffcc34dd3e5067b2ffac7feaa85e5e574c972b7363dc0ac7df937c82cdce2ccae7cf6c2df265a3e8c9188cda23d872da08a0e2fa5a4",
