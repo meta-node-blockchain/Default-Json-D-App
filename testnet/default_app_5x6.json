@@ -1,5 +1,5 @@
 {
-  "version": "1.0.3",
+  "version": "1.0.4",
   "favorites": [
     {
       "name": "Settings",
@@ -408,7 +408,7 @@
       "version": "1.0.0",
       "url": "https://m-onboarding.m.pro",
       "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/tokenomic.jpg",
-      "id": "multiwallet.m.pro",
+      "id": "onboarding.m.pro",
       "orientation": "portrait",
       "author": "n/a",
       "isLocal": false,
@@ -428,7 +428,7 @@
       "version": "1.0.0",
       "url": "https://m-storage.m.pro",
       "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/tokenomic.jpg",
-      "id": "multiwallet.m.pro",
+      "id": "storage.m.pro",
       "orientation": "portrait",
       "author": "n/a",
       "isLocal": false,
