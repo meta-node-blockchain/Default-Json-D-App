@@ -1,5 +1,5 @@
 {
-  "version": "1.0.2",
+  "version": "1.0.3",
   "favorites": [
     {
       "name": "Settings",
@@ -398,6 +398,46 @@
       "page": 2,
       "position": {
         "x": 2,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "Onboading Mainnet",
+      "version": "1.0.0",
+      "url": "https://m-onboarding.m.pro",
+      "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/tokenomic.jpg",
+      "id": "multiwallet.m.pro",
+      "orientation": "portrait",
+      "author": "n/a",
+      "isLocal": false,
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "type": 1,
+      "page": 2,
+      "position": {
+        "x": 3,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "Storage Mainnet",
+      "version": "1.0.0",
+      "url": "https://m-storage.m.pro",
+      "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/tokenomic.jpg",
+      "id": "multiwallet.m.pro",
+      "orientation": "portrait",
+      "author": "n/a",
+      "isLocal": false,
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "type": 1,
+      "page": 2,
+      "position": {
+        "x": 4,
         "y": 0,
         "width": 1,
         "height": 1
