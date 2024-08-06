@@ -1,5 +1,5 @@
 {
-  "version": "1.0.5",
+  "version": "1.0.6",
   "favorites": [
     {
       "name": "Settings",
@@ -408,7 +408,7 @@
       "version": "1.0.0",
       "url": "https://m-onboarding.m.pro",
       "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/tokenomic.jpg",
-      "id": "onboarding.m.pro",
+      "id": "onboarding-main.m.pro",
       "orientation": "portrait",
       "author": "n/a",
       "isLocal": false,
