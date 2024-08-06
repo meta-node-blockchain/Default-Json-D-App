@@ -87,31 +87,70 @@
         "width": 1,
         "height": 1
       }
+    },
+    {
+      "name": "Web3 Space",
+      "version": "0.0.11",
+      "hash": "335d3df52df4852c962277ca563e4a7cb67f450a31f9b3fe80543f262bf3f71c",
+      "pubKey": "927c8f340255d5a2d7b839ce4859f7dc33c64e5967fe40dde023c0751a53dff3925eec1eaaeb60f83c203c85e9c5b223",
+      "sign": "a72c0b66b936b36525fdc1f07c94266a8280abd6acb04d1d87477d8ea790c98593084649f5be7fb7653c8ffcc34dd3e5067b2ffac7feaa85e5e574c972b7363dc0ac7df937c82cdce2ccae7cf6c2df265a3e8c9188cda23d872da08a0e2fa5a4",
+      "logo": "https://metanode.co/images/browser.png",
+      "urlLauchScreen": "",
+      "urlLoadingScreen": "",
+      "urlZip": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/meta_browser/browser_1.0.1.zip?inline=false",
+      "id": "com.web3space.metaword",
+      "orientation": "portrait",
+      "author": "n/a",
+      "full_screen": false,
+      "status_bar": "show",
+      "type": 4,
+      "page": 0,
+      "position": {
+        "x": 4,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "Estimate",
+      "version": "1.0.1",
+      "hash": "335d3df52df4852c962277ca563e4a7cb67f450a31f9b3fe80543f262bf3f71c",
+      "pubKey": "927c8f340255d5a2d7b839ce4859f7dc33c64e5967fe40dde023c0751a53dff3925eec1eaaeb60f83c203c85e9c5b223",
+      "sign": "a72c0b66b936b36525fdc1f07c94266a8280abd6acb04d1d87477d8ea790c98593084649f5be7fb7653c8ffcc34dd3e5067b2ffac7feaa85e5e574c972b7363dc0ac7df937c82cdce2ccae7cf6c2df265a3e8c9188cda23d872da08a0e2fa5a4",
+      "logo": "https://img.m.pro/estimate.png",
+      "id": "t.estimate.m.pro",
+      "url": "https://estimate.m.pro",
+      "type": 1,
+      "page": 0,
+      "position": {
+        "x": 5,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
     }
   ],
   "apps": [
     {
-      "name": "Youtube short",
-      "hash": "335d3df52df4852c962277ca563e4a7cb67f450a31f9b3fe80543f262bf3f71c",
-      "pubKey": "927c8f340255d5a2d7b839ce4859f7dc33c64e5967fe40dde023c0751a53dff3925eec1eaaeb60f83c203c85e9c5b223",
-      "sign": "a72c0b66b936b36525fdc1f07c94266a8280abd6acb04d1d87477d8ea790c98593084649f5be7fb7653c8ffcc34dd3e5067b2ffac7feaa85e5e574c972b7363dc0ac7df937c82cdce2ccae7cf6c2df265a3e8c9188cda23d872da08a0e2fa5a4",
+      "name": "Map",
       "version": "0.0.1",
+      "url": "https://www.google.com/maps/",
       "logo": "",
-      "id": "youtube_short.app",
+      "id": "map.m.pro.frame",
       "orientation": "portrait",
       "author": "n/a",
       "isLocal": false,
       "isFullScreen": true,
       "statusBar": "hide",
       "type": 3,
-      "urlScript": "",
+      "urlScript": "https://img.m.pro/s/map.js",
       "page": 0,
-      "url": "https://m.youtube.com/shorts/",
       "position": {
         "x": 0,
         "y": 0,
-        "width": 2,
-        "height": 2
+        "width": 3,
+        "height": 3
       }
     },
     {
@@ -129,10 +168,10 @@
       "urlScript": "",
       "page": 0,
       "position": {
-        "x": 2,
+        "x": 3,
         "y": 0,
-        "width": 2,
-        "height": 2
+        "width": 3,
+        "height": 3
       }
     },
     {
@@ -229,9 +268,9 @@
       "statusBar": "hide",
       "type": 1,
       "urlScript": "",
-      "page": 1,
+      "page": 0,
       "position": {
-        "x": 0,
+        "x": 4,
         "y": 6,
         "width": 1,
         "height": 1
@@ -250,62 +289,22 @@
       "statusBar": "hide",
       "type": 1,
       "urlScript": "",
-      "page": 1,
+      "page": 0,
       "position": {
-        "x": 1,
+        "x": 5,
         "y": 6,
         "width": 1,
         "height": 1
       }
     },
     {
-      "name": "Web3 Space",
-      "version": "0.0.11",
+      "name": "Youtube short",
       "hash": "335d3df52df4852c962277ca563e4a7cb67f450a31f9b3fe80543f262bf3f71c",
       "pubKey": "927c8f340255d5a2d7b839ce4859f7dc33c64e5967fe40dde023c0751a53dff3925eec1eaaeb60f83c203c85e9c5b223",
       "sign": "a72c0b66b936b36525fdc1f07c94266a8280abd6acb04d1d87477d8ea790c98593084649f5be7fb7653c8ffcc34dd3e5067b2ffac7feaa85e5e574c972b7363dc0ac7df937c82cdce2ccae7cf6c2df265a3e8c9188cda23d872da08a0e2fa5a4",
-      "logo": "https://metanode.co/images/browser.png",
-      "urlLauchScreen": "",
-      "urlLoadingScreen": "",
-      "urlZip": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/meta_browser/browser_1.0.1.zip?inline=false",
-      "id": "com.web3space.metaword",
-      "orientation": "portrait",
-      "author": "n/a",
-      "full_screen": false,
-      "status_bar": "show",
-      "type": 4,
-      "page": 1,
-      "position": {
-        "x": 2,
-        "y": 6,
-        "width": 1,
-        "height": 1
-      }
-    },
-    {
-      "name": "Estimate",
-      "version": "1.0.1",
-      "hash": "335d3df52df4852c962277ca563e4a7cb67f450a31f9b3fe80543f262bf3f71c",
-      "pubKey": "927c8f340255d5a2d7b839ce4859f7dc33c64e5967fe40dde023c0751a53dff3925eec1eaaeb60f83c203c85e9c5b223",
-      "sign": "a72c0b66b936b36525fdc1f07c94266a8280abd6acb04d1d87477d8ea790c98593084649f5be7fb7653c8ffcc34dd3e5067b2ffac7feaa85e5e574c972b7363dc0ac7df937c82cdce2ccae7cf6c2df265a3e8c9188cda23d872da08a0e2fa5a4",
-      "logo": "https://img.m.pro/estimate.png",
-      "id": "t.estimate.m.pro",
-      "url": "https://estimate.m.pro",
-      "type": 1,
-      "page": 1,
-      "position": {
-        "x": 3,
-        "y": 6,
-        "width": 1,
-        "height": 1
-      }
-    },
-    {
-      "name": "Recording",
       "version": "0.0.1",
-      "url": "https://img.m.pro/widgets/record/index.html",
       "logo": "",
-      "id": "record.m.pro.frame",
+      "id": "youtube_short.app",
       "orientation": "portrait",
       "author": "n/a",
       "isLocal": false,
@@ -314,11 +313,12 @@
       "type": 3,
       "urlScript": "",
       "page": 1,
+      "url": "https://m.youtube.com/shorts/",
       "position": {
         "x": 0,
         "y": 0,
-        "width": 2,
-        "height": 2
+        "width": 3,
+        "height": 3
       }
     },
     {
@@ -336,10 +336,10 @@
       "urlScript": "",
       "page": 1,
       "position": {
-        "x": 2,
+        "x": 3,
         "y": 0,
-        "width": 2,
-        "height": 2
+        "width": 3,
+        "height": 3
       }
     }
   ]
