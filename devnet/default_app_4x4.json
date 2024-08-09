@@ -40,7 +40,7 @@
         "width": 1,
         "height": 1
       },
-      "url": "https://t-wallet.m.pro/"
+      "url": "https://d-wallet.m.pro/"
     },
     {
       "name": "Mining",
@@ -80,7 +80,7 @@
       "type": 1,
       "urlScript": "",
       "page": 0,
-      "url": "https://t-po5.m.pro",
+      "url": "https://d-po5.m.pro",
       "position": {
         "x": 3,
         "y": 0,
