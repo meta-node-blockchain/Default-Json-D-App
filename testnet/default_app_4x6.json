@@ -1,5 +1,5 @@
 {
-  "version": "1.0.7",
+  "version": "1.0.8",
   "favorites": [
     {
       "name": "Settings",
@@ -91,22 +91,19 @@
   ],
   "apps": [
     {
-      "name": "Stock",
-      "hash": "335d3df52df4852c962277ca563e4a7cb67f450a31f9b3fe80543f262bf3f71c",
-      "pubKey": "927c8f340255d5a2d7b839ce4859f7dc33c64e5967fe40dde023c0751a53dff3925eec1eaaeb60f83c203c85e9c5b223",
-      "sign": "a72c0b66b936b36525fdc1f07c94266a8280abd6acb04d1d87477d8ea790c98593084649f5be7fb7653c8ffcc34dd3e5067b2ffac7feaa85e5e574c972b7363dc0ac7df937c82cdce2ccae7cf6c2df265a3e8c9188cda23d872da08a0e2fa5a4",
+      "name": "Notes",
       "version": "0.0.1",
+      "url": "https://img.m.pro/widgets/notes",
       "logo": "",
-      "id": "stock.frame.m.pro",
+      "id": "notes.m.pro",
       "orientation": "portrait",
       "author": "n/a",
       "isLocal": false,
       "isFullScreen": true,
       "statusBar": "hide",
       "type": 3,
+      "urlScript": "",
       "page": 0,
-      "url": "https://img.m.pro/widgets/finance/",
-      "urlScript": "https://img.m.pro/s/finance.js",
       "position": {
         "x": 0,
         "y": 0,
@@ -115,11 +112,11 @@
       }
     },
     {
-      "name": "Calculator",
+      "name": "Recording",
       "version": "0.0.1",
-      "url": "https://img.m.pro/widgets/calculator",
+      "url": "https://img.m.pro/widgets/record/index.html",
       "logo": "",
-      "id": "calculator.m.pro.frame",
+      "id": "record.m.pro.frame",
       "orientation": "portrait",
       "author": "n/a",
       "isLocal": false,
@@ -306,19 +303,22 @@
       }
     },
     {
-      "name": "Recording",
+      "name": "Stock",
+      "hash": "335d3df52df4852c962277ca563e4a7cb67f450a31f9b3fe80543f262bf3f71c",
+      "pubKey": "927c8f340255d5a2d7b839ce4859f7dc33c64e5967fe40dde023c0751a53dff3925eec1eaaeb60f83c203c85e9c5b223",
+      "sign": "a72c0b66b936b36525fdc1f07c94266a8280abd6acb04d1d87477d8ea790c98593084649f5be7fb7653c8ffcc34dd3e5067b2ffac7feaa85e5e574c972b7363dc0ac7df937c82cdce2ccae7cf6c2df265a3e8c9188cda23d872da08a0e2fa5a4",
       "version": "0.0.1",
-      "url": "https://img.m.pro/widgets/record/index.html",
       "logo": "",
-      "id": "record.m.pro.frame",
+      "id": "stock.frame.m.pro",
       "orientation": "portrait",
       "author": "n/a",
       "isLocal": false,
       "isFullScreen": true,
       "statusBar": "hide",
       "type": 3,
-      "urlScript": "",
       "page": 1,
+      "url": "https://img.m.pro/widgets/finance/",
+      "urlScript": "https://img.m.pro/s/finance.js",
       "position": {
         "x": 0,
         "y": 0,
@@ -327,11 +327,11 @@
       }
     },
     {
-      "name": "Notes",
+      "name": "Calculator",
       "version": "0.0.1",
-      "url": "https://img.m.pro/widgets/notes",
+      "url": "https://img.m.pro/widgets/calculator",
       "logo": "",
-      "id": "notes.m.pro",
+      "id": "calculator.m.pro.frame",
       "orientation": "portrait",
       "author": "n/a",
       "isLocal": false,
