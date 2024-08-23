@@ -1,5 +1,5 @@
 {
-  "version": "1.0.5",
+  "version": "1.0.6",
   "favorites": [
     {
       "name": "Settings",
@@ -438,6 +438,26 @@
       "page": 2,
       "position": {
         "x": 4,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "POSS",
+      "version": "1.0.0",
+      "url": "https://t-poss.m.pro",
+      "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/tokenomic.jpg",
+      "id": "poss.m.pro",
+      "orientation": "portrait",
+      "author": "n/a",
+      "isLocal": false,
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "type": 1,
+      "page": 2,
+      "position": {
+        "x": 5,
         "y": 0,
         "width": 1,
         "height": 1
