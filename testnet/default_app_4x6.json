@@ -1,5 +1,5 @@
 {
-  "version": "1.1.0",
+  "version": "1.1.1",
   "favorites": [
     {
       "name": "Settings",
@@ -83,7 +83,8 @@
       "type": 1,
       "urlScript": "",
       "page": 0,
-      "url": "https://t-po5.m.pro",
+      "url": "",
+      "urlPack": "https://json.m.pro/testnet/json/po5.json",
       "position": {
         "x": 3,
         "y": 0,
