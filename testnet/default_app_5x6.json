@@ -1,5 +1,5 @@
 {
-  "version": "1.0.8",
+  "version": "1.0.9",
   "favorites": [
     {
       "name": "Settings",
@@ -463,6 +463,26 @@
       "position": {
         "x": 5,
         "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "Meta ID",
+      "version": "1.0.0",
+      "url": "https://t-meta-id.m.pro",
+      "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/tokenomic.jpg",
+      "id": "meta-id.m.pro",
+      "orientation": "portrait",
+      "author": "n/a",
+      "isLocal": false,
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "type": 1,
+      "page": 2,
+      "position": {
+        "x": 0,
+        "y": 1,
         "width": 1,
         "height": 1
       }
