@@ -7,7 +7,7 @@
       "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/iconSetting.jpg",
       "id": "setting",
       "url": "",
-      "urlPack": "https://json.m.pro/testnet/json/setting.json",
+      "urlPack": "https://json.mygvq.org/setting.json",
       "type": 1,
       "page": 0,
       "position": {
@@ -23,7 +23,7 @@
       "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/wallet.png",
       "id": "meta.wallet",
       "url": "",
-      "urlPack": "https://json.m.pro/testnet/json/wallet.json",
+      "urlPack": "https://json.mygvq.org/wallet.json",
       "type": 1,
       "page": 0,
       "position": {
@@ -39,7 +39,7 @@
       "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/mining.jpg",
       "id": "meta.mining",
       "url": "",
-      "urlPack": "https://json.m.pro/testnet/json/mining.json",
+      "urlPack": "https://json.mygvq.org/mining.json",
       "type": 1,
       "page": 0,
       "position": {
@@ -54,7 +54,7 @@
       "version": "1.0.0",
       "logo": "https://img.m.pro/po5.png",
       "url": "",
-      "urlPack": "https://json.m.pro/testnet/json/po5.json",
+      "urlPack": "https://json.m.pro/mainnet/json/po5.json",
       "id": "po5.m.pro",
       "type": 1,
       "urlScript": "",
@@ -167,8 +167,9 @@
       "name": "ENS",
       "version": "1.0.0",
       "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/iconSetting.jpg",
-      "id": "ens.m.pro",
-      "url": "https://t-ens.m.pro/index.html",
+     "id": "ens.m.pro",
+      "url": "",
+      "urlPack": "https://json.mygvq.org/ens.json",
       "type": 1,
       "page": 0,
       "position": {
@@ -183,7 +184,8 @@
       "version": "1.0.0",
       "logo": "https://img.m.pro/attendance_tracking.png",
       "id": "attendance-tracking.m.pro",
-      "url": "https://t-attendance-tracking.m.pro/",
+      "url": "",
+      "urlPack": "https://json.mygvq.org/attendance.json",
       "type": 1,
       "page": 0,
       "position": {
