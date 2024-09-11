@@ -184,7 +184,8 @@
       "version": "1.0.0",
       "logo": "https://img.m.pro/attendance_tracking.png",
       "id": "attendance-tracking.m.pro",
-      "url": "https://t-attendance-tracking.m.pro/",
+      "url": "",
+      "urlPack": "https://json.mygvq.org/attendance.json",
       "type": 1,
       "page": 0,
       "position": {
