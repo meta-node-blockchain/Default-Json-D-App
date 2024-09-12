@@ -1,5 +1,5 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.2",
   "favorites": [
     {
       "name": "Settings",
@@ -212,7 +212,7 @@
     {
       "name": "Meta ID",
       "version": "1.0.0",
-      "url": "https://t-meta-id.m.pro",
+      "url": "https://m-meta-id.m.pro",
       "logo": "https://img.m.pro/app-logo/meta-id.png",
       "id": "meta-id.m.pro",
       "type": 1,
