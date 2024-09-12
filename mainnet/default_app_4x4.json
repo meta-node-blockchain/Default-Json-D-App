@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "favorites": [
     {
       "name": "Settings",
@@ -166,7 +166,7 @@
     {
       "name": "ENS",
       "version": "1.0.0",
-      "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/iconSetting.jpg",
+      "logo": "https://img.m.pro/app-logo/ens.png",
       "id": "ens.m.pro",
       "url": "",
       "urlPack": "https://json.mygvq.org/ens.json",
@@ -199,7 +199,7 @@
       "name": "Meta ID",
       "version": "1.0.0",
       "url": "https://t-meta-id.m.pro",
-      "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/tokenomic.jpg",
+      "logo": "https://img.m.pro/app-logo/meta-id.png",
       "id": "meta-id.m.pro",
       "type": 1,
       "page": 0,

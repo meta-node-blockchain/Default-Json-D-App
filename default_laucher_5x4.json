@@ -1,5 +1,5 @@
 {
-  "version": "3.0.8",
+  "version": "3.0.9",
   "favorites": [
     {
       "name": "Settings",
@@ -840,7 +840,7 @@
       "name": "Attendance tracking",
       "version": "1.0.1",
       "url": "https://attendance_tracking.m.pro/",
-      "logo": "https://img.m.pro/attendance_tracking.png",
+      "logo": "https://img.m.pro/app-logo/timekeeping.png",
       "id": "attendance_tracking.m.pro",
       "orientation": "portrait",
       "author": "n/a",
