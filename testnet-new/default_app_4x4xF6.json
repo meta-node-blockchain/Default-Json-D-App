@@ -423,6 +423,26 @@
           "width": 1,
           "height": 1
         }
+      },
+      {
+        "name": "Swap",
+        "version": "1.0.0",
+        "urlWeb": "http://61.28.238.209:9096/test_swap/index.html",
+        "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/swap.jpg",
+        "id": "testswap.m.pro",
+        "orientation": "portrait",
+        "author": "n/a",
+        "isLocal": false,
+        "full_screen": true,
+        "status_bar": "hide",
+        "type": 1,
+        "page": 1,
+        "position": {
+          "x": 2,
+          "y": 3,
+          "width": 1,
+          "height": 1
+        }
       }
     ]
   }
