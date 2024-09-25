@@ -1,5 +1,5 @@
 {
-    "version": "1.0.1",
+    "version": "1.0.2",
     "favorites": [
       {
         "name": "Settings",
@@ -427,7 +427,7 @@
       {
         "name": "Swap",
         "version": "1.0.0",
-        "urlWeb": "http://61.28.238.209:9096/test_swap/index.html",
+        "url": "http://61.28.238.209:9096/test_swap/index.html",
         "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/swap.jpg",
         "id": "testswap.m.pro",
         "orientation": "portrait",
