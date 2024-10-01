@@ -1,5 +1,5 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.0",
   "favorites": [
     {
       "name": "Settings",
@@ -9,35 +9,12 @@
       "sign": "a72c0b66b936b36525fdc1f07c94266a8280abd6acb04d1d87477d8ea790c98593084649f5be7fb7653c8ffcc34dd3e5067b2ffac7feaa85e5e574c972b7363dc0ac7df937c82cdce2ccae7cf6c2df265a3e8c9188cda23d872da08a0e2fa5a4",
       "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/iconSetting.jpg",
       "id": "setting",
-      "url": "https://t-setting.m.pro/index.html",
+      "url": "",
+      "urlPack": "https://json.mygvq.org/setting.json",
       "type": 1,
       "page": 0,
       "position": {
         "x": 0,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      }
-    },
-    {
-      "name": "Web3 Space",
-      "version": "0.0.11",
-      "hash": "335d3df52df4852c962277ca563e4a7cb67f450a31f9b3fe80543f262bf3f71c",
-      "pubKey": "927c8f340255d5a2d7b839ce4859f7dc33c64e5967fe40dde023c0751a53dff3925eec1eaaeb60f83c203c85e9c5b223",
-      "sign": "a72c0b66b936b36525fdc1f07c94266a8280abd6acb04d1d87477d8ea790c98593084649f5be7fb7653c8ffcc34dd3e5067b2ffac7feaa85e5e574c972b7363dc0ac7df937c82cdce2ccae7cf6c2df265a3e8c9188cda23d872da08a0e2fa5a4",
-      "logo": "https://metanode.co/images/browser.png",
-      "urlLauchScreen": "",
-      "urlLoadingScreen": "",
-      "urlZip": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/meta_browser/browser_1.0.1.zip?inline=false",
-      "id": "com.web3space.metaword",
-      "orientation": "portrait",
-      "author": "n/a",
-      "isFullScreen": false,
-      "statusBar": "show",
-      "type": 4,
-      "page": 0,
-      "position": {
-        "x": 1,
         "y": 0,
         "width": 1,
         "height": 1
@@ -59,12 +36,13 @@
       "type": 1,
       "page": 0,
       "position": {
-        "x": 2,
+        "x": 1,
         "y": 0,
         "width": 1,
         "height": 1
       },
-      "url": "https://t-wallet.m.pro/"
+      "url": "",
+      "urlPack": "https://json.mygvq.org/wallet.json"
     },
     {
       "name": "Mining",
@@ -81,117 +59,13 @@
       "type": 1,
       "page": 0,
       "position": {
-        "x": 3,
+        "x": 2,
         "y": 0,
         "width": 1,
         "height": 1
       },
-      "url": "http://61.28.238.209:9096/new_command/mining/index.html"
-    }
-  ],
-  "apps": [
-    {
-      "name": "Weather",
-      "version": "0.0.1",
-      "url": "https://img.m.pro/widgets/weather",
-      "logo": "",
-      "id": "weather.m.pro.frame",
-      "orientation": "portrait",
-      "author": "n/a",
-      "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "type": 3,
-      "urlScript": "",
-      "page": 0,
-      "position": {
-        "x": 0,
-        "y": 0,
-        "width": 4,
-        "height": 2
-      }
-    },
-    {
-      "name": "D-App Store",
-      "version": "1.0.1",
-      "url": "http://61.28.238.209:9096/test_sellbook/index.html",
-      "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/dapp_store.png",
-      "id": "bookstore.m.pro",
-      "orientation": "portrait",
-      "author": "n/a",
-      "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "type": 1,
-      "page": 0,
-      "position": {
-        "x": 0,
-        "y": 4,
-        "width": 1,
-        "height": 1
-      }
-    },
-    {
-      "name": "Estimate",
-      "version": "1.0.1",
-      "hash": "335d3df52df4852c962277ca563e4a7cb67f450a31f9b3fe80543f262bf3f71c",
-      "pubKey": "927c8f340255d5a2d7b839ce4859f7dc33c64e5967fe40dde023c0751a53dff3925eec1eaaeb60f83c203c85e9c5b223",
-      "sign": "a72c0b66b936b36525fdc1f07c94266a8280abd6acb04d1d87477d8ea790c98593084649f5be7fb7653c8ffcc34dd3e5067b2ffac7feaa85e5e574c972b7363dc0ac7df937c82cdce2ccae7cf6c2df265a3e8c9188cda23d872da08a0e2fa5a4",
-      "logo": "https://img.m.pro/estimate.png",
-      "id": "estimate.m.pro",
-      "url": "https://estimate.m.pro",
-      "type": 1,
-      "page": 0,
-      "position": {
-        "x": 1,
-        "y": 4,
-        "width": 1,
-        "height": 1
-      }
-    },
-    {
-      "name": "POS",
-      "version": "1.0.1",
-      "url": "http://61.28.238.209:9096/test_poss/",
-      "logo": "https://img.m.pro/logo-pos.png",
-      "id": "pos.m.pro",
-      "orientation": "portrait",
-      "author": "n/a",
-      "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "type": 1,
-      "urlScript": "",
-      "page": 0,
-      "position": {
-        "x": 2,
-        "y": 4,
-        "width": 1,
-        "height": 1
-      }
-    },
-    {
-      "name": "Music",
-      "version": "0.0.1",
-      "logo": "https://gitlab.com/tranhuy.beearning/upload-d-apps/-/raw/main/metanode_d_apps/public/music-min.jpg",
-      "hash": "335d3df52df4852c962277ca563e4a7cb67f450a31f9b3fe80543f262bf3f71c",
-      "pubKey": "927c8f340255d5a2d7b839ce4859f7dc33c64e5967fe40dde023c0751a53dff3925eec1eaaeb60f83c203c85e9c5b223",
-      "sign": "a72c0b66b936b36525fdc1f07c94266a8280abd6acb04d1d87477d8ea790c98593084649f5be7fb7653c8ffcc34dd3e5067b2ffac7feaa85e5e574c972b7363dc0ac7df937c82cdce2ccae7cf6c2df265a3e8c9188cda23d872da08a0e2fa5a4",
-      "id": "music.app",
-      "orientation": "portrait",
-      "author": "n/a",
-      "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "type": 1,
-      "url": "https://music.metanode.co/",
-      "page": 0,
-      "position": {
-        "x": 3,
-        "y": 4,
-        "width": 1,
-        "height": 1
-      }
+      "url": "",
+      "urlPack": "https://json.mygvq.org/mining.json"
     },
     {
       "name": "PO5",
@@ -209,88 +83,23 @@
       "type": 1,
       "urlScript": "",
       "page": 0,
-      "url": "https://t-po5.m.pro",
-      "position": {
-        "x": 0,
-        "y": 5,
-        "width": 1,
-        "height": 1
-      }
-    },
-    {
-      "name": "Metalink",
-      "hash": "335d3df52df4852c962277ca563e4a7cb67f450a31f9b3fe80543f262bf3f71c",
-      "pubKey": "927c8f340255d5a2d7b839ce4859f7dc33c64e5967fe40dde023c0751a53dff3925eec1eaaeb60f83c203c85e9c5b223",
-      "sign": "a72c0b66b936b36525fdc1f07c94266a8280abd6acb04d1d87477d8ea790c98593084649f5be7fb7653c8ffcc34dd3e5067b2ffac7feaa85e5e574c972b7363dc0ac7df937c82cdce2ccae7cf6c2df265a3e8c9188cda23d872da08a0e2fa5a4",
-      "version": "0.0.1",
-      "logo": "https://img.m.pro/metaid.png",
-      "id": "metaid.m.pro",
-      "orientation": "portrait",
-      "author": "n/a",
-      "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "type": 1,
-      "urlScript": "",
-      "page": 0,
-      "url": "https://t-metaid.m.pro/",
-      "position": {
-        "x": 1,
-        "y": 5,
-        "width": 1,
-        "height": 1
-      }
-    },
-    {
-      "name": "News",
-      "version": "0.0.1",
-      "url": "https://news.google.com/home?ceid=VN:vi&hl=vi&gl=VN",
-      "logo": "https://img.m.pro/news.png",
-      "id": "news2.m.pro",
-      "orientation": "portrait",
-      "author": "n/a",
-      "isLocal": false,
-      "isFullScreen": false,
-      "statusBar": "hide",
-      "type": 4,
-      "urlScript": "",
-      "page": 0,
-      "position": {
-        "x": 2,
-        "y": 5,
-        "width": 1,
-        "height": 1
-      }
-    },
-    {
-      "name": "Telegram",
-      "version": "0.0.1",
-      "url": "https://web.telegram.org/k/",
-      "logo": "https://img.m.pro/telegram.png",
-      "id": "telegram.m.pro",
-      "orientation": "portrait",
-      "author": "n/a",
-      "isLocal": false,
-      "isFullScreen": false,
-      "statusBar": "hide",
-      "type": 4,
-      "urlScript": "https://img.m.pro/s/telegram.js",
-      "page": 0,
+      "url": "",
+      "urlPack": "https://json.m.pro/mainnet/json/po5.json",
       "position": {
         "x": 3,
-        "y": 5,
+        "y": 0,
         "width": 1,
         "height": 1
       }
-    },
+    }
+  ],
+  "apps": [
     {
-      "name": "Youtube short",
-      "hash": "335d3df52df4852c962277ca563e4a7cb67f450a31f9b3fe80543f262bf3f71c",
-      "pubKey": "927c8f340255d5a2d7b839ce4859f7dc33c64e5967fe40dde023c0751a53dff3925eec1eaaeb60f83c203c85e9c5b223",
-      "sign": "a72c0b66b936b36525fdc1f07c94266a8280abd6acb04d1d87477d8ea790c98593084649f5be7fb7653c8ffcc34dd3e5067b2ffac7feaa85e5e574c972b7363dc0ac7df937c82cdce2ccae7cf6c2df265a3e8c9188cda23d872da08a0e2fa5a4",
+      "name": "Notes",
       "version": "0.0.1",
+      "url": "https://img.m.pro/widgets/notes",
       "logo": "",
-      "id": "youtube_short.app",
+      "id": "notes.m.pro",
       "orientation": "portrait",
       "author": "n/a",
       "isLocal": false,
@@ -298,74 +107,253 @@
       "statusBar": "hide",
       "type": 3,
       "urlScript": "",
-      "page": 1,
-      "url": "https://m.youtube.com/shorts/",
+      "page": 0,
       "position": {
         "x": 0,
         "y": 0,
-        "width": 4,
+        "width": 2,
         "height": 2
-      }
-    },
-    {
-      "name": "News",
-      "version": "0.0.1",
-      "url": "https://img.m.pro/widgets/news/index.html",
-      "logo": "https://img.m.pro/news3x3.png",
-      "id": "news2.m.pro.frame",
-      "orientation": "portrait",
-      "author": "n/a",
-      "isLocal": false,
-      "isFullScreen": false,
-      "statusBar": "hide",
-      "type": 3,
-      "urlScript": "",
-      "page": 1,
-      "position": {
-        "x": 0,
-        "y": 2,
-        "width": 3,
-        "height": 3
-      }
-    },
-    {
-      "name": "Map",
-      "version": "0.0.1",
-      "url": "https://www.google.com/maps/",
-      "logo": "https://img.m.pro/map.png",
-      "id": "map.m.pro",
-      "orientation": "portrait",
-      "author": "n/a",
-      "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "type": 1,
-      "urlScript": "",
-      "page": 1,
-      "position": {
-        "x": 3,
-        "y": 2,
-        "width": 1,
-        "height": 1
       }
     },
     {
       "name": "Recording",
       "version": "0.0.1",
       "url": "https://img.m.pro/widgets/record/index.html",
-      "logo": "https://img.m.pro/record.png",
+      "logo": "",
       "id": "record.m.pro.frame",
       "orientation": "portrait",
       "author": "n/a",
       "isLocal": false,
-      "isFullScreen": false,
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "type": 3,
+      "urlScript": "",
+      "page": 0,
+      "position": {
+        "x": 2,
+        "y": 0,
+        "width": 2,
+        "height": 2
+      }
+    },
+    {
+      "name": "POSS",
+      "version": "1.0.0",
+      "url": "https://t-poss.m.pro",
+      "logo": "https://img.m.pro/logo-pos.png",
+      "id": "poss.m.pro",
+      "orientation": "portrait",
+      "author": "n/a",
+      "isLocal": false,
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "type": 1,
+      "page": 0,
+      "position": {
+        "x": 0,
+        "y": 2,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "MT Wallet",
+      "version": "1.0.0",
+      "url": "https://multiwallet.m.pro",
+      "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/tokenomic.jpg",
+      "id": "multiwallet.m.pro",
+      "orientation": "portrait",
+      "author": "n/a",
+      "isLocal": false,
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "type": 1,
+      "page": 0,
+      "position": {
+        "x": 1,
+        "y": 2,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "Attendance Tracking",
+      "version": "1.0.0",
+      "hash": "335d3df52df4852c962277ca563e4a7cb67f450a31f9b3fe80543f262bf3f71c",
+      "pubKey": "927c8f340255d5a2d7b839ce4859f7dc33c64e5967fe40dde023c0751a53dff3925eec1eaaeb60f83c203c85e9c5b223",
+      "sign": "a72c0b66b936b36525fdc1f07c94266a8280abd6acb04d1d87477d8ea790c98593084649f5be7fb7653c8ffcc34dd3e5067b2ffac7feaa85e5e574c972b7363dc0ac7df937c82cdce2ccae7cf6c2df265a3e8c9188cda23d872da08a0e2fa5a4",
+      "logo": "https://img.m.pro/attendance_tracking.png",
+      "id": "attendance-tracking.m.pro",
+      "url": "https://t-attendance-tracking.m.pro/",
+      "type": 1,
+      "page": 0,
+      "position": {
+        "x": 2,
+        "y": 2,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "ENS",
+      "version": "1.0.0",
+      "hash": "335d3df52df4852c962277ca563e4a7cb67f450a31f9b3fe80543f262bf3f71c",
+      "pubKey": "927c8f340255d5a2d7b839ce4859f7dc33c64e5967fe40dde023c0751a53dff3925eec1eaaeb60f83c203c85e9c5b223",
+      "sign": "a72c0b66b936b36525fdc1f07c94266a8280abd6acb04d1d87477d8ea790c98593084649f5be7fb7653c8ffcc34dd3e5067b2ffac7feaa85e5e574c972b7363dc0ac7df937c82cdce2ccae7cf6c2df265a3e8c9188cda23d872da08a0e2fa5a4",
+      "logo": "https://img.m.pro/app-logo/ens.png",
+      "id": "ens.m.pro",
+      "url": "https://t-ens.m.pro/index.html",
+      "type": 1,
+      "page": 0,
+      "position": {
+        "x": 3,
+        "y": 2,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "Meta ID",
+      "version": "1.0.0",
+      "url": "https://t-meta-id.m.pro",
+      "logo": "https://img.m.pro/app-logo/meta-id.png",
+      "id": "meta-id.m.pro",
+      "orientation": "portrait",
+      "author": "n/a",
+      "isLocal": false,
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "type": 1,
+      "page": 2,
+      "position": {
+        "x": 0,
+        "y": 3,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "Weather",
+      "version": "0.0.1",
+      "url": "https://img.m.pro/widgets/weather",
+      "logo": "",
+      "id": "weather.frame.m.pro",
+      "orientation": "portrait",
+      "author": "n/a",
+      "isLocal": false,
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "type": 3,
+      "urlScript": "",
+      "page": 1,
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 2,
+        "height": 2
+      }
+    },
+    {
+      "name": "Calculator",
+      "version": "0.0.1",
+      "url": "https://img.m.pro/widgets/calculator",
+      "logo": "",
+      "id": "calculator.m.pro.frame",
+      "orientation": "portrait",
+      "author": "n/a",
+      "isLocal": false,
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "type": 3,
+      "urlScript": "",
+      "page": 1,
+      "position": {
+        "x": 2,
+        "y": 0,
+        "width": 2,
+        "height": 2
+      }
+    },
+    {
+      "name": "Youtube",
+      "version": "0.0.2",
+      "urlWeb": "https://www.youtube.com",
+      "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/youtube.jpg",
+      "id": "youtube.app",
+      "orientation": "portrait",
+      "author": "n/a",
+      "isLocal": false,
+      "full_screen": true,
+      "status_bar": "hide",
+      "type": 1,
+      "urlScript": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/script/main_v2.js",
+      "page": 1,
+      "position": {
+        "x": 0,
+        "y": 2,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "Web3 Space",
+      "version": "0.0.11",
+      "hash": "335d3df52df4852c962277ca563e4a7cb67f450a31f9b3fe80543f262bf3f71c",
+      "pubKey": "927c8f340255d5a2d7b839ce4859f7dc33c64e5967fe40dde023c0751a53dff3925eec1eaaeb60f83c203c85e9c5b223",
+      "sign": "a72c0b66b936b36525fdc1f07c94266a8280abd6acb04d1d87477d8ea790c98593084649f5be7fb7653c8ffcc34dd3e5067b2ffac7feaa85e5e574c972b7363dc0ac7df937c82cdce2ccae7cf6c2df265a3e8c9188cda23d872da08a0e2fa5a4",
+      "logo": "https://metanode.co/images/browser.png",
+      "urlLauchScreen": "",
+      "urlLoadingScreen": "",
+      "urlZip": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/meta_browser/browser_1.0.1.zip?inline=false",
+      "id": "com.web3space.metaword",
+      "orientation": "portrait",
+      "author": "n/a",
+      "full_screen": false,
+      "status_bar": "show",
+      "type": 4,
+      "page": 1,
+      "position": {
+        "x": 1,
+        "y": 2,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "Estimate",
+      "version": "1.0.1",
+      "hash": "335d3df52df4852c962277ca563e4a7cb67f450a31f9b3fe80543f262bf3f71c",
+      "pubKey": "927c8f340255d5a2d7b839ce4859f7dc33c64e5967fe40dde023c0751a53dff3925eec1eaaeb60f83c203c85e9c5b223",
+      "sign": "a72c0b66b936b36525fdc1f07c94266a8280abd6acb04d1d87477d8ea790c98593084649f5be7fb7653c8ffcc34dd3e5067b2ffac7feaa85e5e574c972b7363dc0ac7df937c82cdce2ccae7cf6c2df265a3e8c9188cda23d872da08a0e2fa5a4",
+      "logo": "https://img.m.pro/estimate.png",
+      "id": "t.estimate.m.pro",
+      "url": "https://estimate.m.pro",
+      "type": 1,
+      "page": 1,
+      "position": {
+        "x": 2,
+        "y": 2,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "Reminders",
+      "version": "0.0.1",
+      "url": "https://img.m.pro/widgets/notes",
+      "logo": "https://img.m.pro/tasks.png",
+      "id": "tasks.m.pro",
+      "orientation": "portrait",
+      "author": "n/a",
+      "isLocal": false,
+      "isFullScreen": true,
       "statusBar": "hide",
       "type": 1,
       "urlScript": "",
       "page": 1,
       "position": {
         "x": 3,
-        "y": 3,
+        "y": 2,
         "width": 1,
         "height": 1
       }
@@ -385,7 +373,51 @@
       "urlScript": "",
       "page": 1,
       "position": {
-        "x": 4,
+        "x": 0,
+        "y": 3,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "Music",
+      "version": "0.0.1",
+      "logo": "https://gitlab.com/tranhuy.beearning/upload-d-apps/-/raw/main/metanode_d_apps/public/music-min.jpg",
+      "hash": "335d3df52df4852c962277ca563e4a7cb67f450a31f9b3fe80543f262bf3f71c",
+      "pubKey": "927c8f340255d5a2d7b839ce4859f7dc33c64e5967fe40dde023c0751a53dff3925eec1eaaeb60f83c203c85e9c5b223",
+      "sign": "a72c0b66b936b36525fdc1f07c94266a8280abd6acb04d1d87477d8ea790c98593084649f5be7fb7653c8ffcc34dd3e5067b2ffac7feaa85e5e574c972b7363dc0ac7df937c82cdce2ccae7cf6c2df265a3e8c9188cda23d872da08a0e2fa5a4",
+      "id": "music.app",
+      "orientation": "portrait",
+      "author": "n/a",
+      "isLocal": false,
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "type": 1,
+      "url": "https://music.metanode.co/",
+      "page": 1,
+      "position": {
+        "x": 1,
+        "y": 3,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "Map",
+      "version": "0.0.1",
+      "url": "https://www.google.com/maps/",
+      "logo": "https://img.m.pro/map.png",
+      "id": "map.m.pro",
+      "orientation": "portrait",
+      "author": "n/a",
+      "isLocal": false,
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "type": 1,
+      "urlScript": "",
+      "page": 1,
+      "position": {
+        "x": 2,
         "y": 3,
         "width": 1,
         "height": 1
@@ -395,102 +427,38 @@
       "name": "Telegram",
       "version": "0.0.1",
       "url": "https://web.telegram.org/k/",
-      "logo": "https://img.m.pro/telegram4x3.png",
-      "id": "telegram.m.pro.frame",
+      "logo": "https://img.m.pro/telegram.png",
+      "id": "telegram.m.pro",
       "orientation": "portrait",
       "author": "n/a",
       "isLocal": false,
       "isFullScreen": false,
       "statusBar": "hide",
-      "type": 3,
+      "type": 4,
       "urlScript": "https://img.m.pro/s/telegram.js",
-      "page": 2,
+      "page": 1,
       "position": {
-        "x": 0,
-        "y": 0,
-        "width": 4,
-        "height": 2
-      }
-    },
-    {
-      "name": "Contact",
-      "version": "0.0.1",
-      "url": "https://img.m.pro/widgets/contact/index.html#/",
-      "logo": "https://img.m.pro/contact2x3.png",
-      "id": "contact.m.pro.frame",
-      "orientation": "portrait",
-      "author": "n/a",
-      "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "type": 3,
-      "urlScript": "",
-      "page": 2,
-      "position": {
-        "x": 0,
-        "y": 2,
-        "width": 4,
-        "height": 2
-      }
-    },
-    {
-      "name": "Calculator",
-      "version": "0.0.1",
-      "url": "https://calculator.apps.chrome/",
-      "logo": "https://img.m.pro/calculator.png",
-      "id": "calculator2.m.pro",
-      "orientation": "portrait",
-      "author": "n/a",
-      "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "type": 4,
-      "urlScript": "",
-      "page": 2,
-      "position": {
-        "x": 0,
-        "y": 4,
+        "x": 3,
+        "y": 3,
         "width": 1,
         "height": 1
       }
     },
     {
-      "name": "Calendar",
-      "version": "0.0.1",
-      "url": "https://calendar.google.com/calendar/u/0/r?pli=1",
-      "logo": "https://img.m.pro/calendar.png",
-      "id": "calendar1.m.pro",
+      "name": "Swap",
+      "version": "1.0.0",
+      "url": "http://61.28.238.209:9096/test_swap/index.html",
+      "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/swap.jpg",
+      "id": "testswap.m.pro",
       "orientation": "portrait",
       "author": "n/a",
       "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "type": 4,
-      "urlScript": "",
-      "page": 2,
-      "position": {
-        "x": 1,
-        "y": 4,
-        "width": 1,
-        "height": 1
-      }
-    },
-    {
-      "name": "Reminders",
-      "version": "0.0.1",
-      "url": "https://img.m.pro/widgets/notes",
-      "logo": "https://img.m.pro/tasks.png",
-      "id": "tasks.m.pro",
-      "orientation": "portrait",
-      "author": "n/a",
-      "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
+      "full_screen": true,
+      "status_bar": "hide",
       "type": 1,
-      "urlScript": "",
-      "page": 2,
+      "page": 1,
       "position": {
-        "x": 2,
+        "x": 0,
         "y": 4,
         "width": 1,
         "height": 1
