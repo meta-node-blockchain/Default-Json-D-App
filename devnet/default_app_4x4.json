@@ -1,5 +1,5 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.2",
   "favorites": [
     {
       "name": "Settings",
@@ -355,7 +355,7 @@
       "sign": "a72c0b66b936b36525fdc1f07c94266a8280abd6acb04d1d87477d8ea790c98593084649f5be7fb7653c8ffcc34dd3e5067b2ffac7feaa85e5e574c972b7363dc0ac7df937c82cdce2ccae7cf6c2df265a3e8c9188cda23d872da08a0e2fa5a4",
       "logo": "https://img.m.pro/app-logo/ens.png",
       "id": "ens.m.pro",
-      "url": "https://t-ens.m.pro/index.html",
+      "url": "https://d-ens.m.pro/index.html",
       "type": 1,
       "page": 2,
       "position": {
