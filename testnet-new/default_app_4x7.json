@@ -1,5 +1,5 @@
 {
-  "version": "1.0.3",
+  "version": "1.0.4",
   "favorites": [
     {
       "name": "Settings",
@@ -459,6 +459,26 @@
       "page": 1,
       "position": {
         "x": 0,
+        "y": 4,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "Bùa của Hoàn",
+      "version": "1.0.0",
+      "url": "http://192.168.1.67:8085",
+      "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/swap.jpg",
+      "id": "testswap.m.pro",
+      "orientation": "portrait",
+      "author": "n/a",
+      "isLocal": false,
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "type": 1,
+      "page": 1,
+      "position": {
+        "x": 1,
         "y": 4,
         "width": 1,
         "height": 1
