@@ -1,0 +1,29 @@
+{
+  "version": "1.0.0",
+  "data": {
+    "connectwallet": "https://json.mygvq.org/connectWallet.json",
+    "connectnode": "https://json.mygvq.org/connectNode.json",
+    "metamailbridge": "",
+    "popupwallet": "https://json.mygvq.org/popupWallet.json",
+    "paymentloading": "https://json.mygvq.org/paymentLoading.json",
+    "miniscanqr": "https://json.mygvq.org/miniScanQr.json",
+    "calendar": "https://json.mygvq.org/calendar.json",
+    "spinner": "https://json.mygvq.org/calendar.json",
+    "profile": "https://json.mygvq.org/profile.json",
+    "browsercategory": "https://json.mygvq.org/browserCategory.json",
+    "browserhistory": "https://json.mygvq.org/browserHistory.json",
+    "browsertabs": "https://json.mygvq.org/browserTabs.json",
+    "adddapp": "https://json.mygvq.org/addDApp.json",
+    "addframe": "https://json.mygvq.org/addFrame.json",
+    "creategroup": "https://json.mygvq.org/addGroup.json",
+    "editframe": "https://json.mygvq.org/editFrame.json",
+    "editgroup": "https://json.mygvq.org/editGroup.json",
+    "fullgroup": "https://json.mygvq.org/fullGroup.json",
+    "searchhome": "https://json.mygvq.org/searchHome.json",
+    "launcherpermission": "https://json.mygvq.org/recentApp.json",
+    "chooseapp": "https://json.mygvq.org/chooseApp.json",
+    "noticenter": "https://json.mygvq.org/notiCenter.json",
+    "emventures": "https://json.mygvq.org/emVenture.json",
+    "ekyc": "https://json.mygvq.org/ekyc.json"
+  }
+}
