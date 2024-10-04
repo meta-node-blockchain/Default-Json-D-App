@@ -1,5 +1,5 @@
 {
-  "version": "1.0.3",
+  "version": "1.0.4",
   "favorites": [
     {
       "name": "Settings",
@@ -439,6 +439,26 @@
       "page": 1,
       "position": {
         "x": 2,
+        "y": 3,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "Mining Bùa local",
+      "version": "1.0.0",
+      "url": "http://192.168.1.139:8085/",
+      "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/swap.jpg",
+      "id": "miningbualocal.m.pro",
+      "orientation": "portrait",
+      "author": "n/a",
+      "isLocal": false,
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "type": 1,
+      "page": 1,
+      "position": {
+        "x": 3,
         "y": 3,
         "width": 1,
         "height": 1
