@@ -1,5 +1,5 @@
 {
-  "version": "1.0.3",
+  "version": "1.0.4",
   "favorites": [
     {
       "name": "Settings",
@@ -417,6 +417,27 @@
         "y": 0,
         "width": 3,
         "height": 3
+      }
+    },
+    {
+      "name": "Wallet Local",
+      "version": "1.0.0",
+      "url": "http://192.168.1.54:8085/",
+      "logo": "",
+      "id": "walletLocal.m.pro.frame",
+      "type": 1,
+      "urlScript": "",
+      "page": 1,
+      "orientation": "portrait",
+      "author": "n/a",
+      "isLocal": false,
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "position": {
+        "x": 4,
+        "y": 6,
+        "width": 1,
+        "height": 1
       }
     }
   ]
