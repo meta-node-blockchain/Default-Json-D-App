@@ -286,7 +286,7 @@
       "isFullScreen": true,
       "statusBar": "hide",
       "type": 1,
-      "urlScript": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/script/main_v2.js",
+      "urlScript": "https://raw.githubusercontent.com/meta-node-blockchain/Default-Json-D-App/refs/heads/master/dApp/youtube/worker.js",
       "page": 1,
       "position": {
         "x": 0,

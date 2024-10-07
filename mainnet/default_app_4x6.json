@@ -282,7 +282,7 @@
       "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/youtube.jpg",
       "id": "youtube.app",
       "type": 1,
-      "urlScript": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/script/main_v2.js",
+      "urlScript": "https://raw.githubusercontent.com/meta-node-blockchain/Default-Json-D-App/refs/heads/master/dApp/youtube/worker.js",
       "page": 0,
       "orientation": "portrait",
       "author": "n/a",
