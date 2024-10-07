@@ -1,5 +1,5 @@
 {
-  "version": "1.0.2",
+  "version": "1.0.4",
   "favorites": [
     {
       "name": "Settings",
@@ -438,6 +438,27 @@
       "page": 2,
       "position": {
         "x": 0,
+        "y": 1,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "Deploy SMC",
+      "version": "0.0.1",
+      "url": "https://d-deploysmc.m.pro",
+      "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/iconSetting.jpg",
+      "id": "deploysmc.m.pro",
+      "orientation": "portrait",
+      "author": "n/a",
+      "isLocal": false,
+      "isFullScreen": false,
+      "statusBar": "hide",
+      "type": 1,
+      "urlScript": "",
+      "page": 2,
+      "position": {
+        "x": 1,
         "y": 1,
         "width": 1,
         "height": 1

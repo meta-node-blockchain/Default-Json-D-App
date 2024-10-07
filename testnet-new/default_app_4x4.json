@@ -1,5 +1,5 @@
 {
-  "version": "1.0.6",
+  "version": "1.0.7",
   "favorites": [
     {
       "name": "Settings",
@@ -432,7 +432,7 @@
       "isLocal": false,
       "isFullScreen": false,
       "statusBar": "hide",
-      "type": 4,
+      "type": 1,
       "urlScript": "",
       "page": 1,
       "position": {
