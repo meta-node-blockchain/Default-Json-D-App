@@ -3,7 +3,7 @@
   "data": {
     "connectwallet": "https://json.mygvq.org/connectWallet.json",
     "connectnode": "https://json.mygvq.org/connectNode.json",
-    "metamailbridge": "",
+    "metamailbridge": "https://json.mygvq.org/metaMailBridgeUrl.json",
     "popupwallet": "https://json.mygvq.org/popupWallet.json",
     "paymentloading": "https://json.mygvq.org/paymentLoading.json",
     "miniscanqr": "https://json.mygvq.org/miniScanQr.json",
