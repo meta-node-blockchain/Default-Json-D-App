@@ -1,9 +1,9 @@
 {
-  "version": "1.0.3",
+  "version": "4.0.0",
   "favorites": [
     {
       "name": "Settings",
-      "version": "1.0.0",
+      "version": "4.0.0",
       "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/iconSetting.jpg",
       "id": "setting",
       "url": "",
@@ -24,7 +24,7 @@
     },
     {
       "name": "Wallet",
-      "version": "1.0.0",
+      "version": "4.0.0",
       "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/wallet.png",
       "id": "meta.wallet",
       "url": "",
@@ -45,7 +45,7 @@
     },
     {
       "name": "Mining",
-      "version": "1.0.0",
+      "version": "4.0.0",
       "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/mining.jpg",
       "id": "meta.mining",
       "url": "",
@@ -66,7 +66,7 @@
     },
     {
       "name": "PO5",
-      "version": "1.0.0",
+      "version": "4.0.0",
       "logo": "https://img.m.pro/po5.png",
       "url": "",
       "urlPack": "https://json.m.pro/mainnet/json/po5.json",
@@ -88,7 +88,7 @@
     },
     {
       "name": "Web3 Space",
-      "version": "1.0.0",
+      "version": "4.0.0",
       "logo": "https://metanode.co/images/browser.png",
       "id": "com.web3space.metaword",
       "type": 4,
@@ -107,7 +107,7 @@
     },
     {
       "name": "Estimate",
-      "version": "1.0.0",
+      "version": "4.0.0",
       "logo": "https://img.m.pro/estimate.png",
       "id": "t.estimate.m.pro",
       "url": "https://estimate.m.pro",
@@ -129,7 +129,7 @@
   "apps": [
     {
       "name": "Notes",
-      "version": "1.0.0",
+      "version": "4.0.0",
       "url": "https://img.m.pro/widgets/notes",
       "logo": "",
       "id": "notes.m.pro",
@@ -150,7 +150,7 @@
     },
     {
       "name": "Recording",
-      "version": "1.0.0",
+      "version": "4.0.0",
       "url": "https://img.m.pro/widgets/record/index.html",
       "logo": "",
       "id": "record.m.pro.frame",
@@ -171,7 +171,7 @@
     },
     {
       "name": "Music",
-      "version": "1.0.0",
+      "version": "4.0.0",
       "logo": "https://gitlab.com/tranhuy.beearning/upload-d-apps/-/raw/main/metanode_d_apps/public/music-min.jpg",
       "id": "music.app",
       "type": 1,
@@ -191,7 +191,7 @@
     },
     {
       "name": "Telegram",
-      "version": "1.0.0",
+      "version": "4.0.0",
       "url": "https://web.telegram.org/k/",
       "logo": "https://img.m.pro/telegram.png",
       "id": "telegram.m.pro",
@@ -212,7 +212,7 @@
     },
     {
       "name": "Map",
-      "version": "1.0.0",
+      "version": "4.0.0",
       "url": "https://www.google.com/maps/",
       "logo": "https://img.m.pro/map.png",
       "id": "map.m.pro",
@@ -233,7 +233,7 @@
     },
     {
       "name": "Recording",
-      "version": "1.0.0",
+      "version": "4.0.0",
       "url": "https://img.m.pro/widgets/record/index.html",
       "logo": "https://img.m.pro/record.png",
       "id": "record.m.pro",
@@ -254,7 +254,7 @@
     },
     {
       "name": "ENS",
-      "version": "1.0.0",
+      "version": "4.0.0",
       "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/iconSetting.jpg",
       "id": "ens.m.pro",
       "url": "",
@@ -275,7 +275,7 @@
     },
     {
       "name": "Attendance Tracking",
-      "version": "1.0.0",
+      "version": "4.0.0",
       "logo": "https://img.m.pro/attendance_tracking.png",
       "id": "attendance-tracking.m.pro",
       "url": "",
@@ -296,7 +296,7 @@
     },
     {
       "name": "Meta ID",
-      "version": "1.0.0",
+      "version": "4.0.0",
       "url": "https://m-meta-id.m.pro",
       "logo": "https://img.m.pro/app-logo/meta-id.png",
       "id": "meta-id.m.pro",
@@ -316,7 +316,7 @@
     },
     {
       "name": "Weather",
-      "version": "1.0.0",
+      "version": "4.0.0",
       "url": "https://img.m.pro/widgets/weather",
       "logo": "https://img.m.pro/weather.png",
       "id": "weather.m.pro",
@@ -337,7 +337,7 @@
     },
     {
       "name": "Reminders",
-      "version": "1.0.0",
+      "version": "4.0.0",
       "url": "https://img.m.pro/widgets/notes",
       "logo": "https://img.m.pro/tasks.png",
       "id": "tasks.m.pro",
@@ -358,7 +358,7 @@
     },
     {
       "name": "Youtube",
-      "version": "1.0.0",
+      "version": "4.0.0",
       "url": "https://www.youtube.com",
       "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/youtube.jpg",
       "id": "youtube.app",
@@ -379,7 +379,7 @@
     },
     {
       "name": "Stock",
-      "version": "1.0.0",
+      "version": "4.0.0",
       "logo": "",
       "id": "stock.frame.m.pro",
       "type": 3,
@@ -400,7 +400,7 @@
     },
     {
       "name": "Calculator",
-      "version": "1.0.0",
+      "version": "4.0.0",
       "url": "https://img.m.pro/widgets/calculator",
       "logo": "",
       "id": "calculator.m.pro.frame",
