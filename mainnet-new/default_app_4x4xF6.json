@@ -1,5 +1,5 @@
 {
-  "version": "4.0.0",
+  "version": "10.0.0",
   "favorites": [
     {
       "name": "Settings",
@@ -439,6 +439,28 @@
       "page": 1,
       "position": {
         "x": 2,
+        "y": 3,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "Meta ID",
+      "version": "4.0.0",
+      "url": "",
+      "urlPack": "https://resources.m.pro/json/metaId.json",
+      "logo": "https://img.m.pro/app-logo/meta-id.png",
+      "id": "meta-id.m.pro",
+      "orientation": "portrait",
+      "author": "n/a",
+      "isLocal": false,
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "type": 1,
+      "urlScript": "",
+      "page": 1,
+      "position": {
+        "x": 3,
         "y": 3,
         "width": 1,
         "height": 1
