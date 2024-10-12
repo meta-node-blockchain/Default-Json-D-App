@@ -1,5 +1,5 @@
 {
-  "version": "4.0.2",
+  "version": "4.0.3",
   "favorites": [
     {
       "name": "Settings",
@@ -460,8 +460,8 @@
       "id": "co.chatai.app",
       "orientation": "portrait",
       "author": "n/a",
-      "isLocal": false,
-      "isFullScreen": false,
+      "isLocal": true,
+      "isFullScreen": true,
       "statusBar": "hide",
       "type": 1,
       "urlScript": "",
