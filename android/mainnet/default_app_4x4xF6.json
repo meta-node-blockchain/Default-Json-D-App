@@ -1,9 +1,9 @@
 {
-  "version": "4.0.1",
+  "version": "4.0.2",
   "favorites": [
     {
       "name": "Settings",
-      "version": "4.0.1",
+      "version": "4.0.2",
       "hash": "335d3df52df4852c962277ca563e4a7cb67f450a31f9b3fe80543f262bf3f71c",
       "pubKey": "927c8f340255d5a2d7b839ce4859f7dc33c64e5967fe40dde023c0751a53dff3925eec1eaaeb60f83c203c85e9c5b223",
       "sign": "a72c0b66b936b36525fdc1f07c94266a8280abd6acb04d1d87477d8ea790c98593084649f5be7fb7653c8ffcc34dd3e5067b2ffac7feaa85e5e574c972b7363dc0ac7df937c82cdce2ccae7cf6c2df265a3e8c9188cda23d872da08a0e2fa5a4",
@@ -25,7 +25,7 @@
     },
     {
       "name": "Wallet",
-      "version": "4.0.1",
+      "version": "4.0.2",
       "hash": "335d3df52df4852c962277ca563e4a7cb67f450a31f9b3fe80543f262bf3f71c",
       "pubKey": "927c8f340255d5a2d7b839ce4859f7dc33c64e5967fe40dde023c0751a53dff3925eec1eaaeb60f83c203c85e9c5b223",
       "sign": "a72c0b66b936b36525fdc1f07c94266a8280abd6acb04d1d87477d8ea790c98593084649f5be7fb7653c8ffcc34dd3e5067b2ffac7feaa85e5e574c972b7363dc0ac7df937c82cdce2ccae7cf6c2df265a3e8c9188cda23d872da08a0e2fa5a4",
@@ -48,7 +48,7 @@
     },
     {
       "name": "Mining",
-      "version": "4.0.1",
+      "version": "4.0.2",
       "hash": "335d3df52df4852c962277ca563e4a7cb67f450a31f9b3fe80543f262bf3f71c",
       "pubKey": "927c8f340255d5a2d7b839ce4859f7dc33c64e5967fe40dde023c0751a53dff3925eec1eaaeb60f83c203c85e9c5b223",
       "sign": "a72c0b66b936b36525fdc1f07c94266a8280abd6acb04d1d87477d8ea790c98593084649f5be7fb7653c8ffcc34dd3e5067b2ffac7feaa85e5e574c972b7363dc0ac7df937c82cdce2ccae7cf6c2df265a3e8c9188cda23d872da08a0e2fa5a4",
@@ -74,7 +74,7 @@
       "hash": "335d3df52df4852c962277ca563e4a7cb67f450a31f9b3fe80543f262bf3f71c",
       "pubKey": "927c8f340255d5a2d7b839ce4859f7dc33c64e5967fe40dde023c0751a53dff3925eec1eaaeb60f83c203c85e9c5b223",
       "sign": "a72c0b66b936b36525fdc1f07c94266a8280abd6acb04d1d87477d8ea790c98593084649f5be7fb7653c8ffcc34dd3e5067b2ffac7feaa85e5e574c972b7363dc0ac7df937c82cdce2ccae7cf6c2df265a3e8c9188cda23d872da08a0e2fa5a4",
-      "version": "4.0.1",
+      "version": "4.0.2",
       "logo": "https://img.m.pro/po5.png",
       "id": "po5.m.pro",
       "orientation": "portrait",
@@ -119,7 +119,7 @@
     },
     {
       "name": "ENS",
-      "version": "4.0.1",
+      "version": "4.0.2",
       "hash": "335d3df52df4852c962277ca563e4a7cb67f450a31f9b3fe80543f262bf3f71c",
       "pubKey": "927c8f340255d5a2d7b839ce4859f7dc33c64e5967fe40dde023c0751a53dff3925eec1eaaeb60f83c203c85e9c5b223",
       "sign": "a72c0b66b936b36525fdc1f07c94266a8280abd6acb04d1d87477d8ea790c98593084649f5be7fb7653c8ffcc34dd3e5067b2ffac7feaa85e5e574c972b7363dc0ac7df937c82cdce2ccae7cf6c2df265a3e8c9188cda23d872da08a0e2fa5a4",
@@ -183,7 +183,7 @@
     },
     {
       "name": "POSS",
-      "version": "4.0.1",
+      "version": "4.0.2",
       "url": "https://t-poss.m.pro",
       "logo": "https://img.m.pro/logo-pos.png",
       "id": "poss.m.pro",
@@ -203,7 +203,7 @@
     },
     {
       "name": "MT Wallet",
-      "version": "4.0.1",
+      "version": "4.0.2",
       "url": "https://multiwallet.m.pro",
       "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/tokenomic.jpg",
       "id": "multiwallet.m.pro",
@@ -223,7 +223,7 @@
     },
     {
       "name": "Attendance Tracking",
-      "version": "4.0.1",
+      "version": "4.0.2",
       "hash": "335d3df52df4852c962277ca563e4a7cb67f450a31f9b3fe80543f262bf3f71c",
       "pubKey": "927c8f340255d5a2d7b839ce4859f7dc33c64e5967fe40dde023c0751a53dff3925eec1eaaeb60f83c203c85e9c5b223",
       "sign": "a72c0b66b936b36525fdc1f07c94266a8280abd6acb04d1d87477d8ea790c98593084649f5be7fb7653c8ffcc34dd3e5067b2ffac7feaa85e5e574c972b7363dc0ac7df937c82cdce2ccae7cf6c2df265a3e8c9188cda23d872da08a0e2fa5a4",
@@ -241,7 +241,7 @@
     },
     {
       "name": "Meta ID",
-      "version": "4.0.1",
+      "version": "4.0.2",
       "url": "",
       "urlPack": "https://resources.m.pro/json/metaId.json",
       "logo": "https://img.m.pro/app-logo/meta-id.png",
@@ -328,7 +328,7 @@
     },
     {
       "name": "Estimate",
-      "version": "4.0.1",
+      "version": "4.0.2",
       "hash": "335d3df52df4852c962277ca563e4a7cb67f450a31f9b3fe80543f262bf3f71c",
       "pubKey": "927c8f340255d5a2d7b839ce4859f7dc33c64e5967fe40dde023c0751a53dff3925eec1eaaeb60f83c203c85e9c5b223",
       "sign": "a72c0b66b936b36525fdc1f07c94266a8280abd6acb04d1d87477d8ea790c98593084649f5be7fb7653c8ffcc34dd3e5067b2ffac7feaa85e5e574c972b7363dc0ac7df937c82cdce2ccae7cf6c2df265a3e8c9188cda23d872da08a0e2fa5a4",
@@ -390,7 +390,7 @@
     },
     {
       "name": "Swap",
-      "version": "4.0.1",
+      "version": "4.0.2",
       "url": "http://61.28.238.209:9096/test_swap/index.html",
       "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/swap.jpg",
       "id": "testswap.m.pro",
@@ -445,6 +445,28 @@
       "page": 1,
       "position": {
         "x": 2,
+        "y": 3,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "Ai Chat",
+      "version": "0.0.1",
+      "url": "",
+      "urlPack": "https://resources.m.pro/json/aiChat.json",
+      "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/iconSetting.jpg",
+      "id": "co.chatai.app",
+      "orientation": "portrait",
+      "author": "n/a",
+      "isLocal": false,
+      "isFullScreen": false,
+      "statusBar": "hide",
+      "type": 1,
+      "urlScript": "",
+      "page": 1,
+      "position": {
+        "x": 3,
         "y": 3,
         "width": 1,
         "height": 1
