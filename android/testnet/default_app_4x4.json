@@ -1,5 +1,5 @@
 {
-  "version": "4.0.0",
+  "version": "4.0.1",
   "favorites": [
     {
       "name": "Settings",
@@ -142,7 +142,7 @@
     },
     {
       "name": "POSS",
-      "version": "4.0.0",
+      "version": "4.0.1",
       "url": "https://t-poss.m.pro",
       "logo": "https://img.m.pro/logo-pos.png",
       "id": "poss.m.pro",
@@ -162,7 +162,7 @@
     },
     {
       "name": "MT Wallet",
-      "version": "4.0.0",
+      "version": "4.0.1",
       "url": "https://multiwallet.m.pro",
       "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/tokenomic.jpg",
       "id": "multiwallet.m.pro",
@@ -182,7 +182,7 @@
     },
     {
       "name": "Attendance Tracking",
-      "version": "4.0.0",
+      "version": "4.0.1",
       "hash": "335d3df52df4852c962277ca563e4a7cb67f450a31f9b3fe80543f262bf3f71c",
       "pubKey": "927c8f340255d5a2d7b839ce4859f7dc33c64e5967fe40dde023c0751a53dff3925eec1eaaeb60f83c203c85e9c5b223",
       "sign": "a72c0b66b936b36525fdc1f07c94266a8280abd6acb04d1d87477d8ea790c98593084649f5be7fb7653c8ffcc34dd3e5067b2ffac7feaa85e5e574c972b7363dc0ac7df937c82cdce2ccae7cf6c2df265a3e8c9188cda23d872da08a0e2fa5a4",
@@ -200,7 +200,7 @@
     },
     {
       "name": "ENS",
-      "version": "4.0.0",
+      "version": "4.0.1",
       "hash": "335d3df52df4852c962277ca563e4a7cb67f450a31f9b3fe80543f262bf3f71c",
       "pubKey": "927c8f340255d5a2d7b839ce4859f7dc33c64e5967fe40dde023c0751a53dff3925eec1eaaeb60f83c203c85e9c5b223",
       "sign": "a72c0b66b936b36525fdc1f07c94266a8280abd6acb04d1d87477d8ea790c98593084649f5be7fb7653c8ffcc34dd3e5067b2ffac7feaa85e5e574c972b7363dc0ac7df937c82cdce2ccae7cf6c2df265a3e8c9188cda23d872da08a0e2fa5a4",
@@ -369,7 +369,7 @@
     },
     {
       "name": "Swap",
-      "version": "4.0.0",
+      "version": "4.0.1",
       "url": "http://61.28.238.209:9096/test_swap/index.html",
       "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/swap.jpg",
       "id": "testswap.m.pro",
@@ -389,8 +389,9 @@
     },
     {
       "name": "Meta ID",
-      "version": "4.0.0",
-      "url": "https://t-meta-id.m.pro",
+      "version": "4.0.1",
+      "url": "",
+      "urlPack": "https://resources.m.pro/json/meta-id.json",
       "logo": "https://img.m.pro/app-logo/meta-id.png",
       "id": "meta-id.m.pro",
       "orientation": "portrait",
