@@ -391,7 +391,7 @@
       "name": "Meta ID",
       "version": "4.0.1",
       "url": "",
-      "urlPack": "https://resources.m.pro/json/meta-id.json",
+      "urlPack": "https://resources.m.pro/json/metaId.json",
       "logo": "https://img.m.pro/app-logo/meta-id.png",
       "id": "meta-id.m.pro",
       "orientation": "portrait",
