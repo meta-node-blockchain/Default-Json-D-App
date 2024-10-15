@@ -13,7 +13,7 @@
       "statusBar": "hide",
       "isLocal": true,
       "url": "",
-      "urlPack": "https://resources.ibe.app/json/setting.json",
+      "urlPack": "https://test-resources.mygvq.org/json/setting.json",
       "type": 1,
       "page": 0,
       "position": {
@@ -44,7 +44,7 @@
         "height": 1
       },
       "url": "",
-      "urlPack": "https://resources.ibe.app/json/wallet.json"
+      "urlPack": "https://test-resources.mygvq.org/json/wallet.json"
     },
     {
       "name": "Mining",
@@ -67,7 +67,7 @@
         "height": 1
       },
       "url": "",
-      "urlPack": "https://resources.ibe.app/json/mining.json"
+      "urlPack": "https://test-resources.mygvq.org/json/mining.json"
     },
     {
       "name": "PO5",
@@ -86,7 +86,7 @@
       "urlScript": "",
       "page": 0,
       "url": "",
-      "urlPack": "https://resources.ibe.app/json/po5.json",
+      "urlPack": "https://test-resources.mygvq.org/json/po5.json",
       "position": {
         "x": 3,
         "y": 0,
