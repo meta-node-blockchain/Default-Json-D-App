@@ -1,5 +1,5 @@
 {
-  "version": "5.0.0",
+  "version": "5.0.1",
   "favorites": [
     {
       "name": "Settings",
@@ -96,6 +96,7 @@
       "name": "POSS",
       "version": "4.0.2",
       "url": "https://t-poss.m.pro",
+      "urlPack": "https://test-resources.mygvq.org/json/poss.json",
       "logo": "https://img.m.pro/logo-pos.png",
       "id": "poss.m.pro",
       "orientation": "portrait",
