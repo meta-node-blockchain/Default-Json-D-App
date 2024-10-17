@@ -1,5 +1,5 @@
 {
-  "version": "4.0.2",
+  "version": "4.0.3",
   "favorites": [
     {
       "name": "Settings",
@@ -446,6 +446,28 @@
       "page": 1,
       "position": {
         "x": 0,
+        "y": 4,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "SMC Demo",
+      "version": "0.0.1",
+      "url": "",
+      "urlPack": "https://test-resources.mygvq.org/json/smc-demo.json",
+      "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/iconSetting.jpg",
+      "id": "co.smcdemo.app",
+      "orientation": "portrait",
+      "author": "n/a",
+      "isLocal": true,
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "type": 1,
+      "urlScript": "",
+      "page": 1,
+      "position": {
+        "x": 1,
         "y": 4,
         "width": 1,
         "height": 1
