@@ -1,5 +1,5 @@
 {
-  "version": "5.0.3",
+  "version": "5.0.4",
   "favorites": [
     {
       "name": "Settings",
@@ -392,7 +392,7 @@
       "name": "Meta ID",
       "version": "4.0.2",
       "url": "",
-      "urlPack": "https://resources.m.pro/json/metaId.json",
+      "urlPack": "https://test-resources.mygvq.org/json/meta-id.json",
       "logo": "https://img.m.pro/app-logo/meta-id.png",
       "id": "meta-id.m.pro",
       "orientation": "portrait",
