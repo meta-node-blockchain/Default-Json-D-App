@@ -1,5 +1,5 @@
 {
-  "version": "10.0.13",
+  "version": "11.0.0",
   "favorites": [
     {
       "name": "Settings",
@@ -244,6 +244,29 @@
       "urlScript": "",
       "page": 0,
       "url": "https://n-po5.m.pro",
+      "position": {
+        "x": 2,
+        "y": 4,
+        "width": 1,
+        "height": 1
+      }
+    },
+
+    {
+      "name": "Youtube",
+      "version": "1.0.0",
+      "url": "https://www.youtube.com",
+      "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/youtube.jpg",
+      "id": "youtube.app",
+      "orientation": "portrait",
+      "author": "n/a",
+      "isLocal": false,
+      "isFullScreen": false,
+      "isAutoScript": true,
+      "statusBar": "hide",
+      "type": 1,
+      "urlScript": "https://raw.githubusercontent.com/meta-node-blockchain/Default-Json-D-App/refs/heads/master/dApp/youtube/worker.js",
+      "page": 0,
       "position": {
         "x": 2,
         "y": 4,

@@ -1,5 +1,5 @@
 {
-  "version": "4.0.8",
+  "version": "11.0.0",
   "favorites": [
     {
       "name": "Settings",
@@ -271,8 +271,9 @@
       "orientation": "portrait",
       "author": "n/a",
       "isLocal": false,
-      "isFullScreen": true,
+      "isFullScreen": false,
       "statusBar": "hide",
+      "isAutoScript": true,
       "type": 1,
       "urlScript": "https://raw.githubusercontent.com/meta-node-blockchain/Default-Json-D-App/refs/heads/master/dApp/youtube/worker.js",
       "page": 1,
