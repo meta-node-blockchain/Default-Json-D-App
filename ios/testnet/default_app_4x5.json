@@ -1,5 +1,5 @@
 {
-  "version": "4.0.5",
+  "version": "4.0.6",
   "favorites": [
     {
       "name": "Settings",
@@ -371,7 +371,8 @@
     {
       "name": "Swap",
       "version": "4.0.0",
-      "url": "http://61.28.238.209:9096/test_swap/index.html",
+      "url": "",
+      "urlPack": "https://test-resources.mygvq.org/json/swap-token.json",
       "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/swap.jpg",
       "id": "testswap.m.pro",
       "orientation": "portrait",
@@ -434,7 +435,8 @@
     {
       "name": "Deploy SMC",
       "version": "0.0.1",
-      "url": "https://t-deploysmc.m.pro",
+      "url": "",
+      "urlPack": "https://test-resources.mygvq.org/json/deploy-smc.json",
       "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/iconSetting.jpg",
       "id": "deploysmc.m.pro",
       "orientation": "portrait",
