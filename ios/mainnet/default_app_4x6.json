@@ -1,5 +1,5 @@
 {
-  "version": "11.0.1",
+  "version": "11.0.2",
   "favorites": [
     {
       "name": "Settings",
@@ -652,7 +652,8 @@
     {
       "name": "Attendance tracking",
       "version": "1.0.0",
-      "url": "https://attendance_tracking.m.pro/",
+      "url": "",
+      "urlPack": "https://resources.m.pro/json/attendance.json",
       "logo": "https://img.m.pro/attendance_tracking.png",
       "id": "attendance_tracking.m.pro",
       "orientation": "portrait",
