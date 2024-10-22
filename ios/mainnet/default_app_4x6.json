@@ -1,9 +1,9 @@
 {
-  "version": "11.0.0",
+  "version": "11.0.1",
   "favorites": [
     {
       "name": "Settings",
-      "version": "4.0.1",
+      "version": "4.0.2",
       "hash": "335d3df52df4852c962277ca563e4a7cb67f450a31f9b3fe80543f262bf3f71c",
       "pubKey": "927c8f340255d5a2d7b839ce4859f7dc33c64e5967fe40dde023c0751a53dff3925eec1eaaeb60f83c203c85e9c5b223",
       "sign": "a72c0b66b936b36525fdc1f07c94266a8280abd6acb04d1d87477d8ea790c98593084649f5be7fb7653c8ffcc34dd3e5067b2ffac7feaa85e5e574c972b7363dc0ac7df937c82cdce2ccae7cf6c2df265a3e8c9188cda23d872da08a0e2fa5a4",
@@ -25,7 +25,7 @@
     },
     {
       "name": "Wallet",
-      "version": "4.0.1",
+      "version": "4.0.2",
       "hash": "335d3df52df4852c962277ca563e4a7cb67f450a31f9b3fe80543f262bf3f71c",
       "pubKey": "927c8f340255d5a2d7b839ce4859f7dc33c64e5967fe40dde023c0751a53dff3925eec1eaaeb60f83c203c85e9c5b223",
       "sign": "a72c0b66b936b36525fdc1f07c94266a8280abd6acb04d1d87477d8ea790c98593084649f5be7fb7653c8ffcc34dd3e5067b2ffac7feaa85e5e574c972b7363dc0ac7df937c82cdce2ccae7cf6c2df265a3e8c9188cda23d872da08a0e2fa5a4",
@@ -48,7 +48,7 @@
     },
     {
       "name": "Mining",
-      "version": "4.0.1",
+      "version": "4.0.2",
       "hash": "335d3df52df4852c962277ca563e4a7cb67f450a31f9b3fe80543f262bf3f71c",
       "pubKey": "927c8f340255d5a2d7b839ce4859f7dc33c64e5967fe40dde023c0751a53dff3925eec1eaaeb60f83c203c85e9c5b223",
       "sign": "a72c0b66b936b36525fdc1f07c94266a8280abd6acb04d1d87477d8ea790c98593084649f5be7fb7653c8ffcc34dd3e5067b2ffac7feaa85e5e574c972b7363dc0ac7df937c82cdce2ccae7cf6c2df265a3e8c9188cda23d872da08a0e2fa5a4",
@@ -74,7 +74,7 @@
       "hash": "335d3df52df4852c962277ca563e4a7cb67f450a31f9b3fe80543f262bf3f71c",
       "pubKey": "927c8f340255d5a2d7b839ce4859f7dc33c64e5967fe40dde023c0751a53dff3925eec1eaaeb60f83c203c85e9c5b223",
       "sign": "a72c0b66b936b36525fdc1f07c94266a8280abd6acb04d1d87477d8ea790c98593084649f5be7fb7653c8ffcc34dd3e5067b2ffac7feaa85e5e574c972b7363dc0ac7df937c82cdce2ccae7cf6c2df265a3e8c9188cda23d872da08a0e2fa5a4",
-      "version": "4.0.1",
+      "version": "4.0.2",
       "logo": "https://img.m.pro/po5.png",
       "id": "po5.m.pro",
       "orientation": "portrait",
@@ -100,9 +100,9 @@
       "name": "Weather",
       "version": "0.0.1",
       "url": "",
-      "logo": "",
       "urlPack": "https://resources.m.pro/frame/json/weather.json",
-      "id": "weather.m.pro.frame",
+      "logo": "",
+      "id": "weather.frame.m.pro",
       "orientation": "portrait",
       "author": "n/a",
       "isLocal": false,
@@ -119,44 +119,21 @@
       }
     },
     {
-      "name": "Contact",
-      "version": "0.0.1",
-      "url": "",
-      "logo": "",
-      "urlPack": "https://resources.m.pro/frame/json/notes.json",
-      "id": "contact.m.pro.frame",
-      "orientation": "portrait",
-      "author": "n/a",
-      "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "type": 3,
-      "urlScript": "",
-      "page": 0,
-      "position": {
-        "x": 0,
-        "y": 2,
-        "width": 2,
-        "height": 4
-      }
-    },
-    {
       "name": "Calendar",
       "version": "0.0.1",
-      "url": "",
+      "url": "https://calendar.google.com/calendar/u/0/r?pli=1",
       "logo": "https://img.m.pro/calendar.png",
-      "urlPack": "https://resources.m.pro/frame/json/calendar.json",
       "id": "calendar.m.pro",
       "orientation": "portrait",
       "author": "n/a",
       "isLocal": false,
       "isFullScreen": true,
       "statusBar": "hide",
-      "type": 1,
+      "type": 4,
       "urlScript": "",
       "page": 0,
       "position": {
-        "x": 2,
+        "x": 0,
         "y": 2,
         "width": 1,
         "height": 1
@@ -178,7 +155,7 @@
       "urlScript": "",
       "page": 0,
       "position": {
-        "x": 3,
+        "x": 1,
         "y": 2,
         "width": 1,
         "height": 1
@@ -200,7 +177,7 @@
       "page": 0,
       "position": {
         "x": 2,
-        "y": 3,
+        "y": 2,
         "width": 1,
         "height": 1
       }
@@ -209,7 +186,7 @@
       "name": "Reminders",
       "version": "0.0.1",
       "url": "",
-      "urlPack": "https://resources.m.pro/frame/json/notes.json",
+      "urlPack": "https://resources.m.pro/frame/json/tasks.json",
       "logo": "https://img.m.pro/tasks.png",
       "id": "tasks.m.pro",
       "orientation": "portrait",
@@ -222,141 +199,33 @@
       "page": 0,
       "position": {
         "x": 3,
+        "y": 2,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "Web3 Space",
+      "version": "0.0.11",
+      "hash": "335d3df52df4852c962277ca563e4a7cb67f450a31f9b3fe80543f262bf3f71c",
+      "pubKey": "927c8f340255d5a2d7b839ce4859f7dc33c64e5967fe40dde023c0751a53dff3925eec1eaaeb60f83c203c85e9c5b223",
+      "sign": "a72c0b66b936b36525fdc1f07c94266a8280abd6acb04d1d87477d8ea790c98593084649f5be7fb7653c8ffcc34dd3e5067b2ffac7feaa85e5e574c972b7363dc0ac7df937c82cdce2ccae7cf6c2df265a3e8c9188cda23d872da08a0e2fa5a4",
+      "logo": "https://metanode.co/images/browser.png",
+      "urlLauchScreen": "",
+      "urlLoadingScreen": "",
+      "urlZip": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/meta_browser/browser_1.0.1.zip?inline=false",
+      "id": "com.web3space.metaword",
+      "orientation": "portrait",
+      "author": "Metanode.INC",
+      "isFullScreen": false,
+      "statusBar": "show",
+      "type": 4,
+      "page": 0,
+      "position": {
+        "x": 0,
         "y": 3,
         "width": 1,
         "height": 1
-      }
-    },
-    {
-      "name": "Power5",
-      "hash": "335d3df52df4852c962277ca563e4a7cb67f450a31f9b3fe80543f262bf3f71c",
-      "pubKey": "927c8f340255d5a2d7b839ce4859f7dc33c64e5967fe40dde023c0751a53dff3925eec1eaaeb60f83c203c85e9c5b223",
-      "sign": "a72c0b66b936b36525fdc1f07c94266a8280abd6acb04d1d87477d8ea790c98593084649f5be7fb7653c8ffcc34dd3e5067b2ffac7feaa85e5e574c972b7363dc0ac7df937c82cdce2ccae7cf6c2df265a3e8c9188cda23d872da08a0e2fa5a4",
-      "version": "1.0.0",
-      "logo": "https://img.m.pro/logo-po5.png",
-      "id": "po5.m.pro",
-      "orientation": "portrait",
-      "author": "n/a",
-      "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "type": 1,
-      "urlScript": "",
-      "page": 0,
-      "url": "https://n-po5.m.pro",
-      "position": {
-        "x": 2,
-        "y": 4,
-        "width": 1,
-        "height": 1
-      }
-    },
-    {
-      "name": "Youtube",
-      "version": "1.0.0",
-      "url": "https://www.youtube.com",
-      "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/youtube.jpg",
-      "id": "youtube.app",
-      "orientation": "portrait",
-      "author": "n/a",
-      "isLocal": false,
-      "isFullScreen": false,
-      "isAutoScript": true,
-      "statusBar": "hide",
-      "type": 1,
-      "urlScript": "https://raw.githubusercontent.com/meta-node-blockchain/Default-Json-D-App/refs/heads/master/dApp/youtube/worker.js",
-      "page": 0,
-      "position": {
-        "x": 2,
-        "y": 4,
-        "width": 1,
-        "height": 1
-      }
-    },
-    {
-      "name": "Clock",
-      "version": "0.0.1",
-      "logo": "https://gitlab.com/tranhuy.beearning/upload-d-apps/-/raw/main/metanode_d_apps/public/Clock.jpg",
-      "hash": "335d3df52df4852c962277ca563e4a7cb67f450a31f9b3fe80543f262bf3f71c",
-      "pubKey": "927c8f340255d5a2d7b839ce4859f7dc33c64e5967fe40dde023c0751a53dff3925eec1eaaeb60f83c203c85e9c5b223",
-      "sign": "a72c0b66b936b36525fdc1f07c94266a8280abd6acb04d1d87477d8ea790c98593084649f5be7fb7653c8ffcc34dd3e5067b2ffac7feaa85e5e574c972b7363dc0ac7df937c82cdce2ccae7cf6c2df265a3e8c9188cda23d872da08a0e2fa5a4",
-      "id": "clock.app1",
-      "orientation": "portrait",
-      "author": "n/a",
-      "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "type": 1,
-      "url": "https://os-clock.web.app/",
-      "page": 0,
-      "position": {
-        "x": 3,
-        "y": 4,
-        "width": 1,
-        "height": 1
-      }
-    },
-    {
-      "name": "MePower",
-      "version": "1.0.0",
-      "url": "https://mepower.m.pro",
-      "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/me_power.png",
-      "id": "web.me.power",
-      "orientation": "portrait",
-      "author": "n/a",
-      "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "type": 1,
-      "page": 0,
-      "position": {
-        "x": 3,
-        "y": 5,
-        "width": 1,
-        "height": 1
-      }
-    },
-    {
-      "name": "Calendar",
-      "version": "0.0.1",
-      "url": "https://img.m.pro/widgets/calendar",
-      "logo": "https://img.m.pro/calendar.png",
-      "id": "calendar.m.pro.frame",
-      "orientation": "portrait",
-      "author": "n/a",
-      "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "type": 3,
-      "urlScript": "",
-      "page": 1,
-      "position": {
-        "x": 2,
-        "y": 0,
-        "width": 2,
-        "height": 2
-      }
-    },
-    {
-      "name": "Notes",
-      "version": "0.0.1",
-      "url": "",
-      "urlPack": "https://resources.m.pro/frame/json/notes.json",
-      "logo": "",
-      "id": "notes.m.pro.frame",
-      "orientation": "portrait",
-      "author": "n/a",
-      "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "type": 3,
-      "urlScript": "",
-      "page": 1,
-      "position": {
-        "x": 2,
-        "y": 2,
-        "width": 2,
-        "height": 2
       }
     },
     {
@@ -372,10 +241,10 @@
       "statusBar": "hide",
       "type": 4,
       "urlScript": "",
-      "page": 1,
+      "page": 0,
       "position": {
-        "x": 0,
-        "y": 0,
+        "x": 1,
+        "y": 3,
         "width": 1,
         "height": 1
       }
@@ -393,10 +262,10 @@
       "statusBar": "hide",
       "type": 4,
       "urlScript": "",
-      "page": 1,
+      "page": 0,
       "position": {
-        "x": 1,
-        "y": 0,
+        "x": 2,
+        "y": 3,
         "width": 1,
         "height": 1
       }
@@ -414,12 +283,34 @@
       "statusBar": "hide",
       "type": 4,
       "urlScript": "",
+      "page": 0,
+      "position": {
+        "x": 3,
+        "y": 3,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "Notes",
+      "version": "0.0.1",
+      "url": "",
+      "urlPack": "https://resources.m.pro/frame/json/notes.json",
+      "logo": "",
+      "id": "notes.m.pro",
+      "orientation": "portrait",
+      "author": "n/a",
+      "isLocal": false,
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "type": 3,
+      "urlScript": "",
       "page": 1,
       "position": {
         "x": 0,
-        "y": 1,
-        "width": 1,
-        "height": 1
+        "y": 0,
+        "width": 4,
+        "height": 2
       }
     },
     {
@@ -437,8 +328,8 @@
       "urlScript": "https://img.m.pro/s/news.js",
       "page": 1,
       "position": {
-        "x": 1,
-        "y": 1,
+        "x": 0,
+        "y": 2,
         "width": 1,
         "height": 1
       }
@@ -458,7 +349,7 @@
       "urlScript": "",
       "page": 1,
       "position": {
-        "x": 0,
+        "x": 1,
         "y": 2,
         "width": 1,
         "height": 1
@@ -479,7 +370,7 @@
       "urlScript": "",
       "page": 1,
       "position": {
-        "x": 1,
+        "x": 2,
         "y": 2,
         "width": 1,
         "height": 1
@@ -488,10 +379,9 @@
     {
       "name": "Notes",
       "version": "0.0.1",
-      "url": "",
-      "urlPack": "https://resources.m.pro/frame/json/notes.json",
+      "url": "https://img.m.pro/widgets/Notes",
       "logo": "https://img.m.pro/notes.png",
-      "id": "notes.m.pro",
+      "id": "notes.app.m.pro",
       "orientation": "portrait",
       "author": "n/a",
       "isLocal": false,
@@ -501,8 +391,8 @@
       "urlScript": "",
       "page": 1,
       "position": {
-        "x": 0,
-        "y": 3,
+        "x": 3,
+        "y": 2,
         "width": 1,
         "height": 1
       }
@@ -522,7 +412,7 @@
       "urlScript": "",
       "page": 1,
       "position": {
-        "x": 1,
+        "x": 0,
         "y": 3,
         "width": 1,
         "height": 1
@@ -543,8 +433,8 @@
       "urlScript": "https://img.m.pro/s/telegram.js",
       "page": 1,
       "position": {
-        "x": 0,
-        "y": 4,
+        "x": 1,
+        "y": 3,
         "width": 1,
         "height": 1
       }
@@ -564,8 +454,8 @@
       "urlScript": "",
       "page": 1,
       "position": {
-        "x": 1,
-        "y": 4,
+        "x": 2,
+        "y": 3,
         "width": 1,
         "height": 1
       }
@@ -585,10 +475,31 @@
       "urlScript": "",
       "page": 1,
       "position": {
-        "x": 2,
-        "y": 4,
+        "x": 3,
+        "y": 3,
         "width": 1,
         "height": 1
+      }
+    },
+    {
+      "name": "Map",
+      "version": "0.0.1",
+      "url": "https://www.google.com/maps/",
+      "logo": "h",
+      "id": "map.m.pro.frame",
+      "orientation": "portrait",
+      "author": "n/a",
+      "isLocal": false,
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "type": 3,
+      "urlScript": "https://resources.m.pro/script/frame/map.js",
+      "page": 2,
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 4,
+        "height": 2
       }
     },
     {
@@ -604,10 +515,10 @@
       "statusBar": "hide",
       "type": 4,
       "urlScript": "",
-      "page": 1,
+      "page": 2,
       "position": {
-        "x": 3,
-        "y": 4,
+        "x": 0,
+        "y": 2,
         "width": 1,
         "height": 1
       }
@@ -624,10 +535,10 @@
       "isFullScreen": false,
       "statusBar": "hide",
       "type": 4,
-      "page": 1,
+      "page": 2,
       "position": {
-        "x": 0,
-        "y": 5,
+        "x": 1,
+        "y": 2,
         "width": 1,
         "height": 1
       }
@@ -645,31 +556,32 @@
       "statusBar": "hide",
       "type": 4,
       "urlScript": "",
-      "page": 1,
+      "page": 2,
       "position": {
-        "x": 1,
-        "y": 5,
+        "x": 2,
+        "y": 2,
         "width": 1,
         "height": 1
       }
     },
     {
-      "name": "Wechat",
-      "version": "0.0.1",
-      "url": "https://www.wechat.com/",
-      "logo": "https://img.m.pro/wechat.png",
-      "id": "wechat.m.pro",
+      "name": "Youtube",
+      "version": "0.0.2",
+      "url": "https://www.youtube.com",
+      "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/youtube.jpg",
+      "id": "youtube.app",
       "orientation": "portrait",
       "author": "n/a",
       "isLocal": false,
       "isFullScreen": false,
       "statusBar": "hide",
-      "type": 4,
-      "urlScript": "",
-      "page": 1,
+      "isAutoScript": true,
+      "type": 1,
+      "urlScript": "https://raw.githubusercontent.com/meta-node-blockchain/Default-Json-D-App/refs/heads/master/dApp/youtube/worker.js",
+      "page": 2,
       "position": {
-        "x": 2,
-        "y": 5,
+        "x": 3,
+        "y": 2,
         "width": 1,
         "height": 1
       }
@@ -687,58 +599,12 @@
       "statusBar": "hide",
       "type": 4,
       "urlScript": "",
-      "page": 1,
+      "page": 2,
       "position": {
-        "x": 3,
-        "y": 5,
+        "x": 0,
+        "y": 3,
         "width": 1,
         "height": 1
-      }
-    },
-    {
-      "name": "Map",
-      "version": "0.0.1",
-      "url": "https://www.google.com/maps/",
-      "urlPack": "",
-      "urlScript": "https://resources.m.pro/script/frame/map.js",
-      "logo": "",
-      "id": "finance.m.pro.frame",
-      "orientation": "portrait",
-      "author": "n/a",
-      "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "type": 3,
-      "page": 2,
-      "position": {
-        "x": 0,
-        "y": 0,
-        "width": 4,
-        "height": 2
-      }
-    },
-    {
-      "name": "Youtube short",
-      "hash": "335d3df52df4852c962277ca563e4a7cb67f450a31f9b3fe80543f262bf3f71c",
-      "pubKey": "927c8f340255d5a2d7b839ce4859f7dc33c64e5967fe40dde023c0751a53dff3925eec1eaaeb60f83c203c85e9c5b223",
-      "sign": "a72c0b66b936b36525fdc1f07c94266a8280abd6acb04d1d87477d8ea790c98593084649f5be7fb7653c8ffcc34dd3e5067b2ffac7feaa85e5e574c972b7363dc0ac7df937c82cdce2ccae7cf6c2df265a3e8c9188cda23d872da08a0e2fa5a4",
-      "version": "0.0.1",
-      "logo": "",
-      "id": "youtube_short.app",
-      "orientation": "portrait",
-      "author": "n/a",
-      "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "type": 3,
-      "urlScript": "",
-      "page": 2,
-      "url": "https://m.youtube.com/shorts/",
-      "position": {
-        "x": 0,
-        "y": 2,
-        "width": 4,
-        "height": 4
       }
     },
     {
@@ -754,10 +620,10 @@
       "statusBar": "hide",
       "type": 1,
       "urlScript": "",
-      "page": 4,
+      "page": 2,
       "position": {
-        "x": 0,
-        "y": 0,
+        "x": 1,
+        "y": 3,
         "width": 1,
         "height": 1
       }
@@ -775,10 +641,10 @@
       "statusBar": "hide",
       "type": 1,
       "urlScript": "",
-      "page": 4,
+      "page": 2,
       "position": {
-        "x": 1,
-        "y": 0,
+        "x": 2,
+        "y": 3,
         "width": 1,
         "height": 1
       }
@@ -786,8 +652,7 @@
     {
       "name": "Attendance tracking",
       "version": "1.0.0",
-      "url": "",
-      "urlPack": "https://resources.m.pro/json/attendance.json",
+      "url": "https://attendance_tracking.m.pro/",
       "logo": "https://img.m.pro/attendance_tracking.png",
       "id": "attendance_tracking.m.pro",
       "orientation": "portrait",
@@ -797,12 +662,36 @@
       "statusBar": "hide",
       "type": 1,
       "urlScript": "",
-      "page": 4,
+      "page": 2,
       "position": {
-        "x": 2,
-        "y": 0,
+        "x": 3,
+        "y": 3,
         "width": 1,
         "height": 1
+      }
+    },
+    {
+      "name": "Youtube short",
+      "hash": "335d3df52df4852c962277ca563e4a7cb67f450a31f9b3fe80543f262bf3f71c",
+      "pubKey": "927c8f340255d5a2d7b839ce4859f7dc33c64e5967fe40dde023c0751a53dff3925eec1eaaeb60f83c203c85e9c5b223",
+      "sign": "a72c0b66b936b36525fdc1f07c94266a8280abd6acb04d1d87477d8ea790c98593084649f5be7fb7653c8ffcc34dd3e5067b2ffac7feaa85e5e574c972b7363dc0ac7df937c82cdce2ccae7cf6c2df265a3e8c9188cda23d872da08a0e2fa5a4",
+      "version": "0.0.1",
+      "logo": "",
+      "id": "youtube_short.app",
+      "orientation": "portrait",
+      "author": "n/a",
+      "isLocal": false,
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "type": 3,
+      "urlScript": "",
+      "page": 3,
+      "url": "https://m.youtube.com/shorts/",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 4,
+        "height": 4
       }
     }
   ]
