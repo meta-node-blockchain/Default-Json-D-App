@@ -142,8 +142,9 @@
     },
     {
       "name": "POSS",
-      "version": "1.0.0",
-      "url": "https://t-poss.m.pro",
+      "version": "4.0.0",
+      "url": "",
+      "urlPack": "https://resources.mygvq.org/json/poss.json",
       "logo": "https://img.m.pro/logo-pos.png",
       "id": "poss.m.pro",
       "orientation": "portrait",
@@ -162,7 +163,7 @@
     },
     {
       "name": "MT Wallet",
-      "version": "1.0.0",
+      "version": "4.0.0",
       "url": "https://multiwallet.m.pro",
       "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/tokenomic.jpg",
       "id": "multiwallet.m.pro",
@@ -182,13 +183,14 @@
     },
     {
       "name": "Attendance Tracking",
-      "version": "1.0.0",
+      "version": "4.0.0",
       "hash": "335d3df52df4852c962277ca563e4a7cb67f450a31f9b3fe80543f262bf3f71c",
       "pubKey": "927c8f340255d5a2d7b839ce4859f7dc33c64e5967fe40dde023c0751a53dff3925eec1eaaeb60f83c203c85e9c5b223",
       "sign": "a72c0b66b936b36525fdc1f07c94266a8280abd6acb04d1d87477d8ea790c98593084649f5be7fb7653c8ffcc34dd3e5067b2ffac7feaa85e5e574c972b7363dc0ac7df937c82cdce2ccae7cf6c2df265a3e8c9188cda23d872da08a0e2fa5a4",
       "logo": "https://img.m.pro/attendance_tracking.png",
       "id": "attendance-tracking.m.pro",
-      "url": "https://t-attendance-tracking.m.pro/",
+      "url": "",
+      "urlPack": "https://resources.mygvq.org/json/timekeeping.json",
       "type": 1,
       "page": 0,
       "position": {
@@ -200,13 +202,14 @@
     },
     {
       "name": "ENS",
-      "version": "1.0.0",
+      "version": "4.0.0",
       "hash": "335d3df52df4852c962277ca563e4a7cb67f450a31f9b3fe80543f262bf3f71c",
       "pubKey": "927c8f340255d5a2d7b839ce4859f7dc33c64e5967fe40dde023c0751a53dff3925eec1eaaeb60f83c203c85e9c5b223",
       "sign": "a72c0b66b936b36525fdc1f07c94266a8280abd6acb04d1d87477d8ea790c98593084649f5be7fb7653c8ffcc34dd3e5067b2ffac7feaa85e5e574c972b7363dc0ac7df937c82cdce2ccae7cf6c2df265a3e8c9188cda23d872da08a0e2fa5a4",
       "logo": "https://img.m.pro/app-logo/ens.png",
       "id": "ens.m.pro",
-      "url": "https://t-ens.m.pro/index.html",
+      "url": "",
+      "urlPack": "https://resources.mygvq.org/json/ens.json",
       "type": 1,
       "page": 0,
       "position": {
@@ -369,8 +372,9 @@
     },
     {
       "name": "Swap",
-      "version": "1.0.0",
-      "url": "http://61.28.238.209:9096/test_swap/index.html",
+      "version": "4.0.0",
+      "url": "",
+      "urlPack": "https://resources.mygvq.org/json/swap-token.json",
       "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/swap.jpg",
       "id": "testswap.m.pro",
       "orientation": "portrait",
@@ -389,8 +393,9 @@
     },
     {
       "name": "Meta ID",
-      "version": "1.0.0",
-      "url": "https://t-meta-id.m.pro",
+      "version": "4.0.0",
+      "url": "",
+      "urlPack": "https://resources.mygvq.org/json/meta-id.json",
       "logo": "https://img.m.pro/app-logo/meta-id.png",
       "id": "meta-id.m.pro",
       "orientation": "portrait",
@@ -432,7 +437,8 @@
     {
       "name": "Deploy SMC",
       "version": "0.0.1",
-      "url": "https://t-deploysmc.m.pro",
+      "url": "",
+      "urlPack": "https://resources.mygvq.org/json/deploy-smc.json",
       "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/iconSetting.jpg",
       "id": "deploysmc.m.pro",
       "orientation": "portrait",
@@ -445,6 +451,28 @@
       "page": 1,
       "position": {
         "x": 0,
+        "y": 4,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "SMC Demo",
+      "version": "0.0.1",
+      "url": "",
+      "urlPack": "https://resources.mygvq.org/json/smc-demo.json",
+      "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/iconSetting.jpg",
+      "id": "co.smcdemo.app",
+      "orientation": "portrait",
+      "author": "n/a",
+      "isLocal": true,
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "type": 1,
+      "urlScript": "",
+      "page": 1,
+      "position": {
+        "x": 1,
         "y": 4,
         "width": 1,
         "height": 1
