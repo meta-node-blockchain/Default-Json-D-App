@@ -1,5 +1,5 @@
 {
-  "version": "5.0.6",
+  "version": "5.0.7",
   "favorites": [
     {
       "name": "Settings",
@@ -472,6 +472,27 @@
       "position": {
         "x": 3,
         "y": 3,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "A Pay",
+      "version": "1.0.0",
+      "url": "",
+      "urlPack": "https://test-resources.mygvq.org/json/a-pay.json",
+      "logo": "https://img.m.pro/logo-pos.png",
+      "id": "apay.m.pro",
+      "orientation": "portrait",
+      "author": "n/a",
+      "isLocal": false,
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "type": 1,
+      "page": 1,
+      "position": {
+        "x": 0,
+        "y": 4,
         "width": 1,
         "height": 1
       }
