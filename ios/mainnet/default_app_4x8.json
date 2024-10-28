@@ -1,5 +1,5 @@
 {
-  "version": "11.0.2",
+  "version": "11.0.3",
   "favorites": [
     {
       "name": "Settings",
@@ -629,11 +629,12 @@
       }
     },
     {
-      "name": "POS",
+      "name": "A Pay",
       "version": "1.0.0",
-      "url": "https://poss.m.pro",
+      "url": "",
+      "urlPack": "https://resources.m.pro/json/a-pay.json",
       "logo": "https://img.m.pro/logo-pos.png",
-      "id": "pos.m.pro",
+      "id": "co.apay.app",
       "orientation": "portrait",
       "author": "n/a",
       "isLocal": false,

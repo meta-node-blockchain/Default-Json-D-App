@@ -1,5 +1,5 @@
 {
-  "version": "4.0.4",
+  "version": "4.0.5",
   "favorites": [
     {
       "name": "Settings",
@@ -141,11 +141,12 @@
       }
     },
     {
-      "name": "POSS",
+      "name": "A Pay",
       "version": "4.0.2",
-      "url": "https://t-poss.m.pro",
+      "url": "",
+      "urlPack": "https://resources.m.pro/json/a-pay.json",
       "logo": "https://img.m.pro/logo-pos.png",
-      "id": "poss.m.pro",
+      "id": "co.apay.app",
       "orientation": "portrait",
       "author": "n/a",
       "isLocal": false,
