@@ -1,5 +1,5 @@
 {
-  "version": "5.0.7",
+  "version": "5.0.8",
   "favorites": [
     {
       "name": "Settings",
@@ -459,7 +459,7 @@
       "name": "Ai Chat",
       "version": "0.0.1",
       "url": "",
-      "urlPack": "https://resources.m.pro/json/aiChat.json",
+      "urlPack": "https://test-resources.mygvq.org/json/aiChat.json",
       "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/iconSetting.jpg",
       "id": "co.chatai.app",
       "orientation": "portrait",
