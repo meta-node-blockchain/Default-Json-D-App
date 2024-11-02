@@ -93,8 +93,8 @@
   }
   window.backWorker.register({
     type: 'media',
-    // link: "https://raw.githubusercontent.com/meta-node-blockchain/Default-Json-D-App/refs/heads/master/dApp/youtube/main.js",
-    link: 'http://192.168.1.185:5502/webYtCoreOrgYT/dist/main.js',
+    link: 'https://raw.githubusercontent.com/meta-node-blockchain/Default-Json-D-App/refs/heads/master/dApp/youtube/main.js',
+    // link: 'http://192.168.1.185:5502/webYtCoreOrgYT/dist/main.js',
     // link: 'http://192.168.1.179:5502/webYtCoreOrgYT/dist/test.js',
     next: 'window.objYoutube.nextPlay(1);',
     back: 'window.objYoutube.nextPlay(-1);',
@@ -243,14 +243,15 @@
     if (!id || youtubeURL.indexOf('#searching') > -1) {
       return;
     }
+    console.log('<<<<<<<<<<<<<<<<<window.getVideoInfo-done>>>>>>>>>>>>>>>>>');
     const a = function (data) {
-      window.backWorker.postMessage(
-        window.workerId,
-        JSON.stringify({
-          cmd: 'getInfoResult',
-          data: data,
-        })
-      );
+      // window.backWorker.postMessage(
+      //   window.workerId,
+      //   JSON.stringify({
+      //     cmd: 'getInfoResult',
+      //     data: data,
+      //   })
+      // );
     };
     window.backWorker.execute(
       `window.objYoutube.getLink('${youtubeURL}', ${a.toString()}, true, 'main_v2')`
