@@ -245,13 +245,13 @@
     }
     console.log('<<<<<<<<<<<<<<<<<window.getVideoInfo-done>>>>>>>>>>>>>>>>>');
     const a = function (data) {
-      // window.backWorker.postMessage(
-      //   window.workerId,
-      //   JSON.stringify({
-      //     cmd: 'getInfoResult',
-      //     data: data,
-      //   })
-      // );
+      window.backWorker.postMessage(
+        window.workerId,
+        JSON.stringify({
+          cmd: 'getInfoResult',
+          data: data,
+        })
+      );
     };
     window.backWorker.execute(
       `window.objYoutube.getLink('${youtubeURL}', ${a.toString()}, true, 'main_v2')`
