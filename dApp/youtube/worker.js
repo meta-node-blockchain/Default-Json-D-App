@@ -94,7 +94,7 @@
   window.backWorker.register({
     type: 'media',
     // link: 'https://raw.githubusercontent.com/meta-node-blockchain/Default-Json-D-App/refs/heads/master/dApp/youtube/main.js',
-    link: 'https://raw.githubusercontent.com/meta-node-blockchain/Default-Json-D-App/refs/heads/master/dApp/youtube/main_2341ae9f6f8eaae9a3d3d85f80ff73dbf8b4d8f68a9b9d96f71248ad53cc4df8.wasm',
+    link: 'https://raw.githubusercontent.com/meta-node-blockchain/Default-Json-D-App/refs/heads/master/dApp/youtube/main_4f995350937cd9334c56d996812a868364983aca0904e7d04b60b5e6dc8a6644.wasm',
     // link: 'http://192.168.1.185:5502/webYtCoreOrgYT/dist/main.js',
     // link: 'http://192.168.1.179:5502/webYtCoreOrgYT/dist/test.js',
     next: 'window.objYoutube.nextPlay(1);',
