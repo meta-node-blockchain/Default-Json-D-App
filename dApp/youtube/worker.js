@@ -1,189 +1,9 @@
+console.log('<<<<<<<<<<<Init-Worker>>>>>>>>>>>');
 (function () {
-  // window.console = {
-  //   log: function (...arguments) {
-  //     window.webkit.messageHandlers.callbackHandler.postMessage(
-  //       JSON.stringify({
-  //         command: "test-click",
-  //         ...arguments,
-  //       })
-  //     );
-  //   },
-  // };
-
+  console.log('<<<<<<<<<<<Start-Auto-Function>>>>>>>>>>>');
   let tiemout_register;
   let interval_getCookies;
-  let closeIcon;
-  function getCurrentCookies() {
-    window.webkit.messageHandlers.callbackHandler.postMessage(
-      JSON.stringify({
-        workerId: window.workerId,
-        command: 'get-cookies',
-      })
-    );
-  }
-  const sendEvent = function (action, content) {
-    if (action !== 'register' && typeof window.workerId !== 'string') {
-      return false;
-    }
-
-    window.webkit.messageHandlers.callbackHandler.postMessage(
-      JSON.stringify({
-        workerId: window.workerId,
-        command: 'backWorker',
-        action,
-        content,
-      })
-    );
-  };
-  window.backWorker = {
-    register: function (obj) {
-      // trrong vong 1 giay can nhan lai workerid
-      // tiemout_register = setTimeout(function () {
-      //   alert('can not register worker');
-      // }, 3000);
-
-      sendEvent('register', obj);
-    },
-    execute: function (js) {
-      // lenh js chay
-      sendEvent('execute', {
-        js,
-      });
-    },
-    postMessage: function (obj) {
-      // lenh js chay
-      sendEvent('postMessage', obj);
-    },
-    action: function (cmd) {
-      // lenh chay cac lenh trong register nhu next, back, ...
-      sendEvent('action', {
-        cmd,
-      });
-    },
-    command: function (command) {
-      // command la danh cho cac script de thuc thu nhu notification
-      sendEvent('command', command);
-    },
-    stop: function () {
-      sendEvent('stop', {});
-    },
-    fetch: (e) =>
-      new Promise((resolve, reject) => {
-        var n = (e) => {
-          if ('url' !== e.data) {
-            return;
-          }
-          let s = atob(window.abc);
-
-          window.removeEventListener('message', n), resolve(s);
-        };
-        window.addEventListener('message', n, !1);
-
-        window.webkit.messageHandlers.callbackHandler.postMessage(
-          JSON.stringify({
-            command: 'get-url',
-            url: e,
-          })
-        );
-      }),
-  };
-
-  if (window.workerId) {
-    return;
-  }
-  window.backWorker.register({
-    type: 'media',
-    // link: 'https://raw.githubusercontent.com/meta-node-blockchain/Default-Json-D-App/refs/heads/master/dApp/youtube/main.js',
-    link: 'https://raw.githubusercontent.com/meta-node-blockchain/Default-Json-D-App/refs/heads/master/dApp/youtube/main_4f995350937cd9334c56d996812a868364983aca0904e7d04b60b5e6dc8a6644.wasm',
-    // link: 'http://192.168.1.185:5502/webYtCoreOrgYT/dist/main.js',
-    // link: 'http://192.168.1.179:5502/webYtCoreOrgYT/dist/test.js',
-    next: 'window.objYoutube.nextPlay(1);',
-    back: 'window.objYoutube.nextPlay(-1);',
-    onDuration: 'window.objYoutube.onDuration({currentTime}, {totalTime});', // binding
-    onPause: 'window.objYoutube.onPause()',
-    onFailed: 'window.objYoutube.onFailed()',
-    // onPlay: "window.objYoutube.onPlay()",
-    onPlay: 'window.objYoutube.onPlay({totalTime});',
-    onStop: 'window.objYoutube.clear();',
-    replay: 'window.objYoutube.nextPlay(0);',
-
-    prepareOnPlay: 'window.objYoutube.prepareOnPlay();',
-    prepareOnFailed: 'window.objYoutube.prepareOnFailed();',
-    workerId: 'yotube.metanode.app',
-  });
-  var isConfirmCount = 0;
-  var isConfirm = false;
-  var n = (e) => {
-    if (!e) return;
-    if (typeof e.data === 'string') {
-      const tmps = e.data.split('|');
-
-      if (tmps[0] !== 'backWorker') {
-        return;
-      }
-      if (tmps[tmps.length - 1] !== 'end') {
-        return;
-      }
-      if (tmps[1] === 'id') {
-        window.workerId = tmps[2];
-        clearTimeout(tiemout_register);
-        interval_getCookies = setInterval(() => {
-          getCurrentCookies();
-        }, 5000);
-        getCurrentCookies();
-      }
-      return;
-    }
-    if (typeof e.data === 'object') {
-      const { command, data } = e.data;
-      if (command === 'get-cookies') {
-        // console.log('-------------data', data);
-        const { cookies } = data.data;
-        window.backWorker.execute(`window.objYoutube.setCookies("${cookies}")`);
-        if (interval_getCookies && cookies) {
-          clearInterval(interval_getCookies);
-        }
-        return;
-      }
-      const cmd = e.data && e.data.cmd;
-      if (cmd === 'getInfoResult') {
-        window.backWorker.execute(
-          `window.objYoutube.nextPlay(1, "getInfoResult");`
-        );
-      } else if (cmd === 'recommended-login') {
-        if (window.location.href.indexOf('m.youtube.com') === -1) {
-          return;
-        }
-        isConfirmCount++;
-        if (isConfirmCount % 5 == 0) {
-          isConfirm = false;
-          return;
-        }
-        if (isConfirm == true) {
-          return;
-        }
-        const url = e.data.url;
-        // alert("Please login for a better experience");
-        let text = 'Please login for a better experience';
-        if (confirm(text) == true) {
-          isConfirm = true;
-          window.location.href = url;
-        } else {
-          isConfirm = false;
-        }
-      }
-    }
-  };
-  window.addEventListener('message', n, !1);
-
-  window.setCookies = function (cookies) {
-    // console.log('setCookies ---> ', cookies);
-    if (!cookies || cookies.length == 0) {
-      return;
-    }
-    window.backWorker.execute(`window.objYoutube.setCookies(${cookies})`);
-  };
-
+  // Utils function
   /**
    * Hàm này lấy video ID từ URL YouTube.
    * @param {string} url - URL của video YouTube
@@ -238,6 +58,185 @@
     // Kiểm tra xem ID có phải là 11 ký tự không
     return /^[a-zA-Z0-9_-]{11}$/.test(id);
   }
+  // End Utils function
+
+  function getCurrentCookies() {
+    window.webkit.messageHandlers.callbackHandler.postMessage(
+      JSON.stringify({
+        workerId: window.workerId,
+        command: 'get-cookies',
+      })
+    );
+  }
+
+  const sendEvent = function (action, content) {
+    if (action !== 'register' && typeof window.workerId !== 'string') {
+      return false;
+    }
+
+    window.webkit.messageHandlers.callbackHandler.postMessage(
+      JSON.stringify({
+        workerId: window.workerId,
+        command: 'backWorker',
+        action,
+        content,
+      })
+    );
+  };
+  // Init backworker
+  window.backWorker = {
+    register: function (obj) {
+      // trrong vong 1 giay can nhan lai workerid
+      tiemout_register = setTimeout(function () {
+        console.log('Timeout register worker');
+      }, 3000);
+
+      sendEvent('register', obj);
+    },
+    execute: function (js) {
+      // lenh js chay
+      sendEvent('execute', {
+        js,
+      });
+    },
+    postMessage: function (obj) {
+      // lenh js chay
+      sendEvent('postMessage', obj);
+    },
+    action: function (cmd) {
+      // lenh chay cac lenh trong register nhu next, back, ...
+      sendEvent('action', {
+        cmd,
+      });
+    },
+    command: function (command) {
+      // command la danh cho cac script de thuc thu nhu notification
+      sendEvent('command', command);
+    },
+    stop: function () {
+      sendEvent('stop', {});
+    },
+    fetch: (e) =>
+      new Promise((resolve, reject) => {
+        var n = (e) => {
+          if ('url' !== e.data) {
+            return;
+          }
+          let s = atob(window.abc);
+
+          window.removeEventListener('message', n), resolve(s);
+        };
+        window.addEventListener('message', n, !1);
+
+        window.webkit.messageHandlers.callbackHandler.postMessage(
+          JSON.stringify({
+            command: 'get-url',
+            url: e,
+          })
+        );
+      }),
+  };
+
+  if (window.workerId) {
+    return;
+  }
+  console.log('<<<<<<<<<<<Call-Register>>>>>>>>>>>');
+  // Register backworker
+  window.backWorker.register({
+    type: 'media',
+    // link: 'https://raw.githubusercontent.com/meta-node-blockchain/Default-Json-D-App/refs/heads/master/dApp/youtube/main.js',
+    link: 'https://raw.githubusercontent.com/meta-node-blockchain/Default-Json-D-App/refs/heads/master/dApp/youtube/main_70f50627f4a1ec1b61a2cf3d36db7f587e1865ea268282816e4faa1d682f3e33.wasm',
+    // link: 'http://192.168.1.48:5503/webYtCoreOrgYT/dist/main_70f50627f4a1ec1b61a2cf3d36db7f587e1865ea268282816e4faa1d682f3e33.wasm',
+    // link: 'http://192.168.1.48:5503/webYtCoreOrgYT/dist/main.js',
+    // link: 'http://192.168.1.179:5502/webYtCoreOrgYT/dist/test.js',
+    next: 'window.objYoutube.nextPlay(1);',
+    back: 'window.objYoutube.nextPlay(-1);',
+    onDuration: 'window.objYoutube.onDuration({currentTime}, {totalTime});', // binding
+    onPause: 'window.objYoutube.onPause()',
+    onFailed: 'window.objYoutube.onFailed()',
+    // onPlay: "window.objYoutube.onPlay()",
+    onPlay: 'window.objYoutube.onPlay({totalTime});',
+    onStop: 'window.objYoutube.clear();',
+    replay: 'window.objYoutube.nextPlay(0);',
+
+    prepareOnPlay: 'window.objYoutube.prepareOnPlay();',
+    prepareOnFailed: 'window.objYoutube.prepareOnFailed();',
+    workerId: 'yotube.metanode.app',
+  });
+  var isShowRecoment = false;
+  function handleRecommentLogin() {
+    if (window.location.href.indexOf('m.youtube.com') === -1) {
+      return;
+    }
+    if (isShowRecoment == true) {
+      return;
+    }
+    // Hiển thị recomment login
+    // Dù người dùng chọn gì thì cũng gán biến isShowRecomment = true để ko hiển thị lại
+    const url = e.data.url;
+    let text = 'Please login for a better experience';
+    if (confirm(text) == true) {
+      window.location.href = url;
+    }
+    isShowRecoment = true;
+    // Sau 3 phút thì reset lại biến isShowRecomment = false để giả sử người dùng chưa đăng nhập sau 3 phút thì vẫn hiển thị lại recomment
+    setTimeout(() => {
+      isShowRecoment = false;
+    }, 60000 * 3);
+  }
+
+  var n = (e) => {
+    if (!e) return;
+    if (typeof e.data === 'string') {
+      const tmps = e.data.split('|');
+
+      if (tmps[0] !== 'backWorker') {
+        return;
+      }
+      if (tmps[tmps.length - 1] !== 'end') {
+        return;
+      }
+      if (tmps[1] === 'id') {
+        window.workerId = tmps[2];
+        clearTimeout(tiemout_register);
+        interval_getCookies = setInterval(() => {
+          getCurrentCookies();
+        }, 5000);
+        getCurrentCookies();
+      }
+      return;
+    }
+    if (typeof e.data === 'object') {
+      const { command, data } = e.data;
+      if (command === 'get-cookies') {
+        const { cookies } = data.data;
+        window.backWorker.execute(`window.objYoutube.setCookies("${cookies}")`);
+        if (interval_getCookies && cookies) {
+          clearInterval(interval_getCookies);
+        }
+        return;
+      }
+      const cmd = e.data && e.data.cmd;
+      if (cmd === 'getInfoResult') {
+        window.backWorker.execute(
+          `window.objYoutube.nextPlay(1, "getInfoResult");`
+        );
+        return;
+      }
+      if (cmd === 'recommended-login') {
+        handleRecommentLogin();
+        return;
+      }
+    }
+  };
+  window.addEventListener('message', n, !1);
+
+  window.setCookies = function (cookies) {
+    if (!cookies || cookies.length == 0) {
+      return;
+    }
+    window.backWorker.execute(`window.objYoutube.setCookies(${cookies})`);
+  };
 
   window.getVideoInfo = function (youtubeURL) {
     const id = getURLVideoID(youtubeURL);
@@ -260,17 +259,22 @@
   };
 
   window.callPauseVideo = function () {
-    document.querySelectorAll('video').forEach((vid) => {
-      vid.muted = true;
-      vid.autoplay = false;
-      if (vid.paused === true) {
-        // clearInterval(window._toCallPause);
-        return;
-      }
-      vid.pause();
-      vid.currentTime = vid.duration - 2;
-    });
+    console.log('<<<<<<<<<<window.callPauseVideo>>>>>>>>>>');
+    const videoTags = document.querySelectorAll('video');
+    if (videoTags && videoTags.length > 0) {
+      videoTags.forEach((vid) => {
+        console.log('vid --> ', typeof vid, vid.muted, vid.paused);
+        vid.muted = true;
+        vid.autoplay = false;
+        if (vid.paused === true) {
+          return;
+        }
+        vid.pause();
+        vid.currentTime = vid.duration - 2;
+      });
+    }
     var player = document.getElementById('player-container-id');
+
     if (player != null) {
       var node = document.createElement('div');
       node.style =
@@ -278,25 +282,16 @@
       player.appendChild(node);
     }
   };
+
   window.handlePause = function () {
     window.callPauseVideo();
+    // cữ mỗi 300ms sẽ gọi để pause video 1 lần
     window._toCallPause = setInterval(function () {
       window.callPauseVideo();
     }, 300);
   };
 
   window.handlePause();
-  setTimeout(() => {
-    window.addEventListener('scroll', (e) => {
-      const getChip = document.getElementsByClassName(
-        'chip-bar filter-chip-bar-out'
-      )[0];
-      const getSticky = document.getElementsByClassName('sticky-player out')[0];
-      if (getChip && getSticky) {
-        closeIcon.style.transform = 'translate(0,-9rem)';
-      } else if (window.location.pathname === '/') {
-        closeIcon.style.transform = 'translate(0,0rem)';
-      }
-    });
-  }, 30000);
 })();
+
+console.log('<<<<<<<<<<<END-Line-Worker>>>>>>>>>>>');
