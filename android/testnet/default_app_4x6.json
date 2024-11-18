@@ -1,5 +1,5 @@
 {
-  "version": "5.0.9",
+  "version": "5.1.0",
   "favorites": [
     {
       "name": "Settings",
@@ -536,6 +536,27 @@
       "page": 2,
       "position": {
         "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "Slot machine",
+      "version": "1.0.0",
+      "url": "",
+      "urlPack": "https://test-resources.mygvq.org/json/slot-machine.json",
+      "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/tokenomic.jpg",
+      "id": "co.slotmachine.app",
+      "orientation": "portrait",
+      "author": "n/a",
+      "isLocal": false,
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "type": 1,
+      "page": 2,
+      "position": {
+        "x": 1,
         "y": 0,
         "width": 1,
         "height": 1
