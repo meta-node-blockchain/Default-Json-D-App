@@ -1,5 +1,5 @@
 {
-  "version": "5.1.0",
+  "version": "5.1.1",
   "favorites": [
     {
       "name": "Settings",
@@ -534,6 +534,27 @@
       "page": 2,
       "position": {
         "x": 2,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "Food Order",
+      "version": "1.0.0",
+      "url": "",
+      "urlPack": "https://test-resources.mygvq.org/json/food-order.json",
+      "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/tokenomic.jpg",
+      "id": "co.foodorder.app",
+      "orientation": "portrait",
+      "author": "n/a",
+      "isLocal": false,
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "type": 1,
+      "page": 2,
+      "position": {
+        "x": 3,
         "y": 0,
         "width": 1,
         "height": 1
