@@ -1,5 +1,5 @@
 {
-  "version": "4.1.1",
+  "version": "4.1.2",
   "favorites": [
     {
       "name": "Settings",
@@ -556,6 +556,27 @@
       "page": 3,
       "position": {
         "x": 3,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "Game Roulette",
+      "version": "1.0.0",
+      "url": "",
+      "urlPack": "https://test-resources.mygvq.org/json/roulette.json",
+      "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/tokenomic.jpg",
+      "id": "co.roulette.app",
+      "orientation": "landscape",
+      "author": "n/a",
+      "isLocal": false,
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "type": 1,
+      "page": 3,
+      "position": {
+        "x": 4,
         "y": 0,
         "width": 1,
         "height": 1
