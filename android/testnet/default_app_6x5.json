@@ -1,5 +1,5 @@
 {
-  "version": "5.1.2",
+  "version": "5.1.3",
   "favorites": [
     {
       "name": "Settings",
@@ -555,6 +555,27 @@
       "position": {
         "x": 5,
         "y": 4,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "Game Baccarat",
+      "version": "1.0.0",
+      "url": "",
+      "urlPack": "https://test-resources.mygvq.org/json/baccarat.json",
+      "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/tokenomic.jpg",
+      "id": "co.roulette.app",
+      "orientation": "landscape",
+      "author": "n/a",
+      "isLocal": false,
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "type": 1,
+      "page": 3,
+      "position": {
+        "x": 0,
+        "y": 1,
         "width": 1,
         "height": 1
       }
