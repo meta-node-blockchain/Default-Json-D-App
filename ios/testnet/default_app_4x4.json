@@ -576,8 +576,29 @@
       "type": 1,
       "page": 3,
       "position": {
-        "x": 4,
-        "y": 0,
+        "x": 0,
+        "y": 1,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "Game Baccarat",
+      "version": "1.0.0",
+      "url": "",
+      "urlPack": "https://test-resources.mygvq.org/json/baccarat.json",
+      "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/tokenomic.jpg",
+      "id": "co.baccarat.app",
+      "orientation": "landscape",
+      "author": "n/a",
+      "isLocal": false,
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "type": 1,
+      "page": 3,
+      "position": {
+        "x": 1,
+        "y": 1,
         "width": 1,
         "height": 1
       }
