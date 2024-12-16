@@ -1,5 +1,5 @@
 {
-  "version": "5.1.4",
+  "version": "5.1.5",
   "favorites": [
     {
       "name": "Settings",
@@ -566,7 +566,7 @@
       "name": "Food Order",
       "version": "1.0.0",
       "url": "",
-      "urlPack": "https://test-resources.mygvq.org/json/food-order.json",
+      "urlPack": "https://json.m.pro/food-order.json",
       "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/tokenomic.jpg",
       "id": "co.foodorder.app",
       "orientation": "portrait",
