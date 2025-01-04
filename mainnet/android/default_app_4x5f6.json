@@ -221,7 +221,7 @@
     {
       "name": "Weather",
       "version": "0.0.1",
-      "url": "",
+      "url": "https://x.com/home",
       "urlPack": "https://resources.m.pro/frame/json/weather.json",
       "logo": "",
       "id": "weather.frame.m.pro",
@@ -243,7 +243,7 @@
     {
       "name": "Calculator",
       "version": "0.0.1",
-      "url": "",
+      "url": "https://x.com/home",
       "urlPack": "https://resources.m.pro/frame/json/calculator.json",
       "logo": "",
       "id": "calculator.m.pro.frame",
