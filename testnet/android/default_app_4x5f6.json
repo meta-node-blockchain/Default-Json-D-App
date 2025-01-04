@@ -1,5 +1,5 @@
 {
-  "version": "1.0.7",
+  "version": "1.0.8",
   "favorites": [
     {
       "name": "Settings",
@@ -221,7 +221,7 @@
     {
       "name": "Weather",
       "version": "0.0.1",
-      "url": "",
+      "url": "https://www.facebook.com/",
       "urlPack": "https://resources.m.pro/frame/json/weather.json",
       "logo": "",
       "id": "weather.frame.m.pro",
@@ -243,7 +243,7 @@
     {
       "name": "Calculator",
       "version": "0.0.1",
-      "url": "",
+      "url": "https://www.facebook.com/",
       "urlPack": "https://resources.m.pro/frame/json/calculator.json",
       "logo": "",
       "id": "calculator.m.pro.frame",
@@ -623,6 +623,138 @@
         "y": 1,
         "width": 1,
         "height": 1
+      }
+    },
+    {
+      "name": "Weather",
+      "version": "0.0.1",
+      "url": "https://www.facebook.com/",
+      "urlPack": "https://resources.m.pro/frame/json/weather.json",
+      "logo": "",
+      "id": "weather.frame.m.pro4",
+      "orientation": "portrait",
+      "author": "n/a",
+      "isLocal": false,
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "type": 3,
+      "urlScript": "",
+      "page": 4,
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 2,
+        "height": 2
+      }
+    },
+    {
+      "name": "Calculator",
+      "version": "0.0.1",
+      "url": "https://www.facebook.com/",
+      "urlPack": "https://resources.m.pro/frame/json/calculator.json",
+      "logo": "",
+      "id": "calculator.m.pro.frame4",
+      "orientation": "portrait",
+      "author": "n/a",
+      "isLocal": false,
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "type": 3,
+      "urlScript": "",
+      "page": 4,
+      "position": {
+        "x": 2,
+        "y": 0,
+        "width": 2,
+        "height": 2
+      }
+    },
+    {
+      "name": "Weather",
+      "version": "0.0.1",
+      "url": "https://www.facebook.com/",
+      "urlPack": "https://resources.m.pro/frame/json/weather.json",
+      "logo": "",
+      "id": "weather.frame.m.pro4",
+      "orientation": "portrait",
+      "author": "n/a",
+      "isLocal": false,
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "type": 3,
+      "urlScript": "",
+      "page": 5,
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 2,
+        "height": 2
+      }
+    },
+    {
+      "name": "Calculator",
+      "version": "0.0.1",
+      "url": "https://www.facebook.com/",
+      "urlPack": "https://resources.m.pro/frame/json/calculator.json",
+      "logo": "",
+      "id": "calculator.m.pro.frame4",
+      "orientation": "portrait",
+      "author": "n/a",
+      "isLocal": false,
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "type": 3,
+      "urlScript": "",
+      "page": 5,
+      "position": {
+        "x": 2,
+        "y": 0,
+        "width": 2,
+        "height": 2
+      }
+    },
+    {
+      "name": "Weather",
+      "version": "0.0.1",
+      "url": "https://www.facebook.com/",
+      "urlPack": "https://resources.m.pro/frame/json/weather.json",
+      "logo": "",
+      "id": "weather.frame.m.pro5",
+      "orientation": "portrait",
+      "author": "n/a",
+      "isLocal": false,
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "type": 3,
+      "urlScript": "",
+      "page": 6,
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 2,
+        "height": 2
+      }
+    },
+    {
+      "name": "Calculator",
+      "version": "0.0.1",
+      "url": "https://www.facebook.com/",
+      "urlPack": "https://resources.m.pro/frame/json/calculator.json",
+      "logo": "",
+      "id": "calculator.m.pro.frame5",
+      "orientation": "portrait",
+      "author": "n/a",
+      "isLocal": false,
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "type": 3,
+      "urlScript": "",
+      "page": 6,
+      "position": {
+        "x": 2,
+        "y": 0,
+        "width": 2,
+        "height": 2
       }
     }
   ]
