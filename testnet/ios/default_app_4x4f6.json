@@ -1,5 +1,5 @@
 {
-  "version": "5.1.6",
+  "version": "5.1.7",
   "favorites": [
     {
       "name": "Settings",
@@ -373,7 +373,7 @@
       "name": "Swap",
       "version": "4.0.2",
       "url": "",
-      "urlPack": "https://test-resources.mygvq.org/json/swap-token.json",
+      "urlPack": "https://json.m.pro/swap-token.json",
       "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/swap.jpg",
       "id": "testswap.m.pro",
       "orientation": "portrait",

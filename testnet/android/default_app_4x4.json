@@ -1,5 +1,5 @@
 {
-  "version": "5.1.6",
+  "version": "5.1.7",
   "favorites": [
     {
       "name": "Settings",
@@ -97,10 +97,10 @@
   ],
   "apps": [
     {
-      "name": "Notes",
+      "name": "Pinterest",
       "version": "0.0.1",
-      "url": "https://x.com/home",
-      "urlPack": "https://resources.m.pro/frame/json/notes.json",
+      "url": "https://www.pinterest.com/",
+      "urlPack": "",
       "logo": "",
       "id": "notes.m.pro",
       "orientation": "portrait",
@@ -119,10 +119,10 @@
       }
     },
     {
-      "name": "Recording",
+      "name": "Telegram",
       "version": "0.0.1",
-      "url": "https://www.facebook.com/",
-      "urlPack": "https://resources.m.pro/frame/json/record.json",
+      "url": "https://telegram.org/",
+      "urlPack": "",
       "logo": "",
       "id": "record.m.pro.frame",
       "orientation": "portrait",
@@ -219,12 +219,12 @@
       }
     },
     {
-      "name": "Weather",
+      "name": "Facebook",
       "version": "0.0.1",
-      "url": "",
-      "urlPack": "https://resources.m.pro/frame/json/weather.json",
+      "url": "https://www.facebook.com/",
+      "urlPack": "",
       "logo": "",
-      "id": "weather.frame.m.pro",
+      "id": "co.facebook.frame",
       "orientation": "portrait",
       "author": "n/a",
       "isLocal": false,
@@ -241,12 +241,12 @@
       }
     },
     {
-      "name": "Calculator",
+      "name": "X",
       "version": "0.0.1",
-      "url": "",
-      "urlPack": "https://resources.m.pro/frame/json/calculator.json",
+      "url": "https://x.com/home",
+      "urlPack": "",
       "logo": "",
-      "id": "calculator.m.pro.frame",
+      "id": "co.x.frame",
       "orientation": "portrait",
       "author": "n/a",
       "isLocal": false,
@@ -373,7 +373,7 @@
       "name": "Swap",
       "version": "4.0.2",
       "url": "",
-      "urlPack": "https://test-resources.mygvq.org/json/swap-token.json",
+      "urlPack": "https://json.m.pro/swap-token.json",
       "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/swap.jpg",
       "id": "testswap.m.pro",
       "orientation": "portrait",
