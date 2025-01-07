@@ -1,5 +1,5 @@
 {
-  "version": "5.1.7",
+  "version": "10.0.0",
   "favorites": [
     {
       "name": "Settings",
@@ -437,7 +437,7 @@
       "name": "Deploy SMC",
       "version": "0.0.1",
       "url": "",
-      "urlPack": "https://test-resources.mygvq.org/json/deploy-smc.json",
+      "urlPack": "https://json.m.pro/deploy-token.json",
       "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/iconSetting.jpg",
       "id": "deploysmc.m.pro",
       "orientation": "portrait",
