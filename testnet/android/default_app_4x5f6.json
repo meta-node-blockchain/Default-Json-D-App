@@ -1,5 +1,5 @@
 {
-  "version": "10.0.0",
+  "version": "10.0.1",
   "favorites": [
     {
       "name": "Settings",
@@ -13,7 +13,7 @@
       "statusBar": "hide",
       "isLocal": true,
       "url": "",
-      "urlPack": "https://test-resources.mygvq.org/json/setting.json",
+      "urlPack": "https://json.m.pro/setting.json",
       "type": 1,
       "page": 0,
       "position": {
