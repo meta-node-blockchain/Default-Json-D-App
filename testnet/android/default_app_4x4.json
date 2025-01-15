@@ -1,5 +1,5 @@
 {
-  "version": "10.0.2",
+  "version": "10.0.3",
   "favorites": [
     {
       "name": "Settings",
@@ -208,7 +208,7 @@
       "logo": "https://img.m.pro/app-logo/ens.png",
       "id": "ens.m.pro",
       "url": "",
-      "urlPack": "https://test-resources.mygvq.org/json/ens.json",
+      "urlPack": "https://json.m.pro/ens.json",
       "type": 1,
       "page": 0,
       "position": {
