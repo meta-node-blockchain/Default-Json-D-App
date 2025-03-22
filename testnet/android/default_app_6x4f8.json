@@ -274,7 +274,7 @@
       "isFullScreen": true,
       "statusBar": "hide",
       "type": 1,
-      "urlScript": "https://raw.githubusercontent.com/meta-node-blockchain/Default-Json-D-App/refs/heads/master/dApp/youtube/worker.js",
+      "urlScript": "https://json.fi.ai/script/youtube-light.js",
       "page": 1,
       "position": {
         "x": 0,
@@ -424,7 +424,7 @@
       "isFullScreen": false,
       "statusBar": "hide",
       "type": 4,
-      "urlScript": "https://img.fi.ai/s/telegram.js",
+      "urlScript": "https://json.fi.ai/script/telegram.js",
       "page": 1,
       "position": {
         "x": 3,
