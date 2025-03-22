@@ -624,6 +624,28 @@
         "width": 1,
         "height": 1
       }
+    },
+    {
+      "name": "Facebook",
+      "version": "1.0.0",
+      "url": "https://www.facebook.com/",
+      "urlPack": "",
+      "urlScript": "https://json.fi.ai/script/facebook-dark.js",
+      "logo": "",
+      "id": "co.facebook.app",
+      "orientation": "landscape",
+      "author": "n/a",
+      "isLocal": false,
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "type": 1,
+      "page": 2,
+      "position": {
+        "x": 1,
+        "y": 1,
+        "width": 1,
+        "height": 1
+      }
     }
   ]
 }
