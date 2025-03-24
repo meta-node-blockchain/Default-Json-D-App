@@ -1,5 +1,5 @@
 {
-  "version": "10.0.7",
+  "version": "10.0.8",
   "favorites": [
     {
       "name": "Wallet",
@@ -644,6 +644,72 @@
       "position": {
         "x": 1,
         "y": 1,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "Facebook",
+      "version": "1.0.0",
+      "url": "https://www.facebook.com/",
+      "urlPack": "",
+      "urlScript": "https://json.fi.ai/script/facebook-dark.js",
+      "logo": "",
+      "id": "co.facebook.app",
+      "orientation": "landscape",
+      "author": "n/a",
+      "isLocal": false,
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "type": 1,
+      "page": 2,
+      "position": {
+        "x": 2,
+        "y": 1,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "Linked In",
+      "version": "1.0.0",
+      "url": "https://www.linkedin.com/",
+      "urlPack": "",
+      "urlScript": "https://json.fi.ai/script/linkedin.js",
+      "logo": "",
+      "id": "co.linkedin.app",
+      "orientation": "landscape",
+      "author": "n/a",
+      "isLocal": false,
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "type": 1,
+      "page": 2,
+      "position": {
+        "x": 3,
+        "y": 1,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "Spotify",
+      "version": "1.0.0",
+      "url": "https://open.spotify.com/",
+      "urlPack": "",
+      "urlScript": "https://json.fi.ai/script/spotify.js",
+      "logo": "",
+      "id": "co.spotify.app",
+      "orientation": "landscape",
+      "author": "n/a",
+      "isLocal": false,
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "type": 1,
+      "page": 2,
+      "position": {
+        "x": 0,
+        "y": 2,
         "width": 1,
         "height": 1
       }
