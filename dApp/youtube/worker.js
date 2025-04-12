@@ -73,15 +73,37 @@ console.log("<<<<<<<<<<<Init-Worker>>>>>>>>>>>");
     if (action !== "register" && typeof window.workerId !== "string") {
       return false;
     }
-
-    window.webkit.messageHandlers.callbackHandler.postMessage(
-      JSON.stringify({
-        workerId: window.workerId,
-        command: "backWorker",
-        action,
-        content,
-      })
-    );
+    if (
+      window.webkit &&
+      window.webkit.messageHandlers &&
+      window.webkit.messageHandlers.callbackHandler &&
+      typeof window.webkit.messageHandlers.callbackHandler.postMessage ===
+        "function"
+    ) {
+      window.webkit.messageHandlers.callbackHandler.postMessage(
+        JSON.stringify({
+          workerId: window.workerId,
+          command: "backWorker",
+          action,
+          content,
+        })
+      );
+    } else if (
+      window.electronAPI &&
+      typeof window.electronAPI.sendMessage === "function"
+    ) {
+      window.electronAPI.sendMessage(
+        "native",
+        JSON.stringify({
+          workerId: window.workerId,
+          command: "backWorker",
+          action,
+          content,
+        })
+      );
+    } else {
+      throw new Error("Không có phương thức send message hợp lệ!");
+    }
   };
   // Init backworker
   window.backWorker = {
@@ -144,11 +166,11 @@ console.log("<<<<<<<<<<<Init-Worker>>>>>>>>>>>");
   // Register backworker
   window.backWorker.register({
     type: "media",
-    // link: "https://raw.githubusercontent.com/meta-node-blockchain/Default-Json-D-App/refs/heads/master/dApp/youtube/main.js",
+    link: "https://raw.githubusercontent.com/meta-node-blockchain/Default-Json-D-App/refs/heads/master/dApp/youtube/main.js",
     // link: 'https://raw.githubusercontent.com/meta-node-blockchain/Default-Json-D-App/refs/heads/master/dApp/youtube/main_70f50627f4a1ec1b61a2cf3d36db7f587e1865ea268282816e4faa1d682f3e33.wasm',
     // link: 'http://192.168.1.48:5503/webYtCoreOrgYT/dist/main_70f50627f4a1ec1b61a2cf3d36db7f587e1865ea268282816e4faa1d682f3e33.wasm',
     // link: 'http://192.168.1.48:5503/webYtCoreOrgYT/dist/main.js',
-    link: "http://192.168.1.59:5500/dist/main.js",
+    // link: "http://192.168.1.59:5500/dist/main.js",
     next: "window.objYoutube.nextPlay(1);",
     back: "window.objYoutube.nextPlay(-1);",
     onDuration: "window.objYoutube.onDuration({currentTime}, {totalTime});", // binding
@@ -230,6 +252,7 @@ console.log("<<<<<<<<<<<Init-Worker>>>>>>>>>>>");
     }
   };
   window.addEventListener("message", n, !1);
+  window.electronAPI.onMessage("fromNative", n);
 
   window.setCookies = function (cookies) {
     if (!cookies || cookies.length == 0) {
