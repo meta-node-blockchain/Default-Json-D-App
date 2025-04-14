@@ -1,5 +1,5 @@
 {
-  "version": "10.0.8",
+  "version": "10.1.0",
   "favorites": [
     {
       "name": "Settings",
@@ -97,28 +97,6 @@
   ],
   "apps": [
     {
-      "name": "Pinterest",
-      "version": "0.0.1",
-      "url": "https://www.pinterest.com/",
-      "urlPack": "",
-      "logo": "",
-      "id": "notes.m.pro",
-      "orientation": "portrait",
-      "author": "n/a",
-      "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "type": 3,
-      "urlScript": "",
-      "page": 0,
-      "position": {
-        "x": 0,
-        "y": 0,
-        "width": 2,
-        "height": 2
-      }
-    },
-    {
       "name": "Telegram",
       "version": "0.0.1",
       "url": "https://telegram.org/",
@@ -134,88 +112,10 @@
       "urlScript": "",
       "page": 0,
       "position": {
-        "x": 2,
-        "y": 0,
-        "width": 2,
-        "height": 2
-      }
-    },
-    {
-      "name": "POSS",
-      "version": "4.0.2",
-      "url": "",
-      "urlPack": "https://test-resources.mygvq.org/json/poss.json",
-      "logo": "https://img.fi.ai/logo-pos.png",
-      "id": "poss.m.pro",
-      "orientation": "portrait",
-      "author": "n/a",
-      "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "type": 1,
-      "page": 0,
-      "position": {
         "x": 0,
-        "y": 2,
-        "width": 1,
-        "height": 1
-      }
-    },
-    {
-      "name": "MT Wallet",
-      "version": "4.0.2",
-      "url": "https://multiwallet.m.pro",
-      "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/tokenomic.jpg",
-      "id": "multiwallet.m.pro",
-      "orientation": "portrait",
-      "author": "n/a",
-      "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "type": 1,
-      "page": 0,
-      "position": {
-        "x": 1,
-        "y": 2,
-        "width": 1,
-        "height": 1
-      }
-    },
-    {
-      "name": "Attendance Tracking",
-      "version": "4.0.2",
-      "hash": "335d3df52df4852c962277ca563e4a7cb67f450a31f9b3fe80543f262bf3f71c",
-      "pubKey": "927c8f340255d5a2d7b839ce4859f7dc33c64e5967fe40dde023c0751a53dff3925eec1eaaeb60f83c203c85e9c5b223",
-      "sign": "a72c0b66b936b36525fdc1f07c94266a8280abd6acb04d1d87477d8ea790c98593084649f5be7fb7653c8ffcc34dd3e5067b2ffac7feaa85e5e574c972b7363dc0ac7df937c82cdce2ccae7cf6c2df265a3e8c9188cda23d872da08a0e2fa5a4",
-      "logo": "https://img.fi.ai/attendance_tracking.png",
-      "id": "attendance-tracking.m.pro",
-      "url": "https://t-attendance-tracking.m.pro/",
-      "type": 1,
-      "page": 0,
-      "position": {
-        "x": 2,
-        "y": 2,
-        "width": 1,
-        "height": 1
-      }
-    },
-    {
-      "name": "ENS",
-      "version": "4.0.2",
-      "hash": "335d3df52df4852c962277ca563e4a7cb67f450a31f9b3fe80543f262bf3f71c",
-      "pubKey": "927c8f340255d5a2d7b839ce4859f7dc33c64e5967fe40dde023c0751a53dff3925eec1eaaeb60f83c203c85e9c5b223",
-      "sign": "a72c0b66b936b36525fdc1f07c94266a8280abd6acb04d1d87477d8ea790c98593084649f5be7fb7653c8ffcc34dd3e5067b2ffac7feaa85e5e574c972b7363dc0ac7df937c82cdce2ccae7cf6c2df265a3e8c9188cda23d872da08a0e2fa5a4",
-      "logo": "https://img.fi.ai/app-logo/ens.png",
-      "id": "ens.m.pro",
-      "url": "",
-      "urlPack": "https://json.fi.ai/ens.json",
-      "type": 1,
-      "page": 0,
-      "position": {
-        "x": 3,
-        "y": 2,
-        "width": 1,
-        "height": 1
+        "y": 0,
+        "width": 3,
+        "height": 2
       }
     },
     {
@@ -232,36 +132,93 @@
       "statusBar": "hide",
       "type": 3,
       "urlScript": "",
-      "page": 1,
+      "page": 0,
       "position": {
-        "x": 0,
+        "x": 3,
         "y": 0,
-        "width": 2,
+        "width": 3,
         "height": 2
       }
     },
     {
-      "name": "X",
-      "version": "0.0.1",
-      "url": "https://x.com/home",
-      "urlPack": "",
-      "logo": "",
-      "id": "co.x.frame",
+      "name": "POSS",
+      "version": "4.0.2",
+      "url": "",
+      "urlPack": "https://test-resources.mygvq.org/json/poss.json",
+      "logo": "https://img.fi.ai/logo-pos.png",
+      "id": "poss.m.pro",
       "orientation": "portrait",
       "author": "n/a",
       "isLocal": false,
       "isFullScreen": true,
       "statusBar": "hide",
-      "type": 3,
-      "urlScript": "",
+      "type": 1,
+      "page": 1,
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "MT Wallet",
+      "version": "4.0.2",
+      "url": "https://multiwallet.m.pro",
+      "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/tokenomic.jpg",
+      "id": "multiwallet.m.pro",
+      "orientation": "portrait",
+      "author": "n/a",
+      "isLocal": false,
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "type": 1,
+      "page": 1,
+      "position": {
+        "x": 1,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "Attendance Tracking",
+      "version": "4.0.2",
+      "hash": "335d3df52df4852c962277ca563e4a7cb67f450a31f9b3fe80543f262bf3f71c",
+      "pubKey": "927c8f340255d5a2d7b839ce4859f7dc33c64e5967fe40dde023c0751a53dff3925eec1eaaeb60f83c203c85e9c5b223",
+      "sign": "a72c0b66b936b36525fdc1f07c94266a8280abd6acb04d1d87477d8ea790c98593084649f5be7fb7653c8ffcc34dd3e5067b2ffac7feaa85e5e574c972b7363dc0ac7df937c82cdce2ccae7cf6c2df265a3e8c9188cda23d872da08a0e2fa5a4",
+      "logo": "https://img.fi.ai/attendance_tracking.png",
+      "id": "attendance-tracking.m.pro",
+      "url": "https://t-attendance-tracking.m.pro/",
+      "type": 1,
       "page": 1,
       "position": {
         "x": 2,
         "y": 0,
-        "width": 2,
-        "height": 2
+        "width": 1,
+        "height": 1
       }
     },
+    {
+      "name": "ENS",
+      "version": "4.0.2",
+      "hash": "335d3df52df4852c962277ca563e4a7cb67f450a31f9b3fe80543f262bf3f71c",
+      "pubKey": "927c8f340255d5a2d7b839ce4859f7dc33c64e5967fe40dde023c0751a53dff3925eec1eaaeb60f83c203c85e9c5b223",
+      "sign": "a72c0b66b936b36525fdc1f07c94266a8280abd6acb04d1d87477d8ea790c98593084649f5be7fb7653c8ffcc34dd3e5067b2ffac7feaa85e5e574c972b7363dc0ac7df937c82cdce2ccae7cf6c2df265a3e8c9188cda23d872da08a0e2fa5a4",
+      "logo": "https://img.fi.ai/app-logo/ens.png",
+      "id": "ens.m.pro",
+      "url": "",
+      "urlPack": "https://json.fi.ai/ens.json",
+      "type": 1,
+      "page": 1,
+      "position": {
+        "x": 3,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+
     {
       "name": "Youtube",
       "version": "0.0.2",
@@ -277,8 +234,8 @@
       "urlScript": "https://raw.githubusercontent.com/meta-node-blockchain/Default-Json-D-App/refs/heads/master/dApp/youtube/worker.js",
       "page": 1,
       "position": {
-        "x": 0,
-        "y": 2,
+        "x": 4,
+        "y": 0,
         "width": 1,
         "height": 1
       }
@@ -301,8 +258,8 @@
       "type": 4,
       "page": 1,
       "position": {
-        "x": 1,
-        "y": 2,
+        "x": 5,
+        "y": 0,
         "width": 1,
         "height": 1
       }
@@ -319,8 +276,8 @@
       "type": 1,
       "page": 1,
       "position": {
-        "x": 2,
-        "y": 2,
+        "x": 0,
+        "y": 1,
         "width": 1,
         "height": 1
       }
@@ -341,8 +298,8 @@
       "urlScript": "",
       "page": 1,
       "position": {
-        "x": 3,
-        "y": 2,
+        "x": 1,
+        "y": 1,
         "width": 1,
         "height": 1
       }
@@ -363,8 +320,8 @@
       "urlScript": "",
       "page": 1,
       "position": {
-        "x": 0,
-        "y": 3,
+        "x": 2,
+        "y": 1,
         "width": 1,
         "height": 1
       }
@@ -384,8 +341,8 @@
       "type": 1,
       "page": 1,
       "position": {
-        "x": 1,
-        "y": 3,
+        "x": 3,
+        "y": 1,
         "width": 1,
         "height": 1
       }
@@ -406,8 +363,8 @@
       "urlScript": "",
       "page": 1,
       "position": {
-        "x": 2,
-        "y": 3,
+        "x": 4,
+        "y": 1,
         "width": 1,
         "height": 1
       }
@@ -427,8 +384,8 @@
       "urlScript": "https://img.fi.ai/s/telegram.js",
       "page": 1,
       "position": {
-        "x": 3,
-        "y": 3,
+        "x": 5,
+        "y": 1,
         "width": 1,
         "height": 1
       }
@@ -447,10 +404,10 @@
       "statusBar": "hide",
       "type": 1,
       "urlScript": "",
-      "page": 1,
+      "page": 2,
       "position": {
         "x": 0,
-        "y": 2,
+        "y": 0,
         "width": 1,
         "height": 1
       }
@@ -469,10 +426,10 @@
       "statusBar": "hide",
       "type": 1,
       "urlScript": "",
-      "page": 1,
+      "page": 2,
       "position": {
         "x": 1,
-        "y": 2,
+        "y": 0,
         "width": 1,
         "height": 1
       }
@@ -491,10 +448,10 @@
       "statusBar": "hide",
       "type": 1,
       "urlScript": "",
-      "page": 1,
+      "page": 2,
       "position": {
         "x": 2,
-        "y": 2,
+        "y": 0,
         "width": 1,
         "height": 1
       }
@@ -512,10 +469,10 @@
       "isFullScreen": true,
       "statusBar": "hide",
       "type": 1,
-      "page": 1,
+      "page": 2,
       "position": {
         "x": 3,
-        "y": 2,
+        "y": 0,
         "width": 1,
         "height": 1
       }
@@ -535,7 +492,7 @@
       "type": 1,
       "page": 2,
       "position": {
-        "x": 0,
+        "x": 4,
         "y": 0,
         "width": 1,
         "height": 1
@@ -556,7 +513,7 @@
       "type": 1,
       "page": 2,
       "position": {
-        "x": 1,
+        "x": 5,
         "y": 0,
         "width": 1,
         "height": 1
@@ -577,8 +534,8 @@
       "type": 1,
       "page": 2,
       "position": {
-        "x": 2,
-        "y": 0,
+        "x": 0,
+        "y": 1,
         "width": 1,
         "height": 1
       }
@@ -598,8 +555,8 @@
       "type": 1,
       "page": 2,
       "position": {
-        "x": 3,
-        "y": 0,
+        "x": 1,
+        "y": 1,
         "width": 1,
         "height": 1
       }
@@ -619,7 +576,7 @@
       "type": 1,
       "page": 2,
       "position": {
-        "x": 0,
+        "x": 2,
         "y": 1,
         "width": 1,
         "height": 1
@@ -641,7 +598,7 @@
       "type": 1,
       "page": 2,
       "position": {
-        "x": 1,
+        "x": 3,
         "y": 1,
         "width": 1,
         "height": 1
@@ -663,7 +620,7 @@
       "type": 1,
       "page": 2,
       "position": {
-        "x": 2,
+        "x": 4,
         "y": 1,
         "width": 1,
         "height": 1
@@ -685,7 +642,7 @@
       "type": 1,
       "page": 2,
       "position": {
-        "x": 3,
+        "x": 5,
         "y": 1,
         "width": 1,
         "height": 1
@@ -706,12 +663,12 @@
       "statusBar": "hide",
       "type": 1,
       "urlScript": "",
-      "page": 2,
+      "page": 3,
       "url": "",
       "urlPack": "https://json.fi.ai/rootnode.json",
       "position": {
         "x": 0,
-        "y": 3,
+        "y": 0,
         "width": 1,
         "height": 1
       }
@@ -731,12 +688,12 @@
       "statusBar": "hide",
       "type": 1,
       "urlScript": "",
-      "page": 2,
+      "page": 3,
       "url": "",
       "urlPack": "https://json.fi.ai/daonode.json",
       "position": {
         "x": 1,
-        "y": 3,
+        "y": 0,
         "width": 1,
         "height": 1
       }
@@ -756,12 +713,12 @@
       "statusBar": "hide",
       "type": 1,
       "urlScript": "",
-      "page": 2,
+      "page": 3,
       "url": "",
       "urlPack": "https://json.fi.ai/estock.json",
       "position": {
         "x": 2,
-        "y": 3,
+        "y": 0,
         "width": 1,
         "height": 1
       }
@@ -781,12 +738,12 @@
       "statusBar": "hide",
       "type": 1,
       "urlScript": "",
-      "page": 2,
+      "page": 3,
       "url": "",
       "urlPack": "https://json.fi.ai/showroom.json",
       "position": {
         "x": 3,
-        "y": 3,
+        "y": 0,
         "width": 1,
         "height": 1
       }
