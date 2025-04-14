@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-  "version": "10.0.9",
-=======
-  "version": "10.1.0",
->>>>>>> fix
+  "version": "10.1.1",
   "favorites": [
     {
       "name": "Settings",
@@ -411,11 +407,7 @@
       "page": 1,
       "position": {
         "x": 0,
-<<<<<<< HEAD
-        "y": 2,
-=======
         "y": 1,
->>>>>>> fix
         "width": 1,
         "height": 1
       }
@@ -437,11 +429,7 @@
       "page": 1,
       "position": {
         "x": 1,
-<<<<<<< HEAD
-        "y": 2,
-=======
         "y": 1,
->>>>>>> fix
         "width": 1,
         "height": 1
       }
@@ -463,11 +451,7 @@
       "page": 1,
       "position": {
         "x": 2,
-<<<<<<< HEAD
-        "y": 2,
-=======
         "y": 1,
->>>>>>> fix
         "width": 1,
         "height": 1
       }
@@ -488,11 +472,7 @@
       "page": 1,
       "position": {
         "x": 3,
-<<<<<<< HEAD
-        "y": 2,
-=======
         "y": 1,
->>>>>>> fix
         "width": 1,
         "height": 1
       }

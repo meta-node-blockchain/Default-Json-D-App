@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-  "version": "10.0.9",
-=======
-  "version": "10.1.0",
->>>>>>> fix
+  "version": "10.1.1",
   "favorites": [
     {
       "name": "Settings",
@@ -103,35 +99,8 @@
     {
       "name": "Telegram",
       "version": "0.0.1",
-<<<<<<< HEAD
-      "url": "https://x.com/home",
-      "urlPack": "https://resources.m.pro/frame/json/notes.json",
-      "logo": "",
-      "id": "notes.m.pro",
-      "orientation": "portrait",
-      "author": "n/a",
-      "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "type": 3,
-      "urlScript": "",
-      "page": 0,
-      "position": {
-        "x": 0,
-        "y": 0,
-        "width": 3,
-        "height": 2
-      }
-    },
-    {
-      "name": "Recording",
-      "version": "0.0.1",
-      "url": "https://www.facebook.com/",
-      "urlPack": "https://resources.m.pro/frame/json/record.json",
-=======
       "url": "https://telegram.org/",
       "urlPack": "",
->>>>>>> fix
       "logo": "",
       "id": "record.m.pro.frame",
       "orientation": "portrait",
@@ -143,11 +112,6 @@
       "urlScript": "",
       "page": 0,
       "position": {
-<<<<<<< HEAD
-        "x": 3,
-        "y": 0,
-        "width": 3,
-=======
         "x": 0,
         "y": 0,
         "width": 3,
@@ -173,7 +137,6 @@
         "x": 3,
         "y": 0,
         "width": 3,
->>>>>>> fix
         "height": 2
       }
     },
@@ -272,11 +235,7 @@
       "page": 0,
       "position": {
         "x": 4,
-<<<<<<< HEAD
-        "y": 2,
-=======
         "y": 0,
->>>>>>> fix
         "width": 1,
         "height": 1
       }
@@ -300,11 +259,7 @@
       "page": 0,
       "position": {
         "x": 5,
-<<<<<<< HEAD
-        "y": 2,
-=======
         "y": 0,
->>>>>>> fix
         "width": 1,
         "height": 1
       }
@@ -322,11 +277,7 @@
       "page": 1,
       "position": {
         "x": 0,
-<<<<<<< HEAD
-        "y": 0,
-=======
         "y": 1,
->>>>>>> fix
         "width": 1,
         "height": 1
       }
@@ -348,11 +299,7 @@
       "page": 1,
       "position": {
         "x": 1,
-<<<<<<< HEAD
-        "y": 0,
-=======
         "y": 1,
->>>>>>> fix
         "width": 1,
         "height": 1
       }
@@ -374,11 +321,7 @@
       "page": 1,
       "position": {
         "x": 2,
-<<<<<<< HEAD
-        "y": 0,
-=======
         "y": 1,
->>>>>>> fix
         "width": 1,
         "height": 1
       }
@@ -399,11 +342,7 @@
       "page": 1,
       "position": {
         "x": 3,
-<<<<<<< HEAD
-        "y": 0,
-=======
         "y": 1,
->>>>>>> fix
         "width": 1,
         "height": 1
       }
@@ -425,11 +364,7 @@
       "page": 1,
       "position": {
         "x": 4,
-<<<<<<< HEAD
-        "y": 0,
-=======
         "y": 1,
->>>>>>> fix
         "width": 1,
         "height": 1
       }
@@ -450,11 +385,7 @@
       "page": 1,
       "position": {
         "x": 5,
-<<<<<<< HEAD
-        "y": 0,
-=======
         "y": 1,
->>>>>>> fix
         "width": 1,
         "height": 1
       }
@@ -476,11 +407,7 @@
       "page": 2,
       "position": {
         "x": 0,
-<<<<<<< HEAD
-        "y": 1,
-=======
         "y": 0,
->>>>>>> fix
         "width": 1,
         "height": 1
       }
@@ -502,11 +429,7 @@
       "page": 2,
       "position": {
         "x": 1,
-<<<<<<< HEAD
-        "y": 1,
-=======
         "y": 0,
->>>>>>> fix
         "width": 1,
         "height": 1
       }
@@ -528,11 +451,7 @@
       "page": 2,
       "position": {
         "x": 2,
-<<<<<<< HEAD
-        "y": 1,
-=======
         "y": 0,
->>>>>>> fix
         "width": 1,
         "height": 1
       }
@@ -553,11 +472,7 @@
       "page": 2,
       "position": {
         "x": 3,
-<<<<<<< HEAD
-        "y": 1,
-=======
         "y": 0,
->>>>>>> fix
         "width": 1,
         "height": 1
       }
@@ -578,11 +493,7 @@
       "page": 1,
       "position": {
         "x": 4,
-<<<<<<< HEAD
-        "y": 1,
-=======
         "y": 0,
->>>>>>> fix
         "width": 1,
         "height": 1
       }
@@ -603,11 +514,7 @@
       "page": 1,
       "position": {
         "x": 5,
-<<<<<<< HEAD
-        "y": 1,
-=======
         "y": 0,
->>>>>>> fix
         "width": 1,
         "height": 1
       }
@@ -628,11 +535,7 @@
       "page": 1,
       "position": {
         "x": 0,
-<<<<<<< HEAD
-        "y": 2,
-=======
         "y": 1,
->>>>>>> fix
         "width": 1,
         "height": 1
       }
@@ -653,11 +556,7 @@
       "page": 1,
       "position": {
         "x": 1,
-<<<<<<< HEAD
-        "y": 2,
-=======
         "y": 1,
->>>>>>> fix
         "width": 1,
         "height": 1
       }
@@ -678,11 +577,7 @@
       "page": 1,
       "position": {
         "x": 2,
-<<<<<<< HEAD
-        "y": 2,
-=======
         "y": 1,
->>>>>>> fix
         "width": 1,
         "height": 1
       }
@@ -704,11 +599,7 @@
       "page": 1,
       "position": {
         "x": 3,
-<<<<<<< HEAD
-        "y": 2,
-=======
         "y": 1,
->>>>>>> fix
         "width": 1,
         "height": 1
       }
@@ -730,11 +621,7 @@
       "page": 1,
       "position": {
         "x": 4,
-<<<<<<< HEAD
-        "y": 2,
-=======
         "y": 1,
->>>>>>> fix
         "width": 1,
         "height": 1
       }
@@ -855,13 +742,8 @@
       "url": "",
       "urlPack": "https://json.fi.ai/showroom.json",
       "position": {
-<<<<<<< HEAD
-        "x": 3,
-        "y": 0,
-=======
         "x": 5,
         "y": 1,
->>>>>>> fix
         "width": 1,
         "height": 1
       }
