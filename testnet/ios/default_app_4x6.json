@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-  "version": "10.0.9",
-=======
   "version": "10.1.0",
->>>>>>> fix
   "favorites": [
     {
       "name": "Settings",
@@ -101,15 +97,9 @@
   ],
   "apps": [
     {
-<<<<<<< HEAD
-      "name": "Pinterest",
-      "version": "0.0.1",
-      "url": "https://www.pinterest.com/",
-=======
       "name": "Telegram",
       "version": "0.0.1",
       "url": "https://telegram.org/",
->>>>>>> fix
       "urlPack": "",
       "logo": "",
       "id": "record.m.pro.frame",
@@ -129,15 +119,9 @@
       }
     },
     {
-<<<<<<< HEAD
-      "name": "Telegram",
-      "version": "0.0.1",
-      "url": "https://telegram.org/",
-=======
       "name": "Facebook",
       "version": "0.0.1",
       "url": "https://www.facebook.com/",
->>>>>>> fix
       "urlPack": "",
       "logo": "",
       "id": "co.facebook.frame",
@@ -234,54 +218,7 @@
         "height": 1
       }
     },
-<<<<<<< HEAD
-    {
-      "name": "Facebook",
-      "version": "0.0.1",
-      "url": "https://www.facebook.com/",
-      "urlPack": "",
-      "logo": "",
-      "id": "co.facebook.frame",
-      "orientation": "portrait",
-      "author": "n/a",
-      "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "type": 3,
-      "urlScript": "",
-      "page": 1,
-      "position": {
-        "x": 0,
-        "y": 0,
-        "width": 2,
-        "height": 2
-      }
-    },
-    {
-      "name": "X",
-      "version": "0.0.1",
-      "url": "https://x.com/home",
-      "urlPack": "",
-      "logo": "",
-      "id": "co.x.frame",
-      "orientation": "portrait",
-      "author": "n/a",
-      "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "type": 3,
-      "urlScript": "",
-      "page": 1,
-      "position": {
-        "x": 2,
-        "y": 0,
-        "width": 2,
-        "height": 2
-      }
-    },
-=======
 
->>>>>>> fix
     {
       "name": "Youtube",
       "version": "0.0.2",
@@ -470,11 +407,7 @@
       "page": 1,
       "position": {
         "x": 0,
-<<<<<<< HEAD
-        "y": 2,
-=======
         "y": 1,
->>>>>>> fix
         "width": 1,
         "height": 1
       }
@@ -496,11 +429,7 @@
       "page": 1,
       "position": {
         "x": 1,
-<<<<<<< HEAD
-        "y": 2,
-=======
         "y": 1,
->>>>>>> fix
         "width": 1,
         "height": 1
       }
@@ -522,11 +451,7 @@
       "page": 1,
       "position": {
         "x": 2,
-<<<<<<< HEAD
-        "y": 2,
-=======
         "y": 1,
->>>>>>> fix
         "width": 1,
         "height": 1
       }
@@ -547,11 +472,7 @@
       "page": 1,
       "position": {
         "x": 3,
-<<<<<<< HEAD
-        "y": 2,
-=======
         "y": 1,
->>>>>>> fix
         "width": 1,
         "height": 1
       }
@@ -656,11 +577,7 @@
       "page": 1,
       "position": {
         "x": 0,
-<<<<<<< HEAD
-        "y": 1,
-=======
         "y": 3,
->>>>>>> fix
         "width": 1,
         "height": 1
       }
@@ -682,11 +599,7 @@
       "page": 2,
       "position": {
         "x": 1,
-<<<<<<< HEAD
-        "y": 1,
-=======
         "y": 3,
->>>>>>> fix
         "width": 1,
         "height": 1
       }
@@ -708,11 +621,7 @@
       "page": 1,
       "position": {
         "x": 2,
-<<<<<<< HEAD
-        "y": 1,
-=======
         "y": 3,
->>>>>>> fix
         "width": 1,
         "height": 1
       }
@@ -758,37 +667,8 @@
       "url": "",
       "urlPack": "https://json.fi.ai/rootnode.json",
       "position": {
-        "x": 3,
-        "y": 1,
-        "width": 1,
-        "height": 1
-      }
-    },
-    {
-      "name": "Rootnode",
-      "hash": "335d3df52df4852c962277ca563e4a7cb67f450a31f9b3fe80543f262bf3f71c",
-      "pubKey": "927c8f340255d5a2d7b839ce4859f7dc33c64e5967fe40dde023c0751a53dff3925eec1eaaeb60f83c203c85e9c5b223",
-      "sign": "a72c0b66b936b36525fdc1f07c94266a8280abd6acb04d1d87477d8ea790c98593084649f5be7fb7653c8ffcc34dd3e5067b2ffac7feaa85e5e574c972b7363dc0ac7df937c82cdce2ccae7cf6c2df265a3e8c9188cda23d872da08a0e2fa5a4",
-      "version": "4.0.2",
-      "logo": "https://img.fi.ai/po5.png",
-      "id": "rootnode.m.pro",
-      "orientation": "portrait",
-      "author": "n/a",
-      "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "type": 1,
-      "urlScript": "",
-      "page": 2,
-      "url": "",
-      "urlPack": "https://json.fi.ai/rootnode.json",
-      "position": {
         "x": 0,
-<<<<<<< HEAD
-        "y": 3,
-=======
         "y": 0,
->>>>>>> fix
         "width": 1,
         "height": 1
       }
@@ -813,11 +693,7 @@
       "urlPack": "https://json.fi.ai/daonode.json",
       "position": {
         "x": 1,
-<<<<<<< HEAD
-        "y": 3,
-=======
         "y": 0,
->>>>>>> fix
         "width": 1,
         "height": 1
       }
@@ -842,11 +718,7 @@
       "urlPack": "https://json.fi.ai/estock.json",
       "position": {
         "x": 2,
-<<<<<<< HEAD
-        "y": 3,
-=======
         "y": 0,
->>>>>>> fix
         "width": 1,
         "height": 1
       }
@@ -871,11 +743,7 @@
       "urlPack": "https://json.fi.ai/showroom.json",
       "position": {
         "x": 3,
-<<<<<<< HEAD
-        "y": 3,
-=======
         "y": 0,
->>>>>>> fix
         "width": 1,
         "height": 1
       }
