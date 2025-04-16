@@ -1,5 +1,5 @@
 {
-  "version": "10.1.7",
+  "version": "10.1.8",
   "favorites": [
     {
       "name": "Settings",
@@ -609,7 +609,7 @@
       "url": "https://www.linkedin.com/",
       "urlPack": "",
       "urlScript": "https://json.fi.ai/script/linkedin.js",
-      "logo": "https://img.fi.ai/linkedIn.jpeg",
+      "logo": "https://img.fi.ai/linkedIn.jpg",
       "id": "co.linkedin.app",
       "orientation": "landscape",
       "author": "n/a",
