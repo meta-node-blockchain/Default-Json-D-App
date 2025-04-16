@@ -380,7 +380,7 @@
       "isFullScreen": false,
       "statusBar": "hide",
       "type": 4,
-      "urlScript": "https://img.fi.ai/s/telegram.js",
+      "urlScript": "https://json.fi.ai/script/telegram.js",
       "page": 1,
       "position": {
         "x": 3,
