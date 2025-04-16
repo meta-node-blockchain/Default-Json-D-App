@@ -121,9 +121,9 @@
     {
       "name": "Telegram",
       "version": "0.0.1",
-      "url": "https://telegram.org/",
+      "url": "https://web.telegram.org/k/",
       "urlPack": "",
-      "logo": "",
+      "logo": "https://img.fi.ai/telegram.png",
       "id": "record.m.pro.frame",
       "orientation": "portrait",
       "author": "n/a",
