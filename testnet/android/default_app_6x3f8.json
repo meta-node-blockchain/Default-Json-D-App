@@ -1,5 +1,5 @@
 {
-  "version": "10.1.1",
+  "version": "10.1.2",
   "favorites": [
     {
       "name": "Settings",
@@ -218,7 +218,6 @@
         "height": 1
       }
     },
-
     {
       "name": "Youtube",
       "version": "0.0.2",

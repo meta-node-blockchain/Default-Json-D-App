@@ -1,5 +1,5 @@
 {
-  "version": "10.1.1",
+  "version": "10.1.2",
   "favorites": [
     {
       "name": "Settings",
@@ -231,7 +231,7 @@
       "statusBar": "hide",
       "type": 1,
       "urlScript": "https://raw.githubusercontent.com/meta-node-blockchain/Default-Json-D-App/refs/heads/master/dApp/youtube/worker.js",
-      "page": 1,
+      "page": 0,
       "position": {
         "x": 4,
         "y": 0,
