@@ -1,5 +1,5 @@
 {
-  "version": "10.2.1",
+  "version": "10.2.2",
   "favorites": [
     {
       "name": "Settings",
@@ -141,65 +141,6 @@
       }
     },
     {
-      "name": "POSS",
-      "version": "4.0.2",
-      "url": "",
-      "urlPack": "https://test-resources.mygvq.org/json/poss.json",
-      "logo": "https://img.fi.ai/logo-pos.png",
-      "id": "poss.m.pro",
-      "orientation": "portrait",
-      "author": "n/a",
-      "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "type": 1,
-      "page": 0,
-      "position": {
-        "x": 0,
-        "y": 2,
-        "width": 1,
-        "height": 1
-      }
-    },
-    {
-      "name": "MT Wallet",
-      "version": "4.0.2",
-      "url": "https://multiwallet.m.pro",
-      "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/tokenomic.jpg",
-      "id": "multiwallet.m.pro",
-      "orientation": "portrait",
-      "author": "n/a",
-      "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "type": 1,
-      "page": 0,
-      "position": {
-        "x": 1,
-        "y": 2,
-        "width": 1,
-        "height": 1
-      }
-    },
-    {
-      "name": "Attendance Tracking",
-      "version": "4.0.2",
-      "hash": "335d3df52df4852c962277ca563e4a7cb67f450a31f9b3fe80543f262bf3f71c",
-      "pubKey": "927c8f340255d5a2d7b839ce4859f7dc33c64e5967fe40dde023c0751a53dff3925eec1eaaeb60f83c203c85e9c5b223",
-      "sign": "a72c0b66b936b36525fdc1f07c94266a8280abd6acb04d1d87477d8ea790c98593084649f5be7fb7653c8ffcc34dd3e5067b2ffac7feaa85e5e574c972b7363dc0ac7df937c82cdce2ccae7cf6c2df265a3e8c9188cda23d872da08a0e2fa5a4",
-      "logo": "https://img.fi.ai/attendance_tracking.png",
-      "id": "attendance-tracking.m.pro",
-      "url": "https://t-attendance-tracking.m.pro/",
-      "type": 1,
-      "page": 0,
-      "position": {
-        "x": 2,
-        "y": 2,
-        "width": 1,
-        "height": 1
-      }
-    },
-    {
       "name": "ENS",
       "version": "4.0.2",
       "hash": "335d3df52df4852c962277ca563e4a7cb67f450a31f9b3fe80543f262bf3f71c",
@@ -212,13 +153,12 @@
       "type": 1,
       "page": 0,
       "position": {
-        "x": 3,
+        "x": 0,
         "y": 2,
         "width": 1,
         "height": 1
       }
     },
-
     {
       "name": "Youtube",
       "version": "0.0.2",
@@ -234,8 +174,8 @@
       "urlScript": "https://raw.githubusercontent.com/meta-node-blockchain/Default-Json-D-App/refs/heads/master/dApp/youtube/worker.js",
       "page": 0,
       "position": {
-        "x": 0,
-        "y": 3,
+        "x": 1,
+        "y": 2,
         "width": 1,
         "height": 1
       }
@@ -258,8 +198,8 @@
       "type": 4,
       "page": 0,
       "position": {
-        "x": 1,
-        "y": 3,
+        "x": 2,
+        "y": 2,
         "width": 1,
         "height": 1
       }
@@ -276,8 +216,8 @@
       "type": 1,
       "page": 0,
       "position": {
-        "x": 2,
-        "y": 3,
+        "x": 3,
+        "y": 2,
         "width": 1,
         "height": 1
       }
@@ -298,7 +238,7 @@
       "urlScript": "",
       "page": 0,
       "position": {
-        "x": 3,
+        "x": 0,
         "y": 3,
         "width": 1,
         "height": 1
@@ -318,10 +258,10 @@
       "statusBar": "hide",
       "type": 1,
       "urlScript": "",
-      "page": 1,
+      "page": 0,
       "position": {
-        "x": 0,
-        "y": 0,
+        "x": 1,
+        "y": 3,
         "width": 1,
         "height": 1
       }
@@ -339,32 +279,10 @@
       "isFullScreen": true,
       "statusBar": "hide",
       "type": 1,
-      "page": 1,
-      "position": {
-        "x": 1,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      }
-    },
-    {
-      "name": "Meta ID",
-      "version": "4.0.2",
-      "url": "",
-      "urlPack": "https://test-resources.mygvq.org/json/meta-id.json",
-      "logo": "https://img.fi.ai/app-logo/meta-id.png",
-      "id": "meta-id.m.pro",
-      "orientation": "portrait",
-      "author": "n/a",
-      "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "type": 1,
-      "urlScript": "",
-      "page": 1,
+      "page": 0,
       "position": {
         "x": 2,
-        "y": 0,
+        "y": 3,
         "width": 1,
         "height": 1
       }
@@ -382,14 +300,15 @@
       "statusBar": "hide",
       "type": 4,
       "urlScript": "https://json.fi.ai/script/telegram.js",
-      "page": 1,
+      "page": 0,
       "position": {
         "x": 3,
-        "y": 0,
+        "y": 3,
         "width": 1,
         "height": 1
       }
     },
+
     {
       "name": "Deploy SMC",
       "version": "0.0.1",
@@ -407,7 +326,7 @@
       "page": 1,
       "position": {
         "x": 0,
-        "y": 1,
+        "y": 0,
         "width": 1,
         "height": 1
       }
@@ -429,7 +348,7 @@
       "page": 1,
       "position": {
         "x": 1,
-        "y": 1,
+        "y": 0,
         "width": 1,
         "height": 1
       }
@@ -451,49 +370,7 @@
       "page": 1,
       "position": {
         "x": 2,
-        "y": 1,
-        "width": 1,
-        "height": 1
-      }
-    },
-    {
-      "name": "A Pay",
-      "version": "1.0.0",
-      "url": "",
-      "urlPack": "https://test-resources.mygvq.org/json/a-pay.json",
-      "logo": "https://img.fi.ai/logo-pos.png",
-      "id": "apay.m.pro",
-      "orientation": "portrait",
-      "author": "n/a",
-      "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "type": 1,
-      "page": 1,
-      "position": {
-        "x": 3,
-        "y": 1,
-        "width": 1,
-        "height": 1
-      }
-    },
-    {
-      "name": "MT Wallet",
-      "version": "1.0.0",
-      "url": "",
-      "urlPack": "https://test-resources.mygvq.org/json/mt-wallet.json",
-      "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/tokenomic.jpg",
-      "id": "co.mtwallet.app",
-      "orientation": "portrait",
-      "author": "n/a",
-      "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "type": 1,
-      "page": 1,
-      "position": {
-        "x": 0,
-        "y": 2,
+        "y": 0,
         "width": 1,
         "height": 1
       }
@@ -513,29 +390,8 @@
       "type": 1,
       "page": 1,
       "position": {
-        "x": 1,
-        "y": 2,
-        "width": 1,
-        "height": 1
-      }
-    },
-    {
-      "name": "Food Order",
-      "version": "1.0.0",
-      "url": "",
-      "urlPack": "https://json.fi.ai/food-order.json",
-      "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/tokenomic.jpg",
-      "id": "co.foodorder.app",
-      "orientation": "portrait",
-      "author": "n/a",
-      "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "type": 1,
-      "page": 1,
-      "position": {
-        "x": 2,
-        "y": 2,
+        "x": 3,
+        "y": 0,
         "width": 1,
         "height": 1
       }
@@ -555,8 +411,8 @@
       "type": 1,
       "page": 1,
       "position": {
-        "x": 3,
-        "y": 2,
+        "x": 0,
+        "y": 1,
         "width": 1,
         "height": 1
       }
@@ -576,8 +432,8 @@
       "type": 1,
       "page": 1,
       "position": {
-        "x": 0,
-        "y": 3,
+        "x": 1,
+        "y": 1,
         "width": 1,
         "height": 1
       }
@@ -598,8 +454,8 @@
       "type": 1,
       "page": 2,
       "position": {
-        "x": 1,
-        "y": 3,
+        "x": 2,
+        "y": 1,
         "width": 1,
         "height": 1
       }
@@ -610,7 +466,7 @@
       "url": "https://www.linkedin.com/",
       "urlPack": "",
       "urlScript": "https://json.fi.ai/script/linkedin.js",
-      "logo": "",
+      "logo": "https://img.fi.ai/linkedIn.jpg",
       "id": "co.linkedin.app",
       "orientation": "landscape",
       "author": "n/a",
@@ -620,8 +476,8 @@
       "type": 1,
       "page": 1,
       "position": {
-        "x": 2,
-        "y": 3,
+        "x": 3,
+        "y": 1,
         "width": 1,
         "height": 1
       }
@@ -632,7 +488,7 @@
       "url": "https://open.spotify.com/",
       "urlPack": "",
       "urlScript": "https://json.fi.ai/script/spotify.js",
-      "logo": "",
+      "logo": "https://img.fi.ai/spotify.png",
       "id": "co.spotify.app",
       "orientation": "landscape",
       "author": "n/a",
@@ -642,8 +498,8 @@
       "type": 1,
       "page": 1,
       "position": {
-        "x": 3,
-        "y": 3,
+        "x": 0,
+        "y": 2,
         "width": 1,
         "height": 1
       }
@@ -663,12 +519,12 @@
       "statusBar": "hide",
       "type": 1,
       "urlScript": "",
-      "page": 2,
+      "page": 1,
       "url": "",
       "urlPack": "https://json.fi.ai/rootnode.json",
       "position": {
-        "x": 0,
-        "y": 0,
+        "x": 1,
+        "y": 2,
         "width": 1,
         "height": 1
       }
@@ -688,12 +544,12 @@
       "statusBar": "hide",
       "type": 1,
       "urlScript": "",
-      "page": 2,
+      "page": 1,
       "url": "",
       "urlPack": "https://json.fi.ai/daonode.json",
       "position": {
-        "x": 1,
-        "y": 0,
+        "x": 2,
+        "y": 2,
         "width": 1,
         "height": 1
       }
@@ -713,12 +569,12 @@
       "statusBar": "hide",
       "type": 1,
       "urlScript": "",
-      "page": 2,
+      "page": 1,
       "url": "",
       "urlPack": "https://json.fi.ai/estock.json",
       "position": {
-        "x": 2,
-        "y": 0,
+        "x": 3,
+        "y": 2,
         "width": 1,
         "height": 1
       }
@@ -738,111 +594,11 @@
       "statusBar": "hide",
       "type": 1,
       "urlScript": "",
-      "page": 2,
+      "page": 1,
       "url": "",
       "urlPack": "https://json.fi.ai/showroom.json",
-      "position": {
-        "x": 3,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      }
-    },
-    {
-      "name": "Dapp Company",
-      "hash": "335d3df52df4852c962277ca563e4a7cb67f450a31f9b3fe80543f262bf3f71c",
-      "pubKey": "927c8f340255d5a2d7b839ce4859f7dc33c64e5967fe40dde023c0751a53dff3925eec1eaaeb60f83c203c85e9c5b223",
-      "sign": "a72c0b66b936b36525fdc1f07c94266a8280abd6acb04d1d87477d8ea790c98593084649f5be7fb7653c8ffcc34dd3e5067b2ffac7feaa85e5e574c972b7363dc0ac7df937c82cdce2ccae7cf6c2df265a3e8c9188cda23d872da08a0e2fa5a4",
-      "version": "4.0.2",
-      "logo": "https://img.fi.ai/rootnode.png",
-      "id": "rootnode.m.pro",
-      "orientation": "portrait",
-      "author": "n/a",
-      "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "type": 1,
-      "urlScript": "",
-      "page": 2,
-      "url": "",
-      "urlPack": "https://json.fi.ai/rootnode.json",
       "position": {
         "x": 0,
-        "y": 3,
-        "width": 1,
-        "height": 1
-      }
-    },
-    {
-      "name": "Daonode",
-      "hash": "335d3df52df4852c962277ca563e4a7cb67f450a31f9b3fe80543f262bf3f71c",
-      "pubKey": "927c8f340255d5a2d7b839ce4859f7dc33c64e5967fe40dde023c0751a53dff3925eec1eaaeb60f83c203c85e9c5b223",
-      "sign": "a72c0b66b936b36525fdc1f07c94266a8280abd6acb04d1d87477d8ea790c98593084649f5be7fb7653c8ffcc34dd3e5067b2ffac7feaa85e5e574c972b7363dc0ac7df937c82cdce2ccae7cf6c2df265a3e8c9188cda23d872da08a0e2fa5a4",
-      "version": "4.0.2",
-      "logo": "https://img.fi.ai/daonode.png",
-      "id": "daonode.m.pro",
-      "orientation": "portrait",
-      "author": "n/a",
-      "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "type": 1,
-      "urlScript": "",
-      "page": 2,
-      "url": "",
-      "urlPack": "https://json.fi.ai/daonode.json",
-      "position": {
-        "x": 1,
-        "y": 3,
-        "width": 1,
-        "height": 1
-      }
-    },
-    {
-      "name": "Estock",
-      "hash": "335d3df52df4852c962277ca563e4a7cb67f450a31f9b3fe80543f262bf3f71c",
-      "pubKey": "927c8f340255d5a2d7b839ce4859f7dc33c64e5967fe40dde023c0751a53dff3925eec1eaaeb60f83c203c85e9c5b223",
-      "sign": "a72c0b66b936b36525fdc1f07c94266a8280abd6acb04d1d87477d8ea790c98593084649f5be7fb7653c8ffcc34dd3e5067b2ffac7feaa85e5e574c972b7363dc0ac7df937c82cdce2ccae7cf6c2df265a3e8c9188cda23d872da08a0e2fa5a4",
-      "version": "4.0.2",
-      "logo": "https://img.fi.ai/estock.png",
-      "id": "estock.m.pro",
-      "orientation": "portrait",
-      "author": "n/a",
-      "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "type": 1,
-      "urlScript": "",
-      "page": 2,
-      "url": "",
-      "urlPack": "https://json.fi.ai/estock.json",
-      "position": {
-        "x": 2,
-        "y": 3,
-        "width": 1,
-        "height": 1
-      }
-    },
-    {
-      "name": "Showroom",
-      "hash": "335d3df52df4852c962277ca563e4a7cb67f450a31f9b3fe80543f262bf3f71c",
-      "pubKey": "927c8f340255d5a2d7b839ce4859f7dc33c64e5967fe40dde023c0751a53dff3925eec1eaaeb60f83c203c85e9c5b223",
-      "sign": "a72c0b66b936b36525fdc1f07c94266a8280abd6acb04d1d87477d8ea790c98593084649f5be7fb7653c8ffcc34dd3e5067b2ffac7feaa85e5e574c972b7363dc0ac7df937c82cdce2ccae7cf6c2df265a3e8c9188cda23d872da08a0e2fa5a4",
-      "version": "4.0.2",
-      "logo": "https://img.fi.ai/showroom.png",
-      "id": "showroom.m.pro",
-      "orientation": "portrait",
-      "author": "n/a",
-      "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "type": 1,
-      "urlScript": "",
-      "page": 2,
-      "url": "",
-      "urlPack": "https://json.fi.ai/showroom.json",
-      "position": {
-        "x": 3,
         "y": 3,
         "width": 1,
         "height": 1
