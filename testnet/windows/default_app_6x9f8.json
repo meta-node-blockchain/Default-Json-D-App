@@ -1,5 +1,5 @@
 {
-  "version": "20.0.2",
+  "version": "20.0.3",
   "favorites": [
     {
       "name": "Settings",
@@ -406,28 +406,6 @@
       "page": 1,
       "position": {
         "x": 1,
-        "y": 0,
-        "width": 3,
-        "height": 2
-      }
-    },
-    {
-      "name": "Facebook",
-      "version": "0.0.1",
-      "url": "https://www.facebook.com/",
-      "urlPack": "",
-      "logo": "https://img.fi.ai/facebook.webp",
-      "id": "co.facebook.dapp",
-      "orientation": "portrait",
-      "author": "n/a",
-      "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "type": 1,
-      "urlScript": "https://json.fi.ai/script/facebook-dark.js",
-      "page": 1,
-      "position": {
-        "x": 2,
         "y": 0,
         "width": 3,
         "height": 2
