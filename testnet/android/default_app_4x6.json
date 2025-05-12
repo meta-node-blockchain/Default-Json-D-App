@@ -1,5 +1,5 @@
 {
-  "version": "10.2.5",
+  "version": "10.2.6",
   "favorites": [
     {
       "name": "Settings",
@@ -96,28 +96,6 @@
     }
   ],
   "apps": [
-    {
-      "name": "Telegram",
-      "version": "0.0.1",
-      "url": "https://web.telegram.org/k/",
-      "urlPack": "",
-      "logo": "https://img.fi.ai/telegram.png",
-      "id": "record.m.pro.frame",
-      "orientation": "portrait",
-      "author": "n/a",
-      "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "type": 3,
-      "urlScript": "",
-      "page": 0,
-      "position": {
-        "x": 0,
-        "y": 0,
-        "width": 2,
-        "height": 2
-      }
-    },
     {
       "name": "Facebook",
       "version": "0.0.1",
