@@ -166,7 +166,7 @@ console.log("<<<<<<<<<<<Init-Worker>>>>>>>>>>>");
   // Register backworker
   window.backWorker.register({
     type: "media",
-    link: "https://raw.githubusercontent.com/meta-node-blockchain/Default-Json-D-App/refs/heads/master/dApp/youtube/main.js",
+    link: "https://json.fi.ai/script/youtube-main-worker.js",
     // link: 'https://raw.githubusercontent.com/meta-node-blockchain/Default-Json-D-App/refs/heads/master/dApp/youtube/main_70f50627f4a1ec1b61a2cf3d36db7f587e1865ea268282816e4faa1d682f3e33.wasm',
     // link: 'http://192.168.1.48:5503/webYtCoreOrgYT/dist/main_70f50627f4a1ec1b61a2cf3d36db7f587e1865ea268282816e4faa1d682f3e33.wasm',
     // link: 'http://192.168.1.48:5503/webYtCoreOrgYT/dist/main.js',
