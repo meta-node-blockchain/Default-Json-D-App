@@ -61,18 +61,6 @@ console.log("<<<<<<<<<<<Init-Worker>>>>>>>>>>>");
   // End Utils function
 
   function getCurrentCookies() {
-    window.webkit.messageHandlers.callbackHandler.postMessage(
-      JSON.stringify({
-        workerId: window.workerId,
-        command: "get-cookies",
-      })
-    );
-  }
-
-  const sendEvent = function (action, content) {
-    if (action !== "register" && typeof window.workerId !== "string") {
-      return false;
-    }
     if (
       window.webkit &&
       window.webkit.messageHandlers &&
@@ -80,6 +68,41 @@ console.log("<<<<<<<<<<<Init-Worker>>>>>>>>>>>");
       typeof window.webkit.messageHandlers.callbackHandler.postMessage ===
         "function"
     ) {
+      window.webkit.messageHandlers.callbackHandler.postMessage(
+        JSON.stringify({
+          workerId: window.workerId,
+          command: "get-cookies",
+        })
+      );
+    } else if (
+      window.electronAPI &&
+      typeof window.electronAPI.sendMessage === "function"
+    ) {
+      window.electronAPI.sendMessage(
+        "native",
+        JSON.stringify({
+          workerId: window.workerId,
+          command: "get-cookies",
+        })
+      );
+    }
+  }
+
+  const sendEvent = function (action, content) {
+    console.log("CS_LOG sendEvent 1: ", action);
+    if (action !== "register" && typeof window.workerId !== "string") {
+      return false;
+    }
+
+    console.log("CS_LOG sendEvent 2: ", action);
+    if (
+      window.webkit &&
+      window.webkit.messageHandlers &&
+      window.webkit.messageHandlers.callbackHandler &&
+      typeof window.webkit.messageHandlers.callbackHandler.postMessage ===
+        "function"
+    ) {
+      console.log("CS_LOG sendEvent 3: ", action);
       window.webkit.messageHandlers.callbackHandler.postMessage(
         JSON.stringify({
           workerId: window.workerId,
@@ -92,6 +115,7 @@ console.log("<<<<<<<<<<<Init-Worker>>>>>>>>>>>");
       window.electronAPI &&
       typeof window.electronAPI.sendMessage === "function"
     ) {
+      console.log("CS_LOG sendEvent 4: ", action);
       window.electronAPI.sendMessage(
         "native",
         JSON.stringify({
@@ -211,7 +235,6 @@ console.log("<<<<<<<<<<<Init-Worker>>>>>>>>>>>");
     if (!e) return;
     if (typeof e.data === "string") {
       const tmps = e.data.split("|");
-
       if (tmps[0] !== "backWorker") {
         return;
       }
@@ -220,6 +243,7 @@ console.log("<<<<<<<<<<<Init-Worker>>>>>>>>>>>");
       }
       if (tmps[1] === "id") {
         window.workerId = tmps[2];
+        console.log("CS_LOG workerId = ", window.workerId);
         clearTimeout(tiemout_register);
         interval_getCookies = setInterval(() => {
           getCurrentCookies();
@@ -252,7 +276,26 @@ console.log("<<<<<<<<<<<Init-Worker>>>>>>>>>>>");
     }
   };
   window.addEventListener("message", n, !1);
-  window.electronAPI.onMessage("fromNative", n);
+  if (
+    window.electronAPI &&
+    typeof window.electronAPI.onMessage === "function"
+  ) {
+    // window.electronAPI.onMessage("fromNative", n);
+    window.electronAPI.onMessage("fromNative", (data) => {
+      console.log("Message from C#: ", data);
+      let message = data[0];
+      if (typeof message === "string") {
+        if (message.startsWith("{") && message.endsWith("}")) {
+          message = JSON.parse(message);
+        } else {
+          message = {
+            data: message,
+          };
+        }
+      }
+      n(message);
+    });
+  }
 
   window.setCookies = function (cookies) {
     if (!cookies || cookies.length == 0) {
@@ -262,6 +305,7 @@ console.log("<<<<<<<<<<<Init-Worker>>>>>>>>>>>");
   };
 
   window.getVideoInfo = function (youtubeURL) {
+    console.log("CS_LOG getVideoInfo called");
     const id = getURLVideoID(youtubeURL);
     if (!id || youtubeURL.indexOf("#searching") > -1) {
       return;
@@ -282,11 +326,9 @@ console.log("<<<<<<<<<<<Init-Worker>>>>>>>>>>>");
   };
 
   window.callPauseVideo = function () {
-    console.log("<<<<<<<<<<window.callPauseVideo>>>>>>>>>>");
     const videoTags = document.querySelectorAll("video");
     if (videoTags && videoTags.length > 0) {
       videoTags.forEach((vid) => {
-        console.log("vid --> ", typeof vid, vid.muted, vid.paused);
         vid.muted = true;
         vid.autoplay = false;
         if (vid.paused === true) {
