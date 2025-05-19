@@ -85,6 +85,8 @@
       "urlPack": "https://json.fi.ai/ens.json",
       "type": 1,
       "page": 0,
+      "isFullScreen": true,
+      "statusBar": "hide",
       "position": {
         "x": 0,
         "y": 0,
