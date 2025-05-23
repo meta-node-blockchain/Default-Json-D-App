@@ -1,5 +1,5 @@
 {
-  "version": "20.0.5",
+  "version": "20.0.6",
   "favorites": [
     {
       "name": "Settings",
@@ -245,7 +245,7 @@
       "orientation": "portrait",
       "author": "n/a",
       "isLocal": false,
-      "isFullScreen": false,
+      "isFullScreen": true,
       "statusBar": "hide",
       "type": 1,
       "urlScript": "https://json.fi.ai/script/telegram.js",
