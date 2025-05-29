@@ -1,5 +1,5 @@
 {
-  "version": "20.0.6",
+  "version": "20.0.7",
   "favorites": [
     {
       "name": "Settings",
@@ -364,6 +364,28 @@
         "y": 0,
         "width": 1,
         "height": 1
+      }
+    },
+    {
+      "name": "Notes",
+      "version": "0.0.1",
+      "url": "",
+      "urlPack": "https://json.fi.ai/notes.json",
+      "logo": "https://img.fi.ai/tasks.png",
+      "id": "tasks.m.frame.pro",
+      "orientation": "portrait",
+      "author": "n/a",
+      "isLocal": false,
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "type": 3,
+      "urlScript": "",
+      "page": 2,
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 2,
+        "height": 2
       }
     }
   ]
