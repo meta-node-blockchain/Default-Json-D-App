@@ -1,5 +1,5 @@
 {
-  "version": "20.1.0",
+  "version": "20.1.6",
   "favorites": [
     {
       "name": "Settings",
@@ -181,6 +181,28 @@
     }
   ],
   "apps": [
+    {
+      "name": "",
+      "version": "0.0.1",
+      "url": "",
+      "urlPack": "https://json.fi.ai/clock.json",
+      "logo": "",
+      "id": "clock.m.pro.frame",
+      "orientation": "portrait",
+      "author": "n/a",
+      "isLocal": false,
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "type": 3,
+      "urlScript": "",
+      "page": 0,
+      "position": {
+        "x": 4,
+        "y": 0,
+        "width": 4,
+        "height": 2
+      }
+    },
     {
       "name": "Food Order",
       "version": "1.0.0",
