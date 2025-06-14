@@ -1,5 +1,5 @@
 {
-  "version": "20.3.1",
+  "version": "20.3.2",
   "favorites": [
     {
       "name": "Settings",
@@ -200,6 +200,72 @@
         "x": 4,
         "y": 0,
         "width": 4,
+        "height": 2
+      }
+    },
+    {
+      "name": "Reminder",
+      "version": "0.0.1",
+      "url": "",
+      "urlPack": "https://json.fi.ai/reminder.json",
+      "logo": "",
+      "id": "reminder.m.pro.frame",
+      "orientation": "portrait",
+      "author": "n/a",
+      "isLocal": false,
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "type": 3,
+      "urlScript": "",
+      "page": 0,
+      "position": {
+        "x": 1,
+        "y": 5,
+        "width": 4,
+        "height": 2
+      }
+    },
+    {
+      "name": "Calendar",
+      "version": "0.0.1",
+      "url": "",
+      "urlPack": "https://json.fi.ai/calendar.json",
+      "logo": "",
+      "id": "calendar.m.pro.frame",
+      "orientation": "portrait",
+      "author": "n/a",
+      "isLocal": false,
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "type": 3,
+      "urlScript": "",
+      "page": 0,
+      "position": {
+        "x": 5,
+        "y": 5,
+        "width": 4,
+        "height": 2
+      }
+    },
+    {
+      "name": "Notes",
+      "version": "0.0.1",
+      "url": "",
+      "urlPack": "https://json.fi.ai/notes.json",
+      "logo": "",
+      "id": "notes.m.pro.frame",
+      "orientation": "portrait",
+      "author": "n/a",
+      "isLocal": false,
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "type": 3,
+      "urlScript": "",
+      "page": 0,
+      "position": {
+        "x": 9,
+        "y": 5,
+        "width": 2,
         "height": 2
       }
     },
