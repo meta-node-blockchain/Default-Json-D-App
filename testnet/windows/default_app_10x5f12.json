@@ -1,5 +1,5 @@
 {
-  "version": "20.2.7",
+  "version": "20.2.8",
   "favorites": [
     {
       "name": "Settings",
@@ -157,30 +157,97 @@
         "width": 1,
         "height": 1
       }
-    },
+    }
+  ],
+  "apps": [
     {
-      "name": "Telegram",
+      "name": "",
       "version": "0.0.1",
-      "url": "https://web.telegram.org/k/",
-      "logo": "https://img.fi.ai/telegram.png",
-      "id": "telegram.m.pro",
+      "url": "",
+      "urlPack": "https://json.fi.ai/clock.json",
+      "logo": "",
+      "id": "clock.m.pro.frame",
       "orientation": "portrait",
       "author": "n/a",
       "isLocal": false,
       "isFullScreen": true,
       "statusBar": "hide",
-      "type": 1,
-      "urlScript": "https://json.fi.ai/script/telegram.js",
+      "type": 3,
+      "urlScript": "",
       "page": 0,
       "position": {
-        "x": 7,
+        "x": 2,
         "y": 0,
-        "width": 1,
-        "height": 1
+        "width": 4,
+        "height": 2
       }
-    }
-  ],
-  "apps": [
+    },
+    {
+      "name": "Reminder",
+      "version": "0.0.1",
+      "url": "",
+      "urlPack": "https://json.fi.ai/reminder.json",
+      "logo": "",
+      "id": "reminder.m.pro.frame",
+      "orientation": "portrait",
+      "author": "n/a",
+      "isLocal": false,
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "type": 3,
+      "urlScript": "",
+      "page": 0,
+      "position": {
+        "x": 0,
+        "y": 2,
+        "width": 4,
+        "height": 2
+      }
+    },
+    {
+      "name": "Calendar",
+      "version": "0.0.1",
+      "url": "",
+      "urlPack": "https://json.fi.ai/calendar.json",
+      "logo": "",
+      "id": "calendar.m.pro.frame",
+      "orientation": "portrait",
+      "author": "n/a",
+      "isLocal": false,
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "type": 3,
+      "urlScript": "",
+      "page": 0,
+      "position": {
+        "x": 2,
+        "y": 2,
+        "width": 4,
+        "height": 2
+      }
+    },
+    {
+      "name": "Notes",
+      "version": "0.0.1",
+      "url": "",
+      "urlPack": "https://json.fi.ai/notes.json",
+      "logo": "",
+      "id": "notes.m.pro.frame",
+      "orientation": "portrait",
+      "author": "n/a",
+      "isLocal": false,
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "type": 3,
+      "urlScript": "",
+      "page": 0,
+      "position": {
+        "x": 4,
+        "y": 2,
+        "width": 2,
+        "height": 2
+      }
+    },
     {
       "name": "Food Order",
       "version": "1.0.0",
@@ -196,8 +263,8 @@
       "type": 1,
       "page": 0,
       "position": {
-        "x": 0,
-        "y": 2,
+        "x": -1,
+        "y": 4,
         "width": 1,
         "height": 1
       }
@@ -218,8 +285,8 @@
       "urlScript": "",
       "page": 0,
       "position": {
-        "x": 1,
-        "y": 2,
+        "x": 0,
+        "y": 4,
         "width": 1,
         "height": 1
       }
@@ -243,32 +310,10 @@
       "url": "",
       "urlPack": "https://json.fi.ai/showroom.json",
       "position": {
-        "x": 2,
-        "y": 2,
+        "x": 1,
+        "y": 4,
         "width": 1,
         "height": 1
-      }
-    },
-    {
-      "name": "",
-      "version": "0.0.1",
-      "url": "",
-      "urlPack": "https://json.fi.ai/clock.json",
-      "logo": "",
-      "id": "clock.m.pro.frame",
-      "orientation": "portrait",
-      "author": "n/a",
-      "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "type": 3,
-      "urlScript": "",
-      "page": 0,
-      "position": {
-        "x": 3,
-        "y": 0,
-        "width": 4,
-        "height": 2
       }
     },
     {
@@ -290,8 +335,8 @@
       "url": "",
       "urlPack": "https://json.fi.ai/rootnode.json",
       "position": {
-        "x": 3,
-        "y": 2,
+        "x": 2,
+        "y": 4,
         "width": 1,
         "height": 1
       }
@@ -315,8 +360,8 @@
       "url": "",
       "urlPack": "https://json.fi.ai/estock.json",
       "position": {
-        "x": 4,
-        "y": 2,
+        "x": 3,
+        "y": 4,
         "width": 1,
         "height": 1
       }
@@ -340,8 +385,8 @@
       "url": "",
       "urlPack": "https://json.fi.ai/daonode.json",
       "position": {
-        "x": 5,
-        "y": 2,
+        "x": 4,
+        "y": 4,
         "width": 1,
         "height": 1
       }
@@ -361,8 +406,8 @@
       "type": 1,
       "page": 0,
       "position": {
-        "x": 6,
-        "y": 2,
+        "x": 5,
+        "y": 4,
         "width": 1,
         "height": 1
       }
@@ -383,8 +428,8 @@
       "type": 1,
       "page": 0,
       "position": {
-        "x": 7,
-        "y": 2,
+        "x": 6,
+        "y": 4,
         "width": 1,
         "height": 1
       }
@@ -405,8 +450,29 @@
       "type": 1,
       "page": 0,
       "position": {
+        "x": 7,
+        "y": 4,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "Telegram",
+      "version": "0.0.1",
+      "url": "https://web.telegram.org/k/",
+      "logo": "https://img.fi.ai/telegram.png",
+      "id": "telegram.m.pro",
+      "orientation": "portrait",
+      "author": "n/a",
+      "isLocal": false,
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "type": 1,
+      "urlScript": "https://json.fi.ai/script/telegram.js",
+      "page": 0,
+      "position": {
         "x": 8,
-        "y": 2,
+        "y": 0,
         "width": 1,
         "height": 1
       }
