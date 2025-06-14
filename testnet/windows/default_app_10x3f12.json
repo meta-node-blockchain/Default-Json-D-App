@@ -1,5 +1,5 @@
 {
-  "version": "20.2.7",
+  "version": "20.3.1",
   "favorites": [
     {
       "name": "Settings",
@@ -161,6 +161,28 @@
   ],
   "apps": [
     {
+      "name": "",
+      "version": "0.0.1",
+      "url": "",
+      "urlPack": "https://json.fi.ai/clock.json",
+      "logo": "",
+      "id": "clock.m.pro.frame",
+      "orientation": "portrait",
+      "author": "n/a",
+      "isLocal": false,
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "type": 3,
+      "urlScript": "",
+      "page": 0,
+      "position": {
+        "x": 3,
+        "y": 0,
+        "width": 4,
+        "height": 2
+      }
+    },
+    {
       "name": "Food Order",
       "version": "1.0.0",
       "url": "",
@@ -226,28 +248,6 @@
         "y": 2,
         "width": 1,
         "height": 1
-      }
-    },
-    {
-      "name": "",
-      "version": "0.0.1",
-      "url": "",
-      "urlPack": "https://json.fi.ai/clock.json",
-      "logo": "",
-      "id": "clock.m.pro.frame",
-      "orientation": "portrait",
-      "author": "n/a",
-      "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "type": 3,
-      "urlScript": "",
-      "page": 0,
-      "position": {
-        "x": 3,
-        "y": 0,
-        "width": 4,
-        "height": 2
       }
     },
     {
@@ -405,7 +405,7 @@
       "urlScript": "https://json.fi.ai/script/telegram.js",
       "page": 0,
       "position": {
-        "x": 9,
+        "x": 7,
         "y": 2,
         "width": 1,
         "height": 1
