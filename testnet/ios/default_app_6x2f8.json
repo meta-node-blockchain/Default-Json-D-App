@@ -1,5 +1,5 @@
 {
-  "version": "20.3.5",
+  "version": "20.3.6",
   "favorites": [
     {
       "name": "Settings",
@@ -749,7 +749,7 @@
       }
     },
     {
-      "name": "Melap",
+      "name": "Melab",
       "version": "1.0.0",
       "url": "",
       "urlPack": "https://json.fi.ai/melap.json",
