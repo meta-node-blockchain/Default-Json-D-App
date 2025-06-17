@@ -1,5 +1,5 @@
 {
-  "version": "20.3.6",
+  "version": "20.3.7",
   "favorites": [
     {
       "name": "Settings",
@@ -743,6 +743,28 @@
       "position": {
         "x": 5,
         "y": 1,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "Melab",
+      "version": "1.0.0",
+      "url": "",
+      "urlPack": "https://json.fi.ai/melap.json",
+      "urlScript": "",
+      "logo": "https://img.fi.ai/MELAB_LOGO.png",
+      "id": "meta.melap",
+      "orientation": "portrait",
+      "author": "n/a",
+      "isLocal": false,
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "type": 1,
+      "page": 2,
+      "position": {
+        "x": 0,
+        "y": 2,
         "width": 1,
         "height": 1
       }
