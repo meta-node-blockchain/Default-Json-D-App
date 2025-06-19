@@ -1,5 +1,5 @@
 {
-  "version": "20.3.7",
+  "version": "20.3.8",
   "favorites": [
     {
       "name": "Settings",
@@ -153,6 +153,27 @@
       "page": 0,
       "position": {
         "x": 6,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "Telegram",
+      "version": "0.0.1",
+      "url": "https://web.telegram.org/k/",
+      "logo": "https://img.fi.ai/telegram.png",
+      "id": "telegram.m.pro",
+      "orientation": "portrait",
+      "author": "n/a",
+      "isLocal": false,
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "type": 1,
+      "urlScript": "https://json.fi.ai/script/telegram.js",
+      "page": 0,
+      "position": {
+        "x": 7,
         "y": 0,
         "width": 1,
         "height": 1
@@ -391,21 +412,22 @@
       }
     },
     {
-      "name": "Telegram",
-      "version": "0.0.1",
-      "url": "https://web.telegram.org/k/",
-      "logo": "https://img.fi.ai/telegram.png",
-      "id": "telegram.m.pro",
+      "name": "Melab",
+      "version": "1.0.0",
+      "url": "",
+      "urlPack": "https://json.fi.ai/melap.json",
+      "urlScript": "",
+      "logo": "https://img.fi.ai/MELAB_LOGO.png",
+      "id": "meta.melap",
       "orientation": "portrait",
       "author": "n/a",
       "isLocal": false,
       "isFullScreen": true,
       "statusBar": "hide",
       "type": 1,
-      "urlScript": "https://json.fi.ai/script/telegram.js",
       "page": 0,
       "position": {
-        "x": 7,
+        "x": 8,
         "y": 3,
         "width": 1,
         "height": 1
