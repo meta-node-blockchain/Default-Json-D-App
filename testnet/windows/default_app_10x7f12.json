@@ -1,5 +1,5 @@
 {
-  "version": "20.3.8",
+  "version": "20.3.9",
   "favorites": [
     {
       "name": "Settings",
@@ -92,7 +92,7 @@
         "height": 1
       },
       "url": "",
-      "urlPack": "https://test-resources.mygvq.org/json/mining.json"
+      "urlPack": "https://json.fi.ai/mining.json"
     },
     {
       "name": "Web3 Space",

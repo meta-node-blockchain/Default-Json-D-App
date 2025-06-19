@@ -1,5 +1,5 @@
 {
-  "version": "20.3.8",
+  "version": "20.3.9",
   "favorites": [
     {
       "name": "Settings",
@@ -92,7 +92,7 @@
         "height": 1
       },
       "url": "",
-      "urlPack": "https://test-resources.mygvq.org/json/mining.json"
+      "urlPack": "https://json.fi.ai/mining.json"
     },
     {
       "name": "Web3 Space",
@@ -406,6 +406,28 @@
       "page": 0,
       "position": {
         "x": 9,
+        "y": 3,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "Melab",
+      "version": "1.0.0",
+      "url": "",
+      "urlPack": "https://json.fi.ai/melap.json",
+      "urlScript": "",
+      "logo": "https://img.fi.ai/MELAB_LOGO.png",
+      "id": "meta.melap",
+      "orientation": "portrait",
+      "author": "n/a",
+      "isLocal": false,
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "type": 1,
+      "page": 0,
+      "position": {
+        "x": 10,
         "y": 3,
         "width": 1,
         "height": 1
