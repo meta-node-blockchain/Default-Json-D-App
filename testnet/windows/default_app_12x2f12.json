@@ -212,7 +212,7 @@
       "orientation": "portrait",
       "author": "n/a",
       "isLocal": false,
-      "isFullScreen": false,
+      "isFullScreen": true,
       "statusBar": "hide",
       "type": 1,
       "urlScript": "",
