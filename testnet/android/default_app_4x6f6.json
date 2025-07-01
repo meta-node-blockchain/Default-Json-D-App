@@ -1,5 +1,5 @@
 {
-  "version": "20.4.6",
+  "version": "20.4.7",
   "favorites": [
     {
       "name": "Settings",
@@ -96,28 +96,6 @@
     }
   ],
   "apps": [
-    {
-      "name": "Facebook",
-      "version": "0.0.1",
-      "url": "https://www.facebook.com/",
-      "urlPack": "",
-      "logo": "",
-      "id": "co.facebook.frame",
-      "orientation": "portrait",
-      "author": "n/a",
-      "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "type": 3,
-      "urlScript": "",
-      "page": 0,
-      "position": {
-        "x": 2,
-        "y": 0,
-        "width": 2,
-        "height": 2
-      }
-    },
     {
       "name": "ENS",
       "version": "4.0.2",
@@ -286,7 +264,6 @@
         "height": 1
       }
     },
-
     {
       "name": "Deploy SMC",
       "version": "0.0.1",
@@ -624,6 +601,72 @@
         "y": 3,
         "width": 1,
         "height": 1
+      }
+    },
+    {
+      "name": "",
+      "version": "0.0.1",
+      "url": "",
+      "urlPack": "https://json.fi.ai/clock.json",
+      "logo": "",
+      "id": "clock.m.pro.frame",
+      "orientation": "portrait",
+      "author": "n/a",
+      "isLocal": false,
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "type": 3,
+      "urlScript": "",
+      "page": 0,
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 2,
+        "height": 2
+      }
+    },
+    {
+      "name": "Calendar",
+      "version": "0.0.1",
+      "url": "",
+      "urlPack": "https://json.fi.ai/calendar.json",
+      "logo": "",
+      "id": "calendar.m.pro.frame",
+      "orientation": "portrait",
+      "author": "n/a",
+      "isLocal": false,
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "type": 3,
+      "urlScript": "",
+      "page": 0,
+      "position": {
+        "x": 2,
+        "y": 0,
+        "width": 2,
+        "height": 2
+      }
+    },
+    {
+      "name": "Notes",
+      "version": "0.0.1",
+      "url": "",
+      "urlPack": "https://json.fi.ai/notes.json",
+      "logo": "",
+      "id": "notes.m.pro.frame",
+      "orientation": "portrait",
+      "author": "n/a",
+      "isLocal": false,
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "type": 3,
+      "urlScript": "",
+      "page": 1,
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 2,
+        "height": 2
       }
     }
   ]
