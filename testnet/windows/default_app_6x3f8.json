@@ -1,5 +1,5 @@
 {
-  "version": "20.4.7",
+  "version": "20.4.8",
   "favorites": [
     {
       "name": "Settings",
@@ -113,7 +113,7 @@
       "position": {
         "x": 0,
         "y": 0,
-        "width": 4,
+        "width": 2,
         "height": 2
       }
     },
@@ -135,7 +135,7 @@
       "position": {
         "x": 2,
         "y": 0,
-        "width": 4,
+        "width": 2,
         "height": 2
       }
     },
@@ -155,7 +155,7 @@
       "urlScript": "",
       "page": 1,
       "position": {
-        "x": 4,
+        "x": 2,
         "y": 0,
         "width": 2,
         "height": 2
