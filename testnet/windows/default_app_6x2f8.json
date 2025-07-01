@@ -1,5 +1,5 @@
 {
-  "version": "20.4.4",
+  "version": "20.4.5",
   "favorites": [
     {
       "name": "Settings",
@@ -414,7 +414,8 @@
       "name": "MT Wallet",
       "version": "1.0.0",
       "url": "",
-      "urlPack": "https://test-resources.mygvq.org/json/mt-wallet.json",
+      "urlPack": "https://json.fi.ai/melap.json",
+
       "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/tokenomic.jpg",
       "id": "multiwallet.m.pro",
       "orientation": "portrait",
