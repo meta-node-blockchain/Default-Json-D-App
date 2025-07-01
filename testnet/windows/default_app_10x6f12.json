@@ -503,8 +503,7 @@
       "name": "MT Wallet",
       "version": "1.0.0",
       "url": "",
-      "urlPack": "https://json.fi.ai/melap.json",
-
+      "urlPack": "https://json.fi.ai/multiWallet.json",
       "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/tokenomic.jpg",
       "id": "multiwallet.m.pro",
       "orientation": "portrait",

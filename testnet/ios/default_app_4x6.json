@@ -463,7 +463,7 @@
 
       "version": "1.0.0",
       "url": "",
-      "urlPack": "https://test-resources.mygvq.org/json/mt-wallet.json",
+      "urlPack": "https://json.fi.ai/multiWallet.json",
       "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/tokenomic.jpg",
       "id": "co.mtwallet.app",
       "orientation": "portrait",
