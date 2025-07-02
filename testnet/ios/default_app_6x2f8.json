@@ -1,12 +1,8 @@
 {
-  "version": "20.5.0",
+  "version": "30.0.0",
   "favorites": [
     {
       "name": "Settings",
-      "version": "4.0.2",
-      "hash": "335d3df52df4852c962277ca563e4a7cb67f450a31f9b3fe80543f262bf3f71c",
-      "pubKey": "927c8f340255d5a2d7b839ce4859f7dc33c64e5967fe40dde023c0751a53dff3925eec1eaaeb60f83c203c85e9c5b223",
-      "sign": "a72c0b66b936b36525fdc1f07c94266a8280abd6acb04d1d87477d8ea790c98593084649f5be7fb7653c8ffcc34dd3e5067b2ffac7feaa85e5e574c972b7363dc0ac7df937c82cdce2ccae7cf6c2df265a3e8c9188cda23d872da08a0e2fa5a4",
       "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/iconSetting.jpg",
       "id": "setting",
       "isFullScreen": true,
@@ -25,14 +21,9 @@
     },
     {
       "name": "Wallet",
-      "version": "4.0.2",
-      "hash": "335d3df52df4852c962277ca563e4a7cb67f450a31f9b3fe80543f262bf3f71c",
-      "pubKey": "927c8f340255d5a2d7b839ce4859f7dc33c64e5967fe40dde023c0751a53dff3925eec1eaaeb60f83c203c85e9c5b223",
-      "sign": "a72c0b66b936b36525fdc1f07c94266a8280abd6acb04d1d87477d8ea790c98593084649f5be7fb7653c8ffcc34dd3e5067b2ffac7feaa85e5e574c972b7363dc0ac7df937c82cdce2ccae7cf6c2df265a3e8c9188cda23d872da08a0e2fa5a4",
       "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/wallet.png",
       "id": "meta.wallet",
       "orientation": "portrait",
-      "author": "n/a",
       "isFullScreen": true,
       "statusBar": "hide",
       "type": 1,
@@ -48,14 +39,9 @@
     },
     {
       "name": "Mining",
-      "version": "4.0.2",
-      "hash": "335d3df52df4852c962277ca563e4a7cb67f450a31f9b3fe80543f262bf3f71c",
-      "pubKey": "927c8f340255d5a2d7b839ce4859f7dc33c64e5967fe40dde023c0751a53dff3925eec1eaaeb60f83c203c85e9c5b223",
-      "sign": "a72c0b66b936b36525fdc1f07c94266a8280abd6acb04d1d87477d8ea790c98593084649f5be7fb7653c8ffcc34dd3e5067b2ffac7feaa85e5e574c972b7363dc0ac7df937c82cdce2ccae7cf6c2df265a3e8c9188cda23d872da08a0e2fa5a4",
       "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/mining.jpg",
       "id": "meta.mining",
       "orientation": "portrait",
-      "author": "n/a",
       "isFullScreen": true,
       "statusBar": "hide",
       "type": 1,
@@ -71,19 +57,13 @@
     },
     {
       "name": "PO5",
-      "hash": "335d3df52df4852c962277ca563e4a7cb67f450a31f9b3fe80543f262bf3f71c",
-      "pubKey": "927c8f340255d5a2d7b839ce4859f7dc33c64e5967fe40dde023c0751a53dff3925eec1eaaeb60f83c203c85e9c5b223",
-      "sign": "a72c0b66b936b36525fdc1f07c94266a8280abd6acb04d1d87477d8ea790c98593084649f5be7fb7653c8ffcc34dd3e5067b2ffac7feaa85e5e574c972b7363dc0ac7df937c82cdce2ccae7cf6c2df265a3e8c9188cda23d872da08a0e2fa5a4",
-      "version": "4.0.2",
       "logo": "https://img.fi.ai/po5.png",
       "id": "po5.m.pro",
       "orientation": "portrait",
-      "author": "n/a",
       "isLocal": false,
       "isFullScreen": true,
       "statusBar": "hide",
       "type": 1,
-      "urlScript": "",
       "page": 0,
       "url": "",
       "urlPack": "https://json.fi.ai/po5.json",
@@ -97,107 +77,249 @@
   ],
   "apps": [
     {
-      "name": "Telegram",
-      "version": "0.0.1",
-      "url": "https://web.telegram.org/k/",
-      "urlPack": "",
-      "logo": "https://img.fi.ai/telegram.png",
-      "id": "record.m.pro.frame",
+      "name": "Weather",
+      "url": "",
+      "urlPack": "https://json.fi.ai/weather.json",
+      "logo": "",
+      "id": "weather.frame.m.pro",
       "orientation": "portrait",
-      "author": "n/a",
       "isLocal": false,
       "isFullScreen": true,
       "statusBar": "hide",
       "type": 3,
-      "urlScript": "",
       "page": 0,
       "position": {
         "x": 0,
         "y": 0,
-        "width": 3,
+        "width": 2,
+        "height": 2
+      }
+    },
+    {
+      "name": "Notes",
+      "url": "",
+      "urlPack": "https://json.fi.ai/notes.json",
+      "logo": "",
+      "id": "notes.frame.m.pro",
+      "orientation": "portrait",
+      "isLocal": false,
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "type": 3,
+      "page": 0,
+      "position": {
+        "x": 2,
+        "y": 0,
+        "width": 2,
         "height": 2
       }
     },
     {
       "name": "Facebook",
-      "version": "0.0.1",
+      "version": "1.0.0",
       "url": "https://www.facebook.com/",
       "urlPack": "",
+      "urlScript": "https://json.fi.ai/script/facebook-dark.js",
       "logo": "",
-      "id": "co.facebook.frame",
-      "orientation": "portrait",
+      "id": "co.facebook.app",
+      "orientation": "landscape",
       "author": "n/a",
       "isLocal": false,
       "isFullScreen": true,
       "statusBar": "hide",
-      "type": 3,
-      "urlScript": "",
+      "type": 1,
       "page": 0,
       "position": {
-        "x": 3,
-        "y": 0,
-        "width": 3,
-        "height": 2
-      }
-    },
-    {
-      "name": "POSS",
-      "version": "4.0.2",
-      "url": "",
-      "urlPack": "https://test-resources.mygvq.org/json/poss.json",
-      "logo": "https://img.fi.ai/logo-pos.png",
-      "id": "poss.m.pro",
-      "orientation": "portrait",
-      "author": "n/a",
-      "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "type": 1,
-      "page": 1,
-      "position": {
         "x": 0,
-        "y": 0,
+        "y": 2,
         "width": 1,
         "height": 1
       }
     },
     {
-      "name": "MT Wallet",
-      "version": "1.0.0",
-      "url": "",
-      "urlPack": "https://json.fi.ai/multiWallet.json",
-      "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/tokenomic.jpg",
-      "id": "multiwallet.m.pro",
+      "name": "Youtube",
+      "version": "0.0.2",
+      "url": "https://www.youtube.com",
+      "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/youtube.jpg",
+      "id": "youtube.app",
       "orientation": "portrait",
       "author": "n/a",
       "isLocal": false,
       "isFullScreen": true,
       "statusBar": "hide",
       "type": 1,
-      "page": 1,
+      "urlScript": "https://raw.githubusercontent.com/meta-node-blockchain/Default-Json-D-App/refs/heads/master/dApp/youtube/worker.js",
+      "page": 0,
       "position": {
         "x": 1,
-        "y": 0,
+        "y": 2,
         "width": 1,
         "height": 1
       }
     },
     {
-      "name": "Attendance Tracking",
-      "version": "4.0.2",
-      "hash": "335d3df52df4852c962277ca563e4a7cb67f450a31f9b3fe80543f262bf3f71c",
-      "pubKey": "927c8f340255d5a2d7b839ce4859f7dc33c64e5967fe40dde023c0751a53dff3925eec1eaaeb60f83c203c85e9c5b223",
-      "sign": "a72c0b66b936b36525fdc1f07c94266a8280abd6acb04d1d87477d8ea790c98593084649f5be7fb7653c8ffcc34dd3e5067b2ffac7feaa85e5e574c972b7363dc0ac7df937c82cdce2ccae7cf6c2df265a3e8c9188cda23d872da08a0e2fa5a4",
-      "logo": "https://img.fi.ai/attendance_tracking.png",
-      "id": "attendance-tracking.m.pro",
-      "url": "https://t-attendance-tracking.m.pro/",
+      "name": "Linked In",
+      "version": "1.0.0",
+      "url": "https://www.linkedin.com/",
+      "urlPack": "",
+      "urlScript": "https://json.fi.ai/script/linkedin.js",
+      "logo": "https://img.fi.ai/linkedIn.jpg",
+      "id": "co.linkedin.app",
+      "orientation": "landscape",
+      "author": "n/a",
+      "isLocal": false,
+      "isFullScreen": true,
+      "statusBar": "hide",
       "type": 1,
       "page": 1,
       "position": {
         "x": 2,
-        "y": 0,
+        "y": 2,
         "width": 1,
         "height": 1
+      }
+    },
+    {
+      "name": "Spotify",
+      "version": "1.0.0",
+      "url": "https://open.spotify.com/",
+      "urlPack": "",
+      "urlScript": "https://json.fi.ai/script/spotify.js",
+      "logo": "https://img.fi.ai/spotify.png",
+      "id": "co.spotify.app",
+      "orientation": "landscape",
+      "author": "n/a",
+      "isLocal": false,
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "type": 1,
+      "page": 1,
+      "position": {
+        "x": 3,
+        "y": 2,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "Reminders",
+      "version": "0.0.1",
+      "url": "",
+      "urlPack": "https://resources.m.pro/frame/json/notes.json",
+      "logo": "https://img.fi.ai/tasks.png",
+      "id": "tasks.m.pro",
+      "orientation": "portrait",
+      "author": "n/a",
+      "isLocal": false,
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "type": 1,
+      "urlScript": "",
+      "page": 0,
+      "position": {
+        "x": 0,
+        "y": 3,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "Weather",
+      "version": "0.0.1",
+      "url": "",
+      "urlPack": "https://resources.m.pro/frame/json/weather.json",
+      "logo": "https://img.fi.ai/weather.png",
+      "id": "weather.m.pro",
+      "orientation": "portrait",
+      "author": "n/a",
+      "isLocal": false,
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "type": 1,
+      "urlScript": "",
+      "page": 0,
+      "position": {
+        "x": 1,
+        "y": 3,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "Telegram",
+      "version": "0.0.1",
+      "url": "https://web.telegram.org/k/",
+      "logo": "https://img.fi.ai/telegram.png",
+      "id": "telegram.m.pro",
+      "orientation": "portrait",
+      "author": "n/a",
+      "isLocal": false,
+      "isFullScreen": false,
+      "statusBar": "hide",
+      "type": 4,
+      "urlScript": "https://json.fi.ai/script/telegram.js",
+      "page": 0,
+      "position": {
+        "x": 2,
+        "y": 3,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "Estimate",
+      "version": "4.0.2",
+      "hash": "335d3df52df4852c962277ca563e4a7cb67f450a31f9b3fe80543f262bf3f71c",
+      "pubKey": "927c8f340255d5a2d7b839ce4859f7dc33c64e5967fe40dde023c0751a53dff3925eec1eaaeb60f83c203c85e9c5b223",
+      "sign": "a72c0b66b936b36525fdc1f07c94266a8280abd6acb04d1d87477d8ea790c98593084649f5be7fb7653c8ffcc34dd3e5067b2ffac7feaa85e5e574c972b7363dc0ac7df937c82cdce2ccae7cf6c2df265a3e8c9188cda23d872da08a0e2fa5a4",
+      "logo": "https://img.fi.ai/estimate.png",
+      "id": "t.estimate.m.pro",
+      "url": "https://estimate.m.pro",
+      "type": 1,
+      "page": 0,
+      "position": {
+        "x": 3,
+        "y": 3,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "Calendar",
+      "url": "",
+      "urlPack": "https://json.fi.ai/calendar.json",
+      "logo": "",
+      "id": "calendar.frame.m.pro",
+      "orientation": "portrait",
+      "isLocal": false,
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "type": 3,
+      "page": 1,
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 2,
+        "height": 2
+      }
+    },
+    {
+      "name": "Reminders",
+      "url": "",
+      "urlPack": "https://json.fi.ai/reminders.json",
+      "logo": "",
+      "id": "reminders.frame.m.pro",
+      "orientation": "portrait",
+      "isLocal": false,
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "type": 3,
+      "page": 1,
+      "position": {
+        "x": 2,
+        "y": 2,
+        "width": 2,
+        "height": 2
       }
     },
     {
@@ -213,30 +335,8 @@
       "type": 1,
       "page": 1,
       "position": {
-        "x": 3,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      }
-    },
-
-    {
-      "name": "Youtube",
-      "version": "0.0.2",
-      "url": "https://www.youtube.com",
-      "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/youtube.jpg",
-      "id": "youtube.app",
-      "orientation": "portrait",
-      "author": "n/a",
-      "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "type": 1,
-      "urlScript": "https://raw.githubusercontent.com/meta-node-blockchain/Default-Json-D-App/refs/heads/master/dApp/youtube/worker.js",
-      "page": 1,
-      "position": {
-        "x": 4,
-        "y": 0,
+        "x": 0,
+        "y": 2,
         "width": 1,
         "height": 1
       }
@@ -259,70 +359,8 @@
       "type": 4,
       "page": 1,
       "position": {
-        "x": 5,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      }
-    },
-    {
-      "name": "Estimate",
-      "version": "4.0.2",
-      "hash": "335d3df52df4852c962277ca563e4a7cb67f450a31f9b3fe80543f262bf3f71c",
-      "pubKey": "927c8f340255d5a2d7b839ce4859f7dc33c64e5967fe40dde023c0751a53dff3925eec1eaaeb60f83c203c85e9c5b223",
-      "sign": "a72c0b66b936b36525fdc1f07c94266a8280abd6acb04d1d87477d8ea790c98593084649f5be7fb7653c8ffcc34dd3e5067b2ffac7feaa85e5e574c972b7363dc0ac7df937c82cdce2ccae7cf6c2df265a3e8c9188cda23d872da08a0e2fa5a4",
-      "logo": "https://img.fi.ai/estimate.png",
-      "id": "t.estimate.m.pro",
-      "url": "https://estimate.m.pro",
-      "type": 1,
-      "page": 1,
-      "position": {
-        "x": 0,
-        "y": 1,
-        "width": 1,
-        "height": 1
-      }
-    },
-    {
-      "name": "Reminders",
-      "version": "0.0.1",
-      "url": "",
-      "urlPack": "https://resources.m.pro/frame/json/notes.json",
-      "logo": "https://img.fi.ai/tasks.png",
-      "id": "tasks.m.pro",
-      "orientation": "portrait",
-      "author": "n/a",
-      "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "type": 1,
-      "urlScript": "",
-      "page": 1,
-      "position": {
         "x": 1,
-        "y": 1,
-        "width": 1,
-        "height": 1
-      }
-    },
-    {
-      "name": "Weather",
-      "version": "0.0.1",
-      "url": "",
-      "urlPack": "https://resources.m.pro/frame/json/weather.json",
-      "logo": "https://img.fi.ai/weather.png",
-      "id": "weather.m.pro",
-      "orientation": "portrait",
-      "author": "n/a",
-      "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "type": 1,
-      "urlScript": "",
-      "page": 1,
-      "position": {
-        "x": 2,
-        "y": 1,
+        "y": 2,
         "width": 1,
         "height": 1
       }
@@ -342,51 +380,8 @@
       "type": 1,
       "page": 1,
       "position": {
-        "x": 3,
-        "y": 1,
-        "width": 1,
-        "height": 1
-      }
-    },
-    {
-      "name": "Meta ID",
-      "version": "4.0.2",
-      "url": "",
-      "urlPack": "https://test-resources.mygvq.org/json/meta-id.json",
-      "logo": "https://img.fi.ai/app-logo/meta-id.png",
-      "id": "meta-id.m.pro",
-      "orientation": "portrait",
-      "author": "n/a",
-      "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "type": 1,
-      "urlScript": "",
-      "page": 1,
-      "position": {
-        "x": 4,
-        "y": 1,
-        "width": 1,
-        "height": 1
-      }
-    },
-    {
-      "name": "Telegram",
-      "version": "0.0.1",
-      "url": "https://web.telegram.org/k/",
-      "logo": "https://img.fi.ai/telegram.png",
-      "id": "telegram.m.pro",
-      "orientation": "portrait",
-      "author": "n/a",
-      "isLocal": false,
-      "isFullScreen": false,
-      "statusBar": "hide",
-      "type": 4,
-      "urlScript": "https://json.fi.ai/script/telegram.js",
-      "page": 1,
-      "position": {
-        "x": 5,
-        "y": 1,
+        "x": 2,
+        "y": 2,
         "width": 1,
         "height": 1
       }
@@ -405,96 +400,10 @@
       "statusBar": "hide",
       "type": 1,
       "urlScript": "",
-      "page": 2,
-      "position": {
-        "x": 0,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      }
-    },
-    {
-      "name": "Ai Chat",
-      "version": "0.0.1",
-      "url": "",
-      "urlPack": "https://test-resources.mygvq.org/json/aiChat.json",
-      "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/iconSetting.jpg",
-      "id": "co.chatai.app",
-      "orientation": "portrait",
-      "author": "n/a",
-      "isLocal": true,
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "type": 1,
-      "urlScript": "",
-      "page": 2,
-      "position": {
-        "x": 1,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      }
-    },
-    {
-      "name": "SMC Demo",
-      "version": "0.0.1",
-      "url": "",
-      "urlPack": "https://test-resources.mygvq.org/json/smc-demo.json",
-      "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/iconSetting.jpg",
-      "id": "co.smcdemo.app",
-      "orientation": "portrait",
-      "author": "n/a",
-      "isLocal": true,
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "type": 1,
-      "urlScript": "",
-      "page": 2,
-      "position": {
-        "x": 2,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      }
-    },
-    {
-      "name": "A Pay",
-      "version": "1.0.0",
-      "url": "",
-      "urlPack": "https://test-resources.mygvq.org/json/a-pay.json",
-      "logo": "https://img.fi.ai/logo-pos.png",
-      "id": "apay.m.pro",
-      "orientation": "portrait",
-      "author": "n/a",
-      "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "type": 1,
-      "page": 2,
+      "page": 1,
       "position": {
         "x": 3,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      }
-    },
-    {
-      "name": "MT Wallet",
-      "version": "1.0.0",
-      "url": "",
-      "urlPack": "https://json.fi.ai/multiWallet.json",
-      "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/tokenomic.jpg",
-      "id": "co.mtwallet.app",
-      "orientation": "portrait",
-      "author": "n/a",
-      "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "type": 1,
-      "page": 2,
-      "position": {
-        "x": 4,
-        "y": 0,
+        "y": 2,
         "width": 1,
         "height": 1
       }
@@ -512,31 +421,10 @@
       "isFullScreen": true,
       "statusBar": "hide",
       "type": 1,
-      "page": 2,
-      "position": {
-        "x": 5,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      }
-    },
-    {
-      "name": "Food Order",
-      "version": "1.0.0",
-      "url": "",
-      "urlPack": "https://json.fi.ai/food-order.json",
-      "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/tokenomic.jpg",
-      "id": "co.foodorder.app",
-      "orientation": "portrait",
-      "author": "n/a",
-      "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "type": 1,
-      "page": 2,
+      "page": 1,
       "position": {
         "x": 0,
-        "y": 1,
+        "y": 3,
         "width": 1,
         "height": 1
       }
@@ -554,10 +442,10 @@
       "isFullScreen": true,
       "statusBar": "hide",
       "type": 1,
-      "page": 2,
+      "page": 1,
       "position": {
         "x": 1,
-        "y": 1,
+        "y": 3,
         "width": 1,
         "height": 1
       }
@@ -575,76 +463,32 @@
       "isFullScreen": true,
       "statusBar": "hide",
       "type": 1,
-      "page": 2,
+      "page": 1,
       "position": {
         "x": 2,
-        "y": 1,
+        "y": 3,
         "width": 1,
         "height": 1
       }
     },
     {
-      "name": "Facebook",
+      "name": "Multi Wallet",
       "version": "1.0.0",
-      "url": "https://www.facebook.com/",
-      "urlPack": "",
-      "urlScript": "https://json.fi.ai/script/facebook-dark.js",
-      "logo": "https://img.fi.ai/facebook.webp",
-      "id": "co.facebook.app",
-      "orientation": "landscape",
+      "url": "",
+      "urlPack": "https://json.fi.ai/multiWallet.json",
+      "urlScript": "",
+      "logo": "https://img.fi.ai/dapp_store.png",
+      "id": "multi-wallets.m.pro",
+      "orientation": "portrait",
       "author": "n/a",
       "isLocal": false,
       "isFullScreen": true,
       "statusBar": "hide",
       "type": 1,
-      "page": 2,
+      "page": 1,
       "position": {
         "x": 3,
-        "y": 1,
-        "width": 1,
-        "height": 1
-      }
-    },
-    {
-      "name": "Linked In",
-      "version": "1.0.0",
-      "url": "https://www.linkedin.com/",
-      "urlPack": "",
-      "urlScript": "https://json.fi.ai/script/linkedin.js",
-      "logo": "https://img.fi.ai/linkedIn.jpg",
-      "id": "co.linkedin.app",
-      "orientation": "landscape",
-      "author": "n/a",
-      "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "type": 1,
-      "page": 2,
-      "position": {
-        "x": 4,
-        "y": 1,
-        "width": 1,
-        "height": 1
-      }
-    },
-    {
-      "name": "Spotify",
-      "version": "1.0.0",
-      "url": "https://open.spotify.com/",
-      "urlPack": "",
-      "urlScript": "https://json.fi.ai/script/spotify.js",
-      "logo": "",
-      "id": "co.spotify.app",
-      "orientation": "landscape",
-      "author": "n/a",
-      "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "type": 1,
-      "page": 2,
-      "position": {
-        "x": 5,
-        "y": 1,
+        "y": 3,
         "width": 1,
         "height": 1
       }
@@ -664,7 +508,7 @@
       "statusBar": "hide",
       "type": 1,
       "urlScript": "",
-      "page": 3,
+      "page": 2,
       "url": "",
       "urlPack": "https://json.fi.ai/rootnode.json",
       "position": {
@@ -689,7 +533,7 @@
       "statusBar": "hide",
       "type": 1,
       "urlScript": "",
-      "page": 3,
+      "page": 2,
       "url": "",
       "urlPack": "https://json.fi.ai/daonode.json",
       "position": {
@@ -714,7 +558,7 @@
       "statusBar": "hide",
       "type": 1,
       "urlScript": "",
-      "page": 3,
+      "page": 2,
       "url": "",
       "urlPack": "https://json.fi.ai/estock.json",
       "position": {
@@ -739,7 +583,7 @@
       "statusBar": "hide",
       "type": 1,
       "urlScript": "",
-      "page": 3,
+      "page": 2,
       "url": "",
       "urlPack": "https://json.fi.ai/showroom.json",
       "position": {
@@ -763,12 +607,126 @@
       "isFullScreen": true,
       "statusBar": "hide",
       "type": 1,
-      "page": 3,
+      "page": 2,
       "position": {
         "x": 0,
         "y": 1,
         "width": 1,
         "height": 1
+      }
+    },
+    {
+      "name": "Calendar 2x2",
+      "url": "",
+      "urlPack": "https://json.fi.ai/calendar.json",
+      "logo": "",
+      "id": "calendar2x2.frame.m.pro",
+      "orientation": "portrait",
+      "isLocal": false,
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "type": 3,
+      "page": 3,
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 2,
+        "height": 2
+      }
+    },
+    {
+      "name": "Calendar 4x2",
+      "url": "",
+      "urlPack": "https://json.fi.ai/calendar.json",
+      "logo": "",
+      "id": "calendar4x2.frame.m.pro",
+      "orientation": "portrait",
+      "isLocal": false,
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "type": 3,
+      "page": 3,
+      "position": {
+        "x": 0,
+        "y": 2,
+        "width": 4,
+        "height": 2
+      }
+    },
+    {
+      "name": "Calendar 4x4",
+      "url": "",
+      "urlPack": "https://json.fi.ai/calendar.json",
+      "logo": "",
+      "id": "calendar4x4.frame.m.pro",
+      "orientation": "portrait",
+      "isLocal": false,
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "type": 3,
+      "page": 4,
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 4,
+        "height": 4
+      }
+    },
+    {
+      "name": "Weather 2x2",
+      "url": "",
+      "urlPack": "https://json.fi.ai/weather.json",
+      "logo": "",
+      "id": "weather2x2.frame.m.pro",
+      "orientation": "portrait",
+      "isLocal": false,
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "type": 3,
+      "page": 5,
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 2,
+        "height": 2
+      }
+    },
+    {
+      "name": "Weather 4x2",
+      "url": "",
+      "urlPack": "https://json.fi.ai/weather.json",
+      "logo": "",
+      "id": "weather4x2.frame.m.pro",
+      "orientation": "portrait",
+      "isLocal": false,
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "type": 3,
+      "page": 5,
+      "position": {
+        "x": 0,
+        "y": 2,
+        "width": 4,
+        "height": 2
+      }
+    },
+    {
+      "name": "Weather 4x4",
+      "url": "",
+      "urlPack": "https://json.fi.ai/weather.json",
+      "logo": "",
+      "id": "weather4x4.frame.m.pro",
+      "orientation": "portrait",
+      "isLocal": false,
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "type": 3,
+      "page": 6,
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 4,
+        "height": 4
       }
     }
   ]
