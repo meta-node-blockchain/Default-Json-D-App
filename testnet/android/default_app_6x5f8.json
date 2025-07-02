@@ -1,5 +1,5 @@
 {
-  "version": "30.0.0",
+  "version": "30.0.1",
   "favorites": [
     {
       "name": "Settings",
@@ -120,7 +120,7 @@
       "url": "https://www.facebook.com/",
       "urlPack": "",
       "urlScript": "https://json.fi.ai/script/facebook-dark.js",
-      "logo": "",
+      "logo": "https://img.fi.ai/facebook.webp",
       "id": "co.facebook.app",
       "orientation": "landscape",
       "author": "n/a",
@@ -171,7 +171,7 @@
       "isFullScreen": true,
       "statusBar": "hide",
       "type": 1,
-      "page": 1,
+      "page": 0,
       "position": {
         "x": 2,
         "y": 2,
@@ -193,7 +193,7 @@
       "isFullScreen": true,
       "statusBar": "hide",
       "type": 1,
-      "page": 1,
+      "page": 0,
       "position": {
         "x": 3,
         "y": 2,
