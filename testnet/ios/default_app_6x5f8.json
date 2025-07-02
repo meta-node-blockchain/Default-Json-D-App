@@ -1,5 +1,5 @@
 {
-  "version": "30.0.1",
+  "version": "30.0.2",
   "favorites": [
     {
       "name": "Settings",
@@ -306,7 +306,7 @@
     {
       "name": "Reminders",
       "url": "",
-      "urlPack": "https://json.fi.ai/reminders.json",
+      "urlPack": "https://json.fi.ai/reminder.json",
       "logo": "",
       "id": "reminders.frame.m.pro",
       "orientation": "portrait",
