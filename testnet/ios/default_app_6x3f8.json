@@ -1,5 +1,5 @@
 {
-  "version": "30.0.3",
+  "version": "30.0.4",
   "favorites": [
     {
       "name": "Settings",
@@ -613,120 +613,6 @@
         "y": 1,
         "width": 1,
         "height": 1
-      }
-    },
-    {
-      "name": "Calendar 2x2",
-      "url": "",
-      "urlPack": "https://json.fi.ai/calendar.json",
-      "logo": "",
-      "id": "calendar2x2.frame.m.pro",
-      "orientation": "portrait",
-      "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "type": 3,
-      "page": 3,
-      "position": {
-        "x": 0,
-        "y": 0,
-        "width": 2,
-        "height": 2
-      }
-    },
-    {
-      "name": "Calendar 4x2",
-      "url": "",
-      "urlPack": "https://json.fi.ai/calendar.json",
-      "logo": "",
-      "id": "calendar4x2.frame.m.pro",
-      "orientation": "portrait",
-      "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "type": 3,
-      "page": 3,
-      "position": {
-        "x": 0,
-        "y": 2,
-        "width": 4,
-        "height": 2
-      }
-    },
-    {
-      "name": "Calendar 4x4",
-      "url": "",
-      "urlPack": "https://json.fi.ai/calendar.json",
-      "logo": "",
-      "id": "calendar4x4.frame.m.pro",
-      "orientation": "portrait",
-      "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "type": 3,
-      "page": 4,
-      "position": {
-        "x": 0,
-        "y": 0,
-        "width": 4,
-        "height": 4
-      }
-    },
-    {
-      "name": "Weather 2x2",
-      "url": "",
-      "urlPack": "https://json.fi.ai/weather.json",
-      "logo": "",
-      "id": "weather2x2.frame.m.pro",
-      "orientation": "portrait",
-      "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "type": 3,
-      "page": 5,
-      "position": {
-        "x": 0,
-        "y": 0,
-        "width": 2,
-        "height": 2
-      }
-    },
-    {
-      "name": "Weather 4x2",
-      "url": "",
-      "urlPack": "https://json.fi.ai/weather.json",
-      "logo": "",
-      "id": "weather4x2.frame.m.pro",
-      "orientation": "portrait",
-      "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "type": 3,
-      "page": 5,
-      "position": {
-        "x": 0,
-        "y": 2,
-        "width": 4,
-        "height": 2
-      }
-    },
-    {
-      "name": "Weather 4x4",
-      "url": "",
-      "urlPack": "https://json.fi.ai/weather.json",
-      "logo": "",
-      "id": "weather4x4.frame.m.pro",
-      "orientation": "portrait",
-      "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "type": 3,
-      "page": 6,
-      "position": {
-        "x": 0,
-        "y": 0,
-        "width": 4,
-        "height": 4
       }
     }
   ]
