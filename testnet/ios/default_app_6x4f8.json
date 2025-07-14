@@ -1,5 +1,5 @@
 {
-  "version": "30.0.5",
+  "version": "30.0.6",
   "favorites": [
     {
       "name": "Settings",
@@ -76,6 +76,25 @@
     }
   ],
   "apps": [
+    {
+      "name": "",
+      "url": "",
+      "urlPack": "https://json.fi.ai/analog-clock.json",
+      "logo": "",
+      "id": "analog-clock.m.pro.frame",
+      "orientation": "portrait",
+      "isLocal": false,
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "type": 3,
+      "page": 0,
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 2,
+        "height": 2
+      }
+    },
     {
       "name": "Notes",
       "url": "",
