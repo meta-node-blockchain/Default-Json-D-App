@@ -1,5 +1,5 @@
 {
-  "version": "30.0.4",
+  "version": "30.0.5",
   "favorites": [
     {
       "name": "Settings",
@@ -76,25 +76,6 @@
     }
   ],
   "apps": [
-    {
-      "name": "Weather",
-      "url": "",
-      "urlPack": "https://json.fi.ai/weather.json",
-      "logo": "",
-      "id": "weather.frame.m.pro",
-      "orientation": "portrait",
-      "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "type": 3,
-      "page": 0,
-      "position": {
-        "x": 0,
-        "y": 0,
-        "width": 2,
-        "height": 2
-      }
-    },
     {
       "name": "Notes",
       "url": "",

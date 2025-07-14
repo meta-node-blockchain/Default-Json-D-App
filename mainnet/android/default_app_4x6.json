@@ -220,28 +220,6 @@
       }
     },
     {
-      "name": "Weather",
-      "version": "0.0.1",
-      "url": "",
-      "urlPack": "https://resources.m.pro/frame/json/weather.json",
-      "logo": "",
-      "id": "weather.frame.m.pro",
-      "orientation": "portrait",
-      "author": "n/a",
-      "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "type": 3,
-      "urlScript": "",
-      "page": 1,
-      "position": {
-        "x": 0,
-        "y": 0,
-        "width": 2,
-        "height": 2
-      }
-    },
-    {
       "name": "Calculator",
       "version": "0.0.1",
       "url": "",
@@ -348,28 +326,7 @@
         "height": 1
       }
     },
-    {
-      "name": "Weather",
-      "version": "0.0.1",
-      "url": "",
-      "urlPack": "https://resources.m.pro/frame/json/weather.json",
-      "logo": "https://img.fi.ai/weather.png",
-      "id": "weather.m.pro",
-      "orientation": "portrait",
-      "author": "n/a",
-      "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "type": 1,
-      "urlScript": "",
-      "page": 1,
-      "position": {
-        "x": 0,
-        "y": 3,
-        "width": 1,
-        "height": 1
-      }
-    },
+
     {
       "name": "Swap",
       "version": "4.0.2",
