@@ -1,5 +1,5 @@
 {
-  "version": "30.0.9",
+  "version": "30.1.0",
   "favorites": [
     {
       "name": "Settings",
@@ -359,12 +359,12 @@
       "statusBar": "hide",
       "type": 1,
       "urlScript": "",
-      "page": 0,
+      "page": 1,
       "url": "",
       "urlPack": "https://json.fi.ai/showroom.json",
       "position": {
         "x": 0,
-        "y": 2,
+        "y": 0,
         "width": 1,
         "height": 1
       }
@@ -382,10 +382,10 @@
       "isFullScreen": true,
       "statusBar": "hide",
       "type": 1,
-      "page": 0,
+      "page": 1,
       "position": {
         "x": 1,
-        "y": 2,
+        "y": 0,
         "width": 1,
         "height": 1
       }
@@ -404,10 +404,10 @@
       "isFullScreen": true,
       "statusBar": "hide",
       "type": 1,
-      "page": 0,
+      "page": 1,
       "position": {
         "x": 2,
-        "y": 2,
+        "y": 0,
         "width": 1,
         "height": 1
       }
@@ -425,10 +425,10 @@
       "isFullScreen": true,
       "statusBar": "hide",
       "type": 1,
-      "page": 0,
+      "page": 1,
       "position": {
         "x": 3,
-        "y": 2,
+        "y": 0,
         "width": 1,
         "height": 1
       }
@@ -446,10 +446,10 @@
       "statusBar": "hide",
       "type": 4,
       "urlScript": "https://json.fi.ai/script/telegram.js",
-      "page": 0,
+      "page": 1,
       "position": {
         "x": 4,
-        "y": 2,
+        "y": 0,
         "width": 1,
         "height": 1
       }
@@ -468,10 +468,10 @@
       "statusBar": "hide",
       "type": 1,
       "urlScript": "",
-      "page": 0,
+      "page": 1,
       "position": {
         "x": 5,
-        "y": 2,
+        "y": 0,
         "width": 1,
         "height": 1
       }
@@ -492,10 +492,10 @@
       "full_screen": false,
       "status_bar": "show",
       "type": 4,
-      "page": 0,
+      "page": 1,
       "position": {
         "x": 0,
-        "y": 3,
+        "y": 1,
         "width": 1,
         "height": 1
       }
@@ -513,10 +513,10 @@
       "statusBar": "hide",
       "type": 1,
       "urlScript": "https://raw.githubusercontent.com/meta-node-blockchain/Default-Json-D-App/refs/heads/master/dApp/youtube/worker.js",
-      "page": 0,
+      "page": 1,
       "position": {
         "x": 1,
-        "y": 3,
+        "y": 1,
         "width": 1,
         "height": 1
       }
