@@ -77,44 +77,6 @@
   ],
   "apps": [
     {
-      "name": "",
-      "url": "",
-      "urlPack": "https://json.fi.ai/analog-clock.json",
-      "logo": "",
-      "id": "analog-clock.m.pro.frame",
-      "orientation": "portrait",
-      "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "type": 3,
-      "page": 0,
-      "position": {
-        "x": 0,
-        "y": 0,
-        "width": 2,
-        "height": 2
-      }
-    },
-    {
-      "name": "Notes",
-      "url": "",
-      "urlPack": "https://json.fi.ai/notes.json",
-      "logo": "",
-      "id": "notes.frame.m.pro",
-      "orientation": "portrait",
-      "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "type": 3,
-      "page": 0,
-      "position": {
-        "x": 2,
-        "y": 0,
-        "width": 2,
-        "height": 2
-      }
-    },
-    {
       "name": "Facebook",
       "version": "1.0.0",
       "url": "https://www.facebook.com/",
@@ -264,45 +226,6 @@
         "y": 3,
         "width": 1,
         "height": 1
-      }
-    },
-
-    {
-      "name": "Calendar",
-      "url": "",
-      "urlPack": "https://json.fi.ai/calendar.json",
-      "logo": "",
-      "id": "calendar.frame.m.pro",
-      "orientation": "portrait",
-      "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "type": 3,
-      "page": 1,
-      "position": {
-        "x": 0,
-        "y": 0,
-        "width": 2,
-        "height": 2
-      }
-    },
-    {
-      "name": "Reminders",
-      "url": "",
-      "urlPack": "https://json.fi.ai/reminder.json",
-      "logo": "",
-      "id": "reminders.frame.m.pro",
-      "orientation": "portrait",
-      "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "type": 3,
-      "page": 1,
-      "position": {
-        "x": 2,
-        "y": 0,
-        "width": 2,
-        "height": 2
       }
     },
     {
