@@ -456,7 +456,7 @@
     {
       "name": "Food Order",
       "logo": "https://img.fi.ai/message_logo.jpg",
-      "id": "meta.message",
+      "id": "meta.food-order",
       "isFullScreen": true,
       "statusBar": "hide",
       "isLocal": true,
