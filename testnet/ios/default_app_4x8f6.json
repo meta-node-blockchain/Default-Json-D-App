@@ -1,5 +1,5 @@
 {
-  "version": "30.1.5",
+  "version": "30.1.6",
   "favorites": [
     {
       "name": "Settings",
@@ -541,13 +541,13 @@
     },
     {
       "name": "Food Order",
-      "logo": "https://img.fi.ai/message_logo.jpg",
+      "logo": "https://img.fi.ai/food-order.jpg",
       "id": "meta.food-order",
       "isFullScreen": true,
       "statusBar": "hide",
       "isLocal": true,
       "url": "",
-      "urlPack": "https://img.fi.ai/food-order.jpg",
+      "urlPack": "https://json.fi.ai/food-order.json",
       "type": 1,
       "page": 2,
       "position": {
