@@ -1,5 +1,5 @@
 {
-  "version": "30.1.0",
+  "version": "30.1.2",
   "favorites": [
     {
       "name": "Settings",
@@ -594,6 +594,24 @@
       "position": {
         "x": 0,
         "y": 1,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "Chat",
+      "logo": "https://img.fi.ai/message_logo.jpg",
+      "id": "meta.message",
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "isLocal": true,
+      "url": "",
+      "urlPack": "https://json.fi.ai/message.json",
+      "type": 1,
+      "page": 2,
+      "position": {
+        "x": 0,
+        "y": 3,
         "width": 1,
         "height": 1
       }
