@@ -452,6 +452,24 @@
         "width": 1,
         "height": 1
       }
+    },
+    {
+      "name": "Food Order",
+      "logo": "https://img.fi.ai/message_logo.jpg",
+      "id": "meta.message",
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "isLocal": true,
+      "url": "",
+      "urlPack": "https://img.fi.ai/food-order.jpg",
+      "type": 1,
+      "page": 2,
+      "position": {
+        "x": 1,
+        "y": 3,
+        "width": 1,
+        "height": 1
+      }
     }
   ]
 }
