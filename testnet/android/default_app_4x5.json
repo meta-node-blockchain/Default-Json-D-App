@@ -1,5 +1,5 @@
 {
-  "version": "30.1.6",
+  "version": "30.1.7",
   "favorites": [
     {
       "name": "Settings",
@@ -629,6 +629,24 @@
       "page": 2,
       "position": {
         "x": 1,
+        "y": 3,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "Food Order",
+      "logo": "https://img.fi.ai/food-order.jpg",
+      "id": "meta.mining-test",
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "isLocal": true,
+      "url": "",
+      "urlPack": "https://json.fi.ai/mining-test.json",
+      "type": 1,
+      "page": 2,
+      "position": {
+        "x": 2,
         "y": 3,
         "width": 1,
         "height": 1
