@@ -1,5 +1,5 @@
 {
-  "version": "20.5.3",
+  "version": "20.5.4",
   "favorites": [
     {
       "name": "Settings",
@@ -155,31 +155,6 @@
       }
     },
     {
-      "name": "Daonode",
-      "hash": "335d3df52df4852c962277ca563e4a7cb67f450a31f9b3fe80543f262bf3f71c",
-      "pubKey": "927c8f340255d5a2d7b839ce4859f7dc33c64e5967fe40dde023c0751a53dff3925eec1eaaeb60f83c203c85e9c5b223",
-      "sign": "a72c0b66b936b36525fdc1f07c94266a8280abd6acb04d1d87477d8ea790c98593084649f5be7fb7653c8ffcc34dd3e5067b2ffac7feaa85e5e574c972b7363dc0ac7df937c82cdce2ccae7cf6c2df265a3e8c9188cda23d872da08a0e2fa5a4",
-      "version": "4.0.2",
-      "logo": "https://img.fi.ai/po5.png",
-      "id": "daonode.m.pro",
-      "orientation": "portrait",
-      "author": "n/a",
-      "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "type": 1,
-      "urlScript": "",
-      "page": 0,
-      "url": "",
-      "urlPack": "https://json.fi.ai/daonode.json",
-      "position": {
-        "x": 1,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      }
-    },
-    {
       "name": "Deploy SMC",
       "version": "0.0.1",
       "url": "",
@@ -195,32 +170,7 @@
       "urlScript": "",
       "page": 0,
       "position": {
-        "x": 2,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      }
-    },
-    {
-      "name": "Estock",
-      "hash": "335d3df52df4852c962277ca563e4a7cb67f450a31f9b3fe80543f262bf3f71c",
-      "pubKey": "927c8f340255d5a2d7b839ce4859f7dc33c64e5967fe40dde023c0751a53dff3925eec1eaaeb60f83c203c85e9c5b223",
-      "sign": "a72c0b66b936b36525fdc1f07c94266a8280abd6acb04d1d87477d8ea790c98593084649f5be7fb7653c8ffcc34dd3e5067b2ffac7feaa85e5e574c972b7363dc0ac7df937c82cdce2ccae7cf6c2df265a3e8c9188cda23d872da08a0e2fa5a4",
-      "version": "4.0.2",
-      "logo": "https://img.fi.ai/po5.png",
-      "id": "estock.m.pro",
-      "orientation": "portrait",
-      "author": "n/a",
-      "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "type": 1,
-      "urlScript": "",
-      "page": 0,
-      "url": "",
-      "urlPack": "https://json.fi.ai/estock.json",
-      "position": {
-        "x": 3,
+        "x": 1,
         "y": 0,
         "width": 1,
         "height": 1
@@ -242,7 +192,7 @@
       "type": 1,
       "page": 0,
       "position": {
-        "x": 4,
+        "x": 2,
         "y": 0,
         "width": 1,
         "height": 1
@@ -263,7 +213,7 @@
       "type": 1,
       "page": 0,
       "position": {
-        "x": 5,
+        "x": 3,
         "y": 0,
         "width": 1,
         "height": 1
@@ -285,51 +235,51 @@
       "type": 1,
       "page": 0,
       "position": {
+        "x": 4,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "Melab",
+      "version": "1.0.0",
+      "url": "",
+      "urlPack": "https://json.fi.ai/melap.json",
+      "urlScript": "",
+      "logo": "https://img.fi.ai/MELAB_LOGO.png",
+      "id": "meta.melap",
+      "orientation": "portrait",
+      "author": "n/a",
+      "isLocal": false,
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "type": 1,
+      "page": 0,
+      "position": {
+        "x": 5,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "Melab",
+      "version": "1.0.0",
+      "url": "",
+      "urlPack": "https://json.fi.ai/melap.json",
+      "urlScript": "",
+      "logo": "https://img.fi.ai/MELAB_LOGO.png",
+      "id": "meta.melap",
+      "orientation": "portrait",
+      "author": "n/a",
+      "isLocal": false,
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "type": 1,
+      "page": 0,
+      "position": {
         "x": 6,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      }
-    },
-    {
-      "name": "Melab",
-      "version": "1.0.0",
-      "url": "",
-      "urlPack": "https://json.fi.ai/melap.json",
-      "urlScript": "",
-      "logo": "https://img.fi.ai/MELAB_LOGO.png",
-      "id": "meta.melap",
-      "orientation": "portrait",
-      "author": "n/a",
-      "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "type": 1,
-      "page": 0,
-      "position": {
-        "x": 7,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      }
-    },
-    {
-      "name": "Melab",
-      "version": "1.0.0",
-      "url": "",
-      "urlPack": "https://json.fi.ai/melap.json",
-      "urlScript": "",
-      "logo": "https://img.fi.ai/MELAB_LOGO.png",
-      "id": "meta.melap",
-      "orientation": "portrait",
-      "author": "n/a",
-      "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "type": 1,
-      "page": 0,
-      "position": {
-        "x": 8,
         "y": 0,
         "width": 1,
         "height": 1
@@ -350,7 +300,7 @@
       "type": 1,
       "page": 0,
       "position": {
-        "x": 9,
+        "x": 7,
         "y": 0,
         "width": 1,
         "height": 1
@@ -373,8 +323,8 @@
       "type": 1,
       "page": 0,
       "position": {
-        "x": 0,
-        "y": 1,
+        "x": 8,
+        "y": 0,
         "width": 1,
         "height": 1
       }
@@ -398,8 +348,8 @@
       "url": "",
       "urlPack": "https://json.fi.ai/rootnode.json",
       "position": {
-        "x": 1,
-        "y": 1,
+        "x": 9,
+        "y": 0,
         "width": 1,
         "height": 1
       }
@@ -419,12 +369,12 @@
       "statusBar": "hide",
       "type": 1,
       "urlScript": "",
-      "page": 0,
+      "page": 1,
       "url": "",
       "urlPack": "https://json.fi.ai/showroom.json",
       "position": {
-        "x": 2,
-        "y": 1,
+        "x": 0,
+        "y": 0,
         "width": 1,
         "height": 1
       }
@@ -442,10 +392,10 @@
       "isFullScreen": true,
       "statusBar": "hide",
       "type": 1,
-      "page": 0,
+      "page": 1,
       "position": {
-        "x": 3,
-        "y": 1,
+        "x": 1,
+        "y": 0,
         "width": 1,
         "height": 1
       }
@@ -463,10 +413,10 @@
       "statusBar": "hide",
       "type": 1,
       "urlScript": "https://json.fi.ai/script/telegram.js",
-      "page": 0,
+      "page": 1,
       "position": {
-        "x": 4,
-        "y": 1,
+        "x": 2,
+        "y": 0,
         "width": 1,
         "height": 1
       }
