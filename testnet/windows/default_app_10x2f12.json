@@ -1,5 +1,5 @@
 {
-  "version": "20.5.0",
+  "version": "20.5.1",
   "favorites": [
     {
       "name": "Settings",
@@ -498,6 +498,24 @@
       },
       "url": "",
       "urlPack": "https://json.fi.ai/mining.json"
+    },
+    {
+      "name": "Chat",
+      "logo": "https://img.fi.ai/message_logo.jpg",
+      "id": "meta.message",
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "isLocal": true,
+      "url": "",
+      "urlPack": "https://json.fi.ai/message.json",
+      "type": 1,
+      "page": 2,
+      "position": {
+        "x": 2,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
     }
   ]
 }
