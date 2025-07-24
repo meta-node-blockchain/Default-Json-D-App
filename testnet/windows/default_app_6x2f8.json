@@ -1,5 +1,5 @@
 {
-  "version": "20.5.3",
+  "version": "20.5.4",
   "favorites": [
     {
       "name": "Settings",
@@ -410,7 +410,7 @@
     },
     {
       "name": "Chat",
-      "logo": "https://img.fi.ai/message_logo.jpg",
+      "logo": "https://img.fi.ai/chat.jpg",
       "id": "meta.message",
       "isFullScreen": true,
       "statusBar": "hide",
@@ -446,7 +446,7 @@
     },
     {
       "name": "Chat",
-      "logo": "https://img.fi.ai/message_logo.jpg",
+      "logo": "https://img.fi.ai/chat.jpg",
       "id": "meta.message",
       "isFullScreen": true,
       "statusBar": "hide",
