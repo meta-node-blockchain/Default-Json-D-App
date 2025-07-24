@@ -233,27 +233,6 @@
       }
     },
     {
-      "name": "Food Order",
-      "version": "1.0.0",
-      "url": "",
-      "urlPack": "https://json.fi.ai/food-order.json",
-      "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/tokenomic.jpg",
-      "id": "co.foodorder.app",
-      "orientation": "portrait",
-      "author": "n/a",
-      "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "type": 1,
-      "page": 0,
-      "position": {
-        "x": 2,
-        "y": 1,
-        "width": 1,
-        "height": 1
-      }
-    },
-    {
       "name": "Deploy SMC",
       "version": "0.0.1",
       "url": "",
