@@ -1,5 +1,5 @@
 {
-  "version": "20.6.2",
+  "version": "20.6.3",
   "favorites": [
     {
       "name": "Settings",
@@ -360,7 +360,7 @@
       "position": {
         "x": 0,
         "y": 0,
-        "width": 2,
+        "width": 4,
         "height": 2
       }
     },
@@ -379,7 +379,7 @@
       "position": {
         "x": 2,
         "y": 0,
-        "width": 2,
+        "width": 4,
         "height": 2
       }
     },

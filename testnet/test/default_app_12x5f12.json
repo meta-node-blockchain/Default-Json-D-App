@@ -1,5 +1,5 @@
 {
-  "version": "20.6.2",
+  "version": "20.6.3",
   "favorites": [
     {
       "name": "Settings",
@@ -58,9 +58,9 @@
       "url": "",
       "urlPack": "https://json.fi.ai/message.json",
       "type": 1,
-      "page": 0,
+      "page": 1,
       "position": {
-        "x": 0,
+        "x": 3,
         "y": 0,
         "width": 1,
         "height": 1
@@ -80,9 +80,9 @@
       "statusBar": "hide",
       "type": 1,
       "urlScript": "",
-      "page": 0,
+      "page": 1,
       "position": {
-        "x": 1,
+        "x": 4,
         "y": 0,
         "width": 1,
         "height": 1
@@ -99,9 +99,9 @@
       "url": "",
       "urlPack": "https://json.fi.ai/ens.json",
       "type": 1,
-      "page": 0,
+      "page": 1,
       "position": {
-        "x": 2,
+        "x": 5,
         "y": 0,
         "width": 1,
         "height": 1
@@ -121,9 +121,9 @@
       "isFullScreen": true,
       "statusBar": "hide",
       "type": 1,
-      "page": 0,
+      "page": 1,
       "position": {
-        "x": 3,
+        "x": 6,
         "y": 0,
         "width": 1,
         "height": 1
@@ -139,9 +139,9 @@
       "url": "",
       "urlPack": "https://json.fi.ai/food-order.json",
       "type": 1,
-      "page": 0,
+      "page": 1,
       "position": {
-        "x": 4,
+        "x": 7,
         "y": 0,
         "width": 1,
         "height": 1
@@ -161,9 +161,9 @@
       "isFullScreen": true,
       "statusBar": "hide",
       "type": 1,
-      "page": 0,
+      "page": 1,
       "position": {
-        "x": 5,
+        "x": 8,
         "y": 0,
         "width": 1,
         "height": 1
@@ -183,9 +183,9 @@
       "isFullScreen": true,
       "statusBar": "hide",
       "type": 1,
-      "page": 0,
+      "page": 1,
       "position": {
-        "x": 0,
+        "x": 3,
         "y": 1,
         "width": 1,
         "height": 1
@@ -204,9 +204,9 @@
       "isFullScreen": true,
       "statusBar": "hide",
       "type": 1,
-      "page": 0,
+      "page": 1,
       "position": {
-        "x": 1,
+        "x": 4,
         "y": 1,
         "width": 1,
         "height": 1
@@ -227,9 +227,9 @@
       "isFullScreen": true,
       "statusBar": "hide",
       "type": 1,
-      "page": 0,
+      "page": 1,
       "position": {
-        "x": 2,
+        "x": 5,
         "y": 1,
         "width": 1,
         "height": 1
@@ -248,9 +248,9 @@
       "isFullScreen": true,
       "statusBar": "hide",
       "type": 1,
-      "page": 0,
+      "page": 1,
       "position": {
-        "x": 3,
+        "x": 6,
         "y": 1,
         "width": 1,
         "height": 1
@@ -269,9 +269,9 @@
       "statusBar": "hide",
       "type": 1,
       "urlScript": "https://json.fi.ai/script/telegram.js",
-      "page": 0,
+      "page": 1,
       "position": {
-        "x": 4,
+        "x": 7,
         "y": 1,
         "width": 1,
         "height": 1
@@ -293,9 +293,9 @@
       "full_screen": false,
       "status_bar": "show",
       "type": 4,
-      "page": 0,
+      "page": 1,
       "position": {
-        "x": 5,
+        "x": 8,
         "y": 1,
         "width": 1,
         "height": 1
@@ -314,14 +314,15 @@
       "statusBar": "hide",
       "type": 1,
       "urlScript": "https://raw.githubusercontent.com/meta-node-blockchain/Default-Json-D-App/refs/heads/master/dApp/youtube/worker.js||https://json.fi.ai/script/youtube-light.js",
-      "page": 1,
+      "page": 2,
       "position": {
-        "x": 0,
+        "x": 3,
         "y": 0,
         "width": 1,
         "height": 1
       }
     },
+
     {
       "name": "",
       "version": "0.0.1",
@@ -336,9 +337,9 @@
       "statusBar": "hide",
       "type": 3,
       "urlScript": "",
-      "page": 2,
+      "page": 0,
       "position": {
-        "x": 1,
+        "x": 4,
         "y": 0,
         "width": 4,
         "height": 2
@@ -358,9 +359,9 @@
       "type": 3,
       "page": 3,
       "position": {
-        "x": 0,
-        "y": 0,
-        "width": 2,
+        "x": 1,
+        "y": 2,
+        "width": 4,
         "height": 2
       }
     },
@@ -375,11 +376,11 @@
       "isFullScreen": true,
       "statusBar": "hide",
       "type": 3,
-      "page": 3,
+      "page": 0,
       "position": {
-        "x": 2,
+        "x": 5,
         "y": 0,
-        "width": 2,
+        "width": 4,
         "height": 2
       }
     },
@@ -396,7 +397,7 @@
       "type": 3,
       "page": 0,
       "position": {
-        "x": 4,
+        "x": 9,
         "y": 0,
         "width": 2,
         "height": 2
