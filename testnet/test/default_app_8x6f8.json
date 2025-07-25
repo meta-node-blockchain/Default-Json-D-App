@@ -1,5 +1,5 @@
 {
-  "version": "20.6.9",
+  "version": "20.8.0",
   "favorites": [
     {
       "name": "Settings",
@@ -394,11 +394,11 @@
       "isFullScreen": true,
       "statusBar": "hide",
       "type": 3,
-      "page": 0,
+      "page": 3,
       "position": {
         "x": 4,
         "y": 0,
-        "width": 2,
+        "width": 4,
         "height": 2
       }
     }

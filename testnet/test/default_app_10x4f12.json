@@ -1,5 +1,5 @@
 {
-  "version": "20.6.9",
+  "version": "20.8.0",
   "favorites": [
     {
       "name": "Settings",
@@ -453,7 +453,6 @@
         "height": 2
       }
     },
-
     {
       "name": "Calendar",
       "url": "",
@@ -469,7 +468,7 @@
       "position": {
         "x": 0,
         "y": 0,
-        "width": 2,
+        "width": 4,
         "height": 2
       }
     },
@@ -486,9 +485,9 @@
       "type": 3,
       "page": 3,
       "position": {
-        "x": 2,
+        "x": 4,
         "y": 0,
-        "width": 2,
+        "width": 4,
         "height": 2
       }
     },
@@ -503,9 +502,9 @@
       "isFullScreen": true,
       "statusBar": "hide",
       "type": 3,
-      "page": 0,
+      "page": 3,
       "position": {
-        "x": 4,
+        "x": 8,
         "y": 0,
         "width": 2,
         "height": 2
