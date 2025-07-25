@@ -1,5 +1,5 @@
 {
-  "version": "20.6.6",
+  "version": "20.6.8",
   "favorites": [
     {
       "name": "Settings",
@@ -389,7 +389,7 @@
       "url": "",
       "urlPack": "https://json.fi.ai/notes.json",
       "logo": "",
-      "id": "notes.frame.m.pro",
+      "id": "notes.m.pro.frame",
       "orientation": "portrait",
       "isLocal": false,
       "isFullScreen": true,
