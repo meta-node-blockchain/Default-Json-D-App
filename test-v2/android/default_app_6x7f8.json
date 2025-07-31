@@ -1,5 +1,5 @@
 {
-  "version": "30.2.0",
+  "version": "30.2.1",
   "favorites": [
     {
       "name": "Settings",
@@ -482,6 +482,23 @@
       "page": 4,
       "position": {
         "x": 0,
+        "y": 1,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "swap -v3 - testv2",
+      "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/swap.jpg",
+      "id": "co.swap-token-v3.app",
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "isLocal": true,
+      "urlPack": "https://json.fi.ai/swap-token-v3.json",
+      "type": 1,
+      "page": 4,
+      "position": {
+        "x": 1,
         "y": 1,
         "width": 1,
         "height": 1
