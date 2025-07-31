@@ -1,5 +1,5 @@
 {
-  "version": "30.2.1",
+  "version": "30.2.2",
   "favorites": [
     {
       "name": "Settings",
@@ -320,6 +320,91 @@
       "page": 0,
       "position": {
         "x": 8,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "Po5",
+      "logo": "https://img.fi.ai/po5.png",
+      "id": "po5.m.pro",
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "isLocal": true,
+      "urlPack": "https://json.fi.ai/po5.json",
+      "type": 1,
+      "page": 2,
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "Rootnode",
+      "logo": "https://img.fi.ai/rootnode.png",
+      "id": "meta.rootnode",
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "isLocal": true,
+      "urlPack": "https://json.fi.ai/rootnode.json",
+      "type": 1,
+      "page": 2,
+      "position": {
+        "x": 1,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "Company",
+      "logo": "https://img.fi.ai/daonode.png",
+      "id": "meta.daonode",
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "isLocal": true,
+      "urlPack": "https://json.fi.ai/daonode.json",
+      "type": 1,
+      "page": 2,
+      "position": {
+        "x": 2,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "Showroom",
+      "logo": "https://img.fi.ai/showroom.png",
+      "id": "meta.showrom",
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "isLocal": true,
+      "urlPack": "https://json.fi.ai/showroom.json",
+      "type": 1,
+      "page": 2,
+      "position": {
+        "x": 3,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "Estock",
+      "logo": "https://img.fi.ai/estock.png",
+      "id": "meta.estock",
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "isLocal": true,
+      "urlPack": "https://json.fi.ai/estock.json",
+      "type": 1,
+      "page": 2,
+      "position": {
+        "x": 4,
         "y": 0,
         "width": 1,
         "height": 1
