@@ -1,5 +1,5 @@
 {
-  "version": "30.2.2",
+  "version": "30.2.3",
   "favorites": [
     {
       "name": "Settings",
@@ -137,7 +137,7 @@
     {
       "name": "Telegram",
       "version": "0.0.1",
-      "url": "https://web.telegram.org/k/",
+      "url": "https://web.telegram.org/a/",
       "logo": "https://img.fi.ai/telegram.png",
       "id": "telegram.m.pro",
       "orientation": "portrait",
@@ -368,7 +368,7 @@
     {
       "name": "Telegram",
       "version": "0.0.1",
-      "url": "https://web.telegram.org/k/",
+      "url": "https://web.telegram.org/a/",
       "logo": "https://img.fi.ai/telegram.png",
       "id": "telegram.m.pro",
       "orientation": "portrait",
