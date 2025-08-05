@@ -1,5 +1,5 @@
 {
-  "version": "30.2.4",
+  "version": "30.2.6",
   "favorites": [
     {
       "name": "Settings",
@@ -561,7 +561,7 @@
     {
       "name": "dex -v3 - testv2",
       "logo": "https://gitlab.com/QuangFiIt/upload_app/-/raw/main/top-web-usa-logo/swap.jpg",
-      "id": "scan.m.pro",
+      "id": "dex.m.pro",
       "isFullScreen": true,
       "statusBar": "hide",
       "isLocal": true,
