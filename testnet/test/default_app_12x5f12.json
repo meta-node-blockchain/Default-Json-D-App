@@ -1,5 +1,5 @@
 {
-  "version": "30.2.6",
+  "version": "30.2.7",
   "favorites": [
     {
       "name": "Settings",
@@ -157,24 +157,6 @@
     }
   ],
   "apps": [
-    {
-      "name": "Chat",
-      "logo": "https://img.fi.ai/chat.jpg",
-      "id": "meta.message",
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "isLocal": true,
-      "url": "",
-      "urlPack": "https://json.fi.ai/message.json",
-      "type": 1,
-      "page": 1,
-      "position": {
-        "x": 3,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      }
-    },
     {
       "name": "Deploy SMC",
       "version": "0.0.1",
