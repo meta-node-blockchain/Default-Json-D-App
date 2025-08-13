@@ -574,6 +574,23 @@
         "width": 1,
         "height": 1
       }
+    },
+    {
+      "name": "chat test",
+      "logo": "https://img.fi.ai/chat.jpg",
+      "id": "meta.chat-test",
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "isLocal": true,
+      "urlPack": "https://json.fi.ai/chat-test.json",
+      "type": 1,
+      "page": 4,
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
     }
   ]
 }
