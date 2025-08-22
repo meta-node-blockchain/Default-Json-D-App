@@ -129,7 +129,7 @@
       "isLocal": false,
       "isFullScreen": true,
       "statusBar": "hide",
-      "type": 1,
+      "type": 4,
       "page": 0,
       "position": {
         "x": 3,
@@ -446,7 +446,7 @@
       "isLocal": false,
       "isFullScreen": true,
       "statusBar": "hide",
-      "type": 1,
+      "type": 4,
       "urlScript": "https://raw.githubusercontent.com/meta-node-blockchain/Default-Json-D-App/refs/heads/master/dApp/youtube/worker.js",
       "page": 2,
       "position": {

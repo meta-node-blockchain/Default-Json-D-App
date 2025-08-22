@@ -102,7 +102,7 @@
       "isLocal": false,
       "isFullScreen": true,
       "statusBar": "hide",
-      "type": 1,
+      "type": 4,
       "page": 0,
       "position": {
         "x": 3,
@@ -142,10 +142,10 @@
       "isLocal": false,
       "isFullScreen": true,
       "statusBar": "hide",
-      "type": 1,
-      "page": 0,
+      "type": 4,
+      "page": 1,
       "position": {
-        "x": 5,
+        "x": 8,
         "y": 0,
         "width": 1,
         "height": 1
@@ -294,7 +294,7 @@
       "isLocal": false,
       "isFullScreen": true,
       "statusBar": "hide",
-      "type": 1,
+      "type": 4,
       "urlScript": "https://raw.githubusercontent.com/meta-node-blockchain/Default-Json-D-App/refs/heads/master/dApp/youtube/worker.js||https://json.fi.ai/script/youtube-light.js",
       "page": 1,
       "position": {
