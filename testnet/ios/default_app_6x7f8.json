@@ -1,5 +1,5 @@
 {
-  "version": "30.3.5",
+  "version": "30.3.6",
   "favorites": [
     {
       "name": "Settings",
@@ -284,7 +284,7 @@
       "isLocal": false,
       "isFullScreen": true,
       "statusBar": "hide",
-      "type": 1,
+      "type": 4,
       "page": 0,
       "position": {
         "x": 4,
