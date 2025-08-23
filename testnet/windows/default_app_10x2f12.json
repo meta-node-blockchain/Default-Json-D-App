@@ -1,5 +1,5 @@
 {
-  "version": "30.3.6",
+  "version": "30.3.7",
   "favorites": [
     {
       "name": "Settings",
@@ -83,9 +83,9 @@
       "id": "com.web3space.metaword",
       "orientation": "portrait",
       "author": "n/a",
-      "full_screen": false,
       "status_bar": "show",
       "type": 4,
+      "isFullScreen": false,
       "page": 0,
       "position": {
         "x": 4,
@@ -103,9 +103,9 @@
       "orientation": "portrait",
       "author": "n/a",
       "isLocal": false,
-      "isFullScreen": true,
       "statusBar": "hide",
       "type": 4,
+      "isFullScreen": false,
       "urlScript": "https://raw.githubusercontent.com/meta-node-blockchain/Default-Json-D-App/refs/heads/master/dApp/youtube/worker.js",
       "page": 2,
       "position": {
@@ -187,9 +187,9 @@
       "orientation": "landscape",
       "author": "n/a",
       "isLocal": false,
-      "isFullScreen": true,
       "statusBar": "hide",
       "type": 4,
+      "isFullScreen": false,
       "page": 0,
       "position": {
         "x": 2,
@@ -230,9 +230,9 @@
       "orientation": "landscape",
       "author": "n/a",
       "isLocal": false,
-      "isFullScreen": true,
       "statusBar": "hide",
       "type": 4,
+      "isFullScreen": false,
       "page": 1,
       "position": {
         "x": 8,

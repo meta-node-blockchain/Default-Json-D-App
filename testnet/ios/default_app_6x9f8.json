@@ -1,12 +1,11 @@
 {
-  "version": "30.3.6",
+  "version": "30.3.7",
   "favorites": [
     {
       "name": "Settings",
       "logo": "https://img.fi.ai/logo/settings-logo.jpg",
       "id": "setting",
-      "isFullScreen": true,
-      "statusBar": "hide",
+      "statusBar": "show",
       "isLocal": true,
       "url": "",
       "urlPack": "https://json.fi.ai/setting.json",
@@ -24,8 +23,7 @@
       "logo": "https://img.fi.ai/logo/wallet-logo.png",
       "id": "meta.wallet",
       "orientation": "portrait",
-      "isFullScreen": true,
-      "statusBar": "hide",
+      "statusBar": "show",
       "type": 1,
       "page": 0,
       "position": {
@@ -42,8 +40,7 @@
       "logo": "https://img.fi.ai/logo/mining-logo.jpg",
       "id": "meta.mining",
       "orientation": "portrait",
-      "isFullScreen": true,
-      "statusBar": "hide",
+      "statusBar": "show",
       "type": 1,
       "page": 0,
       "position": {
@@ -58,6 +55,23 @@
   ],
   "apps": [
     {
+      "name": "Chat",
+      "logo": "https://img.fi.ai/message_logo.jpg",
+      "id": "meta.message",
+      "statusBar": "show",
+      "isLocal": true,
+      "url": "",
+      "urlPack": "https://json.fi.ai/message.json",
+      "type": 1,
+      "page": 0,
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
       "name": "Deploy SMC",
       "version": "0.0.1",
       "url": "",
@@ -67,13 +81,12 @@
       "orientation": "portrait",
       "author": "n/a",
       "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
+      "statusBar": "show",
       "type": 1,
       "urlScript": "",
       "page": 0,
       "position": {
-        "x": 0,
+        "x": 1,
         "y": 0,
         "width": 1,
         "height": 1
@@ -88,11 +101,12 @@
       "logo": "https://img.fi.ai/app-logo/ens.png",
       "id": "ens.m.pro",
       "url": "",
+      "statusBar": "show",
       "urlPack": "https://json.fi.ai/ens.json",
       "type": 1,
       "page": 0,
       "position": {
-        "x": 1,
+        "x": 2,
         "y": 0,
         "width": 1,
         "height": 1
@@ -109,13 +123,49 @@
       "orientation": "landscape",
       "author": "n/a",
       "isLocal": false,
-      "isFullScreen": true,
       "statusBar": "hide",
       "type": 4,
+      "isFullScreen": false,
       "page": 0,
       "position": {
-        "x": 2,
+        "x": 3,
         "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "Food Order",
+      "logo": "https://img.fi.ai/food-order.jpg",
+      "id": "meta.food-order",
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "isLocal": true,
+      "url": "",
+      "urlPack": "https://json.fi.ai/food-order.json",
+      "type": 1,
+      "page": 0,
+      "position": {
+        "x": 0,
+        "y": 1,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "Food Order",
+      "logo": "https://img.fi.ai/food-order.jpg",
+      "id": "meta.mining-test",
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "isLocal": true,
+      "url": "",
+      "urlPack": "https://json.fi.ai/mining-test.json",
+      "type": 1,
+      "page": 0,
+      "position": {
+        "x": 1,
+        "y": 1,
         "width": 1,
         "height": 1
       }
@@ -130,13 +180,12 @@
       "orientation": "landscape",
       "author": "n/a",
       "isLocal": false,
-      "isFullScreen": true,
       "statusBar": "hide",
       "type": 1,
       "page": 0,
       "position": {
-        "x": 3,
-        "y": 0,
+        "x": 2,
+        "y": 1,
         "width": 1,
         "height": 1
       }
@@ -151,13 +200,12 @@
       "orientation": "landscape",
       "author": "n/a",
       "isLocal": false,
-      "isFullScreen": true,
       "statusBar": "hide",
       "type": 1,
       "page": 0,
       "position": {
-        "x": 4,
-        "y": 0,
+        "x": 3,
+        "y": 1,
         "width": 1,
         "height": 1
       }
@@ -174,11 +222,11 @@
       "author": "n/a",
       "isLocal": false,
       "isFullScreen": true,
-      "statusBar": "hide",
-      "type": 4,
+      "statusBar": "show",
+      "type": 1,
       "page": 1,
       "position": {
-        "x": 8,
+        "x": 0,
         "y": 0,
         "width": 1,
         "height": 1
@@ -195,13 +243,12 @@
       "orientation": "portrait",
       "author": "n/a",
       "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
+      "statusBar": "show",
       "type": 1,
-      "page": 0,
+      "page": 1,
       "position": {
-        "x": 0,
-        "y": 1,
+        "x": 1,
+        "y": 0,
         "width": 1,
         "height": 1
       }
@@ -217,13 +264,12 @@
       "orientation": "portrait",
       "author": "n/a",
       "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
+      "statusBar": "show",
       "type": 1,
-      "page": 0,
+      "page": 1,
       "position": {
-        "x": 1,
-        "y": 1,
+        "x": 2,
+        "y": 0,
         "width": 1,
         "height": 1
       }
@@ -238,14 +284,13 @@
       "orientation": "portrait",
       "author": "n/a",
       "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
+      "statusBar": "show",
       "type": 1,
       "urlScript": "",
-      "page": 0,
+      "page": 1,
       "position": {
-        "x": 2,
-        "y": 1,
+        "x": 3,
+        "y": 0,
         "width": 1,
         "height": 1
       }
@@ -260,12 +305,11 @@
       "orientation": "portrait",
       "author": "n/a",
       "isLocal": false,
-      "isFullScreen": true,
       "statusBar": "hide",
       "type": 1,
-      "page": 0,
+      "page": 1,
       "position": {
-        "x": 3,
+        "x": 0,
         "y": 1,
         "width": 1,
         "height": 1
@@ -282,12 +326,12 @@
       "orientation": "landscape",
       "author": "n/a",
       "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
+      "statusBar": "show",
       "type": 4,
-      "page": 0,
+      "isFullScreen": false,
+      "page": 1,
       "position": {
-        "x": 4,
+        "x": 1,
         "y": 1,
         "width": 1,
         "height": 1
@@ -303,12 +347,11 @@
       "orientation": "portrait",
       "author": "n/a",
       "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
+      "statusBar": "show",
       "type": 1,
-      "page": 0,
+      "page": 1,
       "position": {
-        "x": 5,
+        "x": 2,
         "y": 1,
         "width": 1,
         "height": 1
@@ -323,14 +366,14 @@
       "orientation": "portrait",
       "author": "n/a",
       "isLocal": false,
-      "isFullScreen": false,
-      "statusBar": "hide",
+      "statusBar": "show",
       "type": 4,
+      "isFullScreen": false,
       "urlScript": "https://json.fi.ai/script/telegram.js",
       "page": 1,
       "position": {
-        "x": 0,
-        "y": 0,
+        "x": 3,
+        "y": 1,
         "width": 1,
         "height": 1
       }
@@ -345,13 +388,12 @@
       "orientation": "portrait",
       "author": "n/a",
       "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
+      "statusBar": "show",
       "type": 1,
       "urlScript": "",
-      "page": 1,
+      "page": 2,
       "position": {
-        "x": 1,
+        "x": 0,
         "y": 0,
         "width": 1,
         "height": 1
@@ -370,12 +412,12 @@
       "id": "com.web3space.metaword",
       "orientation": "portrait",
       "author": "n/a",
-      "full_screen": false,
-      "status_bar": "show",
+      "statusBar": "show",
       "type": 4,
-      "page": 1,
+      "isFullScreen": false,
+      "page": 2,
       "position": {
-        "x": 2,
+        "x": 1,
         "y": 0,
         "width": 1,
         "height": 1
@@ -390,13 +432,13 @@
       "orientation": "portrait",
       "author": "n/a",
       "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
+      "statusBar": "show",
       "type": 4,
+      "isFullScreen": false,
       "urlScript": "https://raw.githubusercontent.com/meta-node-blockchain/Default-Json-D-App/refs/heads/master/dApp/youtube/worker.js",
-      "page": 1,
+      "page": 2,
       "position": {
-        "x": 3,
+        "x": 2,
         "y": 0,
         "width": 1,
         "height": 1
@@ -407,11 +449,11 @@
       "logo": "https://img.fi.ai/po5.png",
       "id": "po5.m.pro",
       "isFullScreen": true,
-      "statusBar": "hide",
+      "statusBar": "show",
       "isLocal": true,
       "urlPack": "https://json.fi.ai/po5.json",
       "type": 1,
-      "page": 2,
+      "page": 3,
       "position": {
         "x": 0,
         "y": 0,
@@ -423,12 +465,11 @@
       "name": "Rootnode",
       "logo": "https://img.fi.ai/rootnode.png",
       "id": "meta.rootnode",
-      "isFullScreen": true,
-      "statusBar": "hide",
+      "statusBar": "show",
       "isLocal": true,
       "urlPack": "https://json.fi.ai/rootnode.json",
       "type": 1,
-      "page": 2,
+      "page": 3,
       "position": {
         "x": 1,
         "y": 0,
@@ -440,12 +481,11 @@
       "name": "Company",
       "logo": "https://img.fi.ai/daonode.png",
       "id": "meta.daonode",
-      "isFullScreen": true,
-      "statusBar": "hide",
+      "statusBar": "show",
       "isLocal": true,
       "urlPack": "https://json.fi.ai/daonode.json",
       "type": 1,
-      "page": 2,
+      "page": 3,
       "position": {
         "x": 2,
         "y": 0,
@@ -457,12 +497,11 @@
       "name": "Showroom",
       "logo": "https://img.fi.ai/showroom.png",
       "id": "meta.showrom",
-      "isFullScreen": true,
-      "statusBar": "hide",
+      "statusBar": "show",
       "isLocal": true,
       "urlPack": "https://json.fi.ai/showroom.json",
       "type": 1,
-      "page": 2,
+      "page": 3,
       "position": {
         "x": 3,
         "y": 0,
@@ -474,15 +513,14 @@
       "name": "Estock",
       "logo": "https://img.fi.ai/estock.png",
       "id": "meta.estock",
-      "isFullScreen": true,
-      "statusBar": "hide",
+      "statusBar": "show",
       "isLocal": true,
       "urlPack": "https://json.fi.ai/estock.json",
       "type": 1,
-      "page": 2,
+      "page": 3,
       "position": {
-        "x": 4,
-        "y": 0,
+        "x": 0,
+        "y": 1,
         "width": 1,
         "height": 1
       }

@@ -1,5 +1,5 @@
 {
-  "version": "30.3.6",
+  "version": "30.3.7",
   "favorites": [
     {
       "name": "Settings",
@@ -46,6 +46,7 @@
       "url": "",
       "urlPack": "https://json.fi.ai/wallet.json"
     },
+
     {
       "name": "Mining",
       "version": "4.0.2",
@@ -82,9 +83,9 @@
       "id": "com.web3space.metaword",
       "orientation": "portrait",
       "author": "n/a",
-      "full_screen": false,
       "status_bar": "show",
       "type": 4,
+      "isFullScreen": false,
       "page": 0,
       "position": {
         "x": 4,
@@ -102,9 +103,9 @@
       "orientation": "portrait",
       "author": "n/a",
       "isLocal": false,
-      "isFullScreen": true,
       "statusBar": "hide",
       "type": 4,
+      "isFullScreen": false,
       "urlScript": "https://raw.githubusercontent.com/meta-node-blockchain/Default-Json-D-App/refs/heads/master/dApp/youtube/worker.js",
       "page": 2,
       "position": {
@@ -128,27 +129,6 @@
       "page": 0,
       "position": {
         "x": 6,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      }
-    },
-    {
-      "name": "Telegram",
-      "version": "0.0.1",
-      "url": "https://web.telegram.org/a/",
-      "logo": "https://img.fi.ai/telegram.png",
-      "id": "telegram.m.pro",
-      "orientation": "portrait",
-      "author": "n/a",
-      "isLocal": false,
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "type": 1,
-      "urlScript": "https://json.fi.ai/script/telegram.js",
-      "page": 0,
-      "position": {
-        "x": 7,
         "y": 0,
         "width": 1,
         "height": 1
@@ -207,9 +187,9 @@
       "orientation": "landscape",
       "author": "n/a",
       "isLocal": false,
-      "isFullScreen": true,
       "statusBar": "hide",
       "type": 4,
+      "isFullScreen": false,
       "page": 0,
       "position": {
         "x": 2,
@@ -250,9 +230,9 @@
       "orientation": "landscape",
       "author": "n/a",
       "isLocal": false,
-      "isFullScreen": true,
       "statusBar": "hide",
       "type": 4,
+      "isFullScreen": false,
       "page": 1,
       "position": {
         "x": 8,
