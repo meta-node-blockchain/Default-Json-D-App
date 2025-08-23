@@ -1,5 +1,5 @@
 {
-  "version": "30.3.7",
+  "version": "30.3.8",
   "favorites": [
     {
       "name": "Settings",
@@ -336,7 +336,7 @@
       "name": "Weather",
       "version": "0.0.1",
       "url": "",
-      "urlPack": "https://resources.m.pro/frame/json/weather.json",
+      "urlPack": "https://json.fi.ai/weather.json",
       "logo": "https://img.fi.ai/weather.png",
       "id": "weather.m.pro",
       "orientation": "portrait",

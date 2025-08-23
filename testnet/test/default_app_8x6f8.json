@@ -249,9 +249,9 @@
       "orientation": "landscape",
       "author": "n/a",
       "isLocal": false,
-      "isFullScreen": true,
       "statusBar": "hide",
-      "type": 1,
+      "type": 4,
+      "isFullScreen": false,
       "page": 0,
       "position": {
         "x": 5,
