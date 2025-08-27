@@ -1,5 +1,5 @@
 {
-  "version": "30.4.0",
+  "version": "30.4.1",
   "favorites": [
     {
       "name": "Settings",
@@ -629,7 +629,7 @@
     {
       "name": "test-call",
       "logo": "https://img.fi.ai/estock.png",
-      "id": "meta.estock",
+      "id": "test-call.meta",
       "statusBar": "show",
       "isLocal": true,
       "url": "https://json.fi.ai/test-call/index.html",
