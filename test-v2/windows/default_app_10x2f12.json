@@ -1,5 +1,5 @@
 {
-  "version": "30.4.1",
+  "version": "30.4.2",
   "favorites": [
     {
       "name": "Settings",
@@ -504,6 +504,23 @@
       "position": {
         "x": 3,
         "y": 1,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "dex -v3 - testv2",
+      "logo": "https://img.fi.ai/logo/swap-token-logo.jpg",
+      "id": "dex.m.pro",
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "isLocal": true,
+      "urlPack": "https://json.fi.ai/dex.json",
+      "type": 1,
+      "page": 2,
+      "position": {
+        "x": 0,
+        "y": 0,
         "width": 1,
         "height": 1
       }
