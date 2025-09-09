@@ -1,5 +1,5 @@
 {
-  "version": "30.4.3",
+  "version": "30.4.4",
   "favorites": [
     {
       "name": "Settings",
@@ -517,9 +517,9 @@
       "isLocal": true,
       "urlPack": "https://json.fi.ai/dex.json",
       "type": 1,
-      "page": 2,
+      "page": 1,
       "position": {
-        "x": 0,
+        "x": 4,
         "y": 0,
         "width": 1,
         "height": 1
