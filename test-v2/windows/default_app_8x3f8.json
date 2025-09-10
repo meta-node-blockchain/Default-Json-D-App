@@ -1,5 +1,5 @@
 {
-  "version": "30.4.5",
+  "version": "30.4.4",
   "favorites": [
     {
       "name": "Settings",
@@ -163,8 +163,8 @@
       "type": 4,
       "page": 1,
       "position": {
-        "x": 8,
-        "y": 0,
+        "x": 0,
+        "y": 1,
         "width": 1,
         "height": 1
       }
