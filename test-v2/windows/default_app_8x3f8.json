@@ -45,6 +45,26 @@
       },
       "url": "",
       "urlPack": "https://json.fi.ai/wallet.json"
+    },
+    {
+      "name": "My Photo",
+      "version": "4.0.2",
+      "logo": "https://img.fi.ai/chat.jpg",
+      "id": "meta.myphoto",
+      "orientation": "portrait",
+      "author": "n/a",
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "type": 1,
+      "page": 0,
+      "position": {
+        "x": 2,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "url": "",
+      "urlPack": "https://json.fi.ai/myPhoto.json"
     }
   ],
   "apps": [
