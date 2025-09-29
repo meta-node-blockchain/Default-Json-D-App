@@ -1,5 +1,5 @@
 {
-  "version": "30.4.9",
+  "version": "30.5.0",
   "favorites": [
     {
       "name": "Settings",
@@ -137,7 +137,7 @@
     {
       "name": "My Photo",
       "version": "4.0.2",
-      "logo": "https://img.fi.ai/chat.jpg",
+      "logo": "https://img.fi.ai/my-photo.png",
       "id": "meta.myphoto",
       "orientation": "portrait",
       "author": "n/a",
