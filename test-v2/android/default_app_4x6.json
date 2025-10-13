@@ -576,23 +576,7 @@
         "height": 1
       }
     },
-    {
-      "name": "onboarding",
-      "logo": "https://img.fi.ai/onboarding.png",
-      "id": "meta.onboarding",
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "isLocal": true,
-      "urlPack": "https://json.fi.ai/onboarding.json",
-      "type": 1,
-      "page": 0,
-      "position": {
-        "x": 1,
-        "y": 2,
-        "width": 1,
-        "height": 1
-      }
-    },
+
     {
       "name": "dex - android",
       "logo": "https://img.fi.ai/logo/swap-token-logo.jpg",
