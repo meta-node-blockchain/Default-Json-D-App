@@ -1,5 +1,5 @@
 {
-  "version": "30.6.1",
+  "version": "30.6.2",
   "favorites": [
     {
       "name": "Settings",
@@ -591,6 +591,23 @@
       "page": 0,
       "position": {
         "x": 1,
+        "y": 2,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "Storage",
+      "logo": "https://img.fi.ai/storage.png",
+      "id": "meta.storage",
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "isLocal": true,
+      "urlPack": "https://json.fi.ai/storage.json",
+      "type": 1,
+      "page": 0,
+      "position": {
+        "x": 2,
         "y": 2,
         "width": 1,
         "height": 1
