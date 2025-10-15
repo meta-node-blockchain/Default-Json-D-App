@@ -1,5 +1,5 @@
 {
-  "version": "30.6.2",
+  "version": "30.6.3",
   "favorites": [
     {
       "name": "Settings",
@@ -655,6 +655,23 @@
       "page": 0,
       "position": {
         "x": 2,
+        "y": 2,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "Admin Food Order",
+      "logo": "https://img.fi.ai/storage.png",
+      "id": "meta.admin-food-order",
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "isLocal": true,
+      "urlPack": "https://json.fi.ai/admin-food-order.json",
+      "type": 1,
+      "page": 0,
+      "position": {
+        "x": 3,
         "y": 2,
         "width": 1,
         "height": 1
