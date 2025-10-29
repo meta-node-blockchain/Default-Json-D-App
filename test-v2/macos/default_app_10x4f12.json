@@ -534,7 +534,7 @@
     },
     {
       "name": "finder",
-      "logo": "https://img.fi.ai/logo/swap-token-logo.jpg",
+      "logo": "https://img.fi.ai/finder-logo.png",
       "id": "finder.m.pro",
       "isFullScreen": true,
       "statusBar": "hide",
