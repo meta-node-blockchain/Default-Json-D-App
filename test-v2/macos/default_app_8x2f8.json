@@ -1,5 +1,5 @@
 {
-  "version": "30.4.7",
+  "version": "30.4.8",
   "favorites": [
     {
       "name": "Settings",
@@ -493,6 +493,23 @@
       "position": {
         "x": 4,
         "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "finder",
+      "logo": "https://img.fi.ai/logo/swap-token-logo.jpg",
+      "id": "finder.m.pro",
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "isLocal": true,
+      "urlPack": "https://json.fi.ai/finder.json",
+      "type": 1,
+      "page": 1,
+      "position": {
+        "x": 0,
+        "y": 1,
         "width": 1,
         "height": 1
       }
