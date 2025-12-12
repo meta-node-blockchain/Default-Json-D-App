@@ -1,5 +1,5 @@
 {
-  "version": "30.6.4",
+  "version": "30.6.5",
   "favorites": [
     {
       "name": "Settings",
@@ -488,7 +488,7 @@
       }
     },
     {
-      "name": "swap -v3 - testv2",
+      "name": "SwapV3",
       "logo": "https://img.fi.ai/logo/swap-token-logo.jpg",
       "id": "co.swap-token-v3.app",
       "isFullScreen": true,
@@ -496,10 +496,10 @@
       "isLocal": true,
       "urlPack": "https://json.fi.ai/swap-token-v3.json",
       "type": 1,
-      "page": 4,
+      "page": 2,
       "position": {
         "x": 1,
-        "y": 1,
+        "y": 2,
         "width": 1,
         "height": 1
       }
