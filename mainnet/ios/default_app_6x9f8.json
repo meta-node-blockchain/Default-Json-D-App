@@ -1,5 +1,5 @@
 {
-  "version": "30.6.5",
+  "version": "30.6.6",
   "favorites": [
     {
       "name": "Settings",
@@ -665,6 +665,57 @@
       "position": {
         "x": 0,
         "y": 3,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "IQRMerchant-Test",
+      "logo": "https://img.fi.ai/food-order.jpg",
+      "id": "meta.iqr-merchant-test",
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "isLocal": true,
+      "urlPack": "https://json.fi.ai/iqr-merchant-test.json",
+      "type": 1,
+      "page": 2,
+      "position": {
+        "x": 1,
+        "y": 2,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "IQRStaff-Test",
+      "logo": "https://img.fi.ai/food-order.jpg",
+      "id": "meta.iqr-staff-test",
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "isLocal": true,
+      "urlPack": "https://json.fi.ai/iqr-staff-test.json",
+      "type": 1,
+      "page": 2,
+      "position": {
+        "x": 2,
+        "y": 2,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "SupplyAdmin-Test",
+      "logo": "https://img.fi.ai/food-order.jpg",
+      "id": "meta.supply-admin-test",
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "isLocal": true,
+      "urlPack": "https://json.fi.ai/supply-admin-test.json",
+      "type": 1,
+      "page": 2,
+      "position": {
+        "x": 3,
+        "y": 2,
         "width": 1,
         "height": 1
       }
