@@ -1,5 +1,5 @@
 {
-  "version": "30.6.6",
+  "version": "30.6.7",
   "favorites": [
     {
       "name": "Settings",
@@ -693,6 +693,23 @@
       "position": {
         "x": 3,
         "y": 2,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "Customer-Test",
+      "logo": "https://img.fi.ai/food-order.jpg",
+      "id": "meta.customer-test",
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "isLocal": true,
+      "urlPack": "https://json.fi.ai/customer-test.json",
+      "type": 1,
+      "page": 2,
+      "position": {
+        "x": 0,
+        "y": 3,
         "width": 1,
         "height": 1
       }
