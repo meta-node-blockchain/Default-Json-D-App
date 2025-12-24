@@ -1,5 +1,5 @@
 {
-  "version": "30.6.7",
+  "version": "30.6.8",
   "favorites": [
     {
       "name": "Settings",
@@ -640,6 +640,23 @@
       "position": {
         "x": 0,
         "y": 3,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "name": "Robot",
+      "logo": "https://img.fi.ai/robot.jpg",
+      "id": "meta.robot",
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "isLocal": true,
+      "urlPack": "https://json.fi.ai/robot.json",
+      "type": 1,
+      "page": 1,
+      "position": {
+        "x": 0,
+        "y": 2,
         "width": 1,
         "height": 1
       }
