@@ -1,5 +1,5 @@
 {
-  "version": "30.6.8",
+  "version": "30.6.9",
   "favorites": [
     {
       "name": "Settings",
@@ -752,7 +752,8 @@
         "y": 2,
         "width": 1,
         "height": 1
-      }
+      },
+      "orientation": "landscape"
     }
   ]
 }
