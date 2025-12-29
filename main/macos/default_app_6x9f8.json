@@ -1,5 +1,5 @@
 {
-  "version": "30.7.0",
+  "version": "30.7.1",
   "favorites": [
     {
       "isFullScreen": true,
@@ -8,7 +8,14 @@
       "name": "Settings",
       "logo": "https://img.fi.ai/logo/settings-logo.jpg",
       "type": 1,
-      "urlPack": "https://json.fi.ai/setting.json"
+      "urlPack": "https://json.fi.ai/setting.json",
+      "page": 0,
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
     },
     {
       "isFullScreen": true,
@@ -17,7 +24,14 @@
       "name": "Wallet",
       "logo": "https://img.fi.ai/logo/wallet-logo.png",
       "type": 1,
-      "urlPack": "https://json.fi.ai/wallet.json"
+      "urlPack": "https://json.fi.ai/wallet.json",
+      "page": 0,
+      "position": {
+        "x": 1,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
     },
     {
       "isFullScreen": true,
@@ -26,7 +40,14 @@
       "name": "Mining",
       "logo": "https://img.fi.ai/logo/mining-logo.jpg",
       "type": 1,
-      "urlPack": "https://json.fi.ai/mining.json"
+      "urlPack": "https://json.fi.ai/mining.json",
+      "page": 0,
+      "position": {
+        "x": 2,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
     },
     {
       "isFullScreen": true,
@@ -35,7 +56,14 @@
       "name": "My Photo",
       "logo": "https://img.fi.ai/my-photo.png",
       "type": 1,
-      "urlPack": "https://json.fi.ai/myPhoto.json"
+      "urlPack": "https://json.fi.ai/myPhoto.json",
+      "page": 0,
+      "position": {
+        "x": 3,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
     }
   ],
   "apps": [
