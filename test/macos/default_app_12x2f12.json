@@ -1,5 +1,5 @@
 {
-  "version": "30.7.1",
+  "version": "30.7.2",
   "favorites": [
     {
       "isFullScreen": true,
@@ -76,6 +76,7 @@
       "type": 4,
       "url": "https://www.facebook.com/",
       "urlScript": "https://json.fi.ai/script/facebook-dark.js",
+      "version": "1.0.0",
       "page": 0,
       "position": {
         "x": 1,
@@ -93,6 +94,7 @@
       "type": 4,
       "url": "https://www.linkedInWeb.com/",
       "urlScript": "https://json.fi.ai/script/linkedInWeb.js",
+      "version": "1.0.0",
       "page": 0,
       "position": {
         "x": 2,
@@ -110,6 +112,7 @@
       "type": 4,
       "url": "https://open.spotify.com/",
       "urlScript": "https://json.fi.ai/script/spotify.js",
+      "version": "1.0.0",
       "page": 0,
       "position": {
         "x": 3,
@@ -127,6 +130,7 @@
       "type": 4,
       "url": "https://www.youtube.com",
       "urlScript": "https://raw.githubusercontent.com/meta-node-blockchain/Default-Json-D-App/refs/heads/master/dApp/youtube/worker.js",
+      "version": "0.0.2",
       "page": 0,
       "position": {
         "x": 4,
@@ -144,6 +148,7 @@
       "type": 4,
       "url": "https://web.telegram.org/a/",
       "urlScript": "https://json.fi.ai/script/telegram.js",
+      "version": "0.0.1",
       "page": 0,
       "position": {
         "x": 5,
@@ -161,6 +166,7 @@
       "type": 4,
       "urlPack": "https://json.fi.ai/web3Space.json",
       "status_bar": "show",
+      "version": "0.0.11",
       "page": 0,
       "position": {
         "x": 6,
@@ -193,6 +199,7 @@
       "logo": "https://img.fi.ai/logo/settings-logo.jpg",
       "type": 1,
       "urlPack": "https://json.fi.ai/deploy-token.json",
+      "version": "0.0.1",
       "page": 0,
       "position": {
         "x": 8,
@@ -209,6 +216,7 @@
       "logo": "https://img.fi.ai/app-logo/ens.png",
       "type": 1,
       "urlPack": "https://json.fi.ai/ens.json",
+      "version": "4.0.2",
       "page": 0,
       "position": {
         "x": 9,
@@ -241,6 +249,7 @@
       "logo": "https://img.fi.ai/logo/game-logo.jpg",
       "type": 1,
       "urlPack": "https://test-resources.mygvq.org/json/baccarat.json",
+      "version": "1.0.0",
       "page": 0,
       "position": {
         "x": 11,
@@ -257,6 +266,7 @@
       "logo": "https://img.fi.ai/logo/game-logo.jpg",
       "type": 1,
       "urlPack": "https://test-resources.mygvq.org/json/roulette.json",
+      "version": "1.0.0",
       "page": 0,
       "position": {
         "x": 0,
@@ -273,6 +283,7 @@
       "logo": "https://img.fi.ai/logo/game-logo.jpg",
       "type": 1,
       "urlPack": "https://test-resources.mygvq.org/json/slot-machine.json",
+      "version": "1.0.0",
       "page": 0,
       "position": {
         "x": 1,
@@ -289,6 +300,7 @@
       "logo": "https://img.fi.ai/MELAB_LOGO.png",
       "type": 1,
       "urlPack": "https://json.fi.ai/melap.json",
+      "version": "1.0.0",
       "page": 0,
       "position": {
         "x": 2,
@@ -305,6 +317,7 @@
       "logo": "https://img.fi.ai/dapp_store.png",
       "type": 1,
       "urlPack": "https://json.fi.ai/multiWallet.json",
+      "version": "1.0.0",
       "page": 0,
       "position": {
         "x": 3,
@@ -321,6 +334,7 @@
       "logo": "https://img.fi.ai/tasks.png",
       "type": 1,
       "urlPack": "https://resources.m.pro/frame/json/notes.json",
+      "version": "0.0.1",
       "page": 0,
       "position": {
         "x": 4,
@@ -337,6 +351,7 @@
       "logo": "https://img.fi.ai/weather.png",
       "type": 4,
       "urlPack": "https://json.fi.ai/weather.json",
+      "version": "0.0.1",
       "page": 0,
       "position": {
         "x": 5,
@@ -353,6 +368,7 @@
       "logo": "https://img.fi.ai/logo/swap-token-logo.jpg",
       "type": 1,
       "urlPack": "https://json.fi.ai/swap-token.json",
+      "version": "4.0.2",
       "page": 0,
       "position": {
         "x": 6,
