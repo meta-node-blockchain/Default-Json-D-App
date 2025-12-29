@@ -1,5 +1,5 @@
 {
-  "version": "30.7.2",
+  "version": "30.7.3",
   "favorites": [
     {
       "isFullScreen": true,
@@ -15,7 +15,8 @@
         "y": 0,
         "width": 1,
         "height": 1
-      }
+      },
+      "id": "setting"
     },
     {
       "isFullScreen": true,
@@ -31,7 +32,8 @@
         "y": 0,
         "width": 1,
         "height": 1
-      }
+      },
+      "id": "meta.wallet"
     },
     {
       "isFullScreen": true,
@@ -47,7 +49,8 @@
         "y": 0,
         "width": 1,
         "height": 1
-      }
+      },
+      "id": "meta.mining"
     }
   ],
   "apps": [
@@ -67,7 +70,8 @@
         "y": 0,
         "width": 1,
         "height": 1
-      }
+      },
+      "id": "co.facebook.app"
     },
     {
       "isFullScreen": true,
@@ -85,7 +89,8 @@
         "y": 0,
         "width": 1,
         "height": 1
-      }
+      },
+      "id": "co.linkedInWeb.app"
     },
     {
       "isFullScreen": true,
@@ -103,7 +108,8 @@
         "y": 0,
         "width": 1,
         "height": 1
-      }
+      },
+      "id": "co.spotify.app"
     },
     {
       "isFullScreen": true,
@@ -121,7 +127,8 @@
         "y": 0,
         "width": 1,
         "height": 1
-      }
+      },
+      "id": "youtube.app"
     },
     {
       "isFullScreen": true,
@@ -139,7 +146,8 @@
         "y": 0,
         "width": 1,
         "height": 1
-      }
+      },
+      "id": "telegram.m.pro"
     },
     {
       "isFullScreen": true,
@@ -157,7 +165,8 @@
         "y": 1,
         "width": 1,
         "height": 1
-      }
+      },
+      "id": "com.web3space.metaword"
     },
     {
       "isFullScreen": true,
@@ -173,7 +182,8 @@
         "y": 1,
         "width": 1,
         "height": 1
-      }
+      },
+      "id": "meta.message"
     },
     {
       "isFullScreen": true,
@@ -190,7 +200,8 @@
         "y": 1,
         "width": 1,
         "height": 1
-      }
+      },
+      "id": "deploysmc.m.pro"
     },
     {
       "isFullScreen": true,
@@ -207,7 +218,8 @@
         "y": 1,
         "width": 1,
         "height": 1
-      }
+      },
+      "id": "ens.m.pro"
     },
     {
       "isFullScreen": true,
@@ -223,7 +235,8 @@
         "y": 1,
         "width": 1,
         "height": 1
-      }
+      },
+      "id": "meta.food-order"
     },
     {
       "isFullScreen": true,
@@ -240,7 +253,8 @@
         "y": 1,
         "width": 1,
         "height": 1
-      }
+      },
+      "id": "co.baccarat.app"
     },
     {
       "isFullScreen": true,
@@ -257,7 +271,8 @@
         "y": 0,
         "width": 1,
         "height": 1
-      }
+      },
+      "id": "co.roulette.app"
     },
     {
       "isFullScreen": true,
@@ -274,7 +289,8 @@
         "y": 0,
         "width": 1,
         "height": 1
-      }
+      },
+      "id": "co.slotmachine.app"
     },
     {
       "isFullScreen": true,
@@ -291,7 +307,8 @@
         "y": 0,
         "width": 1,
         "height": 1
-      }
+      },
+      "id": "meta.melap"
     },
     {
       "isFullScreen": true,
@@ -308,7 +325,8 @@
         "y": 0,
         "width": 1,
         "height": 1
-      }
+      },
+      "id": "multi-wallets.m.pro"
     },
     {
       "isFullScreen": true,
@@ -325,7 +343,8 @@
         "y": 0,
         "width": 1,
         "height": 1
-      }
+      },
+      "id": "tasks.m.pro"
     },
     {
       "isFullScreen": true,
@@ -342,7 +361,8 @@
         "y": 0,
         "width": 1,
         "height": 1
-      }
+      },
+      "id": "weather.m.pro"
     },
     {
       "isFullScreen": true,
@@ -359,7 +379,8 @@
         "y": 1,
         "width": 1,
         "height": 1
-      }
+      },
+      "id": "testswap.m.pro"
     },
     {
       "isFullScreen": true,
@@ -375,7 +396,8 @@
         "y": 1,
         "width": 1,
         "height": 1
-      }
+      },
+      "id": "po5.m.pro"
     },
     {
       "isFullScreen": true,
@@ -391,7 +413,8 @@
         "y": 1,
         "width": 1,
         "height": 1
-      }
+      },
+      "id": "meta.rootnode"
     },
     {
       "isFullScreen": true,
@@ -407,7 +430,8 @@
         "y": 1,
         "width": 1,
         "height": 1
-      }
+      },
+      "id": "meta.daonode"
     },
     {
       "isFullScreen": true,
@@ -423,7 +447,8 @@
         "y": 1,
         "width": 1,
         "height": 1
-      }
+      },
+      "id": "meta.showrom"
     },
     {
       "isFullScreen": true,
@@ -439,7 +464,8 @@
         "y": 1,
         "width": 1,
         "height": 1
-      }
+      },
+      "id": "meta.estock"
     },
     {
       "isFullScreen": true,
@@ -455,7 +481,8 @@
         "y": 0,
         "width": 1,
         "height": 1
-      }
+      },
+      "id": "co.swap-token-v3.app"
     },
     {
       "isFullScreen": true,
@@ -471,7 +498,8 @@
         "y": 0,
         "width": 1,
         "height": 1
-      }
+      },
+      "id": "meta.onboarding"
     },
     {
       "isFullScreen": true,
@@ -487,7 +515,8 @@
         "y": 0,
         "width": 1,
         "height": 1
-      }
+      },
+      "id": "meta.storage"
     },
     {
       "isFullScreen": true,
@@ -503,7 +532,8 @@
         "y": 0,
         "width": 1,
         "height": 1
-      }
+      },
+      "id": "meta.admin-food-order"
     },
     {
       "isFullScreen": true,
@@ -519,7 +549,8 @@
         "y": 0,
         "width": 1,
         "height": 1
-      }
+      },
+      "id": "dex.m.pro"
     }
   ]
 }
