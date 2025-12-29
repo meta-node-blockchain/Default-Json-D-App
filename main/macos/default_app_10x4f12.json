@@ -1,5 +1,5 @@
 {
-  "version": "30.7.3",
+  "version": "30.7.4",
   "favorites": [
     {
       "isFullScreen": true,
@@ -83,7 +83,7 @@
       "version": "1.0.0",
       "page": 0,
       "position": {
-        "x": 1,
+        "x": 0,
         "y": 0,
         "width": 1,
         "height": 1
@@ -95,14 +95,14 @@
       "statusBar": "hide",
       "orientation": "portrait",
       "name": "Linked In",
-      "logo": "https://img.fi.ai/linkedInWeb.jpg",
+      "logo": "https://img.fi.ai/linkedIn.jpg",
       "type": 4,
       "url": "https://www.linkedInWeb.com/",
       "urlScript": "https://json.fi.ai/script/linkedInWeb.js",
       "version": "1.0.0",
       "page": 0,
       "position": {
-        "x": 2,
+        "x": 1,
         "y": 0,
         "width": 1,
         "height": 1
@@ -121,7 +121,7 @@
       "version": "1.0.0",
       "page": 0,
       "position": {
-        "x": 3,
+        "x": 2,
         "y": 0,
         "width": 1,
         "height": 1
@@ -140,7 +140,7 @@
       "version": "0.0.2",
       "page": 0,
       "position": {
-        "x": 4,
+        "x": 3,
         "y": 0,
         "width": 1,
         "height": 1
@@ -159,7 +159,7 @@
       "version": "0.0.1",
       "page": 0,
       "position": {
-        "x": 5,
+        "x": 4,
         "y": 0,
         "width": 1,
         "height": 1
@@ -178,7 +178,7 @@
       "version": "0.0.11",
       "page": 0,
       "position": {
-        "x": 6,
+        "x": 5,
         "y": 0,
         "width": 1,
         "height": 1
@@ -195,7 +195,7 @@
       "urlPack": "https://json.fi.ai/message.json",
       "page": 0,
       "position": {
-        "x": 7,
+        "x": 6,
         "y": 0,
         "width": 1,
         "height": 1
@@ -213,7 +213,7 @@
       "version": "0.0.1",
       "page": 0,
       "position": {
-        "x": 8,
+        "x": 7,
         "y": 0,
         "width": 1,
         "height": 1
@@ -231,7 +231,7 @@
       "version": "4.0.2",
       "page": 0,
       "position": {
-        "x": 9,
+        "x": 8,
         "y": 0,
         "width": 1,
         "height": 1
@@ -248,8 +248,8 @@
       "urlPack": "https://json.fi.ai/food-order.json",
       "page": 0,
       "position": {
-        "x": 0,
-        "y": 1,
+        "x": 9,
+        "y": 0,
         "width": 1,
         "height": 1
       },
@@ -266,7 +266,7 @@
       "version": "1.0.0",
       "page": 0,
       "position": {
-        "x": 1,
+        "x": 0,
         "y": 1,
         "width": 1,
         "height": 1
@@ -284,7 +284,7 @@
       "version": "1.0.0",
       "page": 0,
       "position": {
-        "x": 2,
+        "x": 1,
         "y": 1,
         "width": 1,
         "height": 1
@@ -302,7 +302,7 @@
       "version": "1.0.0",
       "page": 0,
       "position": {
-        "x": 3,
+        "x": 2,
         "y": 1,
         "width": 1,
         "height": 1
@@ -320,7 +320,7 @@
       "version": "1.0.0",
       "page": 0,
       "position": {
-        "x": 4,
+        "x": 3,
         "y": 1,
         "width": 1,
         "height": 1
@@ -338,7 +338,7 @@
       "version": "1.0.0",
       "page": 0,
       "position": {
-        "x": 5,
+        "x": 4,
         "y": 1,
         "width": 1,
         "height": 1
@@ -356,7 +356,7 @@
       "version": "0.0.1",
       "page": 0,
       "position": {
-        "x": 6,
+        "x": 5,
         "y": 1,
         "width": 1,
         "height": 1
@@ -374,7 +374,7 @@
       "version": "0.0.1",
       "page": 0,
       "position": {
-        "x": 7,
+        "x": 6,
         "y": 1,
         "width": 1,
         "height": 1
@@ -392,7 +392,7 @@
       "version": "4.0.2",
       "page": 0,
       "position": {
-        "x": 8,
+        "x": 7,
         "y": 1,
         "width": 1,
         "height": 1
@@ -409,7 +409,7 @@
       "urlPack": "https://json.fi.ai/po5.json",
       "page": 0,
       "position": {
-        "x": 9,
+        "x": 8,
         "y": 1,
         "width": 1,
         "height": 1
@@ -424,10 +424,10 @@
       "logo": "https://img.fi.ai/rootnode.png",
       "type": 1,
       "urlPack": "https://json.fi.ai/rootnode.json",
-      "page": 1,
+      "page": 0,
       "position": {
-        "x": 0,
-        "y": 0,
+        "x": 9,
+        "y": 1,
         "width": 1,
         "height": 1
       },
@@ -443,7 +443,7 @@
       "urlPack": "https://json.fi.ai/daonode.json",
       "page": 1,
       "position": {
-        "x": 1,
+        "x": 0,
         "y": 0,
         "width": 1,
         "height": 1
@@ -460,7 +460,7 @@
       "urlPack": "https://json.fi.ai/showroom.json",
       "page": 1,
       "position": {
-        "x": 2,
+        "x": 1,
         "y": 0,
         "width": 1,
         "height": 1
@@ -477,7 +477,7 @@
       "urlPack": "https://json.fi.ai/estock.json",
       "page": 1,
       "position": {
-        "x": 3,
+        "x": 2,
         "y": 0,
         "width": 1,
         "height": 1
@@ -494,7 +494,7 @@
       "urlPack": "https://json.fi.ai/swap-token-v3.json",
       "page": 1,
       "position": {
-        "x": 4,
+        "x": 3,
         "y": 0,
         "width": 1,
         "height": 1
@@ -511,7 +511,7 @@
       "urlPack": "https://json.fi.ai/onboarding.json",
       "page": 1,
       "position": {
-        "x": 5,
+        "x": 4,
         "y": 0,
         "width": 1,
         "height": 1
@@ -528,7 +528,7 @@
       "urlPack": "https://json.fi.ai/storage.json",
       "page": 1,
       "position": {
-        "x": 6,
+        "x": 5,
         "y": 0,
         "width": 1,
         "height": 1
@@ -545,7 +545,7 @@
       "urlPack": "https://json.fi.ai/admin-food-order.json",
       "page": 1,
       "position": {
-        "x": 7,
+        "x": 6,
         "y": 0,
         "width": 1,
         "height": 1
@@ -562,7 +562,7 @@
       "urlPack": "https://json.fi.ai/dex.json",
       "page": 1,
       "position": {
-        "x": 8,
+        "x": 7,
         "y": 0,
         "width": 1,
         "height": 1
