@@ -1,5 +1,5 @@
 {
-  "version": "30.7.5",
+  "version": "30.7.6",
   "favorites": [
     {
       "isFullScreen": true,
@@ -259,60 +259,6 @@
       "isFullScreen": true,
       "statusBar": "hide",
       "orientation": "portrait",
-      "name": "Game Baccarat",
-      "logo": "https://img.fi.ai/baccarat.png",
-      "type": 1,
-      "urlPack": "https://test-resources.mygvq.org/json/baccarat.json",
-      "version": "1.0.0",
-      "page": 0,
-      "position": {
-        "x": 2,
-        "y": 1,
-        "width": 1,
-        "height": 1
-      },
-      "id": "co.baccarat.app"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "Game Roulette",
-      "logo": "https://img.fi.ai/roulette.png",
-      "type": 1,
-      "urlPack": "https://test-resources.mygvq.org/json/roulette.json",
-      "version": "1.0.0",
-      "page": 0,
-      "position": {
-        "x": 3,
-        "y": 1,
-        "width": 1,
-        "height": 1
-      },
-      "id": "co.roulette.app"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "Slot machine",
-      "logo": "https://img.fi.ai/slot_machine.png",
-      "type": 1,
-      "urlPack": "https://test-resources.mygvq.org/json/slot-machine.json",
-      "version": "1.0.0",
-      "page": 0,
-      "position": {
-        "x": 4,
-        "y": 1,
-        "width": 1,
-        "height": 1
-      },
-      "id": "co.slotmachine.app"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
       "name": "Melab",
       "logo": "https://img.fi.ai/MELAB_LOGO.png",
       "type": 1,
@@ -320,7 +266,7 @@
       "version": "1.0.0",
       "page": 0,
       "position": {
-        "x": 5,
+        "x": 2,
         "y": 1,
         "width": 1,
         "height": 1
@@ -338,7 +284,7 @@
       "version": "1.0.0",
       "page": 0,
       "position": {
-        "x": 6,
+        "x": 3,
         "y": 1,
         "width": 1,
         "height": 1
@@ -356,7 +302,7 @@
       "version": "0.0.1",
       "page": 0,
       "position": {
-        "x": 7,
+        "x": 4,
         "y": 1,
         "width": 1,
         "height": 1
@@ -372,10 +318,10 @@
       "type": 4,
       "urlPack": "https://json.fi.ai/weather.json",
       "version": "0.0.1",
-      "page": 1,
+      "page": 0,
       "position": {
-        "x": 0,
-        "y": 0,
+        "x": 5,
+        "y": 1,
         "width": 1,
         "height": 1
       },
@@ -390,10 +336,10 @@
       "type": 1,
       "urlPack": "https://json.fi.ai/swap-token.json",
       "version": "4.0.2",
-      "page": 1,
+      "page": 0,
       "position": {
-        "x": 1,
-        "y": 0,
+        "x": 6,
+        "y": 1,
         "width": 1,
         "height": 1
       },
@@ -407,10 +353,10 @@
       "logo": "https://img.fi.ai/po5.png",
       "type": 1,
       "urlPack": "https://json.fi.ai/po5.json",
-      "page": 1,
+      "page": 0,
       "position": {
-        "x": 2,
-        "y": 0,
+        "x": 7,
+        "y": 1,
         "width": 1,
         "height": 1
       },
@@ -426,7 +372,7 @@
       "urlPack": "https://json.fi.ai/rootnode.json",
       "page": 1,
       "position": {
-        "x": 3,
+        "x": 0,
         "y": 0,
         "width": 1,
         "height": 1
@@ -443,7 +389,7 @@
       "urlPack": "https://json.fi.ai/daonode.json",
       "page": 1,
       "position": {
-        "x": 4,
+        "x": 1,
         "y": 0,
         "width": 1,
         "height": 1
@@ -460,7 +406,7 @@
       "urlPack": "https://json.fi.ai/showroom.json",
       "page": 1,
       "position": {
-        "x": 5,
+        "x": 2,
         "y": 0,
         "width": 1,
         "height": 1
@@ -477,7 +423,7 @@
       "urlPack": "https://json.fi.ai/estock.json",
       "page": 1,
       "position": {
-        "x": 6,
+        "x": 3,
         "y": 0,
         "width": 1,
         "height": 1
@@ -494,7 +440,7 @@
       "urlPack": "https://json.fi.ai/swap-token-v3.json",
       "page": 1,
       "position": {
-        "x": 7,
+        "x": 4,
         "y": 0,
         "width": 1,
         "height": 1
@@ -511,8 +457,8 @@
       "urlPack": "https://json.fi.ai/onboarding.json",
       "page": 1,
       "position": {
-        "x": 0,
-        "y": 1,
+        "x": 5,
+        "y": 0,
         "width": 1,
         "height": 1
       },
@@ -528,8 +474,8 @@
       "urlPack": "https://json.fi.ai/storage.json",
       "page": 1,
       "position": {
-        "x": 1,
-        "y": 1,
+        "x": 6,
+        "y": 0,
         "width": 1,
         "height": 1
       },
@@ -545,8 +491,8 @@
       "urlPack": "https://json.fi.ai/admin-food-order.json",
       "page": 1,
       "position": {
-        "x": 2,
-        "y": 1,
+        "x": 7,
+        "y": 0,
         "width": 1,
         "height": 1
       },
@@ -562,7 +508,7 @@
       "urlPack": "https://json.fi.ai/dex.json",
       "page": 1,
       "position": {
-        "x": 3,
+        "x": 0,
         "y": 1,
         "width": 1,
         "height": 1
