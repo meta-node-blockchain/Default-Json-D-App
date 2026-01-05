@@ -1,5 +1,5 @@
 {
-  "version": "30.7.6",
+  "version": "30.7.7",
   "favorites": [
     {
       "isFullScreen": true,
@@ -56,10 +56,10 @@
       "isFullScreen": true,
       "statusBar": "hide",
       "orientation": "portrait",
-      "name": "My Photo",
+      "name": "Cyber manager test",
       "logo": "https://img.fi.ai/my-photo.png",
       "type": 1,
-      "urlPack": "https://json.fi.ai/myPhoto.json",
+      "urlPack": "https://json.fi.ai/cyber-manager-test.json",
       "page": 0,
       "position": {
         "x": 3,
