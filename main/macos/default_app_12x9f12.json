@@ -1,5 +1,5 @@
 {
-  "version": "30.7.9",
+  "version": "30.8.0",
   "favorites": [
     {
       "isFullScreen": true,
@@ -175,7 +175,7 @@
       "type": 4,
       "urlPack": "https://json.fi.ai/web3Space.json",
       "status_bar": "show",
-      "version": "0.0.11",
+      "version": "1.0.0",
       "page": 0,
       "position": {
         "x": 5,
