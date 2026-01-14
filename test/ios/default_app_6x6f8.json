@@ -1,5 +1,5 @@
 {
-  "version": "30.8.1",
+  "version": "30.8.2",
   "favorites": [
     {
       "isFullScreen": true,
@@ -502,7 +502,7 @@
       "isFullScreen": true,
       "statusBar": "hide",
       "orientation": "portrait",
-      "name": "IQRMerchant-Test",
+      "name": "IQRMerchant",
       "logo": "https://img.fi.ai/food-order.jpg",
       "type": 1,
       "urlPack": "https://json.fi.ai/iqr-merchant-test.json",
@@ -519,7 +519,7 @@
       "isFullScreen": true,
       "statusBar": "hide",
       "orientation": "portrait",
-      "name": "IQRStaff-Test",
+      "name": "IQRStaff",
       "logo": "https://img.fi.ai/food-order.jpg",
       "type": 1,
       "urlPack": "https://json.fi.ai/iqr-staff-test.json",
@@ -536,7 +536,7 @@
       "isFullScreen": true,
       "statusBar": "hide",
       "orientation": "portrait",
-      "name": "SupplyAdmin-Test",
+      "name": "SupplyAdmin",
       "logo": "https://img.fi.ai/food-order.jpg",
       "type": 1,
       "urlPack": "https://json.fi.ai/supply-admin-test.json",
@@ -553,7 +553,7 @@
       "isFullScreen": true,
       "statusBar": "hide",
       "orientation": "portrait",
-      "name": "Customer-Test",
+      "name": "Customer",
       "logo": "https://img.fi.ai/food-order.jpg",
       "type": 1,
       "urlPack": "https://json.fi.ai/customer-test.json",
