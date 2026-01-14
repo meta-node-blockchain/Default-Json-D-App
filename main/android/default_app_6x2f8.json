@@ -1,5 +1,5 @@
 {
-  "version": "30.8.0",
+  "version": "30.8.1",
   "favorites": [
     {
       "isFullScreen": true,
@@ -498,5 +498,6 @@
       },
       "id": "dex.m.pro"
     }
-  ]
+  ],
+  "frames": []
 }
