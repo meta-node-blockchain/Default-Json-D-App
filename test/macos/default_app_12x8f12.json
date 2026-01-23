@@ -1,5 +1,5 @@
 {
-  "version": "30.8.2",
+  "version": "30.8.3",
   "favorites": [
     {
       "isFullScreen": true,
@@ -650,6 +650,23 @@
         "height": 1
       },
       "id": "meta.cyber-manager-test"
+    },
+    {
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "orientation": "portrait",
+      "name": "Chat Test",
+      "logo": "https://img.fi.ai/message_logo.jpg",
+      "type": 1,
+      "urlPack": "https://json.fi.ai/chat_test.json",
+      "page": 1,
+      "position": {
+        "x": 9,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "id": "meta.chat-test"
     }
   ],
   "frames": [
