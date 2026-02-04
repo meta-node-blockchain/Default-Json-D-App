@@ -1,5 +1,5 @@
 {
-  "version": "30.8.4",
+  "version": "30.8.5",
   "favorites": [
     {
       "isFullScreen": true,
@@ -667,6 +667,23 @@
         "height": 1
       },
       "id": "meta.attendance"
+    },
+    {
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "orientation": "portrait",
+      "name": "Chat v2",
+      "logo": "https://img.fi.ai/message_logo.jpg",
+      "type": 1,
+      "urlPack": "https://json.fi.ai/chat-v2.json",
+      "page": 4,
+      "position": {
+        "x": 3,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "id": "meta.chat-v2"
     }
   ],
   "frames": []
