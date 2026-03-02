@@ -1,5 +1,5 @@
 {
-  "version": "30.8.5",
+  "version": "30.8.6",
   "favorites": [
     {
       "isFullScreen": true,
@@ -586,6 +586,40 @@
     {
       "isFullScreen": true,
       "statusBar": "hide",
+      "orientation": "portrait",
+      "name": "Attendance",
+      "logo": "https://img.fi.ai/attendance.jpg",
+      "type": 1,
+      "urlPack": "https://json.fi.ai/attendance.json",
+      "page": 1,
+      "position": {
+        "x": 9,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "id": "meta.attendance"
+    },
+    {
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "orientation": "portrait",
+      "name": "Attendance 2",
+      "logo": "https://img.fi.ai/attendance.jpg",
+      "type": 1,
+      "urlPack": "https://json.fi.ai/attendance_2.json",
+      "page": 1,
+      "position": {
+        "x": 0,
+        "y": 1,
+        "width": 1,
+        "height": 1
+      },
+      "id": "meta.attendance_2"
+    },
+    {
+      "isFullScreen": true,
+      "statusBar": "hide",
       "orientation": "landscape",
       "name": "Robot",
       "logo": "https://img.fi.ai/robot.jpg",
@@ -593,8 +627,8 @@
       "urlPack": "https://json.fi.ai/robot.json",
       "page": 1,
       "position": {
-        "x": 9,
-        "y": 0,
+        "x": 1,
+        "y": 1,
         "width": 1,
         "height": 1
       },
@@ -610,7 +644,7 @@
       "urlPack": "https://json.fi.ai/wallet-test.json",
       "page": 1,
       "position": {
-        "x": 0,
+        "x": 2,
         "y": 1,
         "width": 1,
         "height": 1
@@ -627,7 +661,7 @@
       "urlPack": "https://json.fi.ai/login-cyber-test.json",
       "page": 1,
       "position": {
-        "x": 1,
+        "x": 3,
         "y": 1,
         "width": 1,
         "height": 1
@@ -644,7 +678,7 @@
       "urlPack": "https://json.fi.ai/cyber-manager-test.json",
       "page": 1,
       "position": {
-        "x": 2,
+        "x": 4,
         "y": 1,
         "width": 1,
         "height": 1
@@ -661,29 +695,12 @@
       "urlPack": "https://json.fi.ai/chat_test.json",
       "page": 1,
       "position": {
-        "x": 3,
+        "x": 5,
         "y": 1,
         "width": 1,
         "height": 1
       },
       "id": "meta.chat-test"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "Attendance",
-      "logo": "https://img.fi.ai/attendance.jpg",
-      "type": 1,
-      "urlPack": "https://json.fi.ai/attendance.json",
-      "page": 1,
-      "position": {
-        "x": 4,
-        "y": 1,
-        "width": 1,
-        "height": 1
-      },
-      "id": "meta.attendance"
     },
     {
       "isFullScreen": true,
@@ -695,7 +712,7 @@
       "urlPack": "https://json.fi.ai/chat-v2.json",
       "page": 1,
       "position": {
-        "x": 5,
+        "x": 6,
         "y": 1,
         "width": 1,
         "height": 1

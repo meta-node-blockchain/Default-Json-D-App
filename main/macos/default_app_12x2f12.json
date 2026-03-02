@@ -1,5 +1,5 @@
 {
-  "version": "30.8.5",
+  "version": "30.8.6",
   "favorites": [
     {
       "isFullScreen": true,
@@ -582,6 +582,40 @@
         "height": 1
       },
       "id": "meta.customer-test"
+    },
+    {
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "orientation": "portrait",
+      "name": "Attendance",
+      "logo": "https://img.fi.ai/attendance.jpg",
+      "type": 1,
+      "urlPack": "https://json.fi.ai/attendance.json",
+      "page": 1,
+      "position": {
+        "x": 5,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "id": "meta.attendance"
+    },
+    {
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "orientation": "portrait",
+      "name": "Attendance 2",
+      "logo": "https://img.fi.ai/attendance.jpg",
+      "type": 1,
+      "urlPack": "https://json.fi.ai/attendance_2.json",
+      "page": 1,
+      "position": {
+        "x": 6,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "id": "meta.attendance_2"
     }
   ],
   "frames": []
