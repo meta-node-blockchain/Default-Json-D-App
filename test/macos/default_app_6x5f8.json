@@ -1,5 +1,5 @@
 {
-  "version": "30.8.6",
+  "version": "30.8.7",
   "favorites": [
     {
       "isFullScreen": true,
@@ -671,7 +671,7 @@
     {
       "isFullScreen": true,
       "statusBar": "hide",
-      "orientation": "landscape",
+      "orientation": "portrait",
       "name": "Cyber manager test",
       "logo": "https://img.fi.ai/my-photo.png",
       "type": 1,
