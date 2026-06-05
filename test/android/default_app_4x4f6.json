@@ -1,5 +1,5 @@
 {
-  "version": "30.8.9",
+  "version": "30.9.0",
   "favorites": [
     {
       "isFullScreen": true,
@@ -603,15 +603,32 @@
     {
       "isFullScreen": true,
       "statusBar": "hide",
+      "orientation": "portrait",
+      "name": "Wallet gpu",
+      "logo": "https://img.fi.ai/dapp_store.png",
+      "type": 1,
+      "urlPack": "https://json.fi.ai/wallet-gpu.json",
+      "page": 3,
+      "position": {
+        "x": 3,
+        "y": 1,
+        "width": 1,
+        "height": 1
+      },
+      "id": "meta.wallet.gpu"
+    },
+    {
+      "isFullScreen": true,
+      "statusBar": "hide",
       "orientation": "landscape",
       "name": "Robot",
       "logo": "https://img.fi.ai/robot.jpg",
       "type": 1,
       "urlPack": "https://json.fi.ai/robot.json",
-      "page": 3,
+      "page": 4,
       "position": {
-        "x": 3,
-        "y": 1,
+        "x": 0,
+        "y": 0,
         "width": 1,
         "height": 1
       },
@@ -627,7 +644,7 @@
       "urlPack": "https://json.fi.ai/wallet-test.json",
       "page": 4,
       "position": {
-        "x": 0,
+        "x": 1,
         "y": 0,
         "width": 1,
         "height": 1
@@ -644,7 +661,7 @@
       "urlPack": "https://json.fi.ai/login-cyber-test.json",
       "page": 4,
       "position": {
-        "x": 1,
+        "x": 2,
         "y": 0,
         "width": 1,
         "height": 1
@@ -661,7 +678,7 @@
       "urlPack": "https://json.fi.ai/cyber-manager-test.json",
       "page": 4,
       "position": {
-        "x": 2,
+        "x": 3,
         "y": 0,
         "width": 1,
         "height": 1
@@ -678,8 +695,8 @@
       "urlPack": "https://json.fi.ai/chat_test.json",
       "page": 4,
       "position": {
-        "x": 3,
-        "y": 0,
+        "x": 0,
+        "y": 1,
         "width": 1,
         "height": 1
       },
@@ -695,29 +712,12 @@
       "urlPack": "https://json.fi.ai/chat-v2.json",
       "page": 4,
       "position": {
-        "x": 0,
-        "y": 1,
-        "width": 1,
-        "height": 1
-      },
-      "id": "meta.chat-v2"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "Wallet gpu",
-      "logo": "https://img.fi.ai/dapp_store.png",
-      "type": 1,
-      "urlPack": "https://json.fi.ai/wallet-gpu.json",
-      "page": 4,
-      "position": {
         "x": 1,
         "y": 1,
         "width": 1,
         "height": 1
       },
-      "id": "meta.wallet.gpu"
+      "id": "meta.chat-v2"
     }
   ],
   "frames": []
