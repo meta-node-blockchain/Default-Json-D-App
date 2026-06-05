@@ -1,5 +1,5 @@
 {
-  "version": "30.8.8",
+  "version": "30.8.9",
   "favorites": [
     {
       "isFullScreen": true,
@@ -718,6 +718,23 @@
         "height": 1
       },
       "id": "meta.chat-v2"
+    },
+    {
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "orientation": "portrait",
+      "name": "Wallet gpu",
+      "logo": "https://img.fi.ai/dapp_store.png",
+      "type": 1,
+      "urlPack": "https://json.fi.ai/wallet-gpu.json",
+      "page": 1,
+      "position": {
+        "x": 1,
+        "y": 1,
+        "width": 1,
+        "height": 1
+      },
+      "id": "meta.wallet.gpu"
     }
   ],
   "frames": [
