@@ -1,5 +1,5 @@
 {
-  "version": "30.9.0",
+  "version": "30.9.1",
   "favorites": [
     {
       "isFullScreen": true,
@@ -633,6 +633,23 @@
         "height": 1
       },
       "id": "meta.wallet.gpu"
+    },
+    {
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "orientation": "portrait",
+      "name": "Me Office",
+      "logo": "https://img.fi.ai/meoffice.png",
+      "type": 1,
+      "urlPack": "https://json.fi.ai/me-office.json",
+      "page": 2,
+      "position": {
+        "x": 2,
+        "y": 1,
+        "width": 1,
+        "height": 1
+      },
+      "id": "meta.meOffice"
     }
   ],
   "frames": []

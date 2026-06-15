@@ -1,5 +1,5 @@
 {
-  "version": "30.9.0",
+  "version": "30.9.1",
   "favorites": [
     {
       "isFullScreen": true,
@@ -637,6 +637,23 @@
     {
       "isFullScreen": true,
       "statusBar": "hide",
+      "orientation": "portrait",
+      "name": "Me Office",
+      "logo": "https://img.fi.ai/meoffice.png",
+      "type": 1,
+      "urlPack": "https://json.fi.ai/me-office.json",
+      "page": 2,
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "id": "meta.meOffice"
+    },
+    {
+      "isFullScreen": true,
+      "statusBar": "hide",
       "orientation": "landscape",
       "name": "Robot",
       "logo": "https://img.fi.ai/robot.jpg",
@@ -644,7 +661,7 @@
       "urlPack": "https://json.fi.ai/robot.json",
       "page": 2,
       "position": {
-        "x": 0,
+        "x": 1,
         "y": 0,
         "width": 1,
         "height": 1
@@ -661,7 +678,7 @@
       "urlPack": "https://json.fi.ai/wallet-test.json",
       "page": 2,
       "position": {
-        "x": 1,
+        "x": 2,
         "y": 0,
         "width": 1,
         "height": 1
@@ -678,7 +695,7 @@
       "urlPack": "https://json.fi.ai/login-cyber-test.json",
       "page": 2,
       "position": {
-        "x": 2,
+        "x": 3,
         "y": 0,
         "width": 1,
         "height": 1
@@ -695,7 +712,7 @@
       "urlPack": "https://json.fi.ai/cyber-manager-test.json",
       "page": 2,
       "position": {
-        "x": 3,
+        "x": 4,
         "y": 0,
         "width": 1,
         "height": 1
@@ -712,7 +729,7 @@
       "urlPack": "https://json.fi.ai/chat_test.json",
       "page": 2,
       "position": {
-        "x": 4,
+        "x": 5,
         "y": 0,
         "width": 1,
         "height": 1
@@ -729,7 +746,7 @@
       "urlPack": "https://json.fi.ai/chat-v2.json",
       "page": 2,
       "position": {
-        "x": 5,
+        "x": 6,
         "y": 0,
         "width": 1,
         "height": 1
