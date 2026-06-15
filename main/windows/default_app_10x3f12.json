@@ -1,5 +1,5 @@
 {
-  "version": "30.9.1",
+  "version": "30.9.2",
   "favorites": [
     {
       "isFullScreen": true,
@@ -650,6 +650,23 @@
         "height": 1
       },
       "id": "meta.meOffice"
+    },
+    {
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "orientation": "portrait",
+      "name": "Cyber manager test",
+      "logo": "https://img.fi.ai/my-photo.png",
+      "type": 1,
+      "urlPack": "https://json.fi.ai/cyber-manager-test.json",
+      "page": 1,
+      "position": {
+        "x": 3,
+        "y": 1,
+        "width": 1,
+        "height": 1
+      },
+      "id": "meta.cyber-manager-test"
     }
   ],
   "frames": []

@@ -1,5 +1,5 @@
 {
-  "version": "30.9.1",
+  "version": "30.9.2",
   "favorites": [
     {
       "isFullScreen": true,
@@ -654,6 +654,23 @@
     {
       "isFullScreen": true,
       "statusBar": "hide",
+      "orientation": "portrait",
+      "name": "Cyber manager test",
+      "logo": "https://img.fi.ai/my-photo.png",
+      "type": 1,
+      "urlPack": "https://json.fi.ai/cyber-manager-test.json",
+      "page": 1,
+      "position": {
+        "x": 3,
+        "y": 1,
+        "width": 1,
+        "height": 1
+      },
+      "id": "meta.cyber-manager-test"
+    },
+    {
+      "isFullScreen": true,
+      "statusBar": "hide",
       "orientation": "landscape",
       "name": "Robot",
       "logo": "https://img.fi.ai/robot.jpg",
@@ -661,7 +678,7 @@
       "urlPack": "https://json.fi.ai/robot.json",
       "page": 1,
       "position": {
-        "x": 3,
+        "x": 4,
         "y": 1,
         "width": 1,
         "height": 1
@@ -678,7 +695,7 @@
       "urlPack": "https://json.fi.ai/wallet-test.json",
       "page": 1,
       "position": {
-        "x": 4,
+        "x": 5,
         "y": 1,
         "width": 1,
         "height": 1
@@ -695,29 +712,12 @@
       "urlPack": "https://json.fi.ai/login-cyber-test.json",
       "page": 1,
       "position": {
-        "x": 5,
-        "y": 1,
-        "width": 1,
-        "height": 1
-      },
-      "id": "meta.login-cyber-test"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "Cyber manager test",
-      "logo": "https://img.fi.ai/my-photo.png",
-      "type": 1,
-      "urlPack": "https://json.fi.ai/cyber-manager-test.json",
-      "page": 1,
-      "position": {
         "x": 6,
         "y": 1,
         "width": 1,
         "height": 1
       },
-      "id": "meta.cyber-manager-test"
+      "id": "meta.login-cyber-test"
     },
     {
       "isFullScreen": true,
