@@ -1,5 +1,5 @@
 {
-  "version": "30.9.4",
+  "version": "30.9.5",
   "favorites": [
     {
       "isFullScreen": true,
@@ -642,7 +642,7 @@
       "logo": "https://img.fi.ai/meoffice.jpg",
       "type": 1,
       "urlPack": "https://json.fi.ai/me-office.json",
-      "urlScript": "https://json.fi.ai/script/meoffice-theme-inject.js",
+      "urlScript": "https://json.fi.ai/script/meoffice-theme-inject.js?t=1781776123546",
       "page": 2,
       "position": {
         "x": 2,
