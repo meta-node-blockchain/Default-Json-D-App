@@ -1,5 +1,5 @@
 {
-  "version": "30.9.2",
+  "version": "30.9.3",
   "favorites": [
     {
       "isFullScreen": true,
@@ -622,7 +622,7 @@
       "statusBar": "hide",
       "orientation": "portrait",
       "name": "Me Office",
-      "logo": "https://img.fi.ai/meoffice.png",
+      "logo": "https://img.fi.ai/meoffice.jpg",
       "type": 1,
       "urlPack": "https://json.fi.ai/me-office.json",
       "page": 4,
@@ -638,7 +638,7 @@
       "isFullScreen": true,
       "statusBar": "hide",
       "orientation": "portrait",
-      "name": "Cyber manager test",
+      "name": "Cyber Manager ",
       "logo": "https://img.fi.ai/my-photo.png",
       "type": 1,
       "urlPack": "https://json.fi.ai/cyber-manager-test.json",
@@ -690,7 +690,7 @@
       "statusBar": "hide",
       "orientation": "portrait",
       "name": "Login cyber test",
-      "logo": "https://img.fi.ai/my-photo.png",
+      "logo": "https://img.fi.ai/cyber.jpg",
       "type": 1,
       "urlPack": "https://json.fi.ai/login-cyber-test.json",
       "page": 4,
