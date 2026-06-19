@@ -1,5 +1,5 @@
 {
-  "version": "30.9.5",
+  "version": "30.9.6",
   "favorites": [
     {
       "isFullScreen": true,
@@ -657,7 +657,7 @@
       "statusBar": "hide",
       "orientation": "portrait",
       "name": "Cyber Manager ",
-      "logo": "https://img.fi.ai/my-photo.png",
+      "logo": "https://img.fi.ai/cyber.jpg",
       "type": 1,
       "urlPack": "https://json.fi.ai/cyber-manager-test.json",
       "page": 1,
