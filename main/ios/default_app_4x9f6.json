@@ -1,5 +1,5 @@
 {
-  "version": "30.9.6",
+  "version": "30.9.7",
   "favorites": [
     {
       "isFullScreen": true,
@@ -172,7 +172,7 @@
       "isFullScreen": true,
       "statusBar": "hide",
       "orientation": "portrait",
-      "name": "Chat",
+      "name": "Dapp Chat",
       "logo": "https://img.fi.ai/message_logo.jpg",
       "type": 1,
       "urlPack": "https://json.fi.ai/message.json",
