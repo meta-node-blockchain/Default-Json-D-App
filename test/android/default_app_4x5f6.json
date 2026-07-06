@@ -674,7 +674,7 @@
       "statusBar": "hide",
       "orientation": "portrait",
       "name": "Wallet test",
-      "logo": "https://img.fi.ai/my-photo.png",
+      "logo": "https://img.fi.ai/meos-photo.jpg",
       "type": 1,
       "urlPack": "https://json.fi.ai/wallet-test.json",
       "page": 4,
