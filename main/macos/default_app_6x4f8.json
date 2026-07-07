@@ -1,5 +1,5 @@
 {
-  "version": "30.9.7",
+  "version": "31.0.0",
   "favorites": [
     {
       "isFullScreen": true,
@@ -668,6 +668,23 @@
         "height": 1
       },
       "id": "meta.cyber-manager-test"
+    },
+    {
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "orientation": "portrait",
+      "name": "Me Compute",
+      "logo": "https://img.fi.ai/myCompute.png",
+      "type": 1,
+      "urlPack": "https://json.fi.ai/me-compute.json",
+      "page": 2,
+      "position": {
+        "x": 4,
+        "y": 1,
+        "width": 1,
+        "height": 1
+      },
+      "id": "meta.meCompute"
     }
   ],
   "frames": []
