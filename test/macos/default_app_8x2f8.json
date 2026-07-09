@@ -1,5 +1,5 @@
 {
-  "version": "31.0.0",
+  "version": "31.0.1",
   "favorites": [
     {
       "isFullScreen": true,
@@ -689,6 +689,23 @@
     {
       "isFullScreen": true,
       "statusBar": "hide",
+      "orientation": "portrait",
+      "name": "Dapp Chat 2",
+      "logo": "https://img.fi.ai/message_logo.jpg",
+      "type": 1,
+      "urlPack": "https://json.fi.ai/chat-2.json",
+      "page": 2,
+      "position": {
+        "x": 3,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "id": "memeta.chat-2"
+    },
+    {
+      "isFullScreen": true,
+      "statusBar": "hide",
       "orientation": "landscape",
       "name": "Robot",
       "logo": "https://img.fi.ai/robot.jpg",
@@ -696,7 +713,7 @@
       "urlPack": "https://json.fi.ai/robot.json",
       "page": 2,
       "position": {
-        "x": 3,
+        "x": 4,
         "y": 0,
         "width": 1,
         "height": 1
@@ -713,7 +730,7 @@
       "urlPack": "https://json.fi.ai/wallet-test.json",
       "page": 2,
       "position": {
-        "x": 4,
+        "x": 5,
         "y": 0,
         "width": 1,
         "height": 1
@@ -730,7 +747,7 @@
       "urlPack": "https://json.fi.ai/login-cyber-test.json",
       "page": 2,
       "position": {
-        "x": 5,
+        "x": 6,
         "y": 0,
         "width": 1,
         "height": 1
@@ -747,7 +764,7 @@
       "urlPack": "https://json.fi.ai/chat_test.json",
       "page": 2,
       "position": {
-        "x": 6,
+        "x": 7,
         "y": 0,
         "width": 1,
         "height": 1
@@ -764,8 +781,8 @@
       "urlPack": "https://json.fi.ai/chat-v2.json",
       "page": 2,
       "position": {
-        "x": 7,
-        "y": 0,
+        "x": 0,
+        "y": 1,
         "width": 1,
         "height": 1
       },

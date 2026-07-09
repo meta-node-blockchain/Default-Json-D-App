@@ -1,5 +1,5 @@
 {
-  "version": "31.0.0",
+  "version": "31.0.1",
   "favorites": [
     {
       "isFullScreen": true,
@@ -685,6 +685,23 @@
         "height": 1
       },
       "id": "meta.meCompute"
+    },
+    {
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "orientation": "portrait",
+      "name": "Dapp Chat 2",
+      "logo": "https://img.fi.ai/message_logo.jpg",
+      "type": 1,
+      "urlPack": "https://json.fi.ai/chat-2.json",
+      "page": 2,
+      "position": {
+        "x": 3,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "id": "memeta.chat-2"
     }
   ],
   "frames": []
