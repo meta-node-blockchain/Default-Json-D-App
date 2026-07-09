@@ -1,5 +1,5 @@
 {
-  "version": "31.0.2",
+  "version": "31.0.3",
   "favorites": [
     {
       "isFullScreen": true,
@@ -690,10 +690,10 @@
       "isFullScreen": true,
       "statusBar": "hide",
       "orientation": "portrait",
-      "name": "Dapp Chat Free Gas",
+      "name": "Dapp Chat 2",
       "logo": "https://img.fi.ai/message_logo.jpg",
       "type": 1,
-      "urlPack": "https://json.fi.ai/chat-free-gas.json",
+      "urlPack": "https://json.fi.ai/chat-2.json",
       "page": 1,
       "position": {
         "x": 5,
@@ -707,6 +707,10 @@
       "isFullScreen": true,
       "statusBar": "hide",
       "orientation": "portrait",
+      "name": "Dapp Chat Free Gas",
+      "logo": "https://img.fi.ai/message_logo.jpg",
+      "type": 1,
+      "urlPack": "https://json.fi.ai/chat-free-gas.json",
       "page": 1,
       "position": {
         "x": 6,
