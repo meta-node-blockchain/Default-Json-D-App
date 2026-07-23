@@ -1,5 +1,5 @@
 {
-  "version": "31.0.6",
+  "version": "31.0.7",
   "favorites": [
     {
       "isFullScreen": true,
@@ -719,6 +719,23 @@
         "height": 1
       },
       "id": "meta.chat-free-gas"
+    },
+    {
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "orientation": "portrait",
+      "name": "Cyber Manager 2",
+      "logo": "https://img.fi.ai/cyber.jpg",
+      "type": 1,
+      "urlPack": "https://json.fi.ai/meos_manager_v2.json",
+      "page": 3,
+      "position": {
+        "x": 1,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "id": "meta.meos_manager_v2"
     }
   ],
   "frames": []
