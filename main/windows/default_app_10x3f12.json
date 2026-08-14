@@ -1,5 +1,5 @@
 {
-  "version": "31.0.9",
+  "version": "31.0.8",
   "favorites": [
     {
       "isFullScreen": true,
@@ -75,712 +75,15 @@
       "isFullScreen": true,
       "statusBar": "hide",
       "orientation": "portrait",
-      "name": "League of Legends (LMHT)",
-      "logo": "https://img.fi.ai/lol.png",
-      "type": 1,
-      "urlPack": "",
-      "page": 0,
-      "position": {
-        "x": 0,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      },
-      "id": "meta.lol"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "VALORANT",
-      "logo": "https://img.fi.ai/valorant.png",
-      "type": 1,
-      "urlPack": "",
-      "page": 0,
-      "position": {
-        "x": 1,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      },
-      "id": "meta.valorant"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "Counter-Strike 2 (CS2)",
-      "logo": "https://img.fi.ai/cs2.png",
-      "type": 1,
-      "urlPack": "",
-      "page": 0,
-      "position": {
-        "x": 2,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      },
-      "id": "meta.cs2"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "PUBG: BATTLEGROUNDS",
-      "logo": "https://img.fi.ai/pubg.png",
-      "type": 1,
-      "urlPack": "",
-      "page": 0,
-      "position": {
-        "x": 3,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      },
-      "id": "meta.pubg"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "Dota 2",
-      "logo": "https://img.fi.ai/dota2.png",
-      "type": 1,
-      "urlPack": "",
-      "page": 0,
-      "position": {
-        "x": 4,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      },
-      "id": "meta.dota2"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "Liên Quân Mobile (giả lập)",
-      "logo": "https://img.fi.ai/aov.png",
-      "type": 1,
-      "urlPack": "",
-      "page": 0,
-      "position": {
-        "x": 5,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      },
-      "id": "meta.aov"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "FC Online",
-      "logo": "https://img.fi.ai/fc.png",
-      "type": 1,
-      "urlPack": "",
-      "page": 0,
-      "position": {
-        "x": 6,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      },
-      "id": "meta.fc"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "GTA V",
-      "logo": "https://img.fi.ai/gta5.png",
-      "type": 1,
-      "urlPack": "",
-      "page": 0,
-      "position": {
-        "x": 7,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      },
-      "id": "meta.gta5"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "Grand Theft Auto V – FiveM",
-      "logo": "https://img.fi.ai/fiveM.png",
-      "type": 1,
-      "urlPack": "",
-      "page": 0,
-      "position": {
-        "x": 8,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      },
-      "id": "meta.fiveM"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "Delta Force",
-      "logo": "https://img.fi.ai/deltaForce.png",
-      "type": 1,
-      "urlPack": "",
-      "page": 0,
-      "position": {
-        "x": 9,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      },
-      "id": "meta.deltaForce"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "Apex Legends",
-      "logo": "https://img.fi.ai/apexLegend.png",
-      "type": 1,
-      "urlPack": "",
-      "page": 0,
-      "position": {
-        "x": 0,
-        "y": 1,
-        "width": 1,
-        "height": 1
-      },
-      "id": "meta.apexLegend"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "Overwatch",
-      "logo": "https://img.fi.ai/overwatch.png",
-      "type": 1,
-      "urlPack": "",
-      "page": 0,
-      "position": {
-        "x": 1,
-        "y": 1,
-        "width": 1,
-        "height": 1
-      },
-      "id": "meta.overwatch"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "Marvel Rivals",
-      "logo": "https://img.fi.ai/marvelRivals.png",
-      "type": 1,
-      "urlPack": "",
-      "page": 0,
-      "position": {
-        "x": 2,
-        "y": 1,
-        "width": 1,
-        "height": 1
-      },
-      "id": "meta.marvelRivals"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "Rainbow Six Siege",
-      "logo": "https://img.fi.ai/rss.png",
-      "type": 1,
-      "urlPack": "",
-      "page": 0,
-      "position": {
-        "x": 3,
-        "y": 1,
-        "width": 1,
-        "height": 1
-      },
-      "id": "meta.rss"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "Call of Duty: Warzone",
-      "logo": "https://img.fi.ai/cod.png",
-      "type": 1,
-      "urlPack": "",
-      "page": 0,
-      "position": {
-        "x": 4,
-        "y": 1,
-        "width": 1,
-        "height": 1
-      },
-      "id": "meta.cod"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "Teamfight Tactics (TFT)",
-      "logo": "https://img.fi.ai/tft.png",
-      "type": 1,
-      "urlPack": "",
-      "page": 0,
-      "position": {
-        "x": 5,
-        "y": 1,
-        "width": 1,
-        "height": 1
-      },
-      "id": "meta.tft"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "Đấu Trường Chân Lý Mobile (giả lập)",
-      "logo": "https://img.fi.ai/tftMobile.png",
-      "type": 1,
-      "urlPack": "",
-      "page": 0,
-      "position": {
-        "x": 6,
-        "y": 1,
-        "width": 1,
-        "height": 1
-      },
-      "id": "meta.tftMobile"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "Minecraft",
-      "logo": "https://img.fi.ai/minecraft.png",
-      "type": 1,
-      "urlPack": "",
-      "page": 0,
-      "position": {
-        "x": 7,
-        "y": 1,
-        "width": 1,
-        "height": 1
-      },
-      "id": "meta.minecraft"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "Roblox",
-      "logo": "https://img.fi.ai/roblox.png",
-      "type": 1,
-      "urlPack": "",
-      "page": 0,
-      "position": {
-        "x": 8,
-        "y": 1,
-        "width": 1,
-        "height": 1
-      },
-      "id": "meta.roblox"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "Rust",
-      "logo": "https://img.fi.ai/rust.png",
-      "type": 1,
-      "urlPack": "",
-      "page": 0,
-      "position": {
-        "x": 9,
-        "y": 1,
-        "width": 1,
-        "height": 1
-      },
-      "id": "meta.rust"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "Palworld",
-      "logo": "https://img.fi.ai/palword.png",
-      "type": 1,
-      "urlPack": "",
-      "page": 1,
-      "position": {
-        "x": 0,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      },
-      "id": "meta.palword"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "ARK: Survival Evolved",
-      "logo": "https://img.fi.ai/ark.png",
-      "type": 1,
-      "urlPack": "",
-      "page": 1,
-      "position": {
-        "x": 1,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      },
-      "id": "meta.ark"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "Left 4 Dead 2",
-      "logo": "https://img.fi.ai/l4d2.png",
-      "type": 1,
-      "urlPack": "",
-      "page": 1,
-      "position": {
-        "x": 2,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      },
-      "id": "meta.l4d2"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "Warframe",
-      "logo": "https://img.fi.ai/warframe.png",
-      "type": 1,
-      "urlPack": "",
-      "page": 1,
-      "position": {
-        "x": 3,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      },
-      "id": "meta.warframe"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "Path of Exile 2",
-      "logo": "https://img.fi.ai/pathOfExile2.png",
-      "type": 1,
-      "urlPack": "",
-      "page": 1,
-      "position": {
-        "x": 4,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      },
-      "id": "meta.pathOfExile2"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "Elden Ring",
-      "logo": "https://img.fi.ai/eldenRing.png",
-      "type": 1,
-      "urlPack": "",
-      "page": 1,
-      "position": {
-        "x": 5,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      },
-      "id": "meta.eldenRing"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "Black Myth: Wukong",
-      "logo": "https://img.fi.ai/blw.png",
-      "type": 1,
-      "urlPack": "",
-      "page": 1,
-      "position": {
-        "x": 6,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      },
-      "id": "meta.blw"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "Monster Hunter Wilds",
-      "logo": "https://img.fi.ai/mhw.png",
-      "type": 1,
-      "urlPack": "",
-      "page": 1,
-      "position": {
-        "x": 7,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      },
-      "id": "meta.mhw"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "Red Alert 2",
-      "logo": "https://img.fi.ai/ral2.png",
-      "type": 1,
-      "urlPack": "",
-      "page": 1,
-      "position": {
-        "x": 8,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      },
-      "id": "meta.ral2"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "The Forest",
-      "logo": "https://img.fi.ai/tf.png",
-      "type": 1,
-      "urlPack": "",
-      "page": 1,
-      "position": {
-        "x": 9,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      },
-      "id": "meta.tf"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "Phasmophobia",
-      "logo": "https://img.fi.ai/p.png",
-      "type": 1,
-      "urlPack": "",
-      "page": 1,
-      "position": {
-        "x": 0,
-        "y": 1,
-        "width": 1,
-        "height": 1
-      },
-      "id": "meta.p"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "Dead by Daylight",
-      "logo": "https://img.fi.ai/dbd.png",
-      "type": 1,
-      "urlPack": "",
-      "page": 1,
-      "position": {
-        "x": 1,
-        "y": 1,
-        "width": 1,
-        "height": 1
-      },
-      "id": "meta.dbd"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "Euro Truck Simulator 2",
-      "logo": "https://img.fi.ai/ets2.png",
-      "type": 1,
-      "urlPack": "",
-      "page": 1,
-      "position": {
-        "x": 2,
-        "y": 1,
-        "width": 1,
-        "height": 1
-      },
-      "id": "meta.ets2"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "ZingSpeed",
-      "logo": "https://img.fi.ai/zs.png",
-      "type": 1,
-      "urlPack": "",
-      "page": 1,
-      "position": {
-        "x": 3,
-        "y": 1,
-        "width": 1,
-        "height": 1
-      },
-      "id": "meta.zs"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "Genshin Impact",
-      "logo": "https://img.fi.ai/gi.png",
-      "type": 1,
-      "urlPack": "",
-      "page": 1,
-      "position": {
-        "x": 4,
-        "y": 1,
-        "width": 1,
-        "height": 1
-      },
-      "id": "meta.gi"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "Zenless Zone Zero",
-      "logo": "https://img.fi.ai/zzz.png",
-      "type": 1,
-      "urlPack": "",
-      "page": 1,
-      "position": {
-        "x": 5,
-        "y": 1,
-        "width": 1,
-        "height": 1
-      },
-      "id": "meta.zzz"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "Honkai: Star Rail",
-      "logo": "https://img.fi.ai/hsr.png",
-      "type": 1,
-      "urlPack": "",
-      "page": 1,
-      "position": {
-        "x": 6,
-        "y": 1,
-        "width": 1,
-        "height": 1
-      },
-      "id": "meta.hsr"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "Stardew Valley",
-      "logo": "https://img.fi.ai/sv.png",
-      "type": 1,
-      "urlPack": "",
-      "page": 1,
-      "position": {
-        "x": 7,
-        "y": 1,
-        "width": 1,
-        "height": 1
-      },
-      "id": "meta.sv"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "Terraria",
-      "logo": "https://img.fi.ai/t.png",
-      "type": 1,
-      "urlPack": "",
-      "page": 1,
-      "position": {
-        "x": 8,
-        "y": 1,
-        "width": 1,
-        "height": 1
-      },
-      "id": "meta.t"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "Forza Horizon 5",
-      "logo": "https://img.fi.ai/fh5.png",
-      "type": 1,
-      "urlPack": "",
-      "page": 1,
-      "position": {
-        "x": 9,
-        "y": 1,
-        "width": 1,
-        "height": 1
-      },
-      "id": "meta.fh5"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "Assetto Corsa",
-      "logo": "https://img.fi.ai/ac.png",
-      "type": 1,
-      "urlPack": "",
-      "page": 2,
-      "position": {
-        "x": 0,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      },
-      "id": "meta.ac"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
       "name": "Facebook",
       "logo": "https://img.fi.ai/facebook.webp",
       "type": 4,
       "url": "https://www.facebook.com/",
       "urlScript": "https://json.fi.ai/script/facebook-dark.js",
       "version": "1.0.0",
-      "page": 2,
+      "page": 0,
       "position": {
-        "x": 1,
+        "x": 0,
         "y": 0,
         "width": 1,
         "height": 1
@@ -797,9 +100,9 @@
       "url": "https://www.linkedInWeb.com/",
       "urlScript": "https://json.fi.ai/script/linkedInWeb.js",
       "version": "1.0.0",
-      "page": 2,
+      "page": 0,
       "position": {
-        "x": 2,
+        "x": 1,
         "y": 0,
         "width": 1,
         "height": 1
@@ -816,9 +119,9 @@
       "url": "https://open.spotify.com/",
       "urlScript": "https://json.fi.ai/script/spotify.js",
       "version": "1.0.0",
-      "page": 2,
+      "page": 0,
       "position": {
-        "x": 3,
+        "x": 2,
         "y": 0,
         "width": 1,
         "height": 1
@@ -835,9 +138,9 @@
       "url": "https://www.youtube.com",
       "urlScript": "https://raw.githubusercontent.com/meta-node-blockchain/Default-Json-D-App/refs/heads/master/dApp/youtube/worker.js",
       "version": "0.0.2",
-      "page": 2,
+      "page": 0,
       "position": {
-        "x": 4,
+        "x": 3,
         "y": 0,
         "width": 1,
         "height": 1
@@ -854,9 +157,9 @@
       "url": "https://web.telegram.org/a/",
       "urlScript": "https://json.fi.ai/script/telegram.js",
       "version": "0.0.1",
-      "page": 2,
+      "page": 0,
       "position": {
-        "x": 5,
+        "x": 4,
         "y": 0,
         "width": 1,
         "height": 1
@@ -873,9 +176,9 @@
       "urlPack": "https://json.fi.ai/web3Space.json",
       "status_bar": "show",
       "version": "1.0.0",
-      "page": 2,
+      "page": 0,
       "position": {
-        "x": 6,
+        "x": 5,
         "y": 0,
         "width": 1,
         "height": 1
@@ -890,9 +193,9 @@
       "logo": "https://img.fi.ai/message_logo.jpg",
       "type": 1,
       "urlPack": "https://json.fi.ai/message.json",
-      "page": 2,
+      "page": 0,
       "position": {
-        "x": 7,
+        "x": 6,
         "y": 0,
         "width": 1,
         "height": 1
@@ -908,9 +211,9 @@
       "type": 1,
       "urlPack": "https://json.fi.ai/deploy-token.json",
       "version": "0.0.1",
-      "page": 2,
+      "page": 0,
       "position": {
-        "x": 8,
+        "x": 7,
         "y": 0,
         "width": 1,
         "height": 1
@@ -926,9 +229,9 @@
       "type": 1,
       "urlPack": "https://json.fi.ai/ens.json",
       "version": "4.0.2",
-      "page": 2,
+      "page": 0,
       "position": {
-        "x": 9,
+        "x": 8,
         "y": 0,
         "width": 1,
         "height": 1
@@ -943,10 +246,10 @@
       "logo": "https://img.fi.ai/food-order.jpg",
       "type": 1,
       "urlPack": "https://json.fi.ai/food-order.json",
-      "page": 2,
+      "page": 0,
       "position": {
-        "x": 0,
-        "y": 1,
+        "x": 9,
+        "y": 0,
         "width": 1,
         "height": 1
       },
@@ -961,9 +264,9 @@
       "type": 1,
       "urlPack": "https://json.fi.ai/melap.json",
       "version": "1.0.0",
-      "page": 2,
+      "page": 0,
       "position": {
-        "x": 1,
+        "x": 0,
         "y": 1,
         "width": 1,
         "height": 1
@@ -979,9 +282,9 @@
       "type": 1,
       "urlPack": "https://json.fi.ai/multiWallet.json",
       "version": "1.0.0",
-      "page": 2,
+      "page": 0,
       "position": {
-        "x": 2,
+        "x": 1,
         "y": 1,
         "width": 1,
         "height": 1
@@ -997,9 +300,9 @@
       "type": 1,
       "urlPack": "https://resources.m.pro/frame/json/notes.json",
       "version": "0.0.1",
-      "page": 2,
+      "page": 0,
       "position": {
-        "x": 3,
+        "x": 2,
         "y": 1,
         "width": 1,
         "height": 1
@@ -1015,9 +318,9 @@
       "type": 4,
       "urlPack": "https://json.fi.ai/weather.json",
       "version": "0.0.1",
-      "page": 2,
+      "page": 0,
       "position": {
-        "x": 4,
+        "x": 3,
         "y": 1,
         "width": 1,
         "height": 1
@@ -1033,9 +336,9 @@
       "type": 1,
       "urlPack": "https://json.fi.ai/swap-token.json",
       "version": "4.0.2",
-      "page": 2,
+      "page": 0,
       "position": {
-        "x": 5,
+        "x": 4,
         "y": 1,
         "width": 1,
         "height": 1
@@ -1050,9 +353,9 @@
       "logo": "https://img.fi.ai/po5.png",
       "type": 1,
       "urlPack": "https://json.fi.ai/po5.json",
-      "page": 2,
+      "page": 0,
       "position": {
-        "x": 6,
+        "x": 5,
         "y": 1,
         "width": 1,
         "height": 1
@@ -1067,9 +370,9 @@
       "logo": "https://img.fi.ai/rootnode.png",
       "type": 1,
       "urlPack": "https://json.fi.ai/rootnode.json",
-      "page": 2,
+      "page": 0,
       "position": {
-        "x": 7,
+        "x": 6,
         "y": 1,
         "width": 1,
         "height": 1
@@ -1084,9 +387,9 @@
       "logo": "https://img.fi.ai/daonode.png",
       "type": 1,
       "urlPack": "https://json.fi.ai/daonode.json",
-      "page": 2,
+      "page": 0,
       "position": {
-        "x": 8,
+        "x": 7,
         "y": 1,
         "width": 1,
         "height": 1
@@ -1101,9 +404,9 @@
       "logo": "https://img.fi.ai/showroom.png",
       "type": 1,
       "urlPack": "https://json.fi.ai/showroom.json",
-      "page": 2,
+      "page": 0,
       "position": {
-        "x": 9,
+        "x": 8,
         "y": 1,
         "width": 1,
         "height": 1
@@ -1118,10 +421,10 @@
       "logo": "https://img.fi.ai/estock.png",
       "type": 1,
       "urlPack": "https://json.fi.ai/estock.json",
-      "page": 3,
+      "page": 0,
       "position": {
-        "x": 0,
-        "y": 0,
+        "x": 9,
+        "y": 1,
         "width": 1,
         "height": 1
       },
@@ -1135,9 +438,9 @@
       "logo": "https://img.fi.ai/logo/swap-token-logo.jpg",
       "type": 1,
       "urlPack": "https://json.fi.ai/swap-token-v3.json",
-      "page": 3,
+      "page": 1,
       "position": {
-        "x": 1,
+        "x": 0,
         "y": 0,
         "width": 1,
         "height": 1
@@ -1152,9 +455,9 @@
       "logo": "https://img.fi.ai/onboarding.png",
       "type": 1,
       "urlPack": "https://json.fi.ai/onboarding.json",
-      "page": 3,
+      "page": 1,
       "position": {
-        "x": 2,
+        "x": 1,
         "y": 0,
         "width": 1,
         "height": 1
@@ -1169,9 +472,9 @@
       "logo": "https://img.fi.ai/storage.png",
       "type": 1,
       "urlPack": "https://json.fi.ai/storage.json",
-      "page": 3,
+      "page": 1,
       "position": {
-        "x": 3,
+        "x": 2,
         "y": 0,
         "width": 1,
         "height": 1
@@ -1186,9 +489,9 @@
       "logo": "https://img.fi.ai/admin_food_order.png",
       "type": 1,
       "urlPack": "https://json.fi.ai/admin-food-order.json",
-      "page": 3,
+      "page": 1,
       "position": {
-        "x": 4,
+        "x": 3,
         "y": 0,
         "width": 1,
         "height": 1
@@ -1203,9 +506,9 @@
       "logo": "https://img.fi.ai/dex.png",
       "type": 1,
       "urlPack": "https://json.fi.ai/dex.json",
-      "page": 3,
+      "page": 1,
       "position": {
-        "x": 5,
+        "x": 4,
         "y": 0,
         "width": 1,
         "height": 1
@@ -1220,9 +523,9 @@
       "logo": "https://img.fi.ai/food-order.jpg",
       "type": 1,
       "urlPack": "https://json.fi.ai/iqr-merchant-test.json",
-      "page": 3,
+      "page": 1,
       "position": {
-        "x": 6,
+        "x": 5,
         "y": 0,
         "width": 1,
         "height": 1
@@ -1237,9 +540,9 @@
       "logo": "https://img.fi.ai/food-order.jpg",
       "type": 1,
       "urlPack": "https://json.fi.ai/iqr-staff-test.json",
-      "page": 3,
+      "page": 1,
       "position": {
-        "x": 7,
+        "x": 6,
         "y": 0,
         "width": 1,
         "height": 1
@@ -1254,9 +557,9 @@
       "logo": "https://img.fi.ai/food-order.jpg",
       "type": 1,
       "urlPack": "https://json.fi.ai/supply-admin-test.json",
-      "page": 3,
+      "page": 1,
       "position": {
-        "x": 8,
+        "x": 7,
         "y": 0,
         "width": 1,
         "height": 1
@@ -1271,9 +574,9 @@
       "logo": "https://img.fi.ai/food-order.jpg",
       "type": 1,
       "urlPack": "https://json.fi.ai/customer-test.json",
-      "page": 3,
+      "page": 1,
       "position": {
-        "x": 9,
+        "x": 8,
         "y": 0,
         "width": 1,
         "height": 1
@@ -1288,10 +591,10 @@
       "logo": "https://img.fi.ai/attendance.jpg",
       "type": 1,
       "urlPack": "https://json.fi.ai/attendance.json",
-      "page": 3,
+      "page": 1,
       "position": {
-        "x": 0,
-        "y": 1,
+        "x": 9,
+        "y": 0,
         "width": 1,
         "height": 1
       },
@@ -1305,9 +608,9 @@
       "logo": "https://img.fi.ai/attendance.jpg",
       "type": 1,
       "urlPack": "https://json.fi.ai/attendance_2.json",
-      "page": 3,
+      "page": 1,
       "position": {
-        "x": 1,
+        "x": 0,
         "y": 1,
         "width": 1,
         "height": 1
@@ -1322,9 +625,9 @@
       "logo": "https://img.fi.ai/dapp_store.png",
       "type": 1,
       "urlPack": "https://json.fi.ai/wallet-gpu.json",
-      "page": 3,
+      "page": 1,
       "position": {
-        "x": 2,
+        "x": 1,
         "y": 1,
         "width": 1,
         "height": 1
@@ -1340,9 +643,9 @@
       "type": 1,
       "urlPack": "https://json.fi.ai/me-office.json",
       "urlScript": "https://json.fi.ai/script/meoffice-theme-inject.js?t=1781776123546",
-      "page": 3,
+      "page": 1,
       "position": {
-        "x": 3,
+        "x": 2,
         "y": 1,
         "width": 1,
         "height": 1
@@ -1357,9 +660,9 @@
       "logo": "https://img.fi.ai/cyber.jpg",
       "type": 1,
       "urlPack": "https://json.fi.ai/cyber-manager-test.json",
-      "page": 3,
+      "page": 1,
       "position": {
-        "x": 4,
+        "x": 3,
         "y": 1,
         "width": 1,
         "height": 1
@@ -1374,9 +677,9 @@
       "logo": "https://img.fi.ai/myCompute.png",
       "type": 1,
       "urlPack": "https://json.fi.ai/me-compute.json",
-      "page": 3,
+      "page": 1,
       "position": {
-        "x": 5,
+        "x": 4,
         "y": 1,
         "width": 1,
         "height": 1
@@ -1391,9 +694,9 @@
       "logo": "https://img.fi.ai/message_logo.jpg",
       "type": 1,
       "urlPack": "https://json.fi.ai/chat-2.json",
-      "page": 3,
+      "page": 1,
       "position": {
-        "x": 6,
+        "x": 5,
         "y": 1,
         "width": 1,
         "height": 1
@@ -1408,9 +711,9 @@
       "logo": "https://img.fi.ai/message_logo.jpg",
       "type": 1,
       "urlPack": "https://json.fi.ai/chat-free-gas.json",
-      "page": 3,
+      "page": 1,
       "position": {
-        "x": 7,
+        "x": 6,
         "y": 1,
         "width": 1,
         "height": 1
@@ -1425,9 +728,9 @@
       "logo": "https://img.fi.ai/cyber.jpg",
       "type": 1,
       "urlPack": "https://json.fi.ai/meos_manager_v2.json",
-      "page": 3,
+      "page": 1,
       "position": {
-        "x": 8,
+        "x": 7,
         "y": 1,
         "width": 1,
         "height": 1
@@ -1442,9 +745,9 @@
       "logo": "https://img.fi.ai/cyber.jpg",
       "type": 1,
       "urlPack": "https://json.fi.ai/meos_manager_v3.json",
-      "page": 3,
+      "page": 1,
       "position": {
-        "x": 9,
+        "x": 8,
         "y": 1,
         "width": 1,
         "height": 1
