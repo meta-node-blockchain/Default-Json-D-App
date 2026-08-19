@@ -1,5 +1,5 @@
 {
-  "version": "31.1.0",
+  "version": "31.1.1",
   "favorites": [
     {
       "isFullScreen": true,
@@ -22,6 +22,10 @@
       "isFullScreen": true,
       "statusBar": "hide",
       "orientation": "portrait",
+      "name": "Wallet",
+      "logo": "https://img.fi.ai/logo/wallet-logo.png",
+      "type": 1,
+      "urlPack": "https://json.fi.ai/private-chain-wallet.json",
       "page": 0,
       "position": {
         "x": 1,
