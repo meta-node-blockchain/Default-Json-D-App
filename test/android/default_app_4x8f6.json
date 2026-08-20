@@ -1,5 +1,5 @@
 {
-  "version": "31.1.5",
+  "version": "31.2.8",
   "favorites": [
     {
       "isFullScreen": true,
@@ -822,6 +822,5 @@
       },
       "id": "meta.chat-v2"
     }
-  ],
-  "frames": []
+  ]
 }

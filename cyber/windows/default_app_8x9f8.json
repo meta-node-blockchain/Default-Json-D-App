@@ -1,5 +1,5 @@
 {
-  "version": "31.1.5",
+  "version": "31.2.8",
   "favorites": [
     {
       "isFullScreen": true,
@@ -753,16 +753,14 @@
         "height": 1
       },
       "id": "meta.meos_manager_v3"
-    }
-  ],
-  "frames": [
+    },
     {
       "isFullScreen": true,
       "statusBar": "hide",
       "orientation": "portrait",
       "name": "Dish",
       "logo": "",
-      "type": 1,
+      "type": 3,
       "urlPack": "https://json.fi.ai/dish-frame.json",
       "page": 0,
       "position": {
@@ -778,7 +776,7 @@
       "orientation": "portrait",
       "name": "Banner",
       "logo": "",
-      "type": 1,
+      "type": 3,
       "urlPack": "https://json.fi.ai/banner-frame.json",
       "page": 0,
       "position": {
