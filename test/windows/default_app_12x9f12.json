@@ -845,32 +845,12 @@
       "isFullScreen": true,
       "statusBar": "hide",
       "orientation": "portrait",
-      "name": "",
-      "logo": "",
-      "type": 3,
-      "urlPack": "https://json.fi.ai/remain-play-time-widget.json",
       "page": 0,
       "position": {
         "x": 4,
-        "y": 3,
-        "width": 2,
-        "height": 2
-      }
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "",
-      "logo": "",
-      "type": 3,
-      "urlPack": "https://json.fi.ai/balance-widget.json",
-      "page": 0,
-      "position": {
-        "x": 6,
-        "y": 3,
-        "width": 2,
-        "height": 2
+        "y": 2,
+        "width": 4,
+        "height": 4
       }
     }
   ]
