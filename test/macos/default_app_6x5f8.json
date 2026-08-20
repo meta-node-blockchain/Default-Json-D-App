@@ -1,5 +1,5 @@
 {
-  "version": "31.1.2",
+  "version": "31.1.4",
   "favorites": [
     {
       "isFullScreen": true,
@@ -847,10 +847,22 @@
       "orientation": "portrait",
       "page": 0,
       "position": {
-        "x": 1,
-        "y": 0,
+        "x": 0,
+        "y": 2,
+        "width": 2,
+        "height": 2
+      }
+    },
+    {
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "orientation": "portrait",
+      "page": 0,
+      "position": {
+        "x": 2,
+        "y": 2,
         "width": 4,
-        "height": 4
+        "height": 2
       }
     }
   ]
