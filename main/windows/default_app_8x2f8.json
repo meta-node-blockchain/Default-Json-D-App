@@ -1,5 +1,5 @@
 {
-  "version": "31.2.8",
+  "version": "31.3.7",
   "favorites": [
     {
       "isFullScreen": true,
@@ -753,6 +753,38 @@
         "height": 1
       },
       "id": "meta.meos_manager_v3"
+    },
+    {
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "orientation": "portrait",
+      "name": "Dish",
+      "logo": "",
+      "type": 3,
+      "urlPack": "https://json.fi.ai/dish-frame.json",
+      "page": 0,
+      "position": {
+        "x": 0,
+        "y": 2,
+        "width": 2,
+        "height": 2
+      }
+    },
+    {
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "orientation": "portrait",
+      "name": "Banner",
+      "logo": "",
+      "type": 3,
+      "urlPack": "https://json.fi.ai/banner-frame.json",
+      "page": 0,
+      "position": {
+        "x": 2,
+        "y": 2,
+        "width": 4,
+        "height": 2
+      }
     }
   ]
 }

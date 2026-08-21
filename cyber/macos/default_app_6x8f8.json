@@ -1,5 +1,5 @@
 {
-  "version": "31.2.9",
+  "version": "31.3.7",
   "favorites": [
     {
       "isFullScreen": true,
@@ -765,7 +765,7 @@
       "page": 0,
       "position": {
         "x": 0,
-        "y": 4,
+        "y": 2,
         "width": 2,
         "height": 2
       }
@@ -781,7 +781,7 @@
       "page": 0,
       "position": {
         "x": 2,
-        "y": 4,
+        "y": 2,
         "width": 4,
         "height": 2
       }

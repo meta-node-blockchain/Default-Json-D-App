@@ -1,5 +1,5 @@
 {
-  "version": "31.2.9",
+  "version": "31.3.7",
   "favorites": [
     {
       "isFullScreen": true,
@@ -849,7 +849,7 @@
       "urlPack": "https://json.fi.ai/dish-frame.json",
       "page": 0,
       "position": {
-        "x": 1,
+        "x": 0,
         "y": 2,
         "width": 2,
         "height": 2
@@ -865,7 +865,7 @@
       "urlPack": "https://json.fi.ai/banner-frame.json",
       "page": 0,
       "position": {
-        "x": 3,
+        "x": 2,
         "y": 2,
         "width": 4,
         "height": 2
