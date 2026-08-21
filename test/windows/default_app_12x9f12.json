@@ -1,5 +1,5 @@
 {
-  "version": "31.3.8",
+  "version": "31.3.9",
   "favorites": [
     {
       "isFullScreen": true,
@@ -881,7 +881,7 @@
       "urlPack": "https://json.fi.ai/game-frame.json",
       "page": 0,
       "position": {
-        "x": 4,
+        "x": 6,
         "y": 2,
         "width": 4,
         "height": 2
