@@ -1,5 +1,5 @@
 {
-  "version": "31.3.7",
+  "version": "31.3.8",
   "favorites": [
     {
       "isFullScreen": true,
@@ -866,6 +866,22 @@
       "page": 0,
       "position": {
         "x": 2,
+        "y": 2,
+        "width": 4,
+        "height": 2
+      }
+    },
+    {
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "orientation": "portrait",
+      "name": "Games",
+      "logo": "",
+      "type": 3,
+      "urlPack": "https://json.fi.ai/game-frame.json",
+      "page": 0,
+      "position": {
+        "x": 4,
         "y": 2,
         "width": 4,
         "height": 2
