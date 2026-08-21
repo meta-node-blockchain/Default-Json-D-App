@@ -1,5 +1,5 @@
 {
-  "version": "31.3.9",
+  "version": "31.4.0",
   "favorites": [
     {
       "isFullScreen": true,
@@ -840,6 +840,7 @@
       "id": "meta.chat-v2"
     },
     {
+      "id": "cyber.dish-frame",
       "isFullScreen": true,
       "statusBar": "hide",
       "orientation": "portrait",
@@ -856,6 +857,7 @@
       }
     },
     {
+      "id": "cyber.banner-frame",
       "isFullScreen": true,
       "statusBar": "hide",
       "orientation": "portrait",
@@ -872,6 +874,7 @@
       }
     },
     {
+      "id": "cyber.game-frame",
       "isFullScreen": true,
       "statusBar": "hide",
       "orientation": "portrait",
