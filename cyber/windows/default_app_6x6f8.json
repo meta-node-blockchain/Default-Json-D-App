@@ -1,5 +1,5 @@
 {
-  "version": "31.4.2",
+  "version": "31.4.3",
   "favorites": [
     {
       "isFullScreen": true,
@@ -206,104 +206,15 @@
       "isFullScreen": true,
       "statusBar": "hide",
       "orientation": "portrait",
-      "name": "Deploy SMC",
-      "logo": "https://img.fi.ai/logo/settings-logo.jpg",
-      "type": 1,
-      "urlPack": "https://json.fi.ai/deploy-token.json",
-      "version": "0.0.1",
-      "page": 0,
-      "position": {
-        "x": 1,
-        "y": 1,
-        "width": 1,
-        "height": 1
-      },
-      "id": "deploysmc.m.pro"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "ENS",
-      "logo": "https://img.fi.ai/app-logo/ens.png",
-      "type": 1,
-      "urlPack": "https://json.fi.ai/ens.json",
-      "version": "4.0.2",
-      "page": 0,
-      "position": {
-        "x": 2,
-        "y": 1,
-        "width": 1,
-        "height": 1
-      },
-      "id": "ens.m.pro"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "Food Order",
-      "logo": "https://img.fi.ai/food-order.jpg",
-      "type": 1,
-      "urlPack": "https://json.fi.ai/food-order.json",
-      "page": 0,
-      "position": {
-        "x": 3,
-        "y": 1,
-        "width": 1,
-        "height": 1
-      },
-      "id": "meta.food-order"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "Melab",
-      "logo": "https://img.fi.ai/MELAB_LOGO.png",
-      "type": 1,
-      "urlPack": "https://json.fi.ai/melap.json",
-      "version": "1.0.0",
-      "page": 0,
-      "position": {
-        "x": 4,
-        "y": 1,
-        "width": 1,
-        "height": 1
-      },
-      "id": "meta.melap"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "Multi Wallet",
-      "logo": "https://img.fi.ai/dapp_store.png",
-      "type": 1,
-      "urlPack": "https://json.fi.ai/multiWallet.json",
-      "version": "1.0.0",
-      "page": 0,
-      "position": {
-        "x": 5,
-        "y": 1,
-        "width": 1,
-        "height": 1
-      },
-      "id": "multi-wallets.m.pro"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
       "name": "Reminders",
       "logo": "https://img.fi.ai/tasks.png",
       "type": 1,
       "urlPack": "https://resources.m.pro/frame/json/notes.json",
       "version": "0.0.1",
-      "page": 1,
+      "page": 0,
       "position": {
-        "x": 0,
-        "y": 0,
+        "x": 1,
+        "y": 1,
         "width": 1,
         "height": 1
       },
@@ -318,10 +229,10 @@
       "type": 4,
       "urlPack": "https://json.fi.ai/weather.json",
       "version": "0.0.1",
-      "page": 1,
+      "page": 0,
       "position": {
-        "x": 1,
-        "y": 0,
+        "x": 2,
+        "y": 1,
         "width": 1,
         "height": 1
       },
@@ -331,303 +242,13 @@
       "isFullScreen": true,
       "statusBar": "hide",
       "orientation": "portrait",
-      "name": "Swap",
-      "logo": "https://img.fi.ai/logo/swap-token-logo.jpg",
-      "type": 1,
-      "urlPack": "https://json.fi.ai/swap-token.json",
-      "version": "4.0.2",
-      "page": 1,
-      "position": {
-        "x": 2,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      },
-      "id": "testswap.m.pro"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "Po5",
-      "logo": "https://img.fi.ai/po5.png",
-      "type": 1,
-      "urlPack": "https://json.fi.ai/po5.json",
-      "page": 1,
-      "position": {
-        "x": 3,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      },
-      "id": "po5.m.pro"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "Root Node",
-      "logo": "https://img.fi.ai/rootnode.png",
-      "type": 1,
-      "urlPack": "https://json.fi.ai/rootnode.json",
-      "page": 1,
-      "position": {
-        "x": 4,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      },
-      "id": "meta.rootnode"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "Dao Node",
-      "logo": "https://img.fi.ai/daonode.png",
-      "type": 1,
-      "urlPack": "https://json.fi.ai/daonode.json",
-      "page": 1,
-      "position": {
-        "x": 5,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      },
-      "id": "meta.daonode"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "Showroom",
-      "logo": "https://img.fi.ai/showroom.png",
-      "type": 1,
-      "urlPack": "https://json.fi.ai/showroom.json",
-      "page": 1,
-      "position": {
-        "x": 0,
-        "y": 1,
-        "width": 1,
-        "height": 1
-      },
-      "id": "meta.showrom"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "Estock",
-      "logo": "https://img.fi.ai/estock.png",
-      "type": 1,
-      "urlPack": "https://json.fi.ai/estock.json",
-      "page": 1,
-      "position": {
-        "x": 1,
-        "y": 1,
-        "width": 1,
-        "height": 1
-      },
-      "id": "meta.estock"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "Swap V3",
-      "logo": "https://img.fi.ai/logo/swap-token-logo.jpg",
-      "type": 1,
-      "urlPack": "https://json.fi.ai/swap-token-v3.json",
-      "page": 1,
-      "position": {
-        "x": 2,
-        "y": 1,
-        "width": 1,
-        "height": 1
-      },
-      "id": "co.swap-token-v3.app"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "Onboarding",
-      "logo": "https://img.fi.ai/onboarding.png",
-      "type": 1,
-      "urlPack": "https://json.fi.ai/onboarding.json",
-      "page": 1,
-      "position": {
-        "x": 3,
-        "y": 1,
-        "width": 1,
-        "height": 1
-      },
-      "id": "meta.onboarding"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "Storage",
-      "logo": "https://img.fi.ai/storage.png",
-      "type": 1,
-      "urlPack": "https://json.fi.ai/storage.json",
-      "page": 1,
-      "position": {
-        "x": 4,
-        "y": 1,
-        "width": 1,
-        "height": 1
-      },
-      "id": "meta.storage"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "Admin Food Order",
-      "logo": "https://img.fi.ai/admin_food_order.png",
-      "type": 1,
-      "urlPack": "https://json.fi.ai/admin-food-order.json",
-      "page": 1,
-      "position": {
-        "x": 5,
-        "y": 1,
-        "width": 1,
-        "height": 1
-      },
-      "id": "meta.admin-food-order"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "Dex",
-      "logo": "https://img.fi.ai/dex.png",
-      "type": 1,
-      "urlPack": "https://json.fi.ai/dex.json",
-      "page": 2,
-      "position": {
-        "x": 0,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      },
-      "id": "dex.m.pro"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "IQRMerchant",
-      "logo": "https://img.fi.ai/food-order.jpg",
-      "type": 1,
-      "urlPack": "https://json.fi.ai/iqr-merchant-test.json",
-      "page": 2,
-      "position": {
-        "x": 1,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      },
-      "id": "meta.iqr-merchant-test"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "IQRStaff",
-      "logo": "https://img.fi.ai/food-order.jpg",
-      "type": 1,
-      "urlPack": "https://json.fi.ai/iqr-staff-test.json",
-      "page": 2,
-      "position": {
-        "x": 2,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      },
-      "id": "meta.iqr-staff-test"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "SupplyAdmin",
-      "logo": "https://img.fi.ai/food-order.jpg",
-      "type": 1,
-      "urlPack": "https://json.fi.ai/supply-admin-test.json",
-      "page": 2,
-      "position": {
-        "x": 3,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      },
-      "id": "meta.supply-admin-test"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "Customer",
-      "logo": "https://img.fi.ai/food-order.jpg",
-      "type": 1,
-      "urlPack": "https://json.fi.ai/customer-test.json",
-      "page": 2,
-      "position": {
-        "x": 4,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      },
-      "id": "meta.customer-test"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "Attendance",
-      "logo": "https://img.fi.ai/attendance.jpg",
-      "type": 1,
-      "urlPack": "https://json.fi.ai/attendance.json",
-      "page": 2,
-      "position": {
-        "x": 5,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      },
-      "id": "meta.attendance"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "Attendance 2",
-      "logo": "https://img.fi.ai/attendance.jpg",
-      "type": 1,
-      "urlPack": "https://json.fi.ai/attendance_2.json",
-      "page": 2,
-      "position": {
-        "x": 0,
-        "y": 1,
-        "width": 1,
-        "height": 1
-      },
-      "id": "meta.attendance_2"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
       "name": "Wallet gpu",
       "logo": "https://img.fi.ai/dapp_store.png",
       "type": 1,
       "urlPack": "https://json.fi.ai/wallet-gpu.json",
-      "page": 2,
+      "page": 0,
       "position": {
-        "x": 1,
+        "x": 3,
         "y": 1,
         "width": 1,
         "height": 1
@@ -643,9 +264,9 @@
       "type": 1,
       "urlPack": "https://json.fi.ai/me-office.json",
       "urlScript": "https://json.fi.ai/script/meoffice-theme-inject.js?t=1781776123546",
-      "page": 2,
+      "page": 0,
       "position": {
-        "x": 2,
+        "x": 4,
         "y": 1,
         "width": 1,
         "height": 1
@@ -660,9 +281,9 @@
       "logo": "https://img.fi.ai/cyber.jpg",
       "type": 1,
       "urlPack": "https://json.fi.ai/cyber-manager-test.json",
-      "page": 2,
+      "page": 0,
       "position": {
-        "x": 3,
+        "x": 5,
         "y": 1,
         "width": 1,
         "height": 1
@@ -677,10 +298,10 @@
       "logo": "https://img.fi.ai/myCompute.png",
       "type": 1,
       "urlPack": "https://json.fi.ai/me-compute.json",
-      "page": 2,
+      "page": 1,
       "position": {
-        "x": 4,
-        "y": 1,
+        "x": 0,
+        "y": 0,
         "width": 1,
         "height": 1
       },
@@ -694,10 +315,10 @@
       "logo": "https://img.fi.ai/message_logo.jpg",
       "type": 1,
       "urlPack": "https://json.fi.ai/chat-2.json",
-      "page": 2,
+      "page": 1,
       "position": {
-        "x": 5,
-        "y": 1,
+        "x": 1,
+        "y": 0,
         "width": 1,
         "height": 1
       },
@@ -711,9 +332,9 @@
       "logo": "https://img.fi.ai/message_logo.jpg",
       "type": 1,
       "urlPack": "https://json.fi.ai/chat-free-gas.json",
-      "page": 3,
+      "page": 1,
       "position": {
-        "x": 0,
+        "x": 2,
         "y": 0,
         "width": 1,
         "height": 1
@@ -728,9 +349,9 @@
       "logo": "https://img.fi.ai/cyber.jpg",
       "type": 1,
       "urlPack": "https://json.fi.ai/meos_manager_v2.json",
-      "page": 3,
+      "page": 1,
       "position": {
-        "x": 1,
+        "x": 3,
         "y": 0,
         "width": 1,
         "height": 1
@@ -745,9 +366,9 @@
       "logo": "https://img.fi.ai/cyber.jpg",
       "type": 1,
       "urlPack": "https://json.fi.ai/meos_manager_v3.json",
-      "page": 3,
+      "page": 1,
       "position": {
-        "x": 2,
+        "x": 4,
         "y": 0,
         "width": 1,
         "height": 1
