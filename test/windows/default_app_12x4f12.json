@@ -1,5 +1,5 @@
 {
-  "version": "31.4.0",
+  "version": "31.4.1",
   "favorites": [
     {
       "isFullScreen": true,
@@ -838,6 +838,23 @@
         "height": 1
       },
       "id": "meta.chat-v2"
+    },
+    {
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "orientation": "portrait",
+      "name": "banner",
+      "logo": "",
+      "type": 1,
+      "urlPack": "https://json.fi.ai/game-frame.json",
+      "page": 1,
+      "position": {
+        "x": 8,
+        "y": 1,
+        "width": 1,
+        "height": 1
+      },
+      "id": "cyber.bammer-app"
     },
     {
       "id": "cyber.dish-frame",
