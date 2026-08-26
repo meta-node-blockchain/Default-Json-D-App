@@ -1,5 +1,5 @@
 {
-  "version": "31.4.4",
+  "version": "31.4.5",
   "favorites": [
     {
       "isFullScreen": true,
@@ -39,30 +39,13 @@
       "isFullScreen": true,
       "statusBar": "hide",
       "orientation": "portrait",
-      "name": "Mining",
-      "logo": "https://img.fi.ai/logo/mining-logo.jpg",
-      "type": 1,
-      "urlPack": "https://json.fi.ai/mining.json",
-      "page": 0,
-      "position": {
-        "x": 2,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      },
-      "id": "meta.mining"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
       "name": "My Photo",
       "logo": "https://img.fi.ai/meos-photo.jpg",
       "type": 1,
       "urlPack": "https://json.fi.ai/myPhoto.json",
       "page": 0,
       "position": {
-        "x": 3,
+        "x": 2,
         "y": 0,
         "width": 1,
         "height": 1
@@ -170,12 +153,10 @@
       "isFullScreen": true,
       "statusBar": "hide",
       "orientation": "portrait",
-      "name": "Web3 Space",
-      "logo": "https://metanode.co/images/browser.png",
-      "type": 4,
-      "urlPack": "https://json.fi.ai/web3Space.json",
-      "status_bar": "show",
-      "version": "1.0.0",
+      "name": "Cyber Manager 3",
+      "logo": "https://img.fi.ai/cyber.jpg",
+      "type": 1,
+      "urlPack": "https://json.fi.ai/meos_manager_v3.json",
       "page": 0,
       "position": {
         "x": 5,
@@ -183,248 +164,7 @@
         "width": 1,
         "height": 1
       },
-      "id": "com.web3space.metaword"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "Dapp Chat",
-      "logo": "https://img.fi.ai/message_logo.jpg",
-      "type": 1,
-      "urlPack": "https://json.fi.ai/message.json",
-      "page": 0,
-      "position": {
-        "x": 6,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      },
-      "id": "meta.message"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "Reminders",
-      "logo": "https://img.fi.ai/tasks.png",
-      "type": 1,
-      "urlPack": "https://resources.m.pro/frame/json/notes.json",
-      "version": "0.0.1",
-      "page": 0,
-      "position": {
-        "x": 7,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      },
-      "id": "tasks.m.pro"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "Weather",
-      "logo": "https://img.fi.ai/weather.png",
-      "type": 4,
-      "urlPack": "https://json.fi.ai/weather.json",
-      "version": "0.0.1",
-      "page": 0,
-      "position": {
-        "x": 8,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      },
-      "id": "weather.m.pro"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "Wallet gpu",
-      "logo": "https://img.fi.ai/dapp_store.png",
-      "type": 1,
-      "urlPack": "https://json.fi.ai/wallet-gpu.json",
-      "page": 0,
-      "position": {
-        "x": 9,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      },
-      "id": "meta.wallet.gpu"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "Me Office",
-      "logo": "https://img.fi.ai/meoffice.jpg",
-      "type": 1,
-      "urlPack": "https://json.fi.ai/me-office.json",
-      "urlScript": "https://json.fi.ai/script/meoffice-theme-inject.js?t=1781776123546",
-      "page": 0,
-      "position": {
-        "x": 10,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      },
-      "id": "meta.meOffice"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "Cyber Manager ",
-      "logo": "https://img.fi.ai/cyber.jpg",
-      "type": 1,
-      "urlPack": "https://json.fi.ai/cyber-manager-test.json",
-      "page": 0,
-      "position": {
-        "x": 11,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      },
-      "id": "meta.cyber-manager-test"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "Me Compute",
-      "logo": "https://img.fi.ai/myCompute.png",
-      "type": 1,
-      "urlPack": "https://json.fi.ai/me-compute.json",
-      "page": 0,
-      "position": {
-        "x": 0,
-        "y": 1,
-        "width": 1,
-        "height": 1
-      },
-      "id": "meta.meCompute"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "Dapp Chat 2",
-      "logo": "https://img.fi.ai/message_logo.jpg",
-      "type": 1,
-      "urlPack": "https://json.fi.ai/chat-2.json",
-      "page": 0,
-      "position": {
-        "x": 1,
-        "y": 1,
-        "width": 1,
-        "height": 1
-      },
-      "id": "meta.chat-2"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "Dapp Chat Free Gas",
-      "logo": "https://img.fi.ai/message_logo.jpg",
-      "type": 1,
-      "urlPack": "https://json.fi.ai/chat-free-gas.json",
-      "page": 0,
-      "position": {
-        "x": 2,
-        "y": 1,
-        "width": 1,
-        "height": 1
-      },
-      "id": "meta.chat-free-gas"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "Cyber Manager 2",
-      "logo": "https://img.fi.ai/cyber.jpg",
-      "type": 1,
-      "urlPack": "https://json.fi.ai/meos_manager_v2.json",
-      "page": 0,
-      "position": {
-        "x": 3,
-        "y": 1,
-        "width": 1,
-        "height": 1
-      },
-      "id": "meta.meos_manager_v2"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "Cyber Manager 3",
-      "logo": "https://img.fi.ai/cyber.jpg",
-      "type": 1,
-      "urlPack": "https://json.fi.ai/meos_manager_v3.json",
-      "page": 0,
-      "position": {
-        "x": 4,
-        "y": 1,
-        "width": 1,
-        "height": 1
-      },
       "id": "meta.meos_manager_v3"
-    },
-    {
-      "id": "cyber.dish-frame",
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "Dish",
-      "logo": "",
-      "type": 3,
-      "urlPack": "https://json.fi.ai/dish-frame.json",
-      "page": 0,
-      "position": {
-        "x": 0,
-        "y": 2,
-        "width": 2,
-        "height": 2
-      }
-    },
-    {
-      "id": "cyber.banner-frame",
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "Banner",
-      "logo": "",
-      "type": 3,
-      "urlPack": "https://json.fi.ai/banner-frame.json",
-      "page": 0,
-      "position": {
-        "x": 2,
-        "y": 2,
-        "width": 4,
-        "height": 2
-      }
-    },
-    {
-      "id": "cyber.game-frame",
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "Games",
-      "logo": "",
-      "type": 3,
-      "urlPack": "https://json.fi.ai/game-frame.json",
-      "page": 0,
-      "position": {
-        "x": 6,
-        "y": 2,
-        "width": 4,
-        "height": 2
-      }
     }
   ]
 }

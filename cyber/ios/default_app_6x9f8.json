@@ -1,5 +1,5 @@
 {
-  "version": "31.4.4",
+  "version": "31.4.5",
   "favorites": [
     {
       "isFullScreen": true,
@@ -39,30 +39,13 @@
       "isFullScreen": true,
       "statusBar": "hide",
       "orientation": "portrait",
-      "name": "Mining",
-      "logo": "https://img.fi.ai/logo/mining-logo.jpg",
-      "type": 1,
-      "urlPack": "https://json.fi.ai/mining.json",
-      "page": 0,
-      "position": {
-        "x": 2,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      },
-      "id": "meta.mining"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
       "name": "My Photo",
       "logo": "https://img.fi.ai/meos-photo.jpg",
       "type": 1,
       "urlPack": "https://json.fi.ai/myPhoto.json",
       "page": 0,
       "position": {
-        "x": 3,
+        "x": 2,
         "y": 0,
         "width": 1,
         "height": 1
