@@ -1,5 +1,5 @@
 {
-  "version": "31.4.6",
+  "version": "31.4.7",
   "favorites": [
     {
       "isFullScreen": true,
@@ -119,7 +119,6 @@
       "logo": "https://img.iqnb.com/logo/youtube-logo.png",
       "type": 4,
       "url": "https://www.youtube.com",
-      "urlScript": "https://raw.githubusercontent.com/meta-node-blockchain/Default-Json-D-App/refs/heads/master/dApp/youtube/worker.js",
       "version": "0.0.2",
       "page": 0,
       "position": {
