@@ -1,5 +1,5 @@
 {
-  "version": "31.4.9",
+  "version": "31.5.0",
   "favorites": [
     {
       "isFullScreen": true,
@@ -117,7 +117,6 @@
       "logo": "https://img.iqnb.com/spotify.png",
       "type": 4,
       "url": "https://open.spotify.com/",
-      "urlScript": "https://json.iqnb.com/script/spotify.js",
       "version": "1.0.0",
       "page": 0,
       "position": {
