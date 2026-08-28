@@ -1,5 +1,5 @@
 {
-  "version": "31.4.7",
+  "version": "31.4.8",
   "favorites": [
     {
       "isFullScreen": true,
@@ -81,7 +81,7 @@
       "logo": "https://img.iqnb.com/linkedIn.jpg",
       "type": 4,
       "url": "https://www.linkedInWeb.com/",
-      "urlScript": "https://json.iqnb.com/script/linkedInWeb.js",
+      "urlScript": "https://json.iqnb.com/script/linkedin.js",
       "version": "1.0.0",
       "page": 0,
       "position": {
