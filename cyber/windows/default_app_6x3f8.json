@@ -1,5 +1,5 @@
 {
-  "version": "31.5.0",
+  "version": "31.5.1",
   "favorites": [
     {
       "isFullScreen": true,
@@ -77,43 +77,6 @@
       "isFullScreen": true,
       "statusBar": "hide",
       "orientation": "portrait",
-      "name": "Linked In",
-      "logo": "https://img.iqnb.com/linkedIn.jpg",
-      "type": 4,
-      "url": "https://www.linkedInWeb.com/",
-      "urlScript": "https://json.iqnb.com/script/linkedin.js",
-      "version": "1.0.0",
-      "page": 0,
-      "position": {
-        "x": 1,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      },
-      "id": "co.linkedInWeb.app"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "name": "Spotify",
-      "logo": "https://img.iqnb.com/spotify.png",
-      "type": 4,
-      "url": "https://open.spotify.com/",
-      "version": "1.0.0",
-      "page": 0,
-      "position": {
-        "x": 2,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      },
-      "id": "co.spotify.app"
-    },
-    {
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
       "name": "Youtube",
       "logo": "https://img.iqnb.com/logo/youtube-logo.png",
       "type": 4,
@@ -121,7 +84,7 @@
       "version": "0.0.2",
       "page": 0,
       "position": {
-        "x": 3,
+        "x": 1,
         "y": 0,
         "width": 1,
         "height": 1
@@ -140,7 +103,7 @@
       "version": "0.0.1",
       "page": 0,
       "position": {
-        "x": 4,
+        "x": 2,
         "y": 0,
         "width": 1,
         "height": 1
@@ -157,7 +120,7 @@
       "urlPack": "https://json.iqnb.com/meos_manager_v3.json",
       "page": 0,
       "position": {
-        "x": 5,
+        "x": 3,
         "y": 0,
         "width": 1,
         "height": 1
