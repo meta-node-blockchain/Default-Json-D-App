@@ -1,5 +1,5 @@
 {
-  "version": "31.5.1",
+  "version": "31.5.2",
   "favorites": [
     {
       "isFullScreen": true,
@@ -739,10 +739,10 @@
       "isFullScreen": true,
       "statusBar": "hide",
       "orientation": "portrait",
-      "name": "Cyber Manager 3",
+      "name": "Cyber Manager 4",
       "logo": "https://img.iqnb.com/cyber.jpg",
       "type": 1,
-      "urlPack": "https://json.iqnb.com/meos_manager_v3.json",
+      "urlPack": "https://json.iqnb.com/meos_manager_v4.json",
       "page": 1,
       "position": {
         "x": 2,
@@ -755,6 +755,19 @@
     {
       "isFullScreen": true,
       "statusBar": "hide",
+      "orientation": "portrait",
+      "page": 1,
+      "position": {
+        "x": 3,
+        "y": 1,
+        "width": 1,
+        "height": 1
+      },
+      "id": "meta.meos_manager_v4"
+    },
+    {
+      "isFullScreen": true,
+      "statusBar": "hide",
       "orientation": "landscape",
       "name": "Robot",
       "logo": "https://img.iqnb.com/robot.jpg",
@@ -762,7 +775,7 @@
       "urlPack": "https://json.iqnb.com/robot.json",
       "page": 1,
       "position": {
-        "x": 3,
+        "x": 4,
         "y": 1,
         "width": 1,
         "height": 1
@@ -779,7 +792,7 @@
       "urlPack": "https://json.iqnb.com/wallet-test.json",
       "page": 1,
       "position": {
-        "x": 4,
+        "x": 5,
         "y": 1,
         "width": 1,
         "height": 1
@@ -796,7 +809,7 @@
       "urlPack": "https://json.iqnb.com/login-cyber-test.json",
       "page": 1,
       "position": {
-        "x": 5,
+        "x": 6,
         "y": 1,
         "width": 1,
         "height": 1
@@ -813,7 +826,7 @@
       "urlPack": "https://json.iqnb.com/chat_test.json",
       "page": 1,
       "position": {
-        "x": 6,
+        "x": 7,
         "y": 1,
         "width": 1,
         "height": 1
@@ -830,7 +843,7 @@
       "urlPack": "https://json.iqnb.com/chat-v2.json",
       "page": 1,
       "position": {
-        "x": 7,
+        "x": 8,
         "y": 1,
         "width": 1,
         "height": 1
@@ -847,7 +860,7 @@
       "urlPack": "https://json.iqnb.com/banner-frame.json",
       "page": 1,
       "position": {
-        "x": 8,
+        "x": 9,
         "y": 1,
         "width": 1,
         "height": 1

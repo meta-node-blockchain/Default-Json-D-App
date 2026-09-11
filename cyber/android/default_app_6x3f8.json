@@ -1,5 +1,5 @@
 {
-  "version": "31.5.1",
+  "version": "31.5.2",
   "favorites": [
     {
       "isFullScreen": true,
@@ -722,10 +722,10 @@
       "isFullScreen": true,
       "statusBar": "hide",
       "orientation": "portrait",
-      "name": "Cyber Manager 3",
+      "name": "Cyber Manager 4",
       "logo": "https://img.iqnb.com/cyber.jpg",
       "type": 1,
-      "urlPack": "https://json.iqnb.com/meos_manager_v3.json",
+      "urlPack": "https://json.iqnb.com/meos_manager_v4.json",
       "page": 3,
       "position": {
         "x": 2,
@@ -734,6 +734,19 @@
         "height": 1
       },
       "id": "meta.meos_manager_v3"
+    },
+    {
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "orientation": "portrait",
+      "page": 3,
+      "position": {
+        "x": 3,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "id": "meta.meos_manager_v4"
     }
   ]
 }
