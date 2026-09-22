@@ -1,5 +1,5 @@
 {
-  "version": "31.5.5",
+  "version": "31.5.6",
   "favorites": [
     {
       "isFullScreen": true,
@@ -25,7 +25,7 @@
       "name": "Wallet",
       "logo": "https://img.iqnb.com/logo/wallet-logo.png",
       "type": 1,
-      "urlPack": "https://json.iqnb.com/private-chain-wallet.json",
+      "urlPack": "https://json.iqnb.com/wallet.json",
       "page": 0,
       "position": {
         "x": 1,
@@ -33,7 +33,7 @@
         "width": 1,
         "height": 1
       },
-      "id": "meta.privateChainWallet"
+      "id": "meta.wallet"
     },
     {
       "isFullScreen": true,
