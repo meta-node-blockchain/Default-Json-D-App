@@ -1,5 +1,5 @@
 {
-  "version": "31.5.7",
+  "version": "31.5.8",
   "favorites": [
     {
       "isFullScreen": true,
@@ -50,7 +50,8 @@
         "width": 1,
         "height": 1
       },
-      "id": "meta.mining"
+      "id": "meta.mining",
+      "isVisibleOnHome": 0
     },
     {
       "isFullScreen": true,
@@ -709,7 +710,8 @@
         "width": 1,
         "height": 1
       },
-      "id": "meta.meCompute"
+      "id": "meta.meCompute",
+      "isVisibleOnHome": 0
     },
     {
       "isFullScreen": true,
