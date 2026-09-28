@@ -1,5 +1,5 @@
 {
-  "version": "31.5.6",
+  "version": "31.6.1",
   "favorites": [
     {
       "isFullScreen": true,
@@ -631,7 +631,7 @@
         "width": 1,
         "height": 1
       },
-      "id": "meta.meOffice"
+      "id": "meta.me-office"
     },
     {
       "isFullScreen": true,
