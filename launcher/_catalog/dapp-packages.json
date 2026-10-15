@@ -12,7 +12,7 @@
     },
     {
       "appId": "meta.wallet",
-      "version": "7.6.3",
+      "version": "7.6.4",
       "manifest": "https://json.iqnb.com/wallet.json"
     }
   ]
