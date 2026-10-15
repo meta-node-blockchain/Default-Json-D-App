@@ -1,26 +1,11 @@
 {
   "schemaVersion": 2,
-  "version": "34.0.2",
+  "version": "34.0.3",
   "packages": [
     {
-      "appId": "meta.meos_manager_v3",
-      "version": "1.0.0",
-      "manifest": "https://json.iqnb.com/meos_manager_v3.json"
-    },
-    {
-      "appId": "meta.meos_manager_v4",
-      "version": "1.0.0",
-      "manifest": "https://json.iqnb.com/meos_manager_v4.json"
-    },
-    {
-      "appId": "meta.myphoto",
-      "version": "1.4.5",
-      "manifest": "https://json.iqnb.com/myPhoto.json"
-    },
-    {
-      "appId": "meta.privateChainWallet",
-      "version": "1.0.0",
-      "manifest": "https://json.iqnb.com/private-chain-wallet.json"
+      "appId": "meta.message",
+      "version": "8.6.7",
+      "manifest": "https://json.iqnb.com/message.json"
     }
   ],
   "apps": [
@@ -105,7 +90,7 @@
       "isFullScreen": true,
       "statusBar": "hide",
       "orientation": "portrait",
-      "package": "https://json.iqnb.com/message.json"
+      "packageRef": "meta.message"
     }
   ],
   "dock": [

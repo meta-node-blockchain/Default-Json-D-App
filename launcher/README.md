@@ -38,6 +38,18 @@ Xem [home-defaults.md](https://github.com/meta-node-blockchain/qt-core/blob/main
 
 Mẫu: `_templates/home-schema2.template.json`.
 
+## D-App (Wallet, …) — `packages` + `packageRef`
+
+Catalog: `_catalog/dapp-packages.json` + version trong `package-pins.json`.  
+Sau khi sửa legacy hoặc đổi pin:
+
+```bash
+python3 launcher/tools/apply-h3-dapp-refs.py
+./launcher/tools/publish-to-main-v1.0.2.sh
+```
+
+Mỗi D-App ngoài built-in: một mục trong `packages[]`, icon/dock/app có `"packageRef": "<appId>"` (trùng `appId`).
+
 ## Gói widget bổ sung
 
 Thêm mục vào `_catalog/extra-packages.json` và chạy lại convert (hoặc sửa tay `packages` / `widgets` trên staging).

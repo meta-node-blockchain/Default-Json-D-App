@@ -1,11 +1,21 @@
 {
   "schemaVersion": 2,
-  "version": "34.0.2",
+  "version": "34.0.3",
   "packages": [
     {
-      "appId": "meta.myphoto",
-      "version": "1.4.5",
-      "manifest": "https://json.iqnb.com/myPhoto.json"
+      "appId": "meta.me-office",
+      "version": "1.8.2",
+      "manifest": "https://json.iqnb.com/me-office.json"
+    },
+    {
+      "appId": "meta.message",
+      "version": "8.6.7",
+      "manifest": "https://json.iqnb.com/message.json"
+    },
+    {
+      "appId": "meta.wallet",
+      "version": "7.6.2",
+      "manifest": "https://json.iqnb.com/wallet.json"
     }
   ],
   "apps": [
@@ -93,7 +103,7 @@
       "isFullScreen": true,
       "statusBar": "hide",
       "orientation": "portrait",
-      "package": "https://json.iqnb.com/message.json"
+      "packageRef": "meta.message"
     },
     {
       "appId": "meta.me-office",
@@ -106,7 +116,7 @@
       "isFullScreen": true,
       "statusBar": "hide",
       "orientation": "portrait",
-      "package": "https://json.iqnb.com/me-office.json"
+      "packageRef": "meta.me-office"
     }
   ],
   "dock": [
@@ -133,7 +143,7 @@
       "isFullScreen": true,
       "statusBar": "hide",
       "orientation": "portrait",
-      "package": "https://json.iqnb.com/wallet.json"
+      "packageRef": "meta.wallet"
     },
     {
       "appId": "meta.myphoto",

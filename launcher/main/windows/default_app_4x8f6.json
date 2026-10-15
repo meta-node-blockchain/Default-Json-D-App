@@ -1,7 +1,23 @@
 {
   "schemaVersion": 2,
-  "version": "34.0.3",
-  "packages": [],
+  "version": "34.0.4",
+  "packages": [
+    {
+      "appId": "meta.me-office",
+      "version": "1.8.2",
+      "manifest": "https://json.iqnb.com/me-office.json"
+    },
+    {
+      "appId": "meta.message",
+      "version": "8.6.7",
+      "manifest": "https://json.iqnb.com/message.json"
+    },
+    {
+      "appId": "meta.wallet",
+      "version": "7.6.2",
+      "manifest": "https://json.iqnb.com/wallet.json"
+    }
+  ],
   "apps": [
     {
       "appId": "co.facebook.app",
@@ -87,7 +103,7 @@
       "isFullScreen": true,
       "statusBar": "hide",
       "orientation": "portrait",
-      "package": "https://json.iqnb.com/message.json"
+      "packageRef": "meta.message"
     },
     {
       "appId": "meta.me-office",
@@ -100,7 +116,7 @@
       "isFullScreen": true,
       "statusBar": "hide",
       "orientation": "portrait",
-      "package": "https://json.iqnb.com/me-office.json"
+      "packageRef": "meta.me-office"
     }
   ],
   "dock": [
@@ -127,7 +143,7 @@
       "isFullScreen": true,
       "statusBar": "hide",
       "orientation": "portrait",
-      "package": "https://json.iqnb.com/wallet.json"
+      "packageRef": "meta.wallet"
     }
   ],
   "widgets": []

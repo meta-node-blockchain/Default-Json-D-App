@@ -187,6 +187,17 @@ def main() -> int:
 
     catalog_path = repo / "launcher" / "_catalog" / "extra-packages.json"
     extra = json.loads(catalog_path.read_text()) if catalog_path.is_file() else {}
+    dapp_catalog_path = repo / "launcher" / "_catalog" / "dapp-packages.json"
+    pins_path = repo / "launcher" / "_catalog" / "package-pins.json"
+    dapp_by_id: dict[str, dict] = {}
+    if dapp_catalog_path.is_file():
+        for pkg in json.loads(dapp_catalog_path.read_text()).get("packages", []):
+            if pkg.get("appId"):
+                dapp_by_id[pkg["appId"]] = dict(pkg)
+    if pins_path.is_file():
+        for app_id, version in json.loads(pins_path.read_text()).items():
+            if app_id in dapp_by_id:
+                dapp_by_id[app_id]["version"] = version
 
     written = 0
     for env in args.env:
@@ -201,6 +212,22 @@ def main() -> int:
                 if legacy.get("schemaVersion") == 2:
                     continue
                 out = convert_file(legacy, args.home_version, extra)
+                # Pin versions/manifests from catalog (home-defaults.md)
+                needed = set()
+                for key in ("apps", "dock"):
+                    for app in out[key]:
+                        if app.get("kind") == "dapp" and app.get("packageRef"):
+                            needed.add(app["packageRef"])
+                out["packages"] = sorted(
+                    (dapp_by_id[i] for i in needed if i in dapp_by_id),
+                    key=lambda p: p["appId"],
+                )
+                for key in ("apps", "dock"):
+                    for app in out[key]:
+                        aid = app.get("appId")
+                        if app.get("kind") == "dapp" and aid in dapp_by_id:
+                            app["packageRef"] = aid
+                            app.pop("package", None)
                 dst = dst_dir / src.name
                 if args.dry_run:
                     print(f"{src} -> {dst}")
