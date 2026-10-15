@@ -2,17 +2,14 @@
   "packages": [
     {
       "appId": "meta.me-office",
-      "version": "1.8.2",
       "manifest": "https://json.iqnb.com/me-office.json"
     },
     {
       "appId": "meta.message",
-      "version": "8.6.7",
       "manifest": "https://json.iqnb.com/message.json"
     },
     {
       "appId": "meta.wallet",
-      "version": "7.6.4",
       "manifest": "https://json.iqnb.com/wallet.json"
     }
   ]

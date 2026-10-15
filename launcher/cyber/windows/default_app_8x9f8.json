@@ -1,10 +1,9 @@
 {
   "schemaVersion": 2,
-  "version": "34.0.3",
+  "version": "34.0.4",
   "packages": [
     {
       "appId": "meta.message",
-      "version": "8.6.7",
       "manifest": "https://json.iqnb.com/message.json"
     }
   ],

@@ -1,55 +1,29 @@
-# HOME schema 2 — staging (Cách A)
+# HOME launcher JSON (schema 2)
 
-MeOS tải JSON tại:
+## Version SSOT (iqnb)
 
-```text
-https://raw.githubusercontent.com/meta-node-blockchain/Default-Json-D-App/main-v1.0.2/launcher/{main|test|cyber}/{windows|linux}/default_app_{gridKey}.json
+App release version **`V_app`** lives only on the iqnb distribution manifest (e.g. [wallet.json](https://json.iqnb.com/wallet.json)).
 
-MeOS: base mặc định đã gồm ref `main-v1.0.2/`; path = `launcher/…`.
-```
+- Inner ZIP `manifest.json` must equal **`V_app`** at build time.
+- HOME root `"version"` is **layout only** (grid/dock/widgets), not app release.
 
-- **macOS và Windows** đọc thư mục `windows/` (không dùng `macos/` khi publish).
-- **Linux / FreeBSD** đọc `linux/`; nếu 404 thì fallback `windows/`.
+Catalog: [`_catalog/dapp-packages.json`](_catalog/dapp-packages.json) lists `appId` + `manifest` URL only (no pinned version).
 
-## Cách A — luồng làm việc
+## Release checklist (Wallet example)
 
-1. **Chỉnh / tạo** file schema 2 dưới `launcher/{env}/{windows|macos|linux}/`.
-2. **Kiểm tra** (parser MeOS, app thật):
-   - `python3 launcher/tools/convert-legacy-to-schema2.py --validate …` hoặc test qt-core `tst_defaultappsconfig`.
-   - Thử local:  
-     `MEOS_DEFAULT_APPS_URL=file:///…/Default-Json-D-App/`  
-     (file nằm tại `main-v1.0.2/launcher/…` sau publish, hoặc chỉnh trực tiếp `launcher/…` trên branch).
-3. **Publish** sang production path (URL giữ nguyên):
+1. Bump **`V_app`** on iqnb (`wallet.json`) when the ZIP is ready (or chốt số trước, publish metadata sau).
+2. Build Wallet with the same version: `scripts/build-meos-release.sh` (reads `wallet.json`).
+3. Zip `dist/`, verify: `unzip -p wallet.zip manifest.json` → `"version"` = **`V_app`**.
+4. Upload ZIP; update `hash`, `sign`, `urlZip` on `wallet.json`.
+5. **Legacy clients:** `python3 launcher/tools/sync-from-iqnb.py --write-version --bump-home` then publish `main-v1.0.2/launcher/…`.
+6. **MeOS with runtime pin (Phase 2+):** `python3 launcher/tools/strip-package-versions.py` — HOME carries manifest URL only.
+7. Push GitHub; users may need to clear profile `*-default-apps.json` cache after pin changes.
 
-   ```bash
-   ./launcher/tools/publish-to-main-v1.0.2.sh
-   ```
+## Tools
 
-   Script copy `launcher/{env}/windows` → `main-v1.0.2/launcher/{env}/windows` và  
-   `launcher/{env}/linux` → `main-v1.0.2/launcher/{env}/linux` (nếu thiếu linux thì copy từ windows).
-
-4. **Bump** trường `"version"` trong mọi file vừa đổi (MeOS bỏ qua bản ≤ cache).
-
-Thư mục `launcher/*/macos/` chỉ để so sánh / client khác — **không** copy vào `main-v1.0.2`.
-
-## Schema
-
-Xem [home-defaults.md](https://github.com/meta-node-blockchain/qt-core/blob/main/docs/apps/home-defaults.md) trong qt-core (`schemaVersion: 2`, `packages`, `apps`, `dock`, `widgets`).
-
-Mẫu: `_templates/home-schema2.template.json`.
-
-## D-App (Wallet, …) — `packages` + `packageRef`
-
-Catalog: `_catalog/dapp-packages.json` + version trong `package-pins.json`.  
-Sau khi sửa legacy hoặc đổi pin:
-
-```bash
-python3 launcher/tools/apply-h3-dapp-refs.py
-./launcher/tools/publish-to-main-v1.0.2.sh
-```
-
-Mỗi D-App ngoài built-in: một mục trong `packages[]`, icon/dock/app có `"packageRef": "<appId>"` (trùng `appId`).
-
-## Gói widget bổ sung
-
-Thêm mục vào `_catalog/extra-packages.json` và chạy lại convert (hoặc sửa tay `packages` / `widgets` trên staging).
+| Script | Purpose |
+|--------|---------|
+| `tools/sync-from-iqnb.py` | Fetch iqnb manifests; optional `--write-version` or `--strip-version` |
+| `tools/sync-package-pins.py` | Deprecated wrapper → `--write-version` |
+| `tools/apply-h3-dapp-refs.py` | Ensure `packages[]` + `packageRef` from catalog |
+| `tools/publish-to-main-v1.0.2.sh` | Copy `launcher/` → `main-v1.0.2/launcher/` |

@@ -27,13 +27,10 @@ def main() -> int:
     repo = Path(__file__).resolve().parents[2]
     catalog_path = repo / "launcher" / "_catalog" / "dapp-packages.json"
     catalog = json.loads(catalog_path.read_text())
-    by_id = {p["appId"]: dict(p) for p in catalog["packages"]}
-    pins_path = repo / "launcher" / "_catalog" / "package-pins.json"
-    if pins_path.is_file():
-        pins = json.loads(pins_path.read_text())
-        for app_id, pkg in by_id.items():
-            if app_id in pins:
-                pkg["version"] = pins[app_id]
+    by_id = {
+        p["appId"]: {"appId": p["appId"], "manifest": p["manifest"]}
+        for p in catalog["packages"]
+    }
 
     roots = [repo / "launcher", repo / "main-v1.0.2" / "launcher"]
     updated = 0
