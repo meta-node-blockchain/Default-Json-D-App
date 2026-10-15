@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "version": "34.0.0",
+  "version": "34.0.1",
   "packages": [
     {
       "appId": "meta.me-office",
@@ -11,11 +11,6 @@
       "appId": "meta.message",
       "version": "1.0.0",
       "manifest": "https://json.iqnb.com/message.json"
-    },
-    {
-      "appId": "meta.myphoto",
-      "version": "1.0.0",
-      "manifest": "https://json.iqnb.com/myPhoto.json"
     },
     {
       "appId": "meta.wallet",
@@ -149,19 +144,6 @@
       "statusBar": "hide",
       "orientation": "portrait",
       "packageRef": "meta.wallet"
-    },
-    {
-      "appId": "meta.myphoto",
-      "name": "My Photo",
-      "kind": "dapp",
-      "page": 0,
-      "column": 2,
-      "row": 0,
-      "icon": "https://img.iqnb.com/meos-photo.jpg",
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "packageRef": "meta.myphoto"
     }
   ],
   "widgets": []

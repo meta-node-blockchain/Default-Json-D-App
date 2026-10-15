@@ -10,7 +10,11 @@ import sys
 from pathlib import Path
 
 RELEASE = re.compile(r"^(\d{1,4})\.(\d{1,4})\.(\d{1,4})$")
-SKIP_IDS = {"trash.metanode.main", "datetimesettings.metanode.main"}
+SKIP_IDS = {
+    "trash.metanode.main",
+    "datetimesettings.metanode.main",
+    "meta.myphoto",
+}
 EXTRA_KEYS = ("isFullScreen", "statusBar", "orientation", "version")
 BUILTIN_DAPP = {"settings", "files"}
 
