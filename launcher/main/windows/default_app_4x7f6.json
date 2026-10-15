@@ -1,20 +1,20 @@
 {
   "schemaVersion": 2,
-  "version": "34.0.1",
+  "version": "34.0.2",
   "packages": [
     {
       "appId": "meta.me-office",
-      "version": "1.0.0",
+      "version": "1.8.2",
       "manifest": "https://json.iqnb.com/me-office.json"
     },
     {
       "appId": "meta.message",
-      "version": "1.0.0",
+      "version": "8.6.7",
       "manifest": "https://json.iqnb.com/message.json"
     },
     {
       "appId": "meta.wallet",
-      "version": "1.0.0",
+      "version": "7.6.2",
       "manifest": "https://json.iqnb.com/wallet.json"
     }
   ],

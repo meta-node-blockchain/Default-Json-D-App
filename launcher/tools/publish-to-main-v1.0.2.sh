@@ -9,7 +9,7 @@ PLATFORMS=(windows linux)
 for env in "${ENVS[@]}"; do
   for plat in "${PLATFORMS[@]}"; do
     src="${ROOT}/launcher/${env}/${plat}"
-    dst="${ROOT}/main-v1.0.2/${env}/${plat}"
+    dst="${ROOT}/main-v1.0.2/launcher/${env}/${plat}"
     if [[ ! -d "$src" ]] || [[ -z "$(ls -A "$src" 2>/dev/null || true)" ]]; then
       if [[ "$plat" == "linux" ]]; then
         src="${ROOT}/launcher/${env}/windows"
@@ -21,7 +21,7 @@ for env in "${ENVS[@]}"; do
     fi
     mkdir -p "$dst"
     rsync -a --delete "${src}/" "${dst}/"
-    echo "published ${env}/${plat} -> main-v1.0.2/${env}/${plat}"
+    echo "published ${env}/${plat} -> main-v1.0.2/launcher/${env}/${plat}"
   done
 done
 
