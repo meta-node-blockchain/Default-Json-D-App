@@ -2,15 +2,18 @@
   "packages": [
     {
       "appId": "meta.me-office",
-      "manifest": "https://json.iqnb.com/me-office.json"
+      "manifest": "https://json.iqnb.com/me-office.json",
+      "displayName": "Me Office"
     },
     {
       "appId": "meta.message",
-      "manifest": "https://json.iqnb.com/message.json"
+      "manifest": "https://json.iqnb.com/message.json",
+      "displayName": "Message"
     },
     {
       "appId": "meta.wallet",
-      "manifest": "https://json.iqnb.com/wallet.json"
+      "manifest": "https://json.iqnb.com/wallet.json",
+      "displayName": "Wallet"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "version": "34.0.4",
+  "version": "34.0.5",
   "packages": [
     {
       "appId": "meta.message",
@@ -62,8 +62,7 @@
       "icon": "https://img.iqnb.com/cyber.jpg",
       "isFullScreen": true,
       "statusBar": "hide",
-      "orientation": "portrait",
-      "packageRef": "meta.meos_manager_v3"
+      "orientation": "portrait"
     },
     {
       "appId": "meta.meos_manager_v4",
@@ -75,8 +74,7 @@
       "icon": "https://img.iqnb.com/cyber.jpg",
       "isFullScreen": true,
       "statusBar": "hide",
-      "orientation": "portrait",
-      "packageRef": "meta.meos_manager_v4"
+      "orientation": "portrait"
     },
     {
       "appId": "meta.message",
@@ -88,8 +86,7 @@
       "icon": "https://img.iqnb.com/message_logo.jpg",
       "isFullScreen": true,
       "statusBar": "hide",
-      "orientation": "portrait",
-      "packageRef": "meta.message"
+      "orientation": "portrait"
     }
   ],
   "dock": [
@@ -115,8 +112,7 @@
       "icon": "https://img.iqnb.com/logo/wallet-logo.png",
       "isFullScreen": true,
       "statusBar": "hide",
-      "orientation": "portrait",
-      "packageRef": "meta.privateChainWallet"
+      "orientation": "portrait"
     },
     {
       "appId": "meta.myphoto",
@@ -128,8 +124,7 @@
       "icon": "https://img.iqnb.com/meos-photo.jpg",
       "isFullScreen": true,
       "statusBar": "hide",
-      "orientation": "portrait",
-      "packageRef": "meta.myphoto"
+      "orientation": "portrait"
     }
   ],
   "widgets": []

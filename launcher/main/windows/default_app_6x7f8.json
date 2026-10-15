@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "version": "34.0.6",
+  "version": "34.0.8",
   "packages": [
     {
       "appId": "meta.me-office",
@@ -99,8 +99,7 @@
       "icon": "https://img.iqnb.com/message_logo.jpg",
       "isFullScreen": true,
       "statusBar": "hide",
-      "orientation": "portrait",
-      "packageRef": "meta.message"
+      "orientation": "portrait"
     },
     {
       "appId": "meta.me-office",
@@ -112,8 +111,7 @@
       "icon": "https://img.iqnb.com/meoffice.jpg",
       "isFullScreen": true,
       "statusBar": "hide",
-      "orientation": "portrait",
-      "packageRef": "meta.me-office"
+      "orientation": "portrait"
     }
   ],
   "dock": [
@@ -137,10 +135,10 @@
       "column": 1,
       "row": 0,
       "icon": "https://img.iqnb.com/logo/wallet-logo.png",
+      "urlPack": "https://json.iqnb.com/wallet.json",
       "isFullScreen": true,
       "statusBar": "hide",
-      "orientation": "portrait",
-      "packageRef": "meta.wallet"
+      "orientation": "portrait"
     }
   ],
   "widgets": []
