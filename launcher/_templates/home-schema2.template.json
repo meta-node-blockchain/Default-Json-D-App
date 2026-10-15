@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 2,
+  "version": "34.0.0",
+  "packages": [
+    {
+      "appId": "vn.meos.widget.example",
+      "version": "1.0.0",
+      "manifest": "https://packages.example.com/vn.meos.widget.example.json"
+    }
+  ],
+  "apps": [
+    {
+      "appId": "settings",
+      "name": "Settings",
+      "kind": "dapp",
+      "icon": "https://example.com/icon.png",
+      "page": 0,
+      "column": 0,
+      "row": 0
+    }
+  ],
+  "dock": [],
+  "widgets": [
+    {
+      "instanceKey": "home-example",
+      "packageRef": "vn.meos.widget.example",
+      "widgetType": "vn.meos.widget.example",
+      "name": "Example",
+      "page": 0,
+      "column": 2,
+      "row": 0,
+      "columnSpan": 2,
+      "rowSpan": 2
+    }
+  ]
+}
