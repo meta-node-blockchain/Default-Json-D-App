@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "version": "34.0.8",
+  "version": "34.0.9",
   "packages": [
     {
       "appId": "meta.me-office",
@@ -131,6 +131,7 @@
       "column": 1,
       "row": 0,
       "icon": "https://img.iqnb.com/logo/wallet-logo.png",
+      "package": "https://json.iqnb.com/wallet.json",
       "isFullScreen": true,
       "statusBar": "hide",
       "orientation": "portrait"
