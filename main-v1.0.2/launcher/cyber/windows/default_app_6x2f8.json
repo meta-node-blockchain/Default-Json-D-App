@@ -1,10 +1,14 @@
 {
   "schemaVersion": 2,
-  "version": "34.0.5",
+  "version": "34.0.6",
   "packages": [
     {
       "appId": "meta.message",
       "manifest": "https://json.iqnb.com/message.json"
+    },
+    {
+      "appId": "vn.meos.widget.button-sdk",
+      "manifest": "https://json.iqnb.com/vn.meos.widget.button-sdk.json"
     }
   ],
   "apps": [
@@ -69,8 +73,8 @@
       "name": "Cyber Manager 4",
       "kind": "dapp",
       "page": 0,
-      "column": 4,
-      "row": 0,
+      "column": 1,
+      "row": 1,
       "icon": "https://img.iqnb.com/cyber.jpg",
       "isFullScreen": true,
       "statusBar": "hide",
@@ -81,8 +85,8 @@
       "name": "Dapp Chat",
       "kind": "dapp",
       "page": 0,
-      "column": 5,
-      "row": 0,
+      "column": 0,
+      "row": 1,
       "icon": "https://img.iqnb.com/message_logo.jpg",
       "isFullScreen": true,
       "statusBar": "hide",
@@ -127,5 +131,17 @@
       "orientation": "portrait"
     }
   ],
-  "widgets": []
+  "widgets": [
+    {
+      "instanceKey": "home-button-widget",
+      "packageRef": "vn.meos.widget.button-sdk",
+      "widgetType": "vn.meos.widget.button-sdk",
+      "name": "Button Widget",
+      "page": 0,
+      "column": 4,
+      "row": 0,
+      "columnSpan": 2,
+      "rowSpan": 2
+    }
+  ]
 }

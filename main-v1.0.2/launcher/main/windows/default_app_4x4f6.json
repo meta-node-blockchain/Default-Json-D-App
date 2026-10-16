@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "version": "34.0.9",
+  "version": "34.0.10",
   "packages": [
     {
       "appId": "meta.me-office",
@@ -9,6 +9,10 @@
     {
       "appId": "meta.message",
       "manifest": "https://json.iqnb.com/message.json"
+    },
+    {
+      "appId": "vn.meos.widget.button-sdk",
+      "manifest": "https://json.iqnb.com/vn.meos.widget.button-sdk.json"
     }
   ],
   "apps": [
@@ -136,5 +140,17 @@
       "orientation": "portrait"
     }
   ],
-  "widgets": []
+  "widgets": [
+    {
+      "instanceKey": "home-button-widget",
+      "packageRef": "vn.meos.widget.button-sdk",
+      "widgetType": "vn.meos.widget.button-sdk",
+      "name": "Button Widget",
+      "page": 0,
+      "column": 0,
+      "row": 2,
+      "columnSpan": 2,
+      "rowSpan": 2
+    }
+  ]
 }
