@@ -146,15 +146,15 @@
   ],
   "widgets": [
     {
-      "instanceKey": "home-button-widget",
-      "packageRef": "vn.meos.widget.button-sdk",
-      "widgetType": "vn.meos.widget.button-sdk",
-      "name": "Button Widget",
+      "instanceKey": "chat-widget",
+      "packageRef": "vn.meos.widget.chat",
+      "widgetType": "vn.meos.widget.chat",
+      "name": "Chat Widget",
       "page": 0,
       "column": 0,
-      "row": 2,
-      "columnSpan": 2,
-      "rowSpan": 3
+      "row": 0,
+      "columnSpan": 4,
+      "rowSpan": 4
     }
   ]
 }
