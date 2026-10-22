@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "version": "34.0.9",
+  "version": "34.1.0",
   "packages": [
     {
       "appId": "meta.me-office",
@@ -97,6 +97,7 @@
       "column": 5,
       "row": 0,
       "icon": "https://img.iqnb.com/message_logo.jpg",
+      "urlPack": "https://json.iqnb.com/message.json",
       "isFullScreen": true,
       "statusBar": "hide",
       "orientation": "portrait"
