@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "version": "34.1.0",
+  "version": "34.1.2",
   "packages": [
     {
       "appId": "meta.me-office",
@@ -13,6 +13,10 @@
     {
       "appId": "meta.wallet",
       "manifest": "https://json.iqnb.com/wallet.json"
+    },
+    {
+      "appId": "vn.meos.widget.foodorder",
+      "manifest": "https://json.iqnb.com/widget-food-order.json"
     }
   ],
   "apps": [
@@ -79,8 +83,8 @@
       "name": "Telegram",
       "kind": "web",
       "page": 0,
-      "column": 4,
-      "row": 0,
+      "column": 1,
+      "row": 1,
       "icon": "https://img.iqnb.com/telegram.png",
       "url": "https://web.telegram.org/a/",
       "script": "https://json.iqnb.com/script/telegram.js",
@@ -94,8 +98,8 @@
       "name": "Dapp Chat",
       "kind": "dapp",
       "page": 0,
-      "column": 5,
-      "row": 0,
+      "column": 2,
+      "row": 1,
       "icon": "https://img.iqnb.com/message_logo.jpg",
       "isFullScreen": true,
       "statusBar": "hide",
@@ -141,5 +145,17 @@
       "orientation": "portrait"
     }
   ],
-  "widgets": []
+  "widgets": [
+    {
+      "instanceKey": "home-food-order-widget",
+      "packageRef": "vn.meos.widget.foodorder",
+      "widgetType": "vn.meos.widget.foodorder",
+      "name": "Food Order",
+      "page": 0,
+      "column": 4,
+      "row": 0,
+      "columnSpan": 2,
+      "rowSpan": 3
+    }
+  ]
 }
