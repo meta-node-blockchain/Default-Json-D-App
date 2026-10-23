@@ -13,10 +13,6 @@
     {
       "appId": "meta.wallet",
       "manifest": "https://json.iqnb.com/wallet.json"
-    },
-    {
-      "appId": "vn.meos.widget.foodorder",
-      "manifest": "https://json.iqnb.com/widget-food-order.json"
     }
   ],
   "apps": [
@@ -146,17 +142,5 @@
       "orientation": "portrait"
     }
   ],
-  "widgets": [
-    {
-      "instanceKey": "home-food-order-widget",
-      "packageRef": "vn.meos.widget.foodorder",
-      "widgetType": "vn.meos.widget.foodorder",
-      "name": "Food Order",
-      "page": 0,
-      "column": 7,
-      "row": 0,
-      "columnSpan": 3,
-      "rowSpan": 4
-    }
-  ]
+  "widgets": []
 }

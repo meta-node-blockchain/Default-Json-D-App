@@ -1,5 +1,15 @@
 # HOME launcher JSON (schema 2)
 
+## Environments (`launcher/<env>/windows/`)
+
+| Folder | MeOS |
+|--------|------|
+| `main/windows/` | HOME thường (`--home=standard`, mặc định `MEOS_DEFAULT_APPS_ENV=main`) |
+| `netcafe/windows/` | Phòng NET (`--home=netcafe`, mặc định `MEOS_DEFAULT_APPS_ENV=netcafe`) |
+| `test/windows/`, `cyber/windows/` | Thử / cyber manager (`MEOS_DEFAULT_APPS_ENV`) |
+
+Đường dẫn: `launcher/<env>/windows/default_app_<columns>x<rows>f<dockSlots>.json`. macOS đọc bản `windows` (fallback 404 → `windows`).
+
 ## Version SSOT (iqnb)
 
 App release version **`V_app`** lives only on the iqnb distribution manifest (e.g. [wallet.json](https://json.iqnb.com/wallet.json)).
