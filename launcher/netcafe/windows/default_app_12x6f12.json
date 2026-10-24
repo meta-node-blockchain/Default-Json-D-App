@@ -13,6 +13,10 @@
     {
       "appId": "meta.wallet",
       "manifest": "https://json.iqnb.com/wallet.json"
+    },
+    {
+      "appId": "meta.me-office",
+      "manifest": "https://json.iqnb.com/me-office.json"
     }
   ],
   "apps": [
@@ -68,6 +72,18 @@
       "column": 5,
       "row": 0,
       "icon": "https://img.iqnb.com/message_logo.jpg",
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "orientation": "portrait"
+    },
+    {
+      "appId": "meta.me-office",
+      "name": "Me Office",
+      "kind": "dapp",
+      "page": 0,
+      "column": 6,
+      "row": 0,
+      "icon": "https://img.iqnb.com/meoffice.jpg",
       "isFullScreen": true,
       "statusBar": "hide",
       "orientation": "portrait"
