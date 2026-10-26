@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "version": "34.1.6",
+  "version": "34.1.7",
   "packages": [
     {
       "appId": "meta.me-office",
@@ -25,6 +25,10 @@
     {
       "appId": "vn.meos.widget.foodorder",
       "manifest": "https://json.iqnb.com/widget-food-order.json"
+    },
+    {
+      "appId": "vn.meos.widget.chat",
+      "manifest": "https://json.iqnb.com/widget-chat.json"
     }
   ],
   "apps": [
@@ -199,6 +203,17 @@
       "row": 1,
       "columnSpan": 2,
       "rowSpan": 4
+    },
+    {
+      "instanceKey": "home-chat-widget",
+      "packageRef": "vn.meos.widget.chat",
+      "widgetType": "vn.meos.widget.chat",
+      "name": "Chat",
+      "page": 0,
+      "column": 0,
+      "row": 3,
+      "columnSpan": 2,
+      "rowSpan": 2
     }
   ]
 }
