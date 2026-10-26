@@ -1,15 +1,7 @@
 {
   "schemaVersion": 2,
-  "version": "34.1.7",
+  "version": "34.1.8",
   "packages": [
-    {
-      "appId": "meta.me-office",
-      "manifest": "https://json.iqnb.com/me-office.json"
-    },
-    {
-      "appId": "meta.message",
-      "manifest": "https://json.iqnb.com/message.json"
-    },
     {
       "appId": "meta.wallet",
       "manifest": "https://json.iqnb.com/wallet.json"
@@ -89,45 +81,6 @@
       "statusBar": "hide",
       "orientation": "portrait",
       "version": "0.0.2"
-    },
-    {
-      "appId": "telegram.m.pro",
-      "name": "Telegram",
-      "kind": "web",
-      "page": 0,
-      "column": 0,
-      "row": 1,
-      "icon": "https://img.iqnb.com/telegram.png",
-      "url": "https://web.telegram.org/a/",
-      "script": "https://json.iqnb.com/script/telegram.js",
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait",
-      "version": "0.0.1"
-    },
-    {
-      "appId": "meta.message",
-      "name": "Dapp Chat",
-      "kind": "dapp",
-      "page": 0,
-      "column": 1,
-      "row": 1,
-      "icon": "https://img.iqnb.com/message_logo.jpg",
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait"
-    },
-    {
-      "appId": "meta.me-office",
-      "name": "Me Office",
-      "kind": "dapp",
-      "page": 0,
-      "column": 0,
-      "row": 2,
-      "icon": "https://img.iqnb.com/meoffice.jpg",
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait"
     },
     {
       "appId": "meta.meos_manager_v4",
