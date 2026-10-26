@@ -1,10 +1,18 @@
 {
   "schemaVersion": 2,
-  "version": "34.0.6",
+  "version": "34.1.2",
   "packages": [
+    {
+      "appId": "meta.me-office",
+      "manifest": "https://json.iqnb.com/me-office.json"
+    },
     {
       "appId": "meta.message",
       "manifest": "https://json.iqnb.com/message.json"
+    },
+    {
+      "appId": "meta.wallet",
+      "manifest": "https://json.iqnb.com/wallet.json"
     }
   ],
   "apps": [
@@ -24,11 +32,40 @@
       "version": "1.0.0"
     },
     {
+      "appId": "co.linkedInWeb.app",
+      "name": "Linked In",
+      "kind": "web",
+      "page": 0,
+      "column": 1,
+      "row": 0,
+      "icon": "https://img.iqnb.com/linkedIn.jpg",
+      "url": "https://www.linkedInWeb.com/",
+      "script": "https://json.iqnb.com/script/linkedin.js",
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "orientation": "portrait",
+      "version": "1.0.0"
+    },
+    {
+      "appId": "co.spotify.app",
+      "name": "Spotify",
+      "kind": "web",
+      "page": 0,
+      "column": 2,
+      "row": 0,
+      "icon": "https://img.iqnb.com/spotify.png",
+      "url": "https://open.spotify.com/",
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "orientation": "portrait",
+      "version": "1.0.0"
+    },
+    {
       "appId": "youtube.app",
       "name": "Youtube",
       "kind": "web",
       "page": 0,
-      "column": 1,
+      "column": 3,
       "row": 0,
       "icon": "https://img.iqnb.com/logo/youtube-logo.png",
       "url": "https://www.youtube.com",
@@ -42,8 +79,8 @@
       "name": "Telegram",
       "kind": "web",
       "page": 0,
-      "column": 2,
-      "row": 0,
+      "column": 0,
+      "row": 1,
       "icon": "https://img.iqnb.com/telegram.png",
       "url": "https://web.telegram.org/a/",
       "script": "https://json.iqnb.com/script/telegram.js",
@@ -53,13 +90,25 @@
       "version": "0.0.1"
     },
     {
-      "appId": "meta.meos_manager_v3",
-      "name": "Cyber Manager 3",
+      "appId": "meta.message",
+      "name": "Dapp Chat",
       "kind": "dapp",
       "page": 0,
-      "column": 3,
-      "row": 0,
-      "icon": "https://img.iqnb.com/cyber.jpg",
+      "column": 1,
+      "row": 1,
+      "icon": "https://img.iqnb.com/message_logo.jpg",
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "orientation": "portrait"
+    },
+    {
+      "appId": "meta.me-office",
+      "name": "Me Office",
+      "kind": "dapp",
+      "page": 0,
+      "column": 2,
+      "row": 1,
+      "icon": "https://img.iqnb.com/meoffice.jpg",
       "isFullScreen": true,
       "statusBar": "hide",
       "orientation": "portrait"
@@ -69,21 +118,10 @@
       "name": "Cyber Manager 4",
       "kind": "dapp",
       "page": 0,
-      "column": 0,
+      "column": 3,
       "row": 1,
       "icon": "https://img.iqnb.com/cyber.jpg",
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait"
-    },
-    {
-      "appId": "meta.message",
-      "name": "Dapp Chat",
-      "kind": "dapp",
-      "page": 0,
-      "column": 1,
-      "row": 1,
-      "icon": "https://img.iqnb.com/message_logo.jpg",
+      "urlPack": "https://json.iqnb.com/meos_manager_v4.json",
       "isFullScreen": true,
       "statusBar": "hide",
       "orientation": "portrait"
@@ -103,25 +141,14 @@
       "orientation": "portrait"
     },
     {
-      "appId": "meta.privateChainWallet",
+      "appId": "meta.wallet",
       "name": "Wallet",
       "kind": "dapp",
       "page": 0,
       "column": 1,
       "row": 0,
       "icon": "https://img.iqnb.com/logo/wallet-logo.png",
-      "isFullScreen": true,
-      "statusBar": "hide",
-      "orientation": "portrait"
-    },
-    {
-      "appId": "meta.myphoto",
-      "name": "My Photo",
-      "kind": "dapp",
-      "page": 0,
-      "column": 2,
-      "row": 0,
-      "icon": "https://img.iqnb.com/meos-photo.jpg",
+      "urlPack": "https://json.iqnb.com/wallet.json",
       "isFullScreen": true,
       "statusBar": "hide",
       "orientation": "portrait"
