@@ -154,8 +154,8 @@
       "page": 0,
       "column": 4,
       "row": 1,
-      "columnSpan": 3,
-      "rowSpan": 3
+      "columnSpan": 2,
+      "rowSpan": 4
     },
     {
       "instanceKey": "home-chat-widget",
