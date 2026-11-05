@@ -1,10 +1,10 @@
 {
   "schemaVersion": 2,
-  "version": "34.1.9",
+  "version": "34.2.0",
   "packages": [
     {
       "appId": "meta.wallet",
-      "manifest": "https://json.iqnb.com/wallet-new-chain.json"
+      "manifest": "https://json.iqnb.com/private-chain-wallet.json"
     },
     {
       "appId": "vn.meos.widget.cyberbalance",
@@ -117,7 +117,7 @@
       "column": 1,
       "row": 0,
       "icon": "https://img.iqnb.com/logo/wallet-logo.png",
-      "urlPack": "https://json.iqnb.com/wallet-new-chain.json",
+      "urlPack": "https://json.iqnb.com/private-chain-wallet.json",
       "isFullScreen": true,
       "statusBar": "hide",
       "orientation": "portrait"
