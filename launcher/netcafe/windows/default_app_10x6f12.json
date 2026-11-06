@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "version": "34.2.0",
+  "version": "34.2.1",
   "packages": [
     {
       "appId": "meta.wallet",
@@ -144,7 +144,7 @@
       "column": 8,
       "row": 0,
       "columnSpan": 2,
-      "rowSpan": 2
+      "rowSpan": 1
     },
     {
       "instanceKey": "home-food-order-widget",
