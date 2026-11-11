@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "version": "34.2.2",
+  "version": "34.2.3",
   "packages": [
     {
       "appId": "meta.wallet",
@@ -166,17 +166,6 @@
       "packageRef": "vn.meos.widget.chat",
       "widgetType": "vn.meos.widget.chat",
       "name": "Chat",
-      "page": 0,
-      "column": 7,
-      "row": 2,
-      "columnSpan": 2,
-      "rowSpan": 2
-    },
-    {
-      "instanceKey": "home-test-widget",
-      "packageRef": "vn.meos.widget.test",
-      "widgetType": "vn.meos.widget.test",
-      "name": "Test",
       "page": 0,
       "column": 7,
       "row": 2,
