@@ -11,6 +11,11 @@
       "displayName": "Message"
     },
     {
+      "appId": "meta.enterprise",
+      "manifest": "https://json.iqnb.com/enterprise.json",
+      "displayName": "Enterprise"
+    },
+    {
       "appId": "meta.wallet",
       "manifest": "https://json.iqnb.com/wallet.json",
       "displayName": "Wallet"

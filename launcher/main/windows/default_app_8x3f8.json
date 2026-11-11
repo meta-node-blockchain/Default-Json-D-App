@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "version": "34.1.2",
+  "version": "34.1.3",
   "packages": [
     {
       "appId": "meta.me-office",
@@ -9,6 +9,10 @@
     {
       "appId": "meta.message",
       "manifest": "https://json.iqnb.com/message.json"
+    },
+    {
+      "appId": "meta.enterprise",
+      "manifest": "https://json.iqnb.com/enterprise.json"
     },
     {
       "appId": "meta.wallet",
@@ -109,6 +113,18 @@
       "column": 0,
       "row": 1,
       "icon": "https://img.iqnb.com/meoffice.jpg",
+      "isFullScreen": true,
+      "statusBar": "hide",
+      "orientation": "portrait"
+    },
+    {
+      "appId": "meta.enterprise",
+      "name": "Enterprise",
+      "kind": "dapp",
+      "page": 0,
+      "column": 6,
+      "row": 0,
+      "icon": "https://img.iqnb.com/enterprise.jpg",
       "isFullScreen": true,
       "statusBar": "hide",
       "orientation": "portrait"
