@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "version": "34.2.1",
+  "version": "34.2.2",
   "packages": [
     {
       "appId": "meta.wallet",
@@ -130,10 +130,10 @@
       "widgetType": "vn.meos.widget.sessionuptime",
       "name": "Session Uptime",
       "page": 0,
-      "column": 8,
-      "row": 0,
-      "columnSpan": 4,
-      "rowSpan": 2
+      "column": 0,
+      "row": 4,
+      "columnSpan": 3,
+      "rowSpan": 1
     },
     {
       "instanceKey": "home-cyber-balance-widget",
@@ -141,10 +141,10 @@
       "widgetType": "vn.meos.widget.cyberbalance",
       "name": "Cyber Balance",
       "page": 0,
-      "column": 0,
-      "row": 1,
+      "column": 3,
+      "row": 4,
       "columnSpan": 2,
-      "rowSpan": 2
+      "rowSpan": 1
     },
     {
       "instanceKey": "home-food-order-widget",
@@ -152,10 +152,10 @@
       "widgetType": "vn.meos.widget.foodorder",
       "name": "Food Order",
       "page": 0,
-      "column": 2,
-      "row": 1,
-      "columnSpan": 2,
-      "rowSpan": 4
+      "column": 0,
+      "row": 5,
+      "columnSpan": 3,
+      "rowSpan": 3
     },
     {
       "instanceKey": "home-chat-widget",
@@ -163,10 +163,10 @@
       "widgetType": "vn.meos.widget.chat",
       "name": "Chat",
       "page": 0,
-      "column": 5,
-      "row": 1,
-      "columnSpan": 2,
-      "rowSpan": 2
+      "column": 9,
+      "row": 4,
+      "columnSpan": 3,
+      "rowSpan": 1
     }
   ]
 }
