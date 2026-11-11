@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "version": "34.2.1",
+  "version": "34.2.2",
   "packages": [
     {
       "appId": "meta.wallet",
@@ -21,6 +21,10 @@
     {
       "appId": "vn.meos.widget.chat",
       "manifest": "https://json.iqnb.com/widget-chat.json"
+    },
+    {
+      "appId": "vn.meos.widget.test",
+      "manifest": "https://json.iqnb.com/widget-test.json"
     }
   ],
   "apps": [
@@ -157,11 +161,33 @@
       "columnSpan": 2,
       "rowSpan": 4
     },
-    {
+     {
       "instanceKey": "home-chat-widget",
       "packageRef": "vn.meos.widget.chat",
       "widgetType": "vn.meos.widget.chat",
       "name": "Chat",
+      "page": 0,
+      "column": 7,
+      "row": 2,
+      "columnSpan": 2,
+      "rowSpan": 2
+    },
+    {
+      "instanceKey": "home-test-widget",
+      "packageRef": "vn.meos.widget.test",
+      "widgetType": "vn.meos.widget.test",
+      "name": "Test",
+      "page": 0,
+      "column": 7,
+      "row": 2,
+      "columnSpan": 2,
+      "rowSpan": 2
+    },
+    {
+      "instanceKey": "home-test-widget",
+      "packageRef": "vn.meos.widget.test",
+      "widgetType": "vn.meos.widget.test",
+      "name": "Test",
       "page": 0,
       "column": 7,
       "row": 2,
